@@ -1,0 +1,9 @@
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfInicioSesion.resources
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csproj.GenerateResource.Cache
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
+c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.dll
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
