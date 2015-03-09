@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{001D8225-1C14-4E1C-AE95-56E5FAC6BDE1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Seguridad</RootNamespace>
+    <AssemblyName>Seguridad</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SCF_Logos.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Capas">
+      <HintPath>..\..\Capas\Capas\bin\Debug\Capas.dll</HintPath>
+    </Reference>
+    <Reference Include="Navegador">
+      <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csNegocio.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="wfEmpresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfEmpresas.Designer.cs">
+      <DependentUpon>wfEmpresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfMonedas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfMonedas.Designer.cs">
+      <DependentUpon>wfMonedas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wfBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBitacora.Designer.cs">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfIniciarSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfIniciarSesion.Designer.cs">
+      <DependentUpon>wfIniciarSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfODBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfODBC.Designer.cs">
+      <DependentUpon>wfODBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfPerfiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfPerfiles.Designer.cs">
+      <DependentUpon>wfPerfiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfUsuarios.Designer.cs">
+      <DependentUpon>wfUsuarios.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfEmpresas.resx">
+      <DependentUpon>wfEmpresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfMonedas.resx">
+      <DependentUpon>wfMonedas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfBitacora.resx">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfIniciarSesion.resx">
+      <DependentUpon>wfIniciarSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfODBC.resx">
+      <DependentUpon>wfODBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfPerfiles.resx">
+      <DependentUpon>wfPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfUsuarios.resx">
+      <DependentUpon>wfUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SCF_Logos.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\obj\Debug\Capas.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\bin\Debug\Capas.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\bin\Debug\Capas.pdb
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\obj\Debug\Capas.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\Capas\Capas\obj\Debug\Capas.pdb
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\bin\Debug\Capas.dll
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\bin\Debug\Capas.pdb
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\obj\Debug\Capas.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\obj\Debug\Capas.dll
+C:\Users\Anthony\Desktop\Proyectos\Capas\Capas\obj\Debug\Capas.pdb
