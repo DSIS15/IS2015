@@ -7,3 +7,15 @@ c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_segurida
 c:\users\orochi\documents\visual studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.dll
 C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfInicioSesion.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csproj.GenerateResource.Cache
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfAyuda.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfUsuario.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfPerfiles.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Properties.Resources.resources

@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*Fecha y lugar de Modificacion: Guatemala, Guatemala, 08-03-2015
+ * Autor: Jaime Iván Muñoz Enriquez *
+ * Descripcion: Esta clase tiene como fin hacer la consulta de los usuarios
+ * conectado en: DLL ODBConector (necesario para el funcionamiento de las consultas)
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

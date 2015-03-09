@@ -1,6 +1,6 @@
 ﻿namespace dll_seguridad.Presentacion
 {
-    partial class wfUsuario
+    partial class wfPerfiles
     {
         /// <summary>
         /// Required designer variable.
@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // textBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 170);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(33, 52);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
             // 
-            // wfUsuario
+            // wfPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.comboBox1);
-            this.Name = "wfUsuario";
-            this.Text = "wfUsuario";
+            this.Controls.Add(this.textBox1);
+            this.Name = "wfPerfil";
+            this.Text = "wfPerfil";
+            this.Load += new System.EventHandler(this.wfPerfil_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
