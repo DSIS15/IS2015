@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+using System.Windows.Forms;
 
 namespace dll_seguridad.Datos
 {
@@ -19,21 +20,30 @@ namespace dll_seguridad.Datos
         private ArrayList alDatos;
 
         //metodo que consultara el nombre de los modulos y nombre de dll
-        public ArrayList alDconsultaForm()
+        public ArrayList alDconsultaForm(String sUsuario)
         {
-            alDatos = new ArrayList();
-            alDatos = ODBCconnector.csFunciones.alConsultar("Select Nombre_modulo from modulo where estado=1");
+            alDatos = new ArrayList(); 
+            alDatos = ODBCconnector.csFunciones.alConsultar("Select m.Nombre_modulo " +
+                                                 "from Usuario u " +
+                                                 "Inner Join Perfil p " +
+                                                 "on p.Codigo_perfil = u.Codigo_perfil " +
+                                                 "Inner Join Detalle_Modulo dm " +
+                                                 "on dm.Codigo_perfil = p.Codigo_perfil " +
+                                                 "Inner Join Modulo m " +
+                                                 "on m.ID_modulo = dm.ID_modulo " +
+                                                 "where u.Alias_Usuario = '" + sUsuario + "'");
+            
             return alDatos;
         }
 
         public ArrayList alDsubmenu(String sModulo)
         {
             alDatos = new ArrayList();
-            alDatos = ODBCconnector.csFunciones.alConsultar("Select M.Nombre_modulo, SM.Nombre_submodulo, SM.Nobre_form, M.Nombre_DLL " +
+            alDatos = ODBCconnector.csFunciones.alConsultar("Select M.Nombre_modulo, SM.Nombre_submodulo, SM.Nombre_form, M.Nombre_DLL " +
                                                  "from modulo M " +
                                                  "Inner Join sub_modulo SM " +
-                                                 "on SM.ID_modulo = M.ID_modulo "+
-                                                 "where M.Nombre_modulo='"+sModulo+"'");
+                                                 "on SM.ID_modulo = M.ID_modulo " +
+                                                 "where M.Nombre_modulo='" + sModulo + "'");
             return alDatos;
         }
     }

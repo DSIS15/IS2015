@@ -13,15 +13,19 @@ namespace dll_seguridad.Presentacion
         //creando objeto crea de la capa de negocio csN_CreaMenu
         Negocio.csN_CrearMenu csn_creamenu = new Negocio.csN_CrearMenu();
 
-        public ArrayList alPconsultaform()
+        public ArrayList alPconsultaform(String sUsuario)
         {
-            return csn_creamenu.alNconsultaform();
+            return csn_creamenu.alNconsultaform(sUsuario);
         }
 
-        public ToolStripMenuItem TsMIPCrearmenu(String sModulo)
+        public ToolStripMenuItem TsMIPCrearmenu(String sModulo, Form wfFormMdi)
         {
-            return csn_creamenu.TSMINmenu(sModulo);
+            return csn_creamenu.TSMINmenu(sModulo, wfFormMdi);
         }
-        
+
+        public void vAplicacion()
+        {
+            Application.Restart();
+        }
     }
 }

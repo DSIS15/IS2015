@@ -15,7 +15,9 @@ C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfAyuda.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfUsuario.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfPerfiles.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Properties.Resources.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfModulo.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfSubMod.resources

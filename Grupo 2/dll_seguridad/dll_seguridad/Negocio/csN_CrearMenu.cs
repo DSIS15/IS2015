@@ -24,12 +24,14 @@ namespace dll_seguridad.Negocio
         private ToolStripMenuItem[] TsMIcontenedores;
         private ArrayList alDatos;
         private ArrayList alSubMenu;
+        private Form wfFormMDI;
 
         //creando el menu y los sub menu
                                         //variables a sustituir por la consulta
-        public ToolStripMenuItem TSMINmenu(String sModulo)
+        public ToolStripMenuItem TSMINmenu(String sModulo, Form wfFormMdi)
         {
         alDatos = new ArrayList();
+        wfFormMDI = wfFormMdi;
         alDatos = alNsubmenu(sModulo);
         TsMINombreModulo = new ToolStripMenuItem("&"+ sModulo);
         TsMIcontenedores = new ToolStripMenuItem[alDatos.Count];
@@ -55,9 +57,10 @@ namespace dll_seguridad.Negocio
             Form wfFormulario;            
             try
                 {
-                wfFormulario = (Form)Activator.CreateInstance(null, objeto.Tag.ToString()).Unwrap();
+                wfFormulario = (Form)Activator.CreateInstance(null, objeto.Tag.ToString()).Unwrap();                
                 wfFormulario.Activate();
                 wfFormulario.WindowState = FormWindowState.Normal;
+                wfFormulario.MdiParent = wfFormMDI;
                 wfFormulario.Show();
                 }
                 catch
@@ -68,9 +71,9 @@ namespace dll_seguridad.Negocio
 
 
         //metodo que llama a csD_CrearMenu
-        public ArrayList alNconsultaform()
+        public ArrayList alNconsultaform(String sUsuario)
         {
-            return csd_creamenu.alDconsultaForm();
+            return csd_creamenu.alDconsultaForm(sUsuario);
         }
 
         public ArrayList alNsubmenu(String sModulo)

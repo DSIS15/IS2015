@@ -51,12 +51,6 @@
     <Compile Include="Presentacion\csP_CrearMenu.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
-    <Compile Include="Presentacion\wfAyuda.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\wfAyuda.Designer.cs">
-      <DependentUpon>wfAyuda.cs</DependentUpon>
-    </Compile>
     <Compile Include="Presentacion\wfInicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +69,12 @@
     <Compile Include="Presentacion\wfPerfiles.Designer.cs">
       <DependentUpon>wfPerfiles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\wfSubMod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfSubMod.Designer.cs">
+      <DependentUpon>wfSubMod.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\wfUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,14 +89,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Presentacion\wfAyuda.resx">
-      <DependentUpon>wfAyuda.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfInicioSesion.resx">
       <DependentUpon>wfInicioSesion.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfModulo.resx">
+      <DependentUpon>wfModulo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfPerfiles.resx">
       <DependentUpon>wfPerfiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfSubMod.resx">
+      <DependentUpon>wfSubMod.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfUsuario.resx">
       <DependentUpon>wfUsuario.cs</DependentUpon>

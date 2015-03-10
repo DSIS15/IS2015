@@ -28,7 +28,7 @@ namespace dll_seguridad.Negocio
             get { return wfFormulario; }
             set { wfFormulario = value; }
         }
-
+        ///////////////////////////////////////////////
 
         //metodo para validar el loguin del usuario
         public void vIninicio(string sUsuario, string sContraseña)
