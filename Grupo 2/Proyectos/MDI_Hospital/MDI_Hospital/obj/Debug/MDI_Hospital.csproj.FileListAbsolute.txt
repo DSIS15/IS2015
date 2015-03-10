@@ -1,0 +1,13 @@
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe.config
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csprojResolveAssemblyReference.cache
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.wfMDI.resources
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Properties.Resources.resources
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.dll
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.dll
+c:\users\orochi\documents\visual studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.pdb
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.pdb
