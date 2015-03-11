@@ -41,7 +41,7 @@ namespace dll_seguridad.Negocio
             //MessageBox.Show(alSubMenu[3].ToString()+".Presentacion."+alSubMenu[2].ToString());
             
             TsMIcontenedores[icont]= new ToolStripMenuItem (alSubMenu[1].ToString());
-            TsMIcontenedores[icont].Tag = (alSubMenu[3].ToString() + ".Presentacion." + alSubMenu[2].ToString());
+            TsMIcontenedores[icont].Tag = (alSubMenu[3].ToString() + ".Presentacion." + alSubMenu[2].ToString());            
             TsMIcontenedores[icont].Click += new EventHandler(vclickevento_clic);
             }
         TsMINombreModulo.DropDownItems.AddRange(TsMIcontenedores);
@@ -52,13 +52,15 @@ namespace dll_seguridad.Negocio
         private void vclickevento_clic(object sender, EventArgs e)
         {
             var objeto = (ToolStripMenuItem)sender;
-            //variable temporal a cambiar en la consulta
-            //String SnombWf =alSubMenu[3].ToString()+".Presentacion."+alSubMenu[2].ToString();
-            Form wfFormulario;            
+                        
+            Form wfFormulario;           
+            String[] sWord = objeto.Tag.ToString().Split('.');
+           // MessageBox.Show(sWord[0]);
             try
                 {
-                wfFormulario = (Form)Activator.CreateInstance(null, objeto.Tag.ToString()).Unwrap();                
+                wfFormulario = (Form)Activator.CreateInstance(sWord[0], objeto.Tag.ToString()).Unwrap();
                 wfFormulario.Activate();
+                
                 wfFormulario.WindowState = FormWindowState.Normal;
                 wfFormulario.MdiParent = wfFormMDI;
                 wfFormulario.Show();

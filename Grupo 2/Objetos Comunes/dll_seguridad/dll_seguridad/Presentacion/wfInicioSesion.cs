@@ -33,6 +33,7 @@ namespace dll_seguridad.Presentacion
             //validacion del windows form si es nulo.
             if (wfFormulario != null) csn_inicio.Wfformulario = wfFormulario;//llamando a la variable encapsulada (Politica de proteccion)
             InitializeComponent();
+            
         }
 
 
