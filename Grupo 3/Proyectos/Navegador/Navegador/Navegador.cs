@@ -1,23 +1,4 @@
-﻿/* Autor: Jeniffer López
- * Fecha: 11/09/2014 
- * Comentario: Diseño de iconos 
- * Fecha: 13/09/2014 
- * Comentario: Actualización diseño de iconos
- * Fecha: 15/09/2014 
- * Comentario: Diseño del navegador
- * Fecha: 17/09/2014 
- * Comentario: Actualización diseño del navegador
- */
-/* Autor: Anthony Molineros
- * Fecha: 13/09/2014 
- * Comentario: Diseño de botones
- * Fecha: 15/09/2014 
- * Comentario: Actualización diseño de botones
- * Fecha: 15/09/2014 
- * Comentario: Diseño del navegador
- * Fecha: 17/09/2014 
- * Comentario: Actualización diseño del navegador
- */
+﻿
 using System;
 using System.Collections;
 using System.ComponentModel;
