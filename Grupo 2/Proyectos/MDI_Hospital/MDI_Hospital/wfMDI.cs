@@ -33,7 +33,7 @@ namespace MDI_Hospital
                 for (int icont = 0; icont < alDatos.Count; icont++)
                 {
                     ArrayList alColumnas = (ArrayList)alDatos[icont];
-                    mSMenu.Items.Add(csp_crearmenu.TsMIPCrearmenu(alColumnas[0].ToString(), objeto));                    
+                    mSMenu.Items.Add(csp_crearmenu.TsMIPCrearmenu(alColumnas[0].ToString(), objeto));                       
                 }
             }
             else
@@ -45,7 +45,9 @@ namespace MDI_Hospital
 
         private void wfMDI_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Application.Exit();        
+            
+            
         }
     }
 }
