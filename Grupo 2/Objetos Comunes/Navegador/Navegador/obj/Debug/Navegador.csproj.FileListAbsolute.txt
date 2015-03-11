@@ -73,3 +73,14 @@ C:\Users\Cristian\Desktop\Navegador\Navegador\obj\Debug\Navegador.wfBuscar.resou
 C:\Users\Cristian\Desktop\Navegador\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
 C:\Users\Cristian\Desktop\Navegador\Navegador\obj\Debug\Navegador.dll
 C:\Users\Cristian\Desktop\Navegador\Navegador\obj\Debug\Navegador.pdb
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\bin\Debug\Navegador.dll
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\bin\Debug\Navegador.pdb
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\bin\Debug\ODBCconnector.dll
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\bin\Debug\ODBCconnector.pdb
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.Navegador.resources
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.wfBuscar.resources
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.dll
+C:\Users\Cristian\Desktop\Navegadoranantiguo\Navegador\obj\Debug\Navegador.pdb
