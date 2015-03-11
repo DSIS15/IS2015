@@ -25,3 +25,15 @@ C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_prueba.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_prueba.pdb
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe.config
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.pdb
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.dll
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\dll_prueba.pdb
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.pdb
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.wfMDI.resources
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Properties.Resources.resources
+C:\Users\Cristian\Documents\GitHub\IS2015\Grupo 2\Proyectos\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
