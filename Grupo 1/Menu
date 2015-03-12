@@ -1,0 +1,101 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package modelorrhh;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+/**
+ *
+ * @author JCR
+ */
+public class Menu extends JFrame implements ActionListener{
+   private JMenuBar mb;
+    private JMenu menu1;
+    private JMenuItem mi1,mi2,mi3;
+    public Menu(String codigo) {
+        String pes = "";
+        String dato = "";
+       String []sino = new String[2];
+     int cont = 0;
+     setLayout(null);
+     mb=new JMenuBar();
+     setJMenuBar(mb);
+    String []datos = new String[100];
+        try {
+            Statement st= cn.createStatement();
+            ResultSet rs = st.executeQuery("SELECT distinct permisos.cod_usuario,pestana.nom_pestana,opcion.nom_opcion FROM permisos,opcion,pestana WHERE permisos.cod_usuario="+codigo+" and (permisos.cod_pestania = pestana.cod_pestana) and (pestana.cod_pestana = opcion.cod_pestana)");
+            
+            
+            while(rs.next()){
+            datos[0]=rs.getString(1);
+            datos[1]=rs.getString(2);
+            datos[2]=rs.getString(3);
+            System.out.print(cont);
+            System.out.print(datos[0]);
+            System.out.print(datos[1]);
+            System.out.println(datos[2]+"  ");
+           
+            if (cont==0){
+                System.out.println("entro cont =0");
+                menu1=new JMenu(datos[1]);
+                mb.add(menu1);
+                mi1=new JMenuItem(datos[2]);
+                menu1.add(mi1);
+                sino[1]= datos[1];
+            }
+            if(cont==1){
+                System.out.println("el valor de sino es "+sino[1]);
+                System.out.println("el valor de datos es "+ datos[1]);
+                if(sino[1].toString() == datos[1].toString()){
+                    System.out.println("entro pes y datos iguales");
+                     mi1=new JMenuItem(datos[2]);
+                     menu1.add(mi1);
+                }
+                else{
+                    System.out.println("entro en pes y datos diferentes");
+                    menu1=new JMenu(datos[1]);
+                    mb.add(menu1);
+                    mi1=new JMenuItem(datos[2]);
+                     menu1.add(mi1);
+                    sino[1]=datos[1];
+                }
+            }
+            cont=1;
+        }
+        
+        } catch (SQLException ex) {
+            Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
+        }
+         
+    }
+    
+    public void actionPerformed(ActionEvent e) {
+    	Container f=this.getContentPane();
+        if (e.getSource()==mi1) {
+            f.setBackground(new Color(255,0,0));
+        }
+        if (e.getSource()==mi2) {
+            f.setBackground(new Color(0,255,0));
+        }
+        if (e.getSource()==mi3) {
+            f.setBackground(new Color(0,0,255));
+        }        
+    }
+    
+    public static void main(String[] ar) {
+        Menu formulario1=new Menu("");
+        formulario1.setBounds(10,20,300,200);
+        formulario1.setVisible(true);
+    }     
+    conectar co = new conectar();
+Connection cn = co.conexion();
+}
