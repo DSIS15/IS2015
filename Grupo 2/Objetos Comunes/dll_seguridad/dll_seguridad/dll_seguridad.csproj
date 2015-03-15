@@ -30,8 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dll_prueba">
-      <HintPath>..\..\..\Documents\Visual Studio 2013\Projects\dll_prueba\dll_prueba\bin\Debug\dll_prueba.dll</HintPath>
+    <Reference Include="Navegador">
+      <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
     </Reference>
     <Reference Include="ODBCconnector">
       <HintPath>..\..\..\..\..\Downloads\ODBC\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
@@ -113,8 +113,9 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="Resources\hospital.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

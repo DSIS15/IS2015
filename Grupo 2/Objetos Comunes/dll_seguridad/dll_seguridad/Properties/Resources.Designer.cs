@@ -63,6 +63,16 @@ namespace dll_seguridad.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hospital {
+            get {
+                object obj = ResourceManager.GetObject("hospital", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap seguridad {
             get {
                 object obj = ResourceManager.GetObject("seguridad", resourceCulture);

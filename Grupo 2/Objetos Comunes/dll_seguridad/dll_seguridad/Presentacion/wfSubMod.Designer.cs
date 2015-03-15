@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfSubMod));
             this.lblIDSubMod = new System.Windows.Forms.Label();
             this.lblIDMod = new System.Windows.Forms.Label();
             this.lblNomSubMod = new System.Windows.Forms.Label();
@@ -38,12 +39,14 @@
             this.txtNomSubMod = new System.Windows.Forms.TextBox();
             this.txtNomForm = new System.Windows.Forms.TextBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
+            this.navegador1 = new Navegador.Navegador();
+            this.cbestado = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblIDSubMod
             // 
             this.lblIDSubMod.AutoSize = true;
-            this.lblIDSubMod.Location = new System.Drawing.Point(31, 36);
+            this.lblIDSubMod.Location = new System.Drawing.Point(22, 100);
             this.lblIDSubMod.Name = "lblIDSubMod";
             this.lblIDSubMod.Size = new System.Drawing.Size(78, 13);
             this.lblIDSubMod.TabIndex = 0;
@@ -52,7 +55,7 @@
             // lblIDMod
             // 
             this.lblIDMod.AutoSize = true;
-            this.lblIDMod.Location = new System.Drawing.Point(169, 36);
+            this.lblIDMod.Location = new System.Drawing.Point(186, 100);
             this.lblIDMod.Name = "lblIDMod";
             this.lblIDMod.Size = new System.Drawing.Size(56, 13);
             this.lblIDMod.TabIndex = 1;
@@ -61,7 +64,7 @@
             // lblNomSubMod
             // 
             this.lblNomSubMod.AutoSize = true;
-            this.lblNomSubMod.Location = new System.Drawing.Point(31, 73);
+            this.lblNomSubMod.Location = new System.Drawing.Point(22, 137);
             this.lblNomSubMod.Name = "lblNomSubMod";
             this.lblNomSubMod.Size = new System.Drawing.Size(104, 13);
             this.lblNomSubMod.TabIndex = 2;
@@ -70,7 +73,7 @@
             // lblNomwf
             // 
             this.lblNomwf.AutoSize = true;
-            this.lblNomwf.Location = new System.Drawing.Point(31, 108);
+            this.lblNomwf.Location = new System.Drawing.Point(300, 136);
             this.lblNomwf.Name = "lblNomwf";
             this.lblNomwf.Size = new System.Drawing.Size(95, 13);
             this.lblNomwf.TabIndex = 3;
@@ -79,7 +82,7 @@
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(31, 146);
+            this.lblEstado.Location = new System.Drawing.Point(355, 100);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(40, 13);
             this.lblEstado.TabIndex = 4;
@@ -87,44 +90,76 @@
             // 
             // txtIDSubMod
             // 
-            this.txtIDSubMod.Location = new System.Drawing.Point(115, 29);
+            this.txtIDSubMod.Location = new System.Drawing.Point(117, 93);
             this.txtIDSubMod.Name = "txtIDSubMod";
             this.txtIDSubMod.Size = new System.Drawing.Size(28, 20);
             this.txtIDSubMod.TabIndex = 5;
+            this.txtIDSubMod.Tag = "id_submodulo";
             // 
             // txtIDMod
             // 
-            this.txtIDMod.Location = new System.Drawing.Point(244, 29);
+            this.txtIDMod.Location = new System.Drawing.Point(262, 93);
             this.txtIDMod.Name = "txtIDMod";
             this.txtIDMod.Size = new System.Drawing.Size(28, 20);
             this.txtIDMod.TabIndex = 5;
+            this.txtIDMod.Tag = "id_modulo";
             // 
             // txtNomSubMod
             // 
-            this.txtNomSubMod.Location = new System.Drawing.Point(151, 65);
+            this.txtNomSubMod.Location = new System.Drawing.Point(142, 129);
             this.txtNomSubMod.Name = "txtNomSubMod";
             this.txtNomSubMod.Size = new System.Drawing.Size(100, 20);
             this.txtNomSubMod.TabIndex = 6;
+            this.txtNomSubMod.Tag = "nombre_submodulo";
             // 
             // txtNomForm
             // 
-            this.txtNomForm.Location = new System.Drawing.Point(151, 100);
+            this.txtNomForm.Location = new System.Drawing.Point(420, 128);
             this.txtNomForm.Name = "txtNomForm";
             this.txtNomForm.Size = new System.Drawing.Size(100, 20);
             this.txtNomForm.TabIndex = 7;
+            this.txtNomForm.Tag = "nombre_formulario";
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(151, 138);
+            this.txtEstado.Location = new System.Drawing.Point(524, 93);
             this.txtEstado.Name = "txtEstado";
-            this.txtEstado.Size = new System.Drawing.Size(28, 20);
+            this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 8;
+            this.txtEstado.Tag = "estado";
+            this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
+            // 
+            // navegador1
+            // 
+            this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.bEjecutarEvento = true;
+            this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navegador1.Location = new System.Drawing.Point(25, 27);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(598, 54);
+            this.navegador1.sNombreTabla = "sub_modulo";
+            this.navegador1.TabIndex = 9;
+            // 
+            // cbestado
+            // 
+            this.cbestado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbestado.FormattingEnabled = true;
+            this.cbestado.Items.AddRange(new object[] {
+            "Activado",
+            "Desactivado"});
+            this.cbestado.Location = new System.Drawing.Point(420, 91);
+            this.cbestado.Name = "cbestado";
+            this.cbestado.Size = new System.Drawing.Size(98, 21);
+            this.cbestado.TabIndex = 10;
+            this.cbestado.SelectedIndexChanged += new System.EventHandler(this.cbestado_SelectedIndexChanged);
             // 
             // wfSubMod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 187);
+            this.ClientSize = new System.Drawing.Size(642, 179);
+            this.Controls.Add(this.cbestado);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.txtNomForm);
             this.Controls.Add(this.txtNomSubMod);
@@ -137,6 +172,7 @@
             this.Controls.Add(this.lblIDSubMod);
             this.Name = "wfSubMod";
             this.Text = "Sub Modulo";
+            this.Load += new System.EventHandler(this.wfSubMod_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,5 +190,7 @@
         private System.Windows.Forms.TextBox txtNomSubMod;
         private System.Windows.Forms.TextBox txtNomForm;
         private System.Windows.Forms.TextBox txtEstado;
+        private Navegador.Navegador navegador1;
+        private System.Windows.Forms.ComboBox cbestado;
     }
 }

@@ -59,5 +59,10 @@ namespace dll_seguridad.Presentacion
         {
 
         }
+
+        private void lblUsuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

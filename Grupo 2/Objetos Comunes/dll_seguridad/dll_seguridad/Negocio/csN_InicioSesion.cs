@@ -51,7 +51,7 @@ namespace dll_seguridad.Negocio
                     else
                         {
                             //Mensaje de error de autentificacion
-                            MessageBox.Show("Error en autentificacion","Hospital");
+                            MessageBox.Show("Error en autentificacion /n contacte al Administrador del Sistema","Hospital");
                         }
                 }        
         }
