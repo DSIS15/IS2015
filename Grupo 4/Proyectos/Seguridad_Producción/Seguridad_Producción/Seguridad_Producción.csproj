@@ -31,8 +31,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Navegador">
+      <HintPath>..\..\Objetos Comunes\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector">
+      <HintPath>..\..\Objetos Comunes\Navegador\Navegador\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,6 +50,35 @@
   <ItemGroup>
     <Compile Include="csValidaciones.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="wfEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfEmpresa.Designer.cs">
+      <DependentUpon>wfEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfMoneda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfMoneda.Designer.cs">
+      <DependentUpon>wfMoneda.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfEmpresa.resx">
+      <DependentUpon>wfEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfMoneda.resx">
+      <DependentUpon>wfMoneda.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

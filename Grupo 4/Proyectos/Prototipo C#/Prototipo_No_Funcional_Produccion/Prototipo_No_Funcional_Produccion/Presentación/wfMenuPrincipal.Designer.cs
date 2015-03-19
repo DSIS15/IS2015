@@ -140,7 +140,7 @@
             // tsUsuario
             // 
             this.tsUsuario.Name = "tsUsuario";
-            this.tsUsuario.Size = new System.Drawing.Size(184, 17);
+            this.tsUsuario.Size = new System.Drawing.Size(176, 17);
             this.tsUsuario.Spring = true;
             this.tsUsuario.Text = "Usuario";
             this.tsUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,10 +155,11 @@
             // tsEmpresa
             // 
             this.tsEmpresa.Name = "tsEmpresa";
-            this.tsEmpresa.Size = new System.Drawing.Size(184, 17);
+            this.tsEmpresa.Size = new System.Drawing.Size(176, 17);
             this.tsEmpresa.Spring = true;
             this.tsEmpresa.Text = "Empresa";
             this.tsEmpresa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tsEmpresa.Click += new System.EventHandler(this.tsEmpresa_Click);
             // 
             // tslMoneda
             // 
@@ -170,10 +171,12 @@
             // tsMoneda
             // 
             this.tsMoneda.Name = "tsMoneda";
-            this.tsMoneda.Size = new System.Drawing.Size(184, 17);
+            this.tsMoneda.Size = new System.Drawing.Size(176, 17);
             this.tsMoneda.Spring = true;
             this.tsMoneda.Text = "Moneda";
             this.tsMoneda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.tsMoneda.Click += new System.EventHandler(this.tsMoneda_Click);
+            
             // 
             // toolStripStatusLabel1
             // 
@@ -183,7 +186,7 @@
             // tsHorario
             // 
             this.tsHorario.Name = "tsHorario";
-            this.tsHorario.Size = new System.Drawing.Size(184, 17);
+            this.tsHorario.Size = new System.Drawing.Size(176, 17);
             this.tsHorario.Spring = true;
             this.tsHorario.Text = "Horario";
             // 

@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Seguridad_Producción;
 
 namespace Produccion_EnterpriseSolution
 {
@@ -16,6 +17,8 @@ namespace Produccion_EnterpriseSolution
         public string vgUsuario;//Variable global que contiene usuario conectado
         public string vgEmpresa;
         public string vgMoneda;
+       
+
         public wfMenuPrincipal()
         {
             InitializeComponent();
@@ -55,7 +58,27 @@ namespace Produccion_EnterpriseSolution
 
        }
 
-          
+       private void tsMoneda_Click(object sender, EventArgs e)
+       {
+           Seguridad_Producción.wfMoneda Moneda = new Seguridad_Producción.wfMoneda();
+           Moneda.MdiParent = this;
+           Moneda.Show();
+           tsMoneda.Text = Moneda.VMoneda_mda;
+
+       }
+
+       private void tsEmpresa_Click(object sender, EventArgs e)
+       {
+           Seguridad_Producción.wfEmpresa Empresa = new Seguridad_Producción.wfEmpresa();
+           Empresa.MdiParent = this;
+           Empresa.Show();
+           tsEmpresa.Text = Empresa.VNom_empsa;
+                               
+       }
+
+    
+
+           
            
 
        
