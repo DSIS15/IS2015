@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 08-03-2015 a las 04:29:31
+-- Tiempo de generación: 23-03-2015 a las 00:11:52
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -38,7 +38,31 @@ CREATE TABLE IF NOT EXISTS `tabm_bitacora` (
   `accion_bit` varchar(100) NOT NULL,
   PRIMARY KEY (`cod_bit`),
   KEY `tabm_usuario_tabm_bitacora_fk` (`usuario_bit`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
+
+--
+-- Volcado de datos para la tabla `tabm_bitacora`
+--
+
+INSERT INTO `tabm_bitacora` (`cod_bit`, `fecha_bit`, `usuario_bit`, `maquina_bit`, `ip_bit`, `empresa_bit`, `accion_bit`) VALUES
+(1, '2015-03-20 19:03:17', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Inicio de sesión'),
+(2, '2015-03-20 19:04:29', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Cierre de sesión'),
+(3, '2015-03-20 19:14:06', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Inicio de sesión'),
+(4, '2015-03-20 19:16:06', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Cierre de sesión'),
+(5, '2015-03-20 19:17:04', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Inicio de sesión'),
+(6, '2015-03-20 19:17:43', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Cierre de sesión'),
+(7, '2015-03-20 19:19:57', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Inicio de sesión'),
+(8, '2015-03-20 19:21:31', 'admin', 'Molineros-PC.macwifi', '192.168.1.4', 'Hotel San Carlos', 'Cierre de sesión'),
+(9, '2015-03-22 17:36:56', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Inicio de sesión'),
+(10, '2015-03-22 17:38:00', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Cierre de sesión'),
+(11, '2015-03-22 17:42:22', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Inicio de sesión'),
+(12, '2015-03-22 17:42:35', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Cierre de sesión'),
+(13, '2015-03-22 17:49:53', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Inicio de sesión'),
+(14, '2015-03-22 17:50:22', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Cierre de sesión'),
+(15, '2015-03-22 17:59:45', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Inicio de sesión'),
+(16, '2015-03-22 18:00:01', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Cierre de sesión'),
+(17, '2015-03-22 18:02:45', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Inicio de sesión'),
+(18, '2015-03-22 18:04:00', 'admin', 'Molineros-PC.macwifi', '192.168.1.8', 'Hotel San Carlos', 'Cierre de sesión');
 
 -- --------------------------------------------------------
 
@@ -250,6 +274,7 @@ CREATE TABLE IF NOT EXISTS `tabm_poliza` (
 CREATE TABLE IF NOT EXISTS `tabm_tabla` (
   `cod_tbl` decimal(7,0) NOT NULL,
   `tabla_tbl` varchar(25) NOT NULL,
+  `alias_tbl` varchar(25) NOT NULL,
   `estado_tbl` tinyint(1) NOT NULL,
   PRIMARY KEY (`cod_tbl`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -258,22 +283,19 @@ CREATE TABLE IF NOT EXISTS `tabm_tabla` (
 -- Volcado de datos para la tabla `tabm_tabla`
 --
 
-INSERT INTO `tabm_tabla` (`cod_tbl`, `tabla_tbl`, `estado_tbl`) VALUES
-('1', 'tabm_conciliacion', 1),
-('2', 'tabm_ctabco', 1),
-('3', 'tabm_cuenta', 1),
-('4', 'tabm_empresa', 1),
-('5', 'tabm_estadocuenta', 1),
-('6', 'tabm_lmayor', 1),
-('7', 'tabm_moneda', 1),
-('8', 'tabm_movimiento', 1),
-('9', 'tabm_perfil', 1),
-('10', 'tabm_poliza', 1),
-('11', 'tabm_tcuenta', 1),
-('12', 'tabm_tmovimiento', 1),
-('13', 'tabm_usuario', 1),
-('14', 'tabt_dperfil', 1),
-('15', 'tabt_dpoliza', 1);
+INSERT INTO `tabm_tabla` (`cod_tbl`, `tabla_tbl`, `alias_tbl`, `estado_tbl`) VALUES
+('1', 'tabm_conciliacion', 'Conciliaciones', 1),
+('2', 'tabm_ctabco', 'Cuentas bancarias', 1),
+('3', 'tabm_cuenta', 'Cuentas contables', 1),
+('4', 'tabm_empresa', 'Empresas', 1),
+('5', 'tabm_estadocuenta', 'Estados de cuenta', 1),
+('6', 'tabm_moneda', 'Monedas', 1),
+('7', 'tabm_movimiento', 'Movimientos', 1),
+('8', 'tabm_perfil', 'Perfiles', 1),
+('9', 'tabm_poliza', 'Polizas', 1),
+('10', 'tabm_tcuenta', 'Tipos de cuentas', 1),
+('11', 'tabm_tmovimiento', 'Tipos de movimientos', 1),
+('12', 'tabm_usuario', 'Usuarios', 1);
 
 -- --------------------------------------------------------
 
@@ -335,7 +357,7 @@ CREATE TABLE IF NOT EXISTS `tabm_usuario` (
   `cod_usr` decimal(7,0) NOT NULL,
   `cod_pfl` decimal(7,0) NOT NULL,
   `usuario_usr` varchar(25) NOT NULL,
-  `password_usr` varchar(25) NOT NULL,
+  `password_usr` varchar(100) NOT NULL,
   `estado_usr` tinyint(1) NOT NULL,
   PRIMARY KEY (`cod_usr`),
   KEY `tabm_perfil_tabm_usuario_fk` (`cod_pfl`)
@@ -346,7 +368,7 @@ CREATE TABLE IF NOT EXISTS `tabm_usuario` (
 --
 
 INSERT INTO `tabm_usuario` (`cod_usr`, `cod_pfl`, `usuario_usr`, `password_usr`, `estado_usr`) VALUES
-('1', '1', 'admin', 'admin', 1);
+('1', '1', 'admin', '+9gn21LwZ7M=', 1);
 
 -- --------------------------------------------------------
 
@@ -383,10 +405,7 @@ INSERT INTO `tabt_dperfil` (`cod_pfl`, `cod_tbl`, `insert_dpfl`, `update_dpfl`, 
 ('1', '9', 1, 1, 1, 1, 1, 1),
 ('1', '10', 1, 1, 1, 1, 1, 1),
 ('1', '11', 1, 1, 1, 1, 1, 1),
-('1', '12', 1, 1, 1, 1, 1, 1),
-('1', '13', 1, 1, 1, 1, 1, 1),
-('1', '14', 1, 1, 1, 1, 1, 1),
-('1', '15', 1, 1, 1, 1, 1, 1);
+('1', '12', 1, 1, 1, 1, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -403,6 +422,32 @@ CREATE TABLE IF NOT EXISTS `tabt_dpoliza` (
   PRIMARY KEY (`cod_plz`,`cod_cta`),
   KEY `tabm_cuenta_tabt_dpoliza_fk` (`cod_cta`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tabt_permisoespecial`
+--
+
+CREATE TABLE IF NOT EXISTS `tabt_permisoespecial` (
+  `cod_usr` decimal(7,0) NOT NULL,
+  `cod_tbl` decimal(7,0) NOT NULL,
+  `insert_permspl` tinyint(1) NOT NULL,
+  `update_permspl` tinyint(1) NOT NULL,
+  `delete_permspl` tinyint(1) NOT NULL,
+  `print_permspl` tinyint(1) NOT NULL,
+  `select_permspl` tinyint(1) NOT NULL,
+  `estado_permspl` tinyint(1) NOT NULL,
+  PRIMARY KEY (`cod_usr`,`cod_tbl`),
+  KEY `tabm_tabla_tabt_permisoespecial_fk` (`cod_tbl`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `tabt_permisoespecial`
+--
+
+INSERT INTO `tabt_permisoespecial` (`cod_usr`, `cod_tbl`, `insert_permspl`, `update_permspl`, `delete_permspl`, `print_permspl`, `select_permspl`, `estado_permspl`) VALUES
+('1', '1', 1, 0, 0, 0, 1, 1);
 
 --
 -- Restricciones para tablas volcadas
@@ -438,8 +483,8 @@ ALTER TABLE `tabm_estadocuenta`
 -- Filtros para la tabla `tabm_lmayor`
 --
 ALTER TABLE `tabm_lmayor`
-  ADD CONSTRAINT `tabm_empresa_tabm_lmayor_fk` FOREIGN KEY (`cod_empsa`) REFERENCES `tabm_empresa` (`cod_empsa`),
   ADD CONSTRAINT `tabm_cuenta_tabm_lmayor_fk` FOREIGN KEY (`cod_cta`) REFERENCES `tabm_cuenta` (`cod_cta`),
+  ADD CONSTRAINT `tabm_empresa_tabm_lmayor_fk` FOREIGN KEY (`cod_empsa`) REFERENCES `tabm_empresa` (`cod_empsa`),
   ADD CONSTRAINT `tabm_moneda_tabm_lmayor_fk` FOREIGN KEY (`cod_mda`) REFERENCES `tabm_moneda` (`cod_mda`);
 
 --
@@ -473,8 +518,15 @@ ALTER TABLE `tabt_dperfil`
 -- Filtros para la tabla `tabt_dpoliza`
 --
 ALTER TABLE `tabt_dpoliza`
-  ADD CONSTRAINT `tabm_poliza_tabt_dpoliza_fk` FOREIGN KEY (`cod_plz`) REFERENCES `tabm_poliza` (`cod_plz`),
-  ADD CONSTRAINT `tabm_cuenta_tabt_dpoliza_fk` FOREIGN KEY (`cod_cta`) REFERENCES `tabm_cuenta` (`cod_cta`);
+  ADD CONSTRAINT `tabm_cuenta_tabt_dpoliza_fk` FOREIGN KEY (`cod_cta`) REFERENCES `tabm_cuenta` (`cod_cta`),
+  ADD CONSTRAINT `tabm_poliza_tabt_dpoliza_fk` FOREIGN KEY (`cod_plz`) REFERENCES `tabm_poliza` (`cod_plz`);
+
+--
+-- Filtros para la tabla `tabt_permisoespecial`
+--
+ALTER TABLE `tabt_permisoespecial`
+  ADD CONSTRAINT `tabm_usuario_tabt_permisoespecial_fk` FOREIGN KEY (`cod_usr`) REFERENCES `tabm_usuario` (`cod_usr`),
+  ADD CONSTRAINT `tabm_tabla_tabt_permisoespecial_fk` FOREIGN KEY (`cod_tbl`) REFERENCES `tabm_tabla` (`cod_tbl`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -43,6 +43,9 @@
             this.lblConfContrasena = new System.Windows.Forms.Label();
             this.txtConfContrasena = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
+            this.dgvPermisosEspeciales = new System.Windows.Forms.DataGridView();
+            this.btnPermisosEspeciales = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPermisosEspeciales)).BeginInit();
             this.SuspendLayout();
             // 
             // lblEstadoPfl
@@ -112,6 +115,7 @@
             this.txtCodUsr.TabIndex = 14;
             this.txtCodUsr.Tag = "cod_usr";
             this.txtCodUsr.EnabledChanged += new System.EventHandler(this.txtCodUsr_EnabledChanged);
+            this.txtCodUsr.TextChanged += new System.EventHandler(this.txtCodUsr_TextChanged);
             // 
             // lblCodPfl
             // 
@@ -180,15 +184,49 @@
             this.navegador1.TabIndex = 0;
             this.navegador1.btnAfterNuevo += new System.EventHandler(this.navegador1_btnAfterNuevo);
             this.navegador1.btnBeforeGuardar += new System.EventHandler(this.navegador1_btnBeforeGuardar);
+            this.navegador1.btnAfterGuardar += new System.EventHandler(this.navegador1_btnAfterGuardar);
             this.navegador1.btnBeforeLimpiar += new System.EventHandler(this.navegador1_btnBeforeLimpiar);
             this.navegador1.btnAfterLimpiar += new System.EventHandler(this.navegador1_btnAfterLimpiar);
+            // 
+            // dgvPermisosEspeciales
+            // 
+            this.dgvPermisosEspeciales.AllowUserToAddRows = false;
+            this.dgvPermisosEspeciales.AllowUserToDeleteRows = false;
+            this.dgvPermisosEspeciales.AllowUserToResizeColumns = false;
+            this.dgvPermisosEspeciales.AllowUserToResizeRows = false;
+            this.dgvPermisosEspeciales.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPermisosEspeciales.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
+            this.dgvPermisosEspeciales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPermisosEspeciales.Location = new System.Drawing.Point(12, 191);
+            this.dgvPermisosEspeciales.MultiSelect = false;
+            this.dgvPermisosEspeciales.Name = "dgvPermisosEspeciales";
+            this.dgvPermisosEspeciales.ReadOnly = true;
+            this.dgvPermisosEspeciales.RowHeadersVisible = false;
+            this.dgvPermisosEspeciales.RowHeadersWidth = 30;
+            this.dgvPermisosEspeciales.RowTemplate.Height = 20;
+            this.dgvPermisosEspeciales.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPermisosEspeciales.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvPermisosEspeciales.Size = new System.Drawing.Size(590, 300);
+            this.dgvPermisosEspeciales.TabIndex = 25;
+            // 
+            // btnPermisosEspeciales
+            // 
+            this.btnPermisosEspeciales.Location = new System.Drawing.Point(311, 154);
+            this.btnPermisosEspeciales.Name = "btnPermisosEspeciales";
+            this.btnPermisosEspeciales.Size = new System.Drawing.Size(291, 25);
+            this.btnPermisosEspeciales.TabIndex = 26;
+            this.btnPermisosEspeciales.Text = "Permisos Especiales";
+            this.btnPermisosEspeciales.UseVisualStyleBackColor = true;
+            this.btnPermisosEspeciales.Click += new System.EventHandler(this.btnPermisosEspeciales_Click);
             // 
             // wfUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(614, 189);
+            this.ClientSize = new System.Drawing.Size(614, 501);
+            this.Controls.Add(this.btnPermisosEspeciales);
+            this.Controls.Add(this.dgvPermisosEspeciales);
             this.Controls.Add(this.lblConfContrasena);
             this.Controls.Add(this.txtConfContrasena);
             this.Controls.Add(this.lblContrasena);
@@ -213,6 +251,7 @@
             this.ShowInTaskbar = false;
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.wfUsuarios_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPermisosEspeciales)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,5 +273,7 @@
         private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.Label lblConfContrasena;
         private System.Windows.Forms.TextBox txtConfContrasena;
+        private System.Windows.Forms.DataGridView dgvPermisosEspeciales;
+        private System.Windows.Forms.Button btnPermisosEspeciales;
     }
 }

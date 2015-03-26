@@ -19,7 +19,7 @@ namespace Seguridad
         DataTable dtDetalle = new DataTable();
         ArrayList alDatosEnviados = new ArrayList();
         bool bModificarRegistro = false;
-        string sCodigo = string.Empty;
+        public string sCodigo = string.Empty;
 
         public wfPerfiles()
         {
@@ -145,7 +145,7 @@ namespace Seguridad
             bool bHabilitar = false;
             dgvDPerfil.DataSource = null;
             dtDPerfil = new DataTable();
-            dtDPerfil = Capas.csNegocio.dtConsultarRegistros("SELECT a.cod_tbl, b.tabla_tbl, a.insert_dpfl, a.update_dpfl, a.delete_dpfl, a.print_dpfl, a.select_dpfl, a.estado_dpfl FROM tabt_dperfil a, tabm_tabla b WHERE a.cod_tbl=b.cod_tbl and a.cod_pfl='" + txtCodPfl.Text + "'");
+            dtDPerfil = Capas.csNegocio.dtConsultarRegistros("SELECT a.cod_tbl, b.alias_tbl, a.insert_dpfl, a.update_dpfl, a.delete_dpfl, a.print_dpfl, a.select_dpfl, a.estado_dpfl FROM tabt_dperfil a, tabm_tabla b WHERE a.cod_tbl=b.cod_tbl and a.cod_pfl='" + txtCodPfl.Text + "'");
             if (dtDPerfil.Rows.Count != 0)
             {
                 dtDPerfil.Columns[0].ColumnName = "Código";
@@ -167,7 +167,7 @@ namespace Seguridad
                 dtDPerfil.Columns.Add("Print");
                 dtDPerfil.Columns.Add("Select");
                 dtDPerfil.Columns.Add("Estado");
-                ArrayList alTablas = ODBCconnector.csFunciones.alConsultarQuery("select cod_tbl, tabla_tbl from tabm_tabla where estado_tbl=1 order by tabla_tbl asc");
+                ArrayList alTablas = ODBCconnector.csFunciones.alConsultarQuery("select cod_tbl, alias_tbl from tabm_tabla where estado_tbl=1 order by alias_tbl asc");
                 foreach (ArrayList alFila in alTablas)
                 {
                     dtDPerfil.Rows.Add(alFila[0], alFila[1], "0", "0", "0", "0", "0", "1");

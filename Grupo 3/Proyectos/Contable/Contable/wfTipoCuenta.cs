@@ -14,7 +14,7 @@ namespace Contable
     public partial class wfTipoCuenta : Form
     {
         ArrayList alDatosEnviados = new ArrayList();
-        string sCodigo = string.Empty;
+        public string sCodigo = string.Empty;
 
         public wfTipoCuenta()
         {
@@ -23,43 +23,37 @@ namespace Contable
 
         private void txtEstado_TextChanged(object sender, EventArgs e)
         {
-            switch (txtEstadoTipoC.Text)
+            switch (txtEstadoTcta.Text)
             {
-                case "1": cboEstadoTipoC.SelectedIndex = 0; break;
-                case "0": cboEstadoTipoC.SelectedIndex = 1; break;
-                default: cboEstadoTipoC.SelectedIndex = -1; break;
+                case "1": cboEstadoTcta.SelectedIndex = 0; break;
+                case "0": cboEstadoTcta.SelectedIndex = 1; break;
+                default: cboEstadoTcta.SelectedIndex = -1; break;
             }
         }
 
         private void cboEstadoTipoC_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (cboEstadoTipoC.SelectedIndex)
+            switch (cboEstadoTcta.SelectedIndex)
             {
-                case 0: txtEstadoTipoC.Text = "1"; break;
-                case 1: txtEstadoTipoC.Text = "0"; break;
-                default: txtEstadoTipoC.Text = string.Empty; break;
+                case 0: txtEstadoTcta.Text = "1"; break;
+                case 1: txtEstadoTcta.Text = "0"; break;
+                default: txtEstadoTcta.Text = string.Empty; break;
             }
         }
 
         private void wfTipoCuenta_Load(object sender, EventArgs e)
         {
-            alDatosEnviados.Add(txtCodigo_tcuenta);
-            alDatosEnviados.Add(txtNombre);
-            alDatosEnviados.Add(txtDescripcion);
-            alDatosEnviados.Add(cboEstadoTipoC);
+            alDatosEnviados.Add(txtCodTcta);
+            alDatosEnviados.Add(txtNombreTcta);
+            alDatosEnviados.Add(txtDescripTcta);
+            alDatosEnviados.Add(cboEstadoTcta);
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();
-
         }
 
-        private void wfTipoCuenta_EnabledChanged(object sender, EventArgs e)
+        private void txtCodTcta_EnabledChanged(object sender, EventArgs e)
         {
-            txtCodigo_tcuenta.Enabled = false;
-        }
-
-        private void txtCodigo_EnabledChanged(object sender, EventArgs e)
-        {
-            txtCodigo_tcuenta.Enabled = false;
+            txtCodTcta.Enabled = false;
         }
 
         private void navegador1_btnBeforeGuardar(object sender, EventArgs e)
@@ -72,25 +66,26 @@ namespace Contable
 
         private void navegador1_btnBeforeLimpiar(object sender, EventArgs e)
         {
-            sCodigo = txtCodigo_tcuenta.Text;
+            sCodigo = txtCodTcta.Text;
+            txtNombreTcta.Focus();
         }
 
         private void navegador1_btnAfterNuevo(object sender, EventArgs e)
         {
-            cboEstadoTipoC.SelectedIndex = 0;
-            txtNombre.Focus();
+            cboEstadoTcta.SelectedIndex = 0;
+            txtNombreTcta.Focus();
         }
 
         private void navegador1_btnAfterModificar(object sender, EventArgs e)
         {
-            txtNombre.Focus();
+            txtNombreTcta.Focus();
         }
 
         private void navegador1_btnAfterLimpiar(object sender, EventArgs e)
         {
-            txtCodigo_tcuenta.Text = sCodigo;
-            cboEstadoTipoC.SelectedIndex = 0;
-            txtNombre.Focus();
+            txtCodTcta.Text = sCodigo;
+            cboEstadoTcta.SelectedIndex = 0;
+            txtNombreTcta.Focus();
         }
 
         private void txtNombre_KeyPress(object sender, KeyPressEventArgs e)
@@ -113,6 +108,16 @@ namespace Contable
             {
                 return true;
             }
+        }
+
+        private void txtCodTcta_TextChanged(object sender, EventArgs e)
+        {
+            sCodigo = txtCodTcta.Text;
+        }
+
+        private void txtEstadoTcta_EnabledChanged(object sender, EventArgs e)
+        {
+            cboEstadoTcta.Enabled = txtEstadoTcta.Enabled;
         }
 
     }

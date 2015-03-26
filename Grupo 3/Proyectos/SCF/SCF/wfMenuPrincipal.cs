@@ -34,13 +34,11 @@ namespace SCF
             alPestanasContables.Add(btnC3_2);
             alPestanasContables.Add(btnC3_1);
             alPestanasContables.Add(btnC4_1);
-            alPestanasFinancieras.Add(btnF1_2);
             alPestanasFinancieras.Add(btnF1_1);
-            alPestanasFinancieras.Add(btnF2_5);
-            alPestanasFinancieras.Add(btnF2_4);
-            alPestanasFinancieras.Add(btnF2_3);
             alPestanasFinancieras.Add(btnF2_2);
             alPestanasFinancieras.Add(btnF2_1);
+            alPestanasFinancieras.Add(btnF3_3);
+            alPestanasFinancieras.Add(btnF3_2);
             alPestanasFinancieras.Add(btnF3_1);
             Logotipo.MdiParent = this;
             Logotipo.Dock = DockStyle.Fill;
@@ -147,6 +145,7 @@ namespace SCF
                 
         private void tsmiContable_Click(object sender, EventArgs e)
         {
+            pnlPanelContable.Dock = DockStyle.Fill;
             pnlPanelContable.Visible = true;
             pnlPanelFinanciero.Visible = false;
             vAbrirTabs(0, alPestanasContables);            
@@ -154,6 +153,7 @@ namespace SCF
 
         private void tsmiFinanciero_Click(object sender, EventArgs e)
         {
+            pnlPanelFinanciero.Dock = DockStyle.Fill;
             pnlPanelFinanciero.Visible = true;
             pnlPanelContable.Visible = false;
             vAbrirTabs(0, alPestanasFinancieras);
@@ -330,6 +330,45 @@ namespace SCF
         private void btnOperacionesFinancieras_Click(object sender, EventArgs e)
         {
             vValidarPestanaActiva(3, alPestanasFinancieras);
+        }
+
+        private void btnF1_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnF1_2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnF2_1_Click(object sender, EventArgs e)
+        {
+            Financiero.wfMovimiento Movimientos = new Financiero.wfMovimiento();
+            vValidacionFormulario("wfMovimiento", Movimientos);
+        }
+
+        private void btnF2_2_Click(object sender, EventArgs e)
+        {
+            Financiero.wfTipoDeMovimiento TiposMovimientos = new Financiero.wfTipoDeMovimiento();
+            vValidacionFormulario("wfTipoDeMovimiento", TiposMovimientos);
+        }
+
+        private void btnF3_1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnF3_2_Click(object sender, EventArgs e)
+        {
+            Financiero.wfCuentaBanco CuentasBancarias = new Financiero.wfCuentaBanco();
+            vValidacionFormulario("wfCuentaBanco", CuentasBancarias);
+        }
+
+        private void btnF3_3_Click(object sender, EventArgs e)
+        {
+            Financiero.wfEstadoCuentaBanco EstadosCuenta = new Financiero.wfEstadoCuentaBanco();
+            vValidacionFormulario("wfEstadoCuentaBanco", EstadosCuenta);
         }
     }
 }

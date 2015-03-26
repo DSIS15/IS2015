@@ -66,29 +66,17 @@
     <Compile Include="wfEstadoCuentaBanco.Designer.cs">
       <DependentUpon>wfEstadoCuentaBanco.cs</DependentUpon>
     </Compile>
-    <Compile Include="wfInventarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="wfInventarios.Designer.cs">
-      <DependentUpon>wfInventarios.cs</DependentUpon>
-    </Compile>
-    <Compile Include="wfLibroBanco.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="wfLibroBanco.Designer.cs">
-      <DependentUpon>wfLibroBanco.cs</DependentUpon>
-    </Compile>
     <Compile Include="wfMovimiento.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="wfMovimiento.Designer.cs">
       <DependentUpon>wfMovimiento.cs</DependentUpon>
     </Compile>
-    <Compile Include="wfTiposDeOperaciones.cs">
+    <Compile Include="wfTipoMovimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="wfTiposDeOperaciones.Designer.cs">
-      <DependentUpon>wfTiposDeOperaciones.cs</DependentUpon>
+    <Compile Include="wfTipoMovimiento.Designer.cs">
+      <DependentUpon>wfTipoMovimiento.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -98,17 +86,11 @@
     <EmbeddedResource Include="wfEstadoCuentaBanco.resx">
       <DependentUpon>wfEstadoCuentaBanco.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="wfInventarios.resx">
-      <DependentUpon>wfInventarios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="wfLibroBanco.resx">
-      <DependentUpon>wfLibroBanco.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="wfMovimiento.resx">
       <DependentUpon>wfMovimiento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="wfTiposDeOperaciones.resx">
-      <DependentUpon>wfTiposDeOperaciones.cs</DependentUpon>
+    <EmbeddedResource Include="wfTipoMovimiento.resx">
+      <DependentUpon>wfTipoMovimiento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
