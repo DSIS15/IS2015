@@ -21,48 +21,18 @@ namespace dll_seguridad.Presentacion
 
         private void wfUsuario_Load(object sender, EventArgs e)
         {
-            //Datos del navegador
             alDatosEntrada.Add(txtIDUsuario);
             alDatosEntrada.Add(txtCodPerfil);
-            alDatosEntrada.Add(txtIDRoll);
             alDatosEntrada.Add(txtAlias);
             alDatosEntrada.Add(txtContraseña);
             alDatosEntrada.Add(txtNomUsuario);
             alDatosEntrada.Add(txtPrimerAp);
             alDatosEntrada.Add(txtSegundoAp);
             alDatosEntrada.Add(txtDireccion);
-            alDatosEntrada.Add(txtfechcrea);
-            alDatosEntrada.Add(txtfechmod);
             alDatosEntrada.Add(txtEstado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
-            /////////////////////////////////////////////////////////
 
-            //datos del grid Perfil
-            //Datos Grid Perfil
-            String[,] Scadena ={{"codigo_perfil","Codigo","true"},
-                                {"nombre_perfil","Nombre","true"},
-                                {"fecha_creacion","Fecha Creación","true",}, 
-                                {"fecha_modificacion","Fecha Modificación","true",},
-                                {"estado","Estado","false"}
-                              };
-            cuDataGridD1.AlDatosEntrada.Add(Scadena);
-            cuDataGridD1.vinicializar();
-            ////////////////////////////////////////////////////
-
-            //Datos del grid Roll
-            String[,] Scadena2 ={{"id_roll","Codigo","true"},
-                                 {"nombre_roll","Nombre","true"},
-                                 {"descripcion","descripcion","false"},
-                                 {"fecha_creacion","Fecha Creacion","true"},
-                                 {"fecha_modificacion","Fecha Modificación","true"},
-                                 {"estado","Estado","true"}
-                               };
-            cuDataGridD2.AlDatosEntrada.Add(Scadena2);
-            cuDataGridD2.vinicializar();
-            /////////////////////////////////////////////////////////
-
-            
         }
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
@@ -83,26 +53,6 @@ namespace dll_seguridad.Presentacion
                 case "1": cbEstado.SelectedIndex = 0; break;
                 default: cbEstado.SelectedIndex = -1; break;
             }
-        }
-
-        private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtCodPerfil.Text = cuDataGridD1.SObtenerDato;
-        }
-
-        private void cuDataGridD1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtIDRoll.Text = cuDataGridD2.SObtenerDato;
-        }
-
-        private void s(object sender, EventArgs e)
-        {
-
         }
     }
 }

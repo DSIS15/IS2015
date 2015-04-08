@@ -31,8 +31,7 @@ namespace dll_seguridad.Datos
                                                  "on dm.Codigo_perfil = p.Codigo_perfil " +
                                                  "Inner Join Modulo m " +
                                                  "on m.ID_modulo = dm.ID_modulo " +
-                                                 "where u.Alias_Usuario = '" + sUsuario + "'"+
-                                                 "and u.estado= 1 and p.estado =1 and m.estado = 1");
+                                                 "where u.Alias_Usuario = '" + sUsuario + "'");
             
             return alDatos;
         }
@@ -44,8 +43,7 @@ namespace dll_seguridad.Datos
                                                  "from modulo M " +
                                                  "Inner Join sub_modulo SM " +
                                                  "on SM.ID_modulo = M.ID_modulo " +
-                                                 "where M.Nombre_modulo='" + sModulo + "'"+
-                                                 "and M.estado=1 and SM.estado=1 ");
+                                                 "where M.Nombre_modulo='" + sModulo + "'");
             return alDatos;
         }
     }

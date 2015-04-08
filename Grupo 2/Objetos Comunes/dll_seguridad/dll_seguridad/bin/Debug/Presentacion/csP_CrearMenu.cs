@@ -25,7 +25,6 @@ namespace dll_seguridad.Presentacion
 
         public void vAplicacion()
         {
-            MessageBox.Show("Error No se le han asignado Modulos","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             Application.Restart();
         }
     }

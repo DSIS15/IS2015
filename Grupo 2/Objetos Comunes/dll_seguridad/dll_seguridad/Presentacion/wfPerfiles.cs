@@ -29,7 +29,6 @@ namespace dll_seguridad.Presentacion
             alDatosEntrada.Add(txtCodPerfil);
             alDatosEntrada.Add(txtNombre);
             alDatosEntrada.Add(txtfech);
-            alDatosEntrada.Add(txtfecm);
             alDatosEntrada.Add(txtEstado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
@@ -54,18 +53,6 @@ namespace dll_seguridad.Presentacion
                 case "0": cbEstado.SelectedIndex = 1; break;
                 default: cbEstado.SelectedIndex = -1; break;
             }
-        }
-
-        private void navegador1_btnModificar_BeforeClick(object sender, EventArgs e)
-        {
-            
-            
-        }
-
-        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
-        {
-            txtfech.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            txtfech.Enabled = false;
         }
     }
 }

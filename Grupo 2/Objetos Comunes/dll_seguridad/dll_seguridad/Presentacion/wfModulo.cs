@@ -24,11 +24,9 @@ namespace dll_seguridad.Presentacion
             alDatosEntrada.Add(txtIDModulo);
             alDatosEntrada.Add(txtNombreMod);
             alDatosEntrada.Add(txtNombreDLL);
-            alDatosEntrada.Add(txtfecc);
-            alDatosEntrada.Add(txtfecm);
             alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();            
+            navegador1.vIniciarNavegador();
         }
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
