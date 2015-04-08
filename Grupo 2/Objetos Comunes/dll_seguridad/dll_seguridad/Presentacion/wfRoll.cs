@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -7,33 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Collections;
 
 namespace dll_seguridad.Presentacion
 {
-    public partial class wfModulo : Form
+    public partial class wfRoll : Form
     {
         private ArrayList alDatosEntrada = new ArrayList();
-        public wfModulo()
+        public wfRoll()
         {
             InitializeComponent();
         }
 
-        private void wfModulo_Load(object sender, EventArgs e)
+        private void wfRoll_Load(object sender, EventArgs e)
         {
-            alDatosEntrada.Add(txtIDModulo);
-            alDatosEntrada.Add(txtNombreMod);
-            alDatosEntrada.Add(txtNombreDLL);
+            alDatosEntrada.Add(txtIDRoll);
+            alDatosEntrada.Add(txtnomroll);
+            alDatosEntrada.Add(txtdesc);
             alDatosEntrada.Add(txtfecc);
             alDatosEntrada.Add(txtfecm);
             alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();            
+            navegador1.vIniciarNavegador();
         }
 
-        private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbestado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch (cbEstado.SelectedIndex)
+            switch (cbestado.SelectedIndex)
             {
                 case 0: txtestado.Text = "1"; break;
                 case 1: txtestado.Text = "0"; break;
@@ -45,9 +44,9 @@ namespace dll_seguridad.Presentacion
         {
             switch (txtestado.Text)
             {
-                case "1": cbEstado.SelectedIndex = 0; break;
-                case "0": cbEstado.SelectedIndex = 1; break;
-                default: cbEstado.SelectedIndex= -1; break;
+                case "1": cbestado.SelectedIndex = 0; break;
+                case "0": cbestado.SelectedIndex = 1; break;
+                default: cbestado.SelectedIndex = -1; break;
             }
         }
     }

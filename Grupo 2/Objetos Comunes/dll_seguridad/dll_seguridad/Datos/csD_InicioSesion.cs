@@ -24,11 +24,11 @@ namespace dll_seguridad.Datos
 
         public bool bInicioSesion(String sUsuario, String sContraseña)
         {
-            sQuery = "Select Alias_usuario, Pasword_usuario from usuario where  Alias_usuario= '" + sUsuario + "' AND Pasword_usuario= '" + sContraseña + "'";
+            sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "'";
             alResultado = csFunciones.alConsultar(sQuery);
             if (alResultado.Count != 0)
             {
-                sQuery = "Select Alias_usuario, Pasword_usuario from usuario where  Alias_usuario= '" + sUsuario + "' AND Pasword_usuario= '" + sContraseña + "' AND estado=1";
+                sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "' AND estado=1";
                 ArrayList alResp = csFunciones.alConsultar(sQuery);
                 if (alResp.Count != 0)
                 {

@@ -22,13 +22,29 @@ namespace dll_seguridad.Presentacion
 
         private void wfSubMod_Load(object sender, EventArgs e)
         {
+            //Datos del Navegador
             alDatosEnviados.Add(txtIDSubMod);
             alDatosEnviados.Add(txtIDMod);
             alDatosEnviados.Add(txtNomSubMod);
             alDatosEnviados.Add(txtNomForm);
+            alDatosEnviados.Add(txtfecc);
+            alDatosEnviados.Add(txtfecm);
             alDatosEnviados.Add(txtEstado);
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();
+            /////////////////////////////////////
+
+            //Datos del Grid 
+            String[,] sCadena={
+                              {"id_modulo","Código","true"},
+                              {"nombre_modulo","Nombre","true"},
+                              {"nombre_dll","Nombre_DLL","false"},
+                              {"fecha_creacion","Fecha Creación","true",},
+                              {"fecha_modificacion","Fecha Modificación","true",},
+                              {"estado","Estado","true"},                              
+                              };
+            cuDataGridD1.AlDatosEntrada.Add(sCadena);
+            cuDataGridD1.vinicializar();
         }
 
         private void txtEstado_TextChanged(object sender, EventArgs e)
@@ -49,6 +65,16 @@ namespace dll_seguridad.Presentacion
                 case 1: txtEstado.Text = "0"; break;
                 default: txtEstado.Text = String.Empty; break;
             }
+        }
+
+        private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtIDMod.Text = cuDataGridD1.SObtenerDato;
+        }
+
+        private void cuDataGridD1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
