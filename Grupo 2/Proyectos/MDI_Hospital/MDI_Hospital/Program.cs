@@ -13,9 +13,9 @@ namespace MDI_Hospital
         /// </summary>
         [STAThread]
         static void Main()
-        {
+        {                       
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(false);            
             Application.Run(new dll_seguridad.Presentacion.wfInicioSesion((new wfMDI())));
         }
     }

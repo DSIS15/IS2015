@@ -24,29 +24,28 @@ namespace MDI_Hospital
         }
 
         private void wfMDI_Load(object sender, EventArgs e)
-        {
-            var objeto = (Form)sender;
-            tllblNombre.Text = dll_seguridad.Presentacion.wfInicioSesion.SUsuario;
-            alDatos = csp_crearmenu.alPconsultaform(tllblNombre.Text);
-            if (alDatos.Count > 0)
-            {
-                for (int icont = 0; icont < alDatos.Count; icont++)
+        {           
+                var objeto = (Form)sender;
+                tllblNombre.Text = dll_seguridad.Presentacion.wfInicioSesion.SUsuario;
+                alDatos = csp_crearmenu.alPconsultaform(tllblNombre.Text);
+                if (alDatos.Count > 0)
                 {
-                    ArrayList alColumnas = (ArrayList)alDatos[icont];
-                    mSMenu.Items.Add(csp_crearmenu.TsMIPCrearmenu(alColumnas[0].ToString(), objeto));                       
-                }
-            }
-            else
-                {
-                    csp_crearmenu.vAplicacion();                   
-                }
+                    for (int icont = 0; icont < alDatos.Count; icont++)
+                    {
+                        ArrayList alColumnas = (ArrayList)alDatos[icont];
 
+                        mSMenu.Items.Add(csp_crearmenu.TsMIPCrearmenu(alColumnas[0].ToString(), objeto));
+                    }
+                }
+                else
+                {
+                    csp_crearmenu.vAplicacion();
+                }  
         }
 
         private void wfMDI_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();        
-            
+            Application.Exit();            
             
         }
     }

@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dll_prueba">
-      <HintPath>..\..\..\Documents\Visual Studio 2013\Projects\dll_prueba\dll_prueba\bin\Debug\dll_prueba.dll</HintPath>
-    </Reference>
     <Reference Include="dll_seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll</HintPath>

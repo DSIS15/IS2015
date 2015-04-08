@@ -41,7 +41,7 @@
             // 
             this.mSMenu.Location = new System.Drawing.Point(0, 0);
             this.mSMenu.Name = "mSMenu";
-            this.mSMenu.Size = new System.Drawing.Size(784, 24);
+            this.mSMenu.Size = new System.Drawing.Size(834, 24);
             this.mSMenu.TabIndex = 0;
             this.mSMenu.Text = "Menu";
             // 
@@ -53,9 +53,9 @@
             this.tSlblusuario,
             this.tllblNombre,
             this.toolStripSeparator1});
-            this.tlmEstado.Location = new System.Drawing.Point(0, 537);
+            this.tlmEstado.Location = new System.Drawing.Point(0, 587);
             this.tlmEstado.Name = "tlmEstado";
-            this.tlmEstado.Size = new System.Drawing.Size(784, 25);
+            this.tlmEstado.Size = new System.Drawing.Size(834, 25);
             this.tlmEstado.TabIndex = 2;
             this.tlmEstado.Text = "toolStrip1";
             // 
@@ -85,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.ClientSize = new System.Drawing.Size(834, 612);
             this.Controls.Add(this.tlmEstado);
             this.Controls.Add(this.mSMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
