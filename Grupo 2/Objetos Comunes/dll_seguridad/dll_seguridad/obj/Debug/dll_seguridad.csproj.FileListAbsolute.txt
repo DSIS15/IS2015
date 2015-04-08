@@ -24,6 +24,12 @@ C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Navegador.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Navegador.pdb
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.pdb
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfDetMod.resources
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfInicioSesion.resources
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfModulo.resources
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfPerfiles.resources
@@ -32,8 +38,6 @@ C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\D
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Properties.Resources.resources
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csproj.GenerateResource.Cache
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
-C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
-C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
-C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\orochi\Desktop\Documentos a presentar\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfRoll.resources
