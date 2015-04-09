@@ -18,3 +18,12 @@ C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_P
 C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
 C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
 C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Presentación.wfInicioSesion.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfEmpresa.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfMoneda.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
