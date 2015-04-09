@@ -104,5 +104,24 @@ namespace dll_seguridad.Presentacion
         {
 
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {            
+            txtfechcrea.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDUsuario.Enabled = false;
+            txtCodPerfil.Enabled = false;
+            txtIDRoll.Enabled = false;
+            txtfechcrea.Enabled = txtfechmod.Enabled = false;
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+            txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDUsuario.Enabled = false;
+            txtCodPerfil.Enabled = false;
+            txtIDRoll.Enabled = false;
+            txtfechcrea.Enabled = txtfechmod.Enabled = false;
+        }
     }
 }

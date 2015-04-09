@@ -55,7 +55,7 @@
             // lblNombre_perfil
             // 
             this.lblNombre_perfil.AutoSize = true;
-            this.lblNombre_perfil.Location = new System.Drawing.Point(435, 109);
+            this.lblNombre_perfil.Location = new System.Drawing.Point(374, 108);
             this.lblNombre_perfil.Name = "lblNombre_perfil";
             this.lblNombre_perfil.Size = new System.Drawing.Size(70, 13);
             this.lblNombre_perfil.TabIndex = 1;
@@ -64,7 +64,7 @@
             // lblEstado
             // 
             this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(222, 109);
+            this.lblEstado.Location = new System.Drawing.Point(175, 109);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(40, 13);
             this.lblEstado.TabIndex = 2;
@@ -75,13 +75,13 @@
             this.txtCodPerfil.Enabled = false;
             this.txtCodPerfil.Location = new System.Drawing.Point(117, 102);
             this.txtCodPerfil.Name = "txtCodPerfil";
-            this.txtCodPerfil.Size = new System.Drawing.Size(52, 20);
+            this.txtCodPerfil.Size = new System.Drawing.Size(26, 20);
             this.txtCodPerfil.TabIndex = 1;
             this.txtCodPerfil.Tag = "codigo_perfil";
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(384, 101);
+            this.txtEstado.Location = new System.Drawing.Point(333, 101);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 4;
@@ -90,7 +90,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(513, 102);
+            this.txtNombre.Location = new System.Drawing.Point(452, 101);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 3;
@@ -108,6 +108,7 @@
             this.navegador1.TabIndex = 6;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             this.navegador1.btnModificar_BeforeClick += new System.EventHandler(this.navegador1_btnModificar_BeforeClick);
+            this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             // 
             // label1
             // 
@@ -133,7 +134,7 @@
             this.cbEstado.Items.AddRange(new object[] {
             "Activado ",
             "Desactivado"});
-            this.cbEstado.Location = new System.Drawing.Point(282, 101);
+            this.cbEstado.Location = new System.Drawing.Point(231, 101);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(100, 21);
             this.cbEstado.TabIndex = 2;
@@ -142,7 +143,7 @@
             // lblfecM
             // 
             this.lblfecM.AutoSize = true;
-            this.lblfecM.Location = new System.Drawing.Point(291, 151);
+            this.lblfecM.Location = new System.Drawing.Point(254, 152);
             this.lblfecM.Name = "lblfecM";
             this.lblfecM.Size = new System.Drawing.Size(100, 13);
             this.lblfecM.TabIndex = 8;
@@ -150,7 +151,7 @@
             // 
             // txtfecm
             // 
-            this.txtfecm.Location = new System.Drawing.Point(425, 144);
+            this.txtfecm.Location = new System.Drawing.Point(360, 145);
             this.txtfecm.Name = "txtfecm";
             this.txtfecm.Size = new System.Drawing.Size(100, 20);
             this.txtfecm.TabIndex = 9;

@@ -86,5 +86,25 @@ namespace dll_seguridad.Presentacion
         {
             txtCodPerf.Text = cuDataGridD2.SObtenerDato;
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            
+            txtfecC.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDDetMod.Enabled = false;
+            txtIDModulo.Enabled = false;
+            txtCodPerf.Enabled = false;
+            txtfecm.Enabled= txtfecC.Enabled = false;
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDDetMod.Enabled = false;
+            txtIDModulo.Enabled = false;
+            txtCodPerf.Enabled = false;
+            txtfecC.Enabled = txtfecm.Enabled = false;
+        }
     }
 }

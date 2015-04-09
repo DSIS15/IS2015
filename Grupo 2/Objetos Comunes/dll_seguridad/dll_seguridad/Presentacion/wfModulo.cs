@@ -50,5 +50,21 @@ namespace dll_seguridad.Presentacion
                 default: cbEstado.SelectedIndex= -1; break;
             }
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtfecc.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDModulo.Enabled = false;
+            txtfecc.Enabled = txtfecm.Enabled = false;
+            
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtIDModulo.Enabled = false;
+            txtfecc.Enabled = txtfecm.Enabled = false;
+        }
     }
 }

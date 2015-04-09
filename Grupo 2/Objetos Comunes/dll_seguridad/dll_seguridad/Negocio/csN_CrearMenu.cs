@@ -80,6 +80,8 @@ namespace dll_seguridad.Negocio
                     break;
                 case "Ordenar modo Vertical": wfFormMDI.LayoutMdi(MdiLayout.TileVertical);
                     break;
+                case "Cerrar Sesion": Application.Restart();
+                    break;
                 case "Salir": Application.Exit();
                     break;
             

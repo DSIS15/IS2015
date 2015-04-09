@@ -141,6 +141,7 @@
             this.txtContraseña.Size = new System.Drawing.Size(157, 20);
             this.txtContraseña.TabIndex = 9;
             this.txtContraseña.Tag = "contrasena_usuario";
+            this.txtContraseña.UseSystemPasswordChar = true;
             // 
             // txtEstado
             // 
@@ -161,6 +162,8 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "usuario";
             this.navegador1.TabIndex = 10;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             // 
             // lblAlias
             // 
