@@ -47,13 +47,8 @@ namespace dll_bitacora.Presentacion
                 {
                     if (csn_obtenercampos.bCompararCampos(alDatosEntrada, STabla) == true)
                     {                        
-                        dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);
-                        //cbCampos.Items.Add(csn_obtenercampos.cbllenarcombo(alDatosEntrada));
-                        //cbCampos.DataSource = 
+                        dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);                        
                         cbCampos.DataSource = csn_obtenercampos.cbllenarcombo(alDatosEntrada).Items;
-;
-                        
-                        //cbCampos.DataSource = 
                     }
                     else
                     {
@@ -77,6 +72,15 @@ namespace dll_bitacora.Presentacion
 
         private void dgvTabla_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
+        }
+
+        private void txtbusqueda_TextChanged(object sender, EventArgs e)
+        {
+            BindingSource bsBusqueda = new BindingSource();
+            bsBusqueda.DataSource = dgvTabla.DataSource;            
+            bsBusqueda.Filter = cbCampos.SelectedItem.ToString() + " LIKE '%" + txtbusqueda.Text + "%'";
+            dgvTabla.DataSource = bsBusqueda;
 
         }
     }

@@ -36,10 +36,13 @@
             // 
             // dgvTabla
             // 
+            this.dgvTabla.AllowUserToAddRows = false;
+            this.dgvTabla.AllowUserToDeleteRows = false;
             this.dgvTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTabla.Location = new System.Drawing.Point(0, 69);
+            this.dgvTabla.Location = new System.Drawing.Point(0, 49);
             this.dgvTabla.Name = "dgvTabla";
-            this.dgvTabla.Size = new System.Drawing.Size(622, 270);
+            this.dgvTabla.ReadOnly = true;
+            this.dgvTabla.Size = new System.Drawing.Size(568, 270);
             this.dgvTabla.TabIndex = 0;
             this.dgvTabla.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTabla_CellContentClick);
             // 
@@ -47,17 +50,18 @@
             // 
             this.cbCampos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbCampos.FormattingEnabled = true;
-            this.cbCampos.Location = new System.Drawing.Point(61, 42);
+            this.cbCampos.Location = new System.Drawing.Point(30, 22);
             this.cbCampos.Name = "cbCampos";
             this.cbCampos.Size = new System.Drawing.Size(112, 21);
             this.cbCampos.TabIndex = 1;
             // 
             // txtbusqueda
             // 
-            this.txtbusqueda.Location = new System.Drawing.Point(192, 42);
+            this.txtbusqueda.Location = new System.Drawing.Point(161, 22);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(100, 20);
             this.txtbusqueda.TabIndex = 2;
+            this.txtbusqueda.TextChanged += new System.EventHandler(this.txtbusqueda_TextChanged);
             // 
             // cuDataGridConBusqueda
             // 
@@ -67,7 +71,7 @@
             this.Controls.Add(this.cbCampos);
             this.Controls.Add(this.dgvTabla);
             this.Name = "cuDataGridConBusqueda";
-            this.Size = new System.Drawing.Size(625, 342);
+            this.Size = new System.Drawing.Size(572, 324);
             this.Load += new System.EventHandler(this.cuDataGridConBusqueda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabla)).EndInit();
             this.ResumeLayout(false);

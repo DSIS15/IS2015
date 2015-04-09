@@ -19,6 +19,7 @@ namespace dll_bitacora.Presentacion
         private String sTabla = string.Empty;
         private String sCampo = string.Empty;
         private String sObtenerDato = string.Empty;
+        //evento personalizado
         public event DataGridViewCellEventHandler sdgv_CellClick;
         
 
@@ -63,14 +64,14 @@ namespace dll_bitacora.Presentacion
 
         public void vinicializar()
         {
-            if (String.Compare(STabla, string.Empty) != 0)
+            if (String.Compare(STabla, string.Empty) != 0)//verifica si el Stabla esta vacio
             {
-                if (alDatosEntrada.Count > 0)
+                if (alDatosEntrada.Count > 0) //verifica si alDatosEntrada esta vacio
                 {
+                    //compara si los datos de alDatosEntrada realmente existen en la tabla
                     if (csn_obtenercampos.bCompararCampos(alDatosEntrada, sTabla) == true)
-                    {
-                        //Comentado haciendo pruebas
-                        //MessageBox.Show(alDatosEntrada[0].ToString());                        
+                    {   
+                        //construcción del datagriedview
                         dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);
                     }
                     else
@@ -104,13 +105,12 @@ namespace dll_bitacora.Presentacion
             
         }
 
-        private void dgvTabla_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            //MessageBox.Show(dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString());
-            sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();
-           //MessageBox.Show(sObtenerDato);
-            sdgv_CellClick(this,e);
-            
+        //evento en el cual se obtiene el dato requerido 
+       private void dgvTabla_CellClick(object sender, DataGridViewCellEventArgs e)
+        {            
+            sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();           
+           //creacion de un evento personalizado
+           sdgv_CellClick(this,e);            
         }
     }
 }
