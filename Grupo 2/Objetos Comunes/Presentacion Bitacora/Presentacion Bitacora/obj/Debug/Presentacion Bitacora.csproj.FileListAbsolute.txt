@@ -1,0 +1,13 @@
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\Presentacion Bitacora.exe.config
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\Presentacion Bitacora.exe
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\Presentacion Bitacora.pdb
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\dll_bitacora.dll
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\ODBCconnector.dll
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\dll_bitacora.pdb
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\bin\Debug\ODBCconnector.pdb
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion Bitacora.csprojResolveAssemblyReference.cache
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion_Bitacora.Form1.resources
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion_Bitacora.Properties.Resources.resources
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion Bitacora.csproj.GenerateResource.Cache
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion Bitacora.exe
+c:\users\angel\documents\visual studio 2013\Projects\Presentacion Bitacora\Presentacion Bitacora\obj\Debug\Presentacion Bitacora.pdb
