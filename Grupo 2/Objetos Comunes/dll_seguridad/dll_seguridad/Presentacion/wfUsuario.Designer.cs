@@ -60,6 +60,8 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
+            this.button1 = new System.Windows.Forms.Button();
+            this.txtEncriptar = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -77,7 +79,7 @@
             // lblCodPer
             // 
             this.lblCodPer.AutoSize = true;
-            this.lblCodPer.Location = new System.Drawing.Point(164, 89);
+            this.lblCodPer.Location = new System.Drawing.Point(149, 89);
             this.lblCodPer.Name = "lblCodPer";
             this.lblCodPer.Size = new System.Drawing.Size(66, 13);
             this.lblCodPer.TabIndex = 1;
@@ -120,7 +122,7 @@
             // 
             // txtCodPerfil
             // 
-            this.txtCodPerfil.Location = new System.Drawing.Point(236, 83);
+            this.txtCodPerfil.Location = new System.Drawing.Point(221, 83);
             this.txtCodPerfil.Name = "txtCodPerfil";
             this.txtCodPerfil.Size = new System.Drawing.Size(30, 20);
             this.txtCodPerfil.TabIndex = 2;
@@ -295,7 +297,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(316, 88);
+            this.label1.Location = new System.Drawing.Point(338, 88);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 13);
             this.label1.TabIndex = 25;
@@ -303,7 +305,7 @@
             // 
             // txtIDRoll
             // 
-            this.txtIDRoll.Location = new System.Drawing.Point(352, 83);
+            this.txtIDRoll.Location = new System.Drawing.Point(380, 83);
             this.txtIDRoll.Name = "txtIDRoll";
             this.txtIDRoll.Size = new System.Drawing.Size(27, 20);
             this.txtIDRoll.TabIndex = 26;
@@ -354,11 +356,31 @@
             this.cuDataGridD2.TabIndex = 28;
             this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(658, 198);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(60, 23);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Encriptar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.buttonEncriptar);
+            // 
+            // txtEncriptar
+            // 
+            this.txtEncriptar.Location = new System.Drawing.Point(672, 239);
+            this.txtEncriptar.Name = "txtEncriptar";
+            this.txtEncriptar.Size = new System.Drawing.Size(46, 20);
+            this.txtEncriptar.TabIndex = 29;
+            this.txtEncriptar.Visible = false;
+            // 
             // wfUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(754, 465);
+            this.Controls.Add(this.txtEncriptar);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.txtIDRoll);
             this.Controls.Add(this.label1);
@@ -430,6 +452,8 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtEncriptar;
 
     }
 }

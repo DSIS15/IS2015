@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
+using System.Security.Cryptography;
 
 namespace dll_seguridad.Presentacion
 {
@@ -26,7 +27,7 @@ namespace dll_seguridad.Presentacion
             alDatosEntrada.Add(txtCodPerfil);
             alDatosEntrada.Add(txtIDRoll);
             alDatosEntrada.Add(txtAlias);
-            alDatosEntrada.Add(txtContraseña);
+            alDatosEntrada.Add(txtEncriptar);
             alDatosEntrada.Add(txtNomUsuario);
             alDatosEntrada.Add(txtPrimerAp);
             alDatosEntrada.Add(txtSegundoAp);
@@ -122,6 +123,16 @@ namespace dll_seguridad.Presentacion
             txtCodPerfil.Enabled = false;
             txtIDRoll.Enabled = false;
             txtfechcrea.Enabled = txtfechmod.Enabled = false;
+        }
+
+        private void buttonEncriptar (object sender, EventArgs e)
+        {
+            string login_pass = txtContraseña.Text;
+            MD5 md5 = MD5.Create();
+            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(login_pass);
+            byte[] hash = md5.ComputeHash(inputBytes);
+            login_pass = BitConverter.ToString(hash).Replace("-", "");
+            txtEncriptar.Text = login_pass.ToString();
         }
     }
 }
