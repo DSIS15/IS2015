@@ -151,89 +151,76 @@ ALTER TABLE det_examen ADD CONSTRAINT medico_det_examen_fk
 FOREIGN KEY (id_medico)
 REFERENCES medico (id_medico)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE cita_medi ADD CONSTRAINT medico_cita_medi_fk
 FOREIGN KEY (id_medico)
 REFERENCES medico (id_medico)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE antecedentes_medicos ADD CONSTRAINT enfermedades_antecedentes_antecedentes_medicos_fk
 FOREIGN KEY (id_enfermedad)
 REFERENCES enfermedades_antecedentes (id_enfermedad)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE antecedentes_medicos ADD CONSTRAINT paciente_antecedentes_medicos_fk
 FOREIGN KEY (id_pacientes)
 REFERENCES paciente (id_pacientes)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE det_examen ADD CONSTRAINT paciente_det_examen_fk
 FOREIGN KEY (id_pacientes)
 REFERENCES paciente (id_pacientes)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE cita_medi ADD CONSTRAINT paciente_cita_medi_fk
 FOREIGN KEY (id_pacientes)
 REFERENCES paciente (id_pacientes)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE det_examen ADD CONSTRAINT tipo_examen_det_examen_fk
 FOREIGN KEY (id_tipo_examen)
 REFERENCES tipo_examen (id_tipo_examen)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE detalle_modulo ADD CONSTRAINT modulo_detalle_modulo_fk
 FOREIGN KEY (id_modulo)
 REFERENCES modulo (id_modulo)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE sub_modulo ADD CONSTRAINT modulo_sub_modulo_fk
 FOREIGN KEY (id_modulo)
 REFERENCES modulo (id_modulo)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE usuario ADD CONSTRAINT perfil_usuario_fk
 FOREIGN KEY (codigo_perfil)
 REFERENCES perfil (codigo_perfil)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE detalle_modulo ADD CONSTRAINT perfil_detalle_modulo_fk
 FOREIGN KEY (codigo_perfil)
 REFERENCES perfil (codigo_perfil)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE bitacora_hospital ADD CONSTRAINT usuario_bitacora_hospital_fk
 FOREIGN KEY (id_usuario)
 REFERENCES usuario (id_usuario)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
 
 ALTER TABLE cita_medi ADD CONSTRAINT usuario_cita_medi_fk
 FOREIGN KEY (id_usuario)
 REFERENCES usuario (id_usuario)
 ON DELETE NO ACTION
-ON UPDATE NO ACTION
-NOT DEFERRABLE;
+ON UPDATE NO ACTION;
