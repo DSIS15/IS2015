@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CultureResources">
+      <HintPath>..\..\..\Downloads\WinFormsLocalizationDemo-master(1)\WinFormsLocalizationDemo-master\CultureExample\bin\Debug\CultureResources.dll</HintPath>
+    </Reference>
     <Reference Include="dll_bitacora">
       <HintPath>..\..\..\..\Documents\Visual Studio 2013\Projects\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
@@ -40,9 +43,13 @@
       <HintPath>..\..\..\..\..\Downloads\ODBC\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -105,6 +112,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Recursos Multilenguaje\ResourceEN-US.Designer.cs">
+      <DependentUpon>ResourceEN-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Recursos Multilenguaje\ResourceES-GUA.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceES-GUA.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Presentacion\wfDetMod.resx">
@@ -133,8 +150,15 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Recursos Multilenguaje\ResourceEN-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceEN-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursos Multilenguaje\ResourceES-GUA.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceES-GUA.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\hospital.png" />
   </ItemGroup>

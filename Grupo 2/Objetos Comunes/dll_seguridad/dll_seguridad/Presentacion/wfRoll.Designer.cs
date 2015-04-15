@@ -43,6 +43,7 @@
             this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
             this.cbestado = new System.Windows.Forms.ComboBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // navegador1
@@ -50,7 +51,7 @@
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(38, 12);
+            this.navegador1.Location = new System.Drawing.Point(53, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "roll";
@@ -174,11 +175,25 @@
             this.cbestado.TabIndex = 22;
             this.cbestado.SelectedIndexChanged += new System.EventHandler(this.cbestado_SelectedIndexChanged);
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "EN-US",
+            "ES-GUA",
+            "JAP-JP"});
+            this.listBox1.Location = new System.Drawing.Point(1, 22);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(46, 43);
+            this.listBox1.TabIndex = 23;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
             // wfRoll
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(668, 179);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.cbestado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
@@ -217,5 +232,6 @@
         private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
         private System.Windows.Forms.ComboBox cbestado;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

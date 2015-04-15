@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CultureResources;
+using System.Globalization;
+using System.Threading;
+
 namespace dll_seguridad.Presentacion
 {
     public partial class wfRoll : Form
@@ -18,6 +22,18 @@ namespace dll_seguridad.Presentacion
             InitializeComponent();
         }
 
+        //Multilenguaje, cambio a label por label PRUEBAS
+        private void Multilenguaje()
+        {
+            lbldesc.Text = StringResources.ButtonLabel1;
+            lblestado.Text = StringResources.ButtonLabel2;
+            lblfecc.Text = StringResources.ButtonLabel3;
+            lblfecm.Text = StringResources.ButtonLabel4;
+            lblIDroll.Text = StringResources.ButtonLabel5;
+            
+
+        }
+      
         private void wfRoll_Load(object sender, EventArgs e)
         {
             alDatosEntrada.Add(txtIDRoll);
@@ -28,6 +44,9 @@ namespace dll_seguridad.Presentacion
             alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
+
+           
+            Multilenguaje();
         }
 
         private void cbestado_SelectedIndexChanged(object sender, EventArgs e)
@@ -61,6 +80,13 @@ namespace dll_seguridad.Presentacion
         {
             txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecc.Enabled = txtfecm.Enabled = false;
+        }
+
+        //LISTBOX DE SELECCION DE LENGUAJE
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            Multilenguaje();
         }
     }
 }
