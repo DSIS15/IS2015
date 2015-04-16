@@ -48,7 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\csDCamposyDatos.cs" />
+    <Compile Include="Datos\cs_Dinsercionbitacora.cs" />
     <Compile Include="Negocio\cs_NCamposyDatos.cs" />
+    <Compile Include="Negocio\cs_Ninsertarbitacora.cs" />
+    <Compile Include="Presentacion\cs_PInsercionBitacora.cs" />
     <Compile Include="Presentacion\cuDataGridConBusqueda.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -61,6 +64,12 @@
     <Compile Include="Presentacion\cuDataGridD.Designer.cs">
       <DependentUpon>cuDataGridD.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\wfBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfBitacora.Designer.cs">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\cuDataGridD.resx">
       <DependentUpon>cuDataGridD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfBitacora.resx">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
