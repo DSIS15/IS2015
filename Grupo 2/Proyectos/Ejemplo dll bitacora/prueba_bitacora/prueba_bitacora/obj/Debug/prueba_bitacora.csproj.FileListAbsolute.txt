@@ -1,0 +1,13 @@
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\bin\Debug\prueba_bitacora.exe.config
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\bin\Debug\prueba_bitacora.exe
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\bin\Debug\prueba_bitacora.pdb
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\bin\Debug\dll_bitacora.dll
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\bin\Debug\ODBCconnector.dll
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.csprojResolveAssemblyReference.cache
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.Form1.resources
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.Properties.Resources.resources
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.csproj.GenerateResource.Cache
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.exe
+c:\users\orochi\documents\visual studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.pdb
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.grid_con_busqueda.resources
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\prueba_bitacora\prueba_bitacora\obj\Debug\prueba_bitacora.grid_normal.resources
