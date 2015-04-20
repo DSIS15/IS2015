@@ -22,17 +22,8 @@ namespace dll_seguridad.Presentacion
             InitializeComponent();
         }
 
-        //Multilenguaje, cambio a label por label PRUEBAS
-        private void Multilenguaje()
-        {
-            lbldesc.Text = StringResources.ButtonLabel1;
-            lblestado.Text = StringResources.ButtonLabel2;
-            lblfecc.Text = StringResources.ButtonLabel3;
-            lblfecm.Text = StringResources.ButtonLabel4;
-            lblIDroll.Text = StringResources.ButtonLabel5;
-            
-
-        }
+     
+       
       
         private void wfRoll_Load(object sender, EventArgs e)
         {
@@ -46,7 +37,7 @@ namespace dll_seguridad.Presentacion
             navegador1.vIniciarNavegador();
 
            
-            Multilenguaje();
+           
         }
 
         private void cbestado_SelectedIndexChanged(object sender, EventArgs e)
@@ -82,11 +73,38 @@ namespace dll_seguridad.Presentacion
             txtfecc.Enabled = txtfecm.Enabled = false;
         }
 
-        //LISTBOX DE SELECCION DE LENGUAJE
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
-            Multilenguaje();
+
         }
+
+      
+
+       // private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+     //   {
+       //     Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+         //   AplicarIdioma();
+        //}
+
+       /* private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            AplicarIdioma();
+        }*/
+
+      /*  public void AplicarIdioma()
+        {
+            lblIDroll.Text = StringResources.Label23;
+            lblNombre.Text = StringResources.Label24;
+            lblestadoRoll.Text = StringResources.Label25;
+            lblfecc.Text = StringResources.Label26;
+            lblfecm.Text = StringResources.Label27;
+            lbldesc.Text = StringResources.Label28;
+           
+
+
+            this.Text = StringResources.WindowTitle5;
+
+        }*/
     }
 }

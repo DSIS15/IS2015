@@ -48,9 +48,12 @@
             this.txtfecC = new System.Windows.Forms.TextBox();
             this.lblfecm = new System.Windows.Forms.Label();
             this.txtfecm = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIDDetMod
@@ -236,11 +239,36 @@
             this.txtfecm.TabIndex = 14;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "EN-US",
+            "ES-CO",
+            "JA-JP"});
+            this.listBox1.Location = new System.Drawing.Point(551, 133);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(50, 43);
+            this.listBox1.TabIndex = 15;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(603, 133);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
             // wfDetMod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 359);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.lblfecm);
             this.Controls.Add(this.txtfecC);
@@ -262,6 +290,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,5 +317,7 @@
         private System.Windows.Forms.TextBox txtfecC;
         private System.Windows.Forms.Label lblfecm;
         private System.Windows.Forms.TextBox txtfecm;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

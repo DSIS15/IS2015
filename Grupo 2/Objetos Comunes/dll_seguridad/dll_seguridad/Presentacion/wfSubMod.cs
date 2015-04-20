@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
+using dll_seguridad.Recursos_localizables;
+using System.Threading;
+using System.Globalization;
 
 namespace dll_seguridad.Presentacion
 {
@@ -88,6 +91,27 @@ namespace dll_seguridad.Presentacion
         {
             txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecc.Enabled = txtfecm.Enabled = false;
+        }
+
+        public void AplicarIdioma()
+        {
+            lblIDSubMod.Text = StringResources.Label29;
+            lblIDMod.Text = StringResources.Label30;
+            lblEstadoSubMod.Text = StringResources.Label31;
+            lblNomSubMod.Text = StringResources.Label32;
+            lblNomwf.Text = StringResources.Label33;
+            lblfeccSubMod.Text = StringResources.Label34;
+            lblfecmSubMod.Text = StringResources.Label35;
+
+
+            this.Text = StringResources.WindowTitle6;
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            AplicarIdioma();
         }
     }
 }

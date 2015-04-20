@@ -1,10 +1,13 @@
-﻿using System;
+﻿using dll_seguridad.Recursos_localizables;
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -106,5 +109,29 @@ namespace dll_seguridad.Presentacion
             txtCodPerf.Enabled = false;
             txtfecC.Enabled = txtfecm.Enabled = false;
         }
+
+        public void AplicarIdioma()
+        {
+            lblIDDetMod.Text = StringResources.Label6;
+            lblCodMod.Text = StringResources.Label7;
+            lblCodPerf.Text = StringResources.Label8;
+            lblEstado.Text = StringResources.Label9;
+            lblfecC.Text = StringResources.Label10;
+            lblfecm.Text = StringResources.Label11;
+           
+
+            this.Text = StringResources.WindowTitle2;
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            AplicarIdioma();
+        }
+        
+
+      
     }
 }

@@ -33,7 +33,7 @@
             this.lblCodPer = new System.Windows.Forms.Label();
             this.lblNomUser = new System.Windows.Forms.Label();
             this.lblPaswUser = new System.Windows.Forms.Label();
-            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblEstadoUser = new System.Windows.Forms.Label();
             this.txtIDUsuario = new System.Windows.Forms.TextBox();
             this.txtCodPerfil = new System.Windows.Forms.TextBox();
             this.txtNomUsuario = new System.Windows.Forms.TextBox();
@@ -42,19 +42,19 @@
             this.navegador1 = new Navegador.Navegador();
             this.lblAlias = new System.Windows.Forms.Label();
             this.txtAlias = new System.Windows.Forms.TextBox();
-            this.lbl1Apellido = new System.Windows.Forms.Label();
+            this.lbl1ApellidoUser = new System.Windows.Forms.Label();
             this.txtPrimerAp = new System.Windows.Forms.TextBox();
             this.lbltxt2Apellido = new System.Windows.Forms.Label();
             this.txtSegundoAp = new System.Windows.Forms.TextBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.lblDireccion = new System.Windows.Forms.Label();
+            this.lblDireccionUser = new System.Windows.Forms.Label();
             this.txtDireccion = new System.Windows.Forms.TextBox();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.lblfechcrea = new System.Windows.Forms.Label();
-            this.lblfecmod = new System.Windows.Forms.Label();
+            this.lblfechcreauser = new System.Windows.Forms.Label();
+            this.lblfecmodUser = new System.Windows.Forms.Label();
             this.txtfechcrea = new System.Windows.Forms.TextBox();
             this.txtfechmod = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblRollUser = new System.Windows.Forms.Label();
             this.txtIDRoll = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -62,9 +62,12 @@
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.button1 = new System.Windows.Forms.Button();
             this.txtEncriptar = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIDusuario
@@ -103,14 +106,14 @@
             this.lblPaswUser.TabIndex = 3;
             this.lblPaswUser.Text = "Contraseña";
             // 
-            // lblEstado
+            // lblEstadoUser
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(428, 86);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(40, 13);
-            this.lblEstado.TabIndex = 4;
-            this.lblEstado.Text = "Estado";
+            this.lblEstadoUser.AutoSize = true;
+            this.lblEstadoUser.Location = new System.Drawing.Point(428, 86);
+            this.lblEstadoUser.Name = "lblEstadoUser";
+            this.lblEstadoUser.Size = new System.Drawing.Size(40, 13);
+            this.lblEstadoUser.TabIndex = 4;
+            this.lblEstadoUser.Text = "Estado";
             // 
             // txtIDUsuario
             // 
@@ -184,14 +187,14 @@
             this.txtAlias.TabIndex = 8;
             this.txtAlias.Tag = "alias_usuario";
             // 
-            // lbl1Apellido
+            // lbl1ApellidoUser
             // 
-            this.lbl1Apellido.AutoSize = true;
-            this.lbl1Apellido.Location = new System.Drawing.Point(38, 165);
-            this.lbl1Apellido.Name = "lbl1Apellido";
-            this.lbl1Apellido.Size = new System.Drawing.Size(76, 13);
-            this.lbl1Apellido.TabIndex = 13;
-            this.lbl1Apellido.Text = "Primer Apellido";
+            this.lbl1ApellidoUser.AutoSize = true;
+            this.lbl1ApellidoUser.Location = new System.Drawing.Point(38, 165);
+            this.lbl1ApellidoUser.Name = "lbl1ApellidoUser";
+            this.lbl1ApellidoUser.Size = new System.Drawing.Size(76, 13);
+            this.lbl1ApellidoUser.TabIndex = 13;
+            this.lbl1ApellidoUser.Text = "Primer Apellido";
             // 
             // txtPrimerAp
             // 
@@ -231,14 +234,14 @@
             this.cbEstado.TabIndex = 3;
             this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
-            // lblDireccion
+            // lblDireccionUser
             // 
-            this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(377, 122);
-            this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(52, 13);
-            this.lblDireccion.TabIndex = 18;
-            this.lblDireccion.Text = "Direccion";
+            this.lblDireccionUser.AutoSize = true;
+            this.lblDireccionUser.Location = new System.Drawing.Point(377, 122);
+            this.lblDireccionUser.Name = "lblDireccionUser";
+            this.lblDireccionUser.Size = new System.Drawing.Size(52, 13);
+            this.lblDireccionUser.TabIndex = 18;
+            this.lblDireccionUser.Text = "Direccion";
             // 
             // txtDireccion
             // 
@@ -260,23 +263,23 @@
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             this.cuDataGridD1.Load += new System.EventHandler(this.cuDataGridD1_Load);
             // 
-            // lblfechcrea
+            // lblfechcreauser
             // 
-            this.lblfechcrea.AutoSize = true;
-            this.lblfechcrea.Location = new System.Drawing.Point(37, 246);
-            this.lblfechcrea.Name = "lblfechcrea";
-            this.lblfechcrea.Size = new System.Drawing.Size(78, 13);
-            this.lblfechcrea.TabIndex = 21;
-            this.lblfechcrea.Text = "fecha creación";
+            this.lblfechcreauser.AutoSize = true;
+            this.lblfechcreauser.Location = new System.Drawing.Point(37, 246);
+            this.lblfechcreauser.Name = "lblfechcreauser";
+            this.lblfechcreauser.Size = new System.Drawing.Size(78, 13);
+            this.lblfechcreauser.TabIndex = 21;
+            this.lblfechcreauser.Text = "fecha creación";
             // 
-            // lblfecmod
+            // lblfecmodUser
             // 
-            this.lblfecmod.AutoSize = true;
-            this.lblfecmod.Location = new System.Drawing.Point(377, 248);
-            this.lblfecmod.Name = "lblfecmod";
-            this.lblfecmod.Size = new System.Drawing.Size(90, 13);
-            this.lblfecmod.TabIndex = 22;
-            this.lblfecmod.Text = "fecha modificaión";
+            this.lblfecmodUser.AutoSize = true;
+            this.lblfecmodUser.Location = new System.Drawing.Point(377, 248);
+            this.lblfecmodUser.Name = "lblfecmodUser";
+            this.lblfecmodUser.Size = new System.Drawing.Size(90, 13);
+            this.lblfecmodUser.TabIndex = 22;
+            this.lblfecmodUser.Text = "fecha modificaión";
             // 
             // txtfechcrea
             // 
@@ -294,14 +297,14 @@
             this.txtfechmod.TabIndex = 11;
             this.txtfechmod.Tag = "fecha_de_modificacion";
             // 
-            // label1
+            // lblRollUser
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(338, 88);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 13);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Roll";
+            this.lblRollUser.AutoSize = true;
+            this.lblRollUser.Location = new System.Drawing.Point(338, 88);
+            this.lblRollUser.Name = "lblRollUser";
+            this.lblRollUser.Size = new System.Drawing.Size(25, 13);
+            this.lblRollUser.TabIndex = 25;
+            this.lblRollUser.Text = "Roll";
             // 
             // txtIDRoll
             // 
@@ -358,43 +361,69 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(658, 198);
+            this.button1.Location = new System.Drawing.Point(672, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 23);
             this.button1.TabIndex = 28;
             this.button1.Text = "Encriptar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
             this.button1.Click += new System.EventHandler(this.buttonEncriptar);
             // 
             // txtEncriptar
             // 
-            this.txtEncriptar.Location = new System.Drawing.Point(672, 239);
+            this.txtEncriptar.Location = new System.Drawing.Point(672, 180);
             this.txtEncriptar.Name = "txtEncriptar";
             this.txtEncriptar.Size = new System.Drawing.Size(46, 20);
             this.txtEncriptar.TabIndex = 29;
             this.txtEncriptar.Visible = false;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "EN-US",
+            "ES-CO",
+            "JA-JP"});
+            this.listBox1.Location = new System.Drawing.Point(668, 228);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(50, 43);
+            this.listBox1.TabIndex = 30;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(715, 228);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
             // 
             // wfUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(754, 465);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtEncriptar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.txtIDRoll);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblRollUser);
             this.Controls.Add(this.txtfechmod);
             this.Controls.Add(this.txtfechcrea);
-            this.Controls.Add(this.lblfecmod);
-            this.Controls.Add(this.lblfechcrea);
+            this.Controls.Add(this.lblfecmodUser);
+            this.Controls.Add(this.lblfechcreauser);
             this.Controls.Add(this.txtDireccion);
-            this.Controls.Add(this.lblDireccion);
+            this.Controls.Add(this.lblDireccionUser);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtSegundoAp);
             this.Controls.Add(this.lbltxt2Apellido);
             this.Controls.Add(this.txtPrimerAp);
-            this.Controls.Add(this.lbl1Apellido);
+            this.Controls.Add(this.lbl1ApellidoUser);
             this.Controls.Add(this.txtAlias);
             this.Controls.Add(this.lblAlias);
             this.Controls.Add(this.navegador1);
@@ -403,7 +432,7 @@
             this.Controls.Add(this.txtNomUsuario);
             this.Controls.Add(this.txtCodPerfil);
             this.Controls.Add(this.txtIDUsuario);
-            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblEstadoUser);
             this.Controls.Add(this.lblPaswUser);
             this.Controls.Add(this.lblNomUser);
             this.Controls.Add(this.lblCodPer);
@@ -414,6 +443,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -425,7 +455,7 @@
         private System.Windows.Forms.Label lblCodPer;
         private System.Windows.Forms.Label lblNomUser;
         private System.Windows.Forms.Label lblPaswUser;
-        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblEstadoUser;
         private System.Windows.Forms.TextBox txtIDUsuario;
         private System.Windows.Forms.TextBox txtCodPerfil;
         private System.Windows.Forms.TextBox txtNomUsuario;
@@ -434,19 +464,19 @@
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.Label lblAlias;
         private System.Windows.Forms.TextBox txtAlias;
-        private System.Windows.Forms.Label lbl1Apellido;
+        private System.Windows.Forms.Label lbl1ApellidoUser;
         private System.Windows.Forms.TextBox txtPrimerAp;
         private System.Windows.Forms.Label lbltxt2Apellido;
         private System.Windows.Forms.TextBox txtSegundoAp;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.Label lblDireccion;
+        private System.Windows.Forms.Label lblDireccionUser;
         private System.Windows.Forms.TextBox txtDireccion;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.Label lblfechcrea;
-        private System.Windows.Forms.Label lblfecmod;
+        private System.Windows.Forms.Label lblfechcreauser;
+        private System.Windows.Forms.Label lblfecmodUser;
         private System.Windows.Forms.TextBox txtfechcrea;
         private System.Windows.Forms.TextBox txtfechmod;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblRollUser;
         private System.Windows.Forms.TextBox txtIDRoll;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
@@ -454,6 +484,8 @@
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txtEncriptar;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
 
     }
 }

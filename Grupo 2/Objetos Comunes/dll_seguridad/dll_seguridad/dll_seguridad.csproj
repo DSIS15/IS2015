@@ -112,15 +112,25 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Recursos Multilenguaje\ResourceEN-US.Designer.cs">
-      <DependentUpon>ResourceEN-US.resx</DependentUpon>
+    <Compile Include="Recursos localizables\StringResources.EN-US.Designer.cs">
+      <DependentUpon>StringResources.EN-US.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Recursos Multilenguaje\ResourceES-GUA.Designer.cs">
+    <Compile Include="Recursos localizables\StringResources.JA-JP.Designer.cs">
+      <DependentUpon>StringResources.JA-JP.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ResourceES-GUA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos localizables\StringResources.ES-CO.Designer.cs">
+      <DependentUpon>StringResources.ES-CO.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Recursos localizables\StringResources.Designer.cs">
+      <DependentUpon>StringResources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -150,13 +160,21 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recursos Multilenguaje\ResourceEN-US.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceEN-US.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Recursos localizables\StringResources.EN-US.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.EN-US.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recursos Multilenguaje\ResourceES-GUA.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceES-GUA.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Recursos localizables\StringResources.JA-JP.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.JA-JP.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursos localizables\StringResources.ES-CO.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.ES-CO.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursos localizables\StringResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

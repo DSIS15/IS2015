@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
+using dll_seguridad.Recursos_localizables;
+using System.Threading;
+using System.Globalization;
 
 namespace dll_seguridad.Presentacion
 {
@@ -79,6 +82,26 @@ namespace dll_seguridad.Presentacion
             txtfecm.Enabled = false;
             txtfech.Enabled = false;
             txtCodPerfil.Enabled = false;
+        }
+
+        public void AplicarIdioma()
+        {
+            lblCodPerfil.Text = StringResources.Label18;
+            lblEstadoPerf.Text = StringResources.Label19;
+            lblNombre_perfil.Text = StringResources.Label20;
+            lblfecCreaPerf.Text = StringResources.Label21;
+            lblfecmPerf.Text = StringResources.Label22;
+            
+
+
+            this.Text = StringResources.WindowTitle3;
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            AplicarIdioma();
         }
     }
 }

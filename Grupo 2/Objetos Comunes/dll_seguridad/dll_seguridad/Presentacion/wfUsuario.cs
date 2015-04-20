@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 using System.Security.Cryptography;
+using dll_seguridad.Recursos_localizables;
+using System.Threading;
+using System.Globalization;
 
 namespace dll_seguridad.Presentacion
 {
@@ -133,6 +136,32 @@ namespace dll_seguridad.Presentacion
             byte[] hash = md5.ComputeHash(inputBytes);
             login_pass = BitConverter.ToString(hash).Replace("-", "");
             txtEncriptar.Text = login_pass.ToString();
+        }
+
+        public void AplicarIdioma()
+        {
+            lblIDusuario.Text = StringResources.Label36;
+            lblCodPer.Text = StringResources.Label37;
+            lblRollUser.Text = StringResources.Label38;
+            lblEstadoUser.Text = StringResources.Label39;
+            lblNomUser.Text = StringResources.Label40;
+            lblDireccionUser.Text = StringResources.Label41;
+            lbl1ApellidoUser.Text = StringResources.Label42;
+            lblAlias.Text = StringResources.Label43;
+            lbltxt2Apellido.Text = StringResources.Label44;
+            lblPaswUser.Text = StringResources.Label45;
+            lblfechcreauser.Text = StringResources.Label46;
+            lblfecmodUser.Text = StringResources.Label47;
+
+
+            this.Text = StringResources.WindowTitle7;
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
+            AplicarIdioma();
         }
     }
 }

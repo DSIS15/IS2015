@@ -43,6 +43,9 @@
             this.lblfecm = new System.Windows.Forms.Label();
             this.txtfecc = new System.Windows.Forms.TextBox();
             this.txtfecm = new System.Windows.Forms.TextBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIDmodulo
@@ -119,7 +122,7 @@
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(79, 23);
+            this.navegador1.Location = new System.Drawing.Point(61, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "modulo";
@@ -174,11 +177,36 @@
             this.txtfecm.TabIndex = 12;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
+            "EN-US",
+            "ES-CO",
+            "JA-JP"});
+            this.listBox1.Location = new System.Drawing.Point(658, 166);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(50, 43);
+            this.listBox1.TabIndex = 16;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(709, 166);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
             // wfModulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(740, 196);
+            this.ClientSize = new System.Drawing.Size(740, 217);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.txtfecc);
             this.Controls.Add(this.lblfecm);
@@ -196,6 +224,7 @@
             this.Name = "wfModulo";
             this.Text = "Crear Modulo";
             this.Load += new System.EventHandler(this.wfModulo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -217,5 +246,7 @@
         private System.Windows.Forms.Label lblfecm;
         private System.Windows.Forms.TextBox txtfecc;
         private System.Windows.Forms.TextBox txtfecm;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
