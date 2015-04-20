@@ -1,0 +1,20 @@
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\dll_paciente.pdb
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.dll
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.pdb
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfPaciente.resources
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csproj.GenerateResource.Cache
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
+C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
+C:\Users\orochi\documents\visual studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\Navegador.dll
+C:\Users\orochi\documents\visual studio 2013\Projects\dll_paciente\dll_paciente\bin\Debug\Navegador.pdb
+C:\Users\orochi\documents\visual studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesM.resources
+C:\Users\orochi\documents\visual studio 2013\Projects\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfEnfermedadesAnt.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.pdb
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesM.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfEnfermedadesAnt.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfPaciente.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csproj.GenerateResource.Cache
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
