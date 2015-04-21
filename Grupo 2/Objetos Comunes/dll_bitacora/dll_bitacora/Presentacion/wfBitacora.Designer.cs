@@ -35,6 +35,7 @@
             // cuDataGridConBusqueda1
             // 
             this.cuDataGridConBusqueda1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridConBusqueda1.AlDatosEntrada")));
+            this.cuDataGridConBusqueda1.AutoSize = true;
             this.cuDataGridConBusqueda1.Location = new System.Drawing.Point(12, 12);
             this.cuDataGridConBusqueda1.Name = "cuDataGridConBusqueda1";
             this.cuDataGridConBusqueda1.Size = new System.Drawing.Size(579, 324);
@@ -46,12 +47,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(596, 339);
             this.Controls.Add(this.cuDataGridConBusqueda1);
             this.Name = "wfBitacora";
             this.Text = "wfBitacora";
             this.Load += new System.EventHandler(this.wfBitacora_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace dll_bitacora.Presentacion
 {
-    public class cs_PInsercionBitacora
+    public static class cs_PInsercionBitacora
     {
-        private static string sUsuario;
-
-        public string SUsuario
+        private static string sCodiUsuario;
+        
+        public static string SCodiUsuario
         {
-            get { return sUsuario; }
-            set { sUsuario = value; }
+            get { return sCodiUsuario; }
+            set { sCodiUsuario = value; }
         } 
-        public void vinsertar ()
+        public static void vinsertar (string sDescripcion)
         {
-
+            Negocio.cs_Ninsertarbitacora cs_insertarbitacora = new Negocio.cs_Ninsertarbitacora();
+            cs_insertarbitacora.vInsercion(sCodiUsuario, sDescripcion);
         }
     }
 }

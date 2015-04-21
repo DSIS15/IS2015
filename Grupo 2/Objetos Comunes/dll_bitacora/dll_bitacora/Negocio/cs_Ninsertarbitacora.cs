@@ -12,7 +12,7 @@ namespace dll_bitacora.Negocio
     {
         Datos.cs_Dinsercionbitacora cs_dinsercionbitacora = new Datos.cs_Dinsercionbitacora();
        string sIP, sHostname, sFecha, sHora;
-        public void vInsercion(string scodusr)
+        public void vInsercion(string scodusr, string sDescripcion)
         {
             IPHostEntry host;
             
@@ -28,7 +28,7 @@ namespace dll_bitacora.Negocio
             sFecha = DateTime.Now.ToString("dd/MM/yyyy");
             sHora = DateTime.Now.ToString("HH:mm");
 
-            cs_dinsercionbitacora.vinsercion(sIP,sHostname,sFecha,sHora,scodusr);
+            cs_dinsercionbitacora.vinsercion(sIP,sHostname,sFecha,sHora,scodusr, sDescripcion);
 
         }
 
