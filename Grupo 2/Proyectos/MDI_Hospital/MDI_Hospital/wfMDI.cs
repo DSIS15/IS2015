@@ -27,7 +27,9 @@ namespace MDI_Hospital
         {           
                 var objeto = (Form)sender;
                 tllblNombre.Text = dll_seguridad.Presentacion.wfInicioSesion.SUsuario;
+                tlblCodUsuario.Text = dll_seguridad.Presentacion.wfInicioSesion.SCodigoUsuario;  
                 alDatos = csp_crearmenu.alPconsultaform(tllblNombre.Text);
+                
                 if (alDatos.Count > 0)
                 {
                     for (int icont = 0; icont < alDatos.Count; icont++)
@@ -47,6 +49,16 @@ namespace MDI_Hospital
         {
             Application.Exit();            
             
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tllblNombre_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

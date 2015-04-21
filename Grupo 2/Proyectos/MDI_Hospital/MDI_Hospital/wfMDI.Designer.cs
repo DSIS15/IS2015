@@ -34,6 +34,7 @@
             this.tSlblusuario = new System.Windows.Forms.ToolStripLabel();
             this.tllblNombre = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.tlblCodUsuario = new System.Windows.Forms.ToolStripLabel();
             this.tlmEstado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +53,8 @@
             this.toolStripSeparator2,
             this.tSlblusuario,
             this.tllblNombre,
-            this.toolStripSeparator1});
+            this.toolStripSeparator1,
+            this.tlblCodUsuario});
             this.tlmEstado.Location = new System.Drawing.Point(0, 587);
             this.tlmEstado.Name = "tlmEstado";
             this.tlmEstado.Size = new System.Drawing.Size(834, 25);
@@ -75,11 +77,19 @@
             this.tllblNombre.Name = "tllblNombre";
             this.tllblNombre.Size = new System.Drawing.Size(71, 22);
             this.tllblNombre.Text = "tllblNombre";
+            this.tllblNombre.Click += new System.EventHandler(this.tllblNombre_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // tlblCodUsuario
+            // 
+            this.tlblCodUsuario.Name = "tlblCodUsuario";
+            this.tlblCodUsuario.Size = new System.Drawing.Size(86, 22);
+            this.tlblCodUsuario.Text = "tlblCodUsuario";
+            this.tlblCodUsuario.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // wfMDI
             // 
@@ -111,6 +121,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         public System.Windows.Forms.ToolStripLabel tllblNombre;
+        private System.Windows.Forms.ToolStripLabel tlblCodUsuario;
     }
 }
 
