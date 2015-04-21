@@ -85,7 +85,7 @@ namespace dll_seguridad.Presentacion
             lblMoneda.Text = StringResources.Label5;
             btnIniciarSesion.Text = StringResources.ButtonLabel1;
             btnSalir.Text = StringResources.ButtonLabel2;
-           
+            
 
             this.Text = StringResources.WindowTitle1;
 

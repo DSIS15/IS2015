@@ -28,7 +28,6 @@ namespace dll_seguridad.Presentacion
             //Datos del navegador
             alDatosEntrada.Add(txtIDUsuario);
             alDatosEntrada.Add(txtCodPerfil);
-            alDatosEntrada.Add(txtIDRoll);
             alDatosEntrada.Add(txtAlias);
             alDatosEntrada.Add(txtEncriptar);
             alDatosEntrada.Add(txtNomUsuario);
@@ -40,6 +39,7 @@ namespace dll_seguridad.Presentacion
             alDatosEntrada.Add(txtEstado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
+            txtContraseña.Enabled = false;
             /////////////////////////////////////////////////////////
 
             //datos del grid Perfil
@@ -55,15 +55,8 @@ namespace dll_seguridad.Presentacion
             ////////////////////////////////////////////////////
 
             //Datos del grid Roll
-            String[,] Scadena2 ={{"id_roll","Codigo","true"},
-                                 {"nombre_roll","Nombre","true"},
-                                 {"descripcion","descripcion","false"},
-                                 {"fecha_creacion","Fecha Creacion","true"},
-                                 {"fecha_modificacion","Fecha Modificación","true"},
-                                 {"estado","Estado","true"}
-                               };
-            cuDataGridD2.AlDatosEntrada.Add(Scadena2);
-            cuDataGridD2.vinicializar();
+            
+           
             /////////////////////////////////////////////////////////
 
             
@@ -101,7 +94,7 @@ namespace dll_seguridad.Presentacion
 
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIDRoll.Text = cuDataGridD2.SObtenerDato;
+            
         }
 
         private void s(object sender, EventArgs e)
@@ -115,8 +108,9 @@ namespace dll_seguridad.Presentacion
             txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtIDUsuario.Enabled = false;
             txtCodPerfil.Enabled = false;
-            txtIDRoll.Enabled = false;
+            
             txtfechcrea.Enabled = txtfechmod.Enabled = false;
+            txtContraseña.Enabled = false;
         }
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
@@ -124,7 +118,7 @@ namespace dll_seguridad.Presentacion
             txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtIDUsuario.Enabled = false;
             txtCodPerfil.Enabled = false;
-            txtIDRoll.Enabled = false;
+            
             txtfechcrea.Enabled = txtfechmod.Enabled = false;
         }
 
@@ -142,7 +136,7 @@ namespace dll_seguridad.Presentacion
         {
             lblIDusuario.Text = StringResources.Label36;
             lblCodPer.Text = StringResources.Label37;
-            lblRollUser.Text = StringResources.Label38;
+            
             lblEstadoUser.Text = StringResources.Label39;
             lblNomUser.Text = StringResources.Label40;
             lblDireccionUser.Text = StringResources.Label41;
@@ -162,6 +156,24 @@ namespace dll_seguridad.Presentacion
         {
             Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
             AplicarIdioma();
+        }
+
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
+        {
+            //byte[] byEncriptado = Encoding.Unicode.GetBytes(txtContraseña.Text);
+            //txtEncriptar.Text = Convert.ToBase64String(byEncriptado);
+        }
+
+        private void txtEncriptar_TextChanged(object sender, EventArgs e)
+        {
+            txtContraseña.Text = txtEncriptar.Text;            
+            //byte[] byDesencriptar = Convert.FromBase64String(txtEncriptar.Text);
+           //txtEncriptar.Text = Encoding.Unicode.GetString(byDesencriptar);
+        }
+
+        private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
+        {
+            txtContraseña.Enabled = false; 
         }
     }
 }

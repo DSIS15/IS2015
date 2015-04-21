@@ -68,13 +68,6 @@ C:\Users\Jessica\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\CultureResources.pdb
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.pdb
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-CO\CultureResources.resources.dll
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-US\CultureResources.resources.dll
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\CultureResources.resources.dll
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfDetMod.resources
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfInicioSesion.resources
 C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfModulo.resources
