@@ -73,6 +73,7 @@ namespace dll_seguridad.Presentacion
             txtfecm.Enabled = false;
             txtfech.Enabled = false;
             txtCodPerfil.Enabled = false;
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se inserto un registro nuevo en perfiles");
         }
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)

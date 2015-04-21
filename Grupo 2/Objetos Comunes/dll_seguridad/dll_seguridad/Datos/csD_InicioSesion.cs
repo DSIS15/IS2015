@@ -22,6 +22,18 @@ namespace dll_seguridad.Datos
         private ArrayList alResultado = new ArrayList(); 
         private String sQuery= String.Empty;
 
+        public string sObtenerCodigoUsuarioD(string sUsuario, string sContraseña)
+        {
+            ArrayList alDatos = new ArrayList();
+
+            sQuery = "Select id_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "'";
+            alResultado = csFunciones.alConsultar(sQuery);
+            alDatos = (ArrayList)alResultado[0];
+           // MessageBox.Show("CodUsuario capa de Datos "+(string)alDatos[0]);
+            return (string)alDatos[0];
+
+        }
+
         public bool bInicioSesion(String sUsuario, String sContraseña)
         {
             sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "'";

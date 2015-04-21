@@ -24,7 +24,13 @@ namespace dll_seguridad.Presentacion
         //Creando objeto de la capa de negocio csN_InicioSesion
         private Negocio.csN_InicioSesion csn_inicio = new Negocio.csN_InicioSesion();
         private static String sUsuario;
+        private static String sCodigoUsuario;
 
+        public static String SCodigoUsuario
+        {
+            get { return wfInicioSesion.sCodigoUsuario; }
+            set { wfInicioSesion.sCodigoUsuario = value; }
+        }
         public static String SUsuario
         {
             get { return wfInicioSesion.sUsuario; }
@@ -47,12 +53,11 @@ namespace dll_seguridad.Presentacion
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-           
-            
-          SUsuario = txtUsuario.Text;
-            //metodo de la clase csN_InicioSesion capa Negocio para validar datos
-            csn_inicio.vIninicio(txtUsuario.Text, txtContraseña.Text);  
+        {            
+            SUsuario = txtUsuario.Text;
+            //metodo de la clase csN_InicioSesion capa Negocio  para validar datos
+            csn_inicio.vIninicio(txtUsuario.Text, txtContraseña.Text);            
+            //MessageBox.Show("CodUsuario Presentacion "+ sCodigoUsuario);
         }
         //boton de salir
         private void btnSalir_Click(object sender, EventArgs e)

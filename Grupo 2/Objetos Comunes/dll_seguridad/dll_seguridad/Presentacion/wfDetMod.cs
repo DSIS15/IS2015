@@ -99,6 +99,8 @@ namespace dll_seguridad.Presentacion
             txtIDModulo.Enabled = false;
             txtCodPerf.Enabled = false;
             txtfecm.Enabled= txtfecC.Enabled = false;
+            //MessageBox.Show("Ejecutando dllbitacora");
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se inserto en Detalle modulo");
         }
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
@@ -108,6 +110,8 @@ namespace dll_seguridad.Presentacion
             txtIDModulo.Enabled = false;
             txtCodPerf.Enabled = false;
             txtfecC.Enabled = txtfecm.Enabled = false;
+            
+            
         }
 
         public void AplicarIdioma()
@@ -129,6 +133,11 @@ namespace dll_seguridad.Presentacion
         
             Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
             AplicarIdioma();
+        }
+
+        private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
+        {
+         //   dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se guardo");
         }
         
 

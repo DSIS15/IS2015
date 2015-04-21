@@ -22,6 +22,9 @@ namespace dll_seguridad.Negocio
         //creando objeto de la capa de Datos csD_InicioSesion
         private csD_InicioSesion csd_inicio = new csD_InicioSesion();
 
+        private static String sCodigoUsuarioN;
+
+
         //Variable encapsulada-->politica de proteccion
         public Form Wfformulario
         {
@@ -42,6 +45,11 @@ namespace dll_seguridad.Negocio
                 {
                     if (csd_inicio.bInicioSesion(sUsuario, sContraseña) == true)
                     {
+                        sCodigoUsuarioN = sObtenerCodigoUsuarioD(sUsuario,sContraseña);
+                        Presentacion.wfInicioSesion.SCodigoUsuario = sCodigoUsuarioN;
+                        dll_bitacora.Presentacion.cs_PInsercionBitacora.SCodiUsuario = sCodigoUsuarioN;
+                        //MessageBox.Show("Variable Asignada capa Negocio "+ sCodigoUsuarioN);
+                        
                         //Ocultando la ventanda wfInicioSesion
                         Presentacion.wfInicioSesion.ActiveForm.Visible = false;
 
@@ -56,6 +64,11 @@ namespace dll_seguridad.Negocio
                 }        
         }
 
+       
+        private string sObtenerCodigoUsuarioN(string sUsuario, string sContraseña)
+        {
+            return csd_inicio.sObtenerCodigoUsuarioD(sUsuario, sContraseña); 
+        }
 
         //Metodo para cargar el MDI
         private void vCargaMenu()

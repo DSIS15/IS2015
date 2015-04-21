@@ -136,6 +136,7 @@
             this.navegador1.sNombreTabla = "detalle_modulo";
             this.navegador1.TabIndex = 8;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             // 
             // cbEstado

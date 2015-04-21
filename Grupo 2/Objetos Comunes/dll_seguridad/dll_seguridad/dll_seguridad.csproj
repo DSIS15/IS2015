@@ -33,8 +33,9 @@
     <Reference Include="CultureResources">
       <HintPath>..\..\..\Downloads\WinFormsLocalizationDemo-master(1)\WinFormsLocalizationDemo-master\CultureExample\bin\Debug\CultureResources.dll</HintPath>
     </Reference>
-    <Reference Include="dll_bitacora">
-      <HintPath>..\..\..\..\Documents\Visual Studio 2013\Projects\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
+    <Reference Include="dll_bitacora, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
     <Reference Include="Navegador">
       <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
