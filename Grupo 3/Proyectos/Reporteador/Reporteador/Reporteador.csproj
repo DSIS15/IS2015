@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C974996A-FC5B-464A-B20E-DA157F9B6567}</ProjectGuid>
+    <ProjectGuid>{78135D9F-64E7-43E4-B790-264B123FF023}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Reporteador</RootNamespace>
@@ -30,10 +30,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.Common\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
@@ -44,14 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dsBaseDatos.cs">
-      <DependentUpon>dsBaseDatos.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="dsBaseDatos.Designer.cs">
+    <Compile Include="dsBaseDatosSCF.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>dsBaseDatos.xsd</DependentUpon>
+      <DependentUpon>dsBaseDatosSCF.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -67,34 +70,33 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="rpFacturas.rdlc" />
-    <EmbeddedResource Include="rpBalanceGeneral.rdlc" />
-    <EmbeddedResource Include="rpEstadoFinanciero.rdlc" />
-    <EmbeddedResource Include="rpServicios.rdlc" />
-    <EmbeddedResource Include="rpConciliacionBancaria.rdlc" />
-    <EmbeddedResource Include="rpReservaciones.rdlc" />
-    <EmbeddedResource Include="rpClientes.rdlc" />
+    <EmbeddedResource Include="Perfiles.rdlc" />
+    <EmbeddedResource Include="ReportePrincipal.rdlc" />
+    <EmbeddedResource Include="Usuarios.rdlc" />
     <EmbeddedResource Include="wfReportes.resx">
       <DependentUpon>wfReportes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="dsBaseDatos.xsc">
-      <DependentUpon>dsBaseDatos.xsd</DependentUpon>
+    <None Include="dsBaseDatosSCF.xsc">
+      <DependentUpon>dsBaseDatosSCF.xsd</DependentUpon>
     </None>
-    <None Include="dsBaseDatos.xsd">
+    <None Include="dsBaseDatosSCF.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dsBaseDatos.Designer.cs</LastGenOutput>
+      <LastGenOutput>dsBaseDatosSCF.Designer.cs</LastGenOutput>
     </None>
-    <None Include="dsBaseDatos.xss">
-      <DependentUpon>dsBaseDatos.xsd</DependentUpon>
+    <None Include="dsBaseDatosSCF.xss">
+      <DependentUpon>dsBaseDatosSCF.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

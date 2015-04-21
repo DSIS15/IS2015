@@ -3,14 +3,14 @@
     partial class wfReportes
     {
         /// <summary>
-        /// Required designer variable.
+        /// Variable del diseñador requerida.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Limpiar los recursos que se estén utilizando.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,169 +20,98 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Método necesario para admitir el Diseñador. No se puede modificar
+        /// el contenido del método con el editor de código.
         /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.dtDocumentosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dsBaseDatos = new Reporteador.dsBaseDatos();
-            this.dtAmbientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtServiciosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtCatProductosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtReservacionesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtClientesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtClientesTA = new Reporteador.dsBaseDatosTableAdapters.dtClientesTA();
-            this.dtReservacionesTA = new Reporteador.dsBaseDatosTableAdapters.dtReservacionesTA();
-            this.dtCatProductosTA = new Reporteador.dsBaseDatosTableAdapters.dtCatProductosTA();
-            this.dtAmbientesTA = new Reporteador.dsBaseDatosTableAdapters.dtAmbientesTA();
-            this.dtServiciosTA = new Reporteador.dsBaseDatosTableAdapters.dtServiciosTA();
-            this.dtDocumentosTA = new Reporteador.dsBaseDatosTableAdapters.dsDocumentosTA();
-            this.dtFacturasBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtFacturasTA = new Reporteador.dsBaseDatosTableAdapters.dtFacturasTA();
-            this.rvReporteador = new Microsoft.Reporting.WinForms.ReportViewer();
-            ((System.ComponentModel.ISupportInitialize)(this.dtDocumentosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsBaseDatos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtAmbientesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtServiciosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtCatProductosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtReservacionesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtClientesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtFacturasBindingSource)).BeginInit();
+            this.rpReporteador = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.dsBaseDatosSCF = new Reporteador.dsBaseDatosSCF();
+            this.dtUsuariosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dtUsuariosTA = new Reporteador.dsBaseDatosSCFTableAdapters.dtUsuariosTA();
+            this.dtPerfilesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dtPerfilesTA = new Reporteador.dsBaseDatosSCFTableAdapters.dtPerfilesTA();
+            ((System.ComponentModel.ISupportInitialize)(this.dsBaseDatosSCF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtUsuariosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtPerfilesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // dtDocumentosBindingSource
+            // rpReporteador
             // 
-            this.dtDocumentosBindingSource.DataMember = "dsDocumentos";
-            this.dtDocumentosBindingSource.DataSource = this.dsBaseDatos;
+            this.rpReporteador.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rpReporteador.LocalReport.ReportEmbeddedResource = "Reporteador.ReportePrincipal.rdlc";
+            this.rpReporteador.Location = new System.Drawing.Point(0, 0);
+            this.rpReporteador.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.rpReporteador.Name = "rpReporteador";
+            this.rpReporteador.ShowBackButton = false;
+            this.rpReporteador.ShowContextMenu = false;
+            this.rpReporteador.ShowCredentialPrompts = false;
+            this.rpReporteador.ShowDocumentMapButton = false;
+            this.rpReporteador.ShowExportButton = false;
+            this.rpReporteador.ShowFindControls = false;
+            this.rpReporteador.ShowParameterPrompts = false;
+            this.rpReporteador.ShowPromptAreaButton = false;
+            this.rpReporteador.ShowStopButton = false;
+            this.rpReporteador.Size = new System.Drawing.Size(734, 561);
+            this.rpReporteador.TabIndex = 0;
             // 
-            // dsBaseDatos
+            // dsBaseDatosSCF
             // 
-            this.dsBaseDatos.DataSetName = "dsBaseDatos";
-            this.dsBaseDatos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dsBaseDatosSCF.DataSetName = "dsBaseDatosSCF";
+            this.dsBaseDatosSCF.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // dtAmbientesBindingSource
+            // dtUsuariosBindingSource
             // 
-            this.dtAmbientesBindingSource.DataMember = "dtAmbientes";
-            this.dtAmbientesBindingSource.DataSource = this.dsBaseDatos;
+            this.dtUsuariosBindingSource.DataMember = "dtUsuarios";
+            this.dtUsuariosBindingSource.DataSource = this.dsBaseDatosSCF;
             // 
-            // dtServiciosBindingSource
+            // dtUsuariosTA
             // 
-            this.dtServiciosBindingSource.DataMember = "dtServicios";
-            this.dtServiciosBindingSource.DataSource = this.dsBaseDatos;
+            this.dtUsuariosTA.ClearBeforeFill = true;
             // 
-            // dtCatProductosBindingSource
+            // dtPerfilesBindingSource
             // 
-            this.dtCatProductosBindingSource.DataMember = "dtCatProductos";
-            this.dtCatProductosBindingSource.DataSource = this.dsBaseDatos;
+            this.dtPerfilesBindingSource.DataMember = "dtPerfiles";
+            this.dtPerfilesBindingSource.DataSource = this.dsBaseDatosSCF;
             // 
-            // dtReservacionesBindingSource
+            // dtPerfilesTA
             // 
-            this.dtReservacionesBindingSource.DataMember = "dtReservaciones";
-            this.dtReservacionesBindingSource.DataSource = this.dsBaseDatos;
-            // 
-            // dtClientesBindingSource
-            // 
-            this.dtClientesBindingSource.DataMember = "dtClientes";
-            this.dtClientesBindingSource.DataSource = this.dsBaseDatos;
-            // 
-            // dtClientesTA
-            // 
-            this.dtClientesTA.ClearBeforeFill = true;
-            // 
-            // dtReservacionesTA
-            // 
-            this.dtReservacionesTA.ClearBeforeFill = true;
-            // 
-            // dtCatProductosTA
-            // 
-            this.dtCatProductosTA.ClearBeforeFill = true;
-            // 
-            // dtAmbientesTA
-            // 
-            this.dtAmbientesTA.ClearBeforeFill = true;
-            // 
-            // dtServiciosTA
-            // 
-            this.dtServiciosTA.ClearBeforeFill = true;
-            // 
-            // dtDocumentosTA
-            // 
-            this.dtDocumentosTA.ClearBeforeFill = true;
-            // 
-            // dtFacturasBindingSource
-            // 
-            this.dtFacturasBindingSource.DataMember = "dtFacturas";
-            this.dtFacturasBindingSource.DataSource = this.dsBaseDatos;
-            // 
-            // dtFacturasTA
-            // 
-            this.dtFacturasTA.ClearBeforeFill = true;
-            // 
-            // rvReporteador
-            // 
-            this.rvReporteador.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "dsDocumentos";
-            reportDataSource1.Value = this.dtDocumentosBindingSource;
-            this.rvReporteador.LocalReport.DataSources.Add(reportDataSource1);
-            this.rvReporteador.LocalReport.ReportEmbeddedResource = "Reporteador.rpDocumentos.rdlc";
-            this.rvReporteador.Location = new System.Drawing.Point(0, 0);
-            this.rvReporteador.Name = "rvReporteador";
-            this.rvReporteador.ShowBackButton = false;
-            this.rvReporteador.ShowFindControls = false;
-            this.rvReporteador.Size = new System.Drawing.Size(784, 561);
-            this.rvReporteador.TabIndex = 4;
+            this.dtPerfilesTA.ClearBeforeFill = true;
             // 
             // wfReportes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 561);
-            this.Controls.Add(this.rvReporteador);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
+            this.ClientSize = new System.Drawing.Size(734, 561);
+            this.Controls.Add(this.rpReporteador);
+            this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "wfReportes";
             this.ShowIcon = false;
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reportes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.wfReportes_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dtDocumentosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsBaseDatos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtAmbientesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtServiciosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtCatProductosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtReservacionesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtClientesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtFacturasBindingSource)).EndInit();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dsBaseDatosSCF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtUsuariosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtPerfilesBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.BindingSource dtClientesBindingSource;
-        private dsBaseDatos dsBaseDatos;
-        private dsBaseDatosTableAdapters.dtClientesTA dtClientesTA;
-        private System.Windows.Forms.BindingSource dtReservacionesBindingSource;
-        private dsBaseDatosTableAdapters.dtReservacionesTA dtReservacionesTA;
-        private System.Windows.Forms.BindingSource dtCatProductosBindingSource;
-        private dsBaseDatosTableAdapters.dtCatProductosTA dtCatProductosTA;
-        private System.Windows.Forms.BindingSource dtAmbientesBindingSource;
-        private dsBaseDatosTableAdapters.dtAmbientesTA dtAmbientesTA;
-        private System.Windows.Forms.BindingSource dtServiciosBindingSource;
-        private dsBaseDatosTableAdapters.dtServiciosTA dtServiciosTA;
-        private System.Windows.Forms.BindingSource dtDocumentosBindingSource;
-        private dsBaseDatosTableAdapters.dsDocumentosTA dtDocumentosTA;
-        private System.Windows.Forms.BindingSource dtFacturasBindingSource;
-        private dsBaseDatosTableAdapters.dtFacturasTA dtFacturasTA;
-        private Microsoft.Reporting.WinForms.ReportViewer rvReporteador;
+        private Microsoft.Reporting.WinForms.ReportViewer rpReporteador;
+        private System.Windows.Forms.BindingSource dtUsuariosBindingSource;
+        private dsBaseDatosSCF dsBaseDatosSCF;
+        private dsBaseDatosSCFTableAdapters.dtUsuariosTA dtUsuariosTA;
+        private System.Windows.Forms.BindingSource dtPerfilesBindingSource;
+        private dsBaseDatosSCFTableAdapters.dtPerfilesTA dtPerfilesTA;
     }
 }
+

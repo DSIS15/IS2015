@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones", "Operaciones\Operaciones.csproj", "{1D50F609-8911-494C-9D01-0C59657EC2ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D50F609-8911-494C-9D01-0C59657EC2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D50F609-8911-494C-9D01-0C59657EC2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D50F609-8911-494C-9D01-0C59657EC2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D50F609-8911-494C-9D01-0C59657EC2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

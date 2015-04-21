@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsBaseDatosSCF" targetNamespace="http://tempuri.org/dsBaseDatosSCF.xsd" xmlns:mstns="http://tempuri.org/dsBaseDatosSCF.xsd" xmlns="http://tempuri.org/dsBaseDatosSCF.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.Reporteador.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtUsuariosTA" GeneratorDataComponentClassName="dtUsuariosTA" Name="dtUsuarios" UserDataComponentName="dtUsuariosTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        a.cod_usr, b.perfil_pfl, a.usuario_usr, a.estado_usr
+FROM            tabm_usuario a, tabm_perfil b
+WHERE        a.cod_pfl = b.cod_pfl</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_usr" DataSetColumn="cod_usr" />
+              <Mapping SourceColumn="usuario_usr" DataSetColumn="usuario_usr" />
+              <Mapping SourceColumn="estado_usr" DataSetColumn="estado_usr" />
+              <Mapping SourceColumn="perfil_pfl" DataSetColumn="perfil_pfl" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtPerfilesTA" GeneratorDataComponentClassName="dtPerfilesTA" Name="dtPerfiles" UserDataComponentName="dtPerfilesTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from tabm_perfil</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_pfl" DataSetColumn="cod_pfl" />
+              <Mapping SourceColumn="perfil_pfl" DataSetColumn="perfil_pfl" />
+              <Mapping SourceColumn="descrip_pfl" DataSetColumn="descrip_pfl" />
+              <Mapping SourceColumn="estado_pfl" DataSetColumn="estado_pfl" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsBaseDatosSCF" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dsBaseDatosSCF" msprop:Generator_UserDSName="dsBaseDatosSCF">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtUsuarios" msprop:Generator_TableClassName="dtUsuariosDataTable" msprop:Generator_TableVarName="tabledtUsuarios" msprop:Generator_TablePropName="dtUsuarios" msprop:Generator_RowDeletingName="dtUsuariosRowDeleting" msprop:Generator_RowChangingName="dtUsuariosRowChanging" msprop:Generator_RowEvHandlerName="dtUsuariosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtUsuariosRowDeleted" msprop:Generator_UserTableName="dtUsuarios" msprop:Generator_RowChangedName="dtUsuariosRowChanged" msprop:Generator_RowEvArgName="dtUsuariosRowChangeEvent" msprop:Generator_RowClassName="dtUsuariosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_usr" msprop:Generator_ColumnVarNameInTable="columncod_usr" msprop:Generator_ColumnPropNameInRow="cod_usr" msprop:Generator_ColumnPropNameInTable="cod_usrColumn" msprop:Generator_UserColumnName="cod_usr" type="xs:decimal" />
+              <xs:element name="usuario_usr" msprop:Generator_ColumnVarNameInTable="columnusuario_usr" msprop:Generator_ColumnPropNameInRow="usuario_usr" msprop:Generator_ColumnPropNameInTable="usuario_usrColumn" msprop:Generator_UserColumnName="usuario_usr">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_usr" msprop:Generator_ColumnVarNameInTable="columnestado_usr" msprop:Generator_ColumnPropNameInRow="estado_usr" msprop:Generator_ColumnPropNameInTable="estado_usrColumn" msprop:Generator_UserColumnName="estado_usr" type="xs:decimal" />
+              <xs:element name="perfil_pfl" msprop:Generator_ColumnVarNameInTable="columnperfil_pfl" msprop:Generator_ColumnPropNameInRow="perfil_pfl" msprop:Generator_ColumnPropNameInTable="perfil_pflColumn" msprop:Generator_UserColumnName="perfil_pfl">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtPerfiles" msprop:Generator_TableClassName="dtPerfilesDataTable" msprop:Generator_TableVarName="tabledtPerfiles" msprop:Generator_RowChangedName="dtPerfilesRowChanged" msprop:Generator_TablePropName="dtPerfiles" msprop:Generator_RowDeletingName="dtPerfilesRowDeleting" msprop:Generator_RowChangingName="dtPerfilesRowChanging" msprop:Generator_RowEvHandlerName="dtPerfilesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtPerfilesRowDeleted" msprop:Generator_RowClassName="dtPerfilesRow" msprop:Generator_UserTableName="dtPerfiles" msprop:Generator_RowEvArgName="dtPerfilesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_pfl" msprop:Generator_ColumnVarNameInTable="columncod_pfl" msprop:Generator_ColumnPropNameInRow="cod_pfl" msprop:Generator_ColumnPropNameInTable="cod_pflColumn" msprop:Generator_UserColumnName="cod_pfl" type="xs:decimal" />
+              <xs:element name="perfil_pfl" msprop:Generator_ColumnVarNameInTable="columnperfil_pfl" msprop:Generator_ColumnPropNameInRow="perfil_pfl" msprop:Generator_ColumnPropNameInTable="perfil_pflColumn" msprop:Generator_UserColumnName="perfil_pfl">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="descrip_pfl" msprop:Generator_ColumnVarNameInTable="columndescrip_pfl" msprop:Generator_ColumnPropNameInRow="descrip_pfl" msprop:Generator_ColumnPropNameInTable="descrip_pflColumn" msprop:Generator_UserColumnName="descrip_pfl">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_pfl" msprop:Generator_ColumnVarNameInTable="columnestado_pfl" msprop:Generator_ColumnPropNameInRow="estado_pfl" msprop:Generator_ColumnPropNameInTable="estado_pflColumn" msprop:Generator_UserColumnName="estado_pfl" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtUsuarios" />
+      <xs:field xpath="mstns:cod_usr" />
+    </xs:unique>
+    <xs:unique name="dtPerfiles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtPerfiles" />
+      <xs:field xpath="mstns:cod_pfl" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

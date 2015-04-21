@@ -39,11 +39,17 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\Capas\Capas\bin\Debug\Capas.dll</HintPath>
     </Reference>
-    <Reference Include="Contable">
-      <HintPath>..\..\Contable\Contable\bin\Debug\Contable.dll</HintPath>
+    <Reference Include="Compras-Ventas">
+      <HintPath>..\..\Compras-Ventas\Compras-Ventas\bin\Debug\Compras-Ventas.dll</HintPath>
     </Reference>
-    <Reference Include="Financiero">
-      <HintPath>..\..\Financiero\Financiero\bin\Debug\Financiero.dll</HintPath>
+    <Reference Include="ConciliacionBancaria">
+      <HintPath>..\..\ConciliacionBancaria\ConciliacionBancaria\bin\Debug\ConciliacionBancaria.dll</HintPath>
+    </Reference>
+    <Reference Include="EstadosFinancieros">
+      <HintPath>..\..\EstadosFinancieros\EstadosFinancieros\bin\Debug\EstadosFinancieros.dll</HintPath>
+    </Reference>
+    <Reference Include="Movimientos">
+      <HintPath>..\..\Movimientos\Movimientos\bin\Debug\Movimientos.dll</HintPath>
     </Reference>
     <Reference Include="Navegador">
       <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
@@ -52,8 +58,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
     </Reference>
-    <Reference Include="Reporteador">
-      <HintPath>..\..\Reporteador\Reporteador\bin\Debug\Reporteador.dll</HintPath>
+    <Reference Include="Operaciones">
+      <HintPath>..\..\Operaciones\Operaciones\bin\Debug\Operaciones.dll</HintPath>
     </Reference>
     <Reference Include="Seguridad">
       <HintPath>..\..\Seguridad\Seguridad\bin\Debug\Seguridad.dll</HintPath>

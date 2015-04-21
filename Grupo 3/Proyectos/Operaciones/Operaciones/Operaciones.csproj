@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D50F609-8911-494C-9D01-0C59657EC2ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Operaciones</RootNamespace>
+    <AssemblyName>Operaciones</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Capas">
+      <HintPath>..\..\..\Capas\Capas\bin\Debug\Capas.dll</HintPath>
+    </Reference>
+    <Reference Include="Navegador">
+      <HintPath>..\..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector">
+      <HintPath>..\..\..\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsDatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="wfAmortizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfAmortizaciones.Designer.cs">
+      <DependentUpon>wfAmortizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfCuentas.Designer.cs">
+      <DependentUpon>wfCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfDetalleCuentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfDetalleCuentas.Designer.cs">
+      <DependentUpon>wfDetalleCuentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfPolizas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfPolizas.Designer.cs">
+      <DependentUpon>wfPolizas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfTipoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfTipoCuenta.Designer.cs">
+      <DependentUpon>wfTipoCuenta.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="wfAmortizaciones.resx">
+      <DependentUpon>wfAmortizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfCuentas.resx">
+      <DependentUpon>wfCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfDetalleCuentas.resx">
+      <DependentUpon>wfDetalleCuentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfPolizas.resx">
+      <DependentUpon>wfPolizas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfTipoCuenta.resx">
+      <DependentUpon>wfTipoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsDatos.xsc">
+      <DependentUpon>dsDatos.xsd</DependentUpon>
+    </None>
+    <None Include="dsDatos.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDatos.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDatos.xss">
+      <DependentUpon>dsDatos.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
