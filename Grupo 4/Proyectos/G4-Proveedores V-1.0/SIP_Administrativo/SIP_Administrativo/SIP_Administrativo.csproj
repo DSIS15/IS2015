@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E3AFB8C0-5066-4975-A018-9DF06ACC1F77}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIP_Administrativo</RootNamespace>
+    <AssemblyName>SIP_Administrativo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Navegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cs_Datos.cs" />
+    <Compile Include="cs_Entidades.cs" />
+    <Compile Include="cs_Negocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="wf_Busquedacte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_Busquedacte.Designer.cs">
+      <DependentUpon>wf_Busquedacte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_BusquedaEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_BusquedaEmp.Designer.cs">
+      <DependentUpon>wf_BusquedaEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_BusquedaPro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_BusquedaPro.Designer.cs">
+      <DependentUpon>wf_BusquedaPro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_Clientes.Designer.cs">
+      <DependentUpon>wf_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_Empleados.Designer.cs">
+      <DependentUpon>wf_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_Proveedores.Designer.cs">
+      <DependentUpon>wf_Proveedores.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_Busquedacte.resx">
+      <DependentUpon>wf_Busquedacte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_BusquedaEmp.resx">
+      <DependentUpon>wf_BusquedaEmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_BusquedaPro.resx">
+      <DependentUpon>wf_BusquedaPro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_Clientes.resx">
+      <DependentUpon>wf_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_Empleados.resx">
+      <DependentUpon>wf_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_Proveedores.resx">
+      <DependentUpon>wf_Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagen\buscar-buscar-ampliar-icono-6234-16.png" />
+    <Content Include="imagen\logo%281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

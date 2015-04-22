@@ -1,0 +1,43 @@
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.dll
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.pdb
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Empleados.resources
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csproj.GenerateResource.Cache
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.dll
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.pdb
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\Navegador.dll
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\ODBCconnector.dll
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\Navegador.pdb
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\bin\Debug\ODBCconnector.pdb
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Clientes.resources
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Proveedores.resources
+C:\Users\Cesar Flores\Documents\Visual Studio 2013\Projects\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csprojResolveAssemblyReference.cache
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.dll
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.pdb
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\bin\Debug\Navegador.pdb
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\bin\Debug\ODBCconnector.pdb
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csprojResolveAssemblyReference.cache
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Clientes.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Empleados.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Proveedores.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csproj.GenerateResource.Cache
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.dll
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.pdb
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Busquedacte.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_BusquedaPro.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_BusquedaEmp.resources
+C:\Users\jose\Desktop\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.Properties.Resources.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.dll
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.pdb
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\bin\Debug\Navegador.pdb
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\bin\Debug\ODBCconnector.pdb
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csprojResolveAssemblyReference.cache
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.Properties.Resources.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Busquedacte.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_BusquedaEmp.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_BusquedaPro.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Clientes.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Empleados.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.wf_Proveedores.resources
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.csproj.GenerateResource.Cache
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.dll
+C:\Users\jose\Desktop\Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\obj\Debug\SIP_Administrativo.pdb
