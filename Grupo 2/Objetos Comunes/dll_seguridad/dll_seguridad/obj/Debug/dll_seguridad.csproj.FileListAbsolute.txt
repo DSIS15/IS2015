@@ -118,3 +118,5 @@ C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
+C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll.config

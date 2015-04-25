@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfInicioSesion));
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtContraseña = new System.Windows.Forms.TextBox();
@@ -38,12 +39,26 @@
             this.lblSistema = new System.Windows.Forms.Label();
             this.lblHospital = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbTasaCambio = new System.Windows.Forms.ComboBox();
+            this.dataTableBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.monedadsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.monedads = new dll_seguridad.monedads();
+            this.dataTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.lblMoneda = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dataTableTableAdapter = new dll_seguridad.monedadsTableAdapters.DataTableTableAdapter();
+            this.fillBy1ToolStrip = new System.Windows.Forms.ToolStrip();
+            this.fillBy1ToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.dataTableBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monedadsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monedads)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.fillBy1ToolStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtUsuario
@@ -130,16 +145,37 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // cmbTasaCambio
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Quetzales (Q)",
-            "Dollars($)"});
-            this.comboBox1.Location = new System.Drawing.Point(152, 189);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 21);
-            this.comboBox1.TabIndex = 9;
+            this.cmbTasaCambio.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.dataTableBindingSource1, "descripcion", true));
+            this.cmbTasaCambio.DataSource = this.dataTableBindingSource1;
+            this.cmbTasaCambio.DisplayMember = "descripcion";
+            this.cmbTasaCambio.FormattingEnabled = true;
+            this.cmbTasaCambio.Location = new System.Drawing.Point(152, 189);
+            this.cmbTasaCambio.Name = "cmbTasaCambio";
+            this.cmbTasaCambio.Size = new System.Drawing.Size(139, 21);
+            this.cmbTasaCambio.TabIndex = 9;
+            this.cmbTasaCambio.ValueMember = "descripcion";
+            // 
+            // dataTableBindingSource1
+            // 
+            this.dataTableBindingSource1.DataMember = "DataTable";
+            this.dataTableBindingSource1.DataSource = this.monedadsBindingSource;
+            // 
+            // monedadsBindingSource
+            // 
+            this.monedadsBindingSource.DataSource = this.monedads;
+            this.monedadsBindingSource.Position = 0;
+            // 
+            // monedads
+            // 
+            this.monedads.DataSetName = "monedads";
+            this.monedads.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dataTableBindingSource
+            // 
+            this.dataTableBindingSource.DataMember = "DataTable";
+            this.dataTableBindingSource.DataSource = this.monedadsBindingSource;
             // 
             // lblMoneda
             // 
@@ -173,15 +209,43 @@
             this.pictureBox2.TabIndex = 12;
             this.pictureBox2.TabStop = false;
             // 
+            // dataTableTableAdapter
+            // 
+            this.dataTableTableAdapter.ClearBeforeFill = true;
+            // 
+            // fillBy1ToolStrip
+            // 
+            this.fillBy1ToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fillBy1ToolStripButton});
+            this.fillBy1ToolStrip.Location = new System.Drawing.Point(0, 0);
+            this.fillBy1ToolStrip.Name = "fillBy1ToolStrip";
+            this.fillBy1ToolStrip.Size = new System.Drawing.Size(461, 25);
+            this.fillBy1ToolStrip.TabIndex = 13;
+            this.fillBy1ToolStrip.Text = "fillBy1ToolStrip";
+            // 
+            // fillBy1ToolStripButton
+            // 
+            this.fillBy1ToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.fillBy1ToolStripButton.Name = "fillBy1ToolStripButton";
+            this.fillBy1ToolStripButton.Size = new System.Drawing.Size(45, 22);
+            this.fillBy1ToolStripButton.Text = "FillBy1";
+            this.fillBy1ToolStripButton.Click += new System.EventHandler(this.fillBy1ToolStripButton_Click);
+            // 
+            // dataTableBindingSource2
+            // 
+            this.dataTableBindingSource2.DataMember = "DataTable";
+            this.dataTableBindingSource2.DataSource = this.monedadsBindingSource;
+            // 
             // wfInicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 309);
+            this.ClientSize = new System.Drawing.Size(461, 310);
+            this.Controls.Add(this.fillBy1ToolStrip);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.lblMoneda);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbTasaCambio);
             this.Controls.Add(this.lblHospital);
             this.Controls.Add(this.lblSistema);
             this.Controls.Add(this.pictureBox1);
@@ -198,7 +262,14 @@
             this.Text = "Inicio de Sesion";
             this.Load += new System.EventHandler(this.wfInicioSesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monedadsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.monedads)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.fillBy1ToolStrip.ResumeLayout(false);
+            this.fillBy1ToolStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataTableBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -215,9 +286,17 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblSistema;
         private System.Windows.Forms.Label lblHospital;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbTasaCambio;
         private System.Windows.Forms.Label lblMoneda;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.BindingSource monedadsBindingSource;
+        private monedads monedads;
+        private System.Windows.Forms.BindingSource dataTableBindingSource;
+        private monedadsTableAdapters.DataTableTableAdapter dataTableTableAdapter;
+        private System.Windows.Forms.BindingSource dataTableBindingSource1;
+        private System.Windows.Forms.ToolStrip fillBy1ToolStrip;
+        private System.Windows.Forms.ToolStripButton fillBy1ToolStripButton;
+        private System.Windows.Forms.BindingSource dataTableBindingSource2;
     }
 }

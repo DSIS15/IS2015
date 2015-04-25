@@ -60,6 +60,15 @@
   <ItemGroup>
     <Compile Include="Datos\csD_CrearMenu.cs" />
     <Compile Include="Datos\csD_InicioSesion.cs" />
+    <Compile Include="monedads.cs">
+      <DependentUpon>monedads.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="monedads.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>monedads.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\csN_CrearMenu.cs" />
     <Compile Include="Negocio\csN_InicioSesion.cs" />
     <Compile Include="Presentacion\csP_CrearMenu.cs">
@@ -112,6 +121,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="Recursos localizables\StringResources.EN-US.Designer.cs">
       <DependentUpon>StringResources.EN-US.resx</DependentUpon>
@@ -179,6 +193,22 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="monedads.xsc">
+      <DependentUpon>monedads.xsd</DependentUpon>
+    </None>
+    <None Include="monedads.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>monedads.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="monedads.xss">
+      <DependentUpon>monedads.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Resources\hospital.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

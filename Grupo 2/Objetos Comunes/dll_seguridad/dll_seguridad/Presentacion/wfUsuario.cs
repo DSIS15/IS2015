@@ -161,12 +161,12 @@ namespace dll_seguridad.Presentacion
         private void txtContraseña_TextChanged(object sender, EventArgs e)
         {
             //byte[] byEncriptado = Encoding.Unicode.GetBytes(txtContraseña.Text);
-            //txtEncriptar.Text = Convert.ToBase64String(byEncriptado);
+           // txtEncriptar.Text = Convert.ToBase64String(byEncriptado);
         }
 
         private void txtEncriptar_TextChanged(object sender, EventArgs e)
         {
-            txtContraseña.Text = txtEncriptar.Text;            
+           // txtContraseña.Text = txtEncriptar.Text;            
             //byte[] byDesencriptar = Convert.FromBase64String(txtEncriptar.Text);
            //txtEncriptar.Text = Encoding.Unicode.GetString(byDesencriptar);
         }

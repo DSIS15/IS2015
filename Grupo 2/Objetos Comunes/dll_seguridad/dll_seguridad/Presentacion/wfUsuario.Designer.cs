@@ -57,8 +57,8 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -282,11 +282,12 @@
             // 
             // txtEncriptar
             // 
-            this.txtEncriptar.Location = new System.Drawing.Point(672, 180);
+            this.txtEncriptar.Location = new System.Drawing.Point(643, 200);
             this.txtEncriptar.Name = "txtEncriptar";
-            this.txtEncriptar.Size = new System.Drawing.Size(46, 20);
+            this.txtEncriptar.Size = new System.Drawing.Size(22, 20);
             this.txtEncriptar.TabIndex = 29;
             this.txtEncriptar.Tag = "contrasena_usuario";
+            this.txtEncriptar.Visible = false;
             this.txtEncriptar.TextChanged += new System.EventHandler(this.txtEncriptar_TextChanged);
             // 
             // listBox1
@@ -324,16 +325,6 @@
             this.tabPage1.Text = "Perfil";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(44, 278);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(601, 175);
-            this.tabControl1.TabIndex = 27;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.s);
-            // 
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
@@ -343,6 +334,16 @@
             this.cuDataGridD1.Size = new System.Drawing.Size(581, 132);
             this.cuDataGridD1.STabla = "perfil";
             this.cuDataGridD1.TabIndex = 0;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Location = new System.Drawing.Point(44, 278);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(601, 175);
+            this.tabControl1.TabIndex = 27;
+            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.s);
             // 
             // wfUsuario
             // 
