@@ -105,9 +105,9 @@
             // 
             // txtIDP
             // 
-            this.txtIDP.Location = new System.Drawing.Point(102, 94);
+            this.txtIDP.Location = new System.Drawing.Point(83, 95);
             this.txtIDP.Name = "txtIDP";
-            this.txtIDP.Size = new System.Drawing.Size(28, 20);
+            this.txtIDP.Size = new System.Drawing.Size(45, 20);
             this.txtIDP.TabIndex = 0;
             this.txtIDP.Tag = "id_pacientes";
             // 
@@ -146,7 +146,7 @@
             // lblEstatura
             // 
             this.lblEstatura.AutoSize = true;
-            this.lblEstatura.Location = new System.Drawing.Point(169, 101);
+            this.lblEstatura.Location = new System.Drawing.Point(169, 99);
             this.lblEstatura.Name = "lblEstatura";
             this.lblEstatura.Size = new System.Drawing.Size(46, 13);
             this.lblEstatura.TabIndex = 11;
@@ -154,9 +154,9 @@
             // 
             // txtEstatura
             // 
-            this.txtEstatura.Location = new System.Drawing.Point(232, 94);
+            this.txtEstatura.Location = new System.Drawing.Point(221, 93);
             this.txtEstatura.Name = "txtEstatura";
-            this.txtEstatura.Size = new System.Drawing.Size(33, 20);
+            this.txtEstatura.Size = new System.Drawing.Size(52, 20);
             this.txtEstatura.TabIndex = 1;
             this.txtEstatura.Tag = "estatura_paciente";
             // 
@@ -173,14 +173,14 @@
             // 
             this.txtpeso.Location = new System.Drawing.Point(343, 92);
             this.txtpeso.Name = "txtpeso";
-            this.txtpeso.Size = new System.Drawing.Size(44, 20);
+            this.txtpeso.Size = new System.Drawing.Size(64, 20);
             this.txtpeso.TabIndex = 2;
             this.txtpeso.Tag = "peso_paciente";
             // 
             // lblSangre
             // 
             this.lblSangre.AutoSize = true;
-            this.lblSangre.Location = new System.Drawing.Point(41, 260);
+            this.lblSangre.Location = new System.Drawing.Point(44, 259);
             this.lblSangre.Name = "lblSangre";
             this.lblSangre.Size = new System.Drawing.Size(41, 13);
             this.lblSangre.TabIndex = 15;
@@ -190,9 +190,11 @@
             // 
             this.txtsangre.Location = new System.Drawing.Point(254, 253);
             this.txtsangre.Name = "txtsangre";
-            this.txtsangre.Size = new System.Drawing.Size(19, 20);
+            this.txtsangre.Size = new System.Drawing.Size(30, 20);
             this.txtsangre.TabIndex = 16;
             this.txtsangre.Tag = "sangre_paciente";
+            this.txtsangre.Text = "A+";
+            this.txtsangre.Visible = false;
             this.txtsangre.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
             // 
             // lblidentificacion
@@ -242,9 +244,10 @@
             // 
             this.txtestado.Location = new System.Drawing.Point(590, 94);
             this.txtestado.Name = "txtestado";
-            this.txtestado.Size = new System.Drawing.Size(20, 20);
+            this.txtestado.Size = new System.Drawing.Size(29, 20);
             this.txtestado.TabIndex = 22;
             this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
             // cbEstado

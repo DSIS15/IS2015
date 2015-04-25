@@ -31,7 +31,7 @@ namespace dll_paciente.Presentacion
 
             //Grid Paciente
             String[,] sCadena ={
-                               {"id_paciente","ID","true"},
+                               {"id_pacientes","ID","true"},
                                {"nombre_paciente","Nombre","true"},
                                {"primer_apellido","Primer Apellido","true"},
                                {"segundo_apellido","Segundo Apellido","true"},
@@ -41,7 +41,7 @@ namespace dll_paciente.Presentacion
                                {"peso_paciente","Peso Paciente","true"},
                                {"sangre_paciente","Tipo de Sangre","true"},
                                {"identificacion_paciente","Identificacion","true"},
-                               {"fecha_nacimiento","Fecha Nacimiento","true"},
+                               {"fecha_nacimiento_paciente","Fecha Nacimiento","true"},
                                {"estado","Estado","false"},
                                };
             cuDataGridD1.AlDatosEntrada.Add(sCadena);
@@ -77,6 +77,21 @@ namespace dll_paciente.Presentacion
         private void tabPage1_Click(object sender, EventArgs e)
         {
             btnenferdedad.Enabled = false;
+        }
+
+        private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtidpaciente.Text = cuDataGridD1.SObtenerDato;
+        }
+
+        private void cuDataGridD2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtidenfermedad.Text = cuDataGridD1.SObtenerDato;
         }
     }
 }

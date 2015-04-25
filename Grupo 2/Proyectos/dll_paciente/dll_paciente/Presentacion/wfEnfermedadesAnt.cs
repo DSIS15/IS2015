@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace dll_paciente.Presentacion
 {
     public partial class wfEnfermedadesAnt : Form
     {
+        private ArrayList alDatosEntrada = new ArrayList();
         public wfEnfermedadesAnt()
         {
             InitializeComponent();
@@ -45,7 +47,11 @@ namespace dll_paciente.Presentacion
 
         private void wfEnfermedadesAnt_Load(object sender, EventArgs e)
         {
-
+            alDatosEntrada.Add(txtidenfermedad);
+            alDatosEntrada.Add(txtnomenfer);
+            alDatosEntrada.Add(txtestado);
+            navegador1.alDatosEntrada = alDatosEntrada;
+            navegador1.vIniciarNavegador();
         }
     }
 }

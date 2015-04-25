@@ -110,7 +110,7 @@
             this.txtidpaciente.Name = "txtidpaciente";
             this.txtidpaciente.Size = new System.Drawing.Size(23, 20);
             this.txtidpaciente.TabIndex = 6;
-            this.txtidpaciente.Tag = "id_paciente";
+            this.txtidpaciente.Tag = "id_pacientes";
             // 
             // txtidenfermedad
             // 
@@ -127,7 +127,7 @@
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(266, 52);
             this.txtdescripcion.TabIndex = 8;
-            this.txtdescripcion.Tag = "descripcion";
+            this.txtdescripcion.Tag = "Descripcion";
             // 
             // tabControl1
             // 
@@ -161,6 +161,7 @@
             this.cuDataGridD1.Size = new System.Drawing.Size(624, 109);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 0;
+            this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             // 
             // tabPage2
             // 
@@ -183,6 +184,8 @@
             this.cuDataGridD2.Size = new System.Drawing.Size(624, 109);
             this.cuDataGridD2.STabla = "enfermedades_antecedentes";
             this.cuDataGridD2.TabIndex = 0;
+            this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
+            this.cuDataGridD2.Load += new System.EventHandler(this.cuDataGridD2_Load);
             // 
             // btnenferdedad
             // 
