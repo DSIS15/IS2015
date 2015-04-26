@@ -1,0 +1,16 @@
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\pruebasFormPaciente.exe.config
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\pruebasFormPaciente.exe
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\pruebasFormPaciente.pdb
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\dll_paciente.dll
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\Navegador.dll
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\dll_bitacora.dll
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\ODBCconnector.dll
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\dll_paciente.pdb
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.csprojResolveAssemblyReference.cache
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.Form1.resources
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.Properties.Resources.resources
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.csproj.GenerateResource.Cache
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.exe
+c:\users\cristian\documents\visual studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\obj\Debug\pruebasFormPaciente.pdb
+C:\Users\Cristian\Documents\Visual Studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\dll_medico.dll
+C:\Users\Cristian\Documents\Visual Studio 2013\Projects\pruebasFormPaciente\pruebasFormPaciente\bin\Debug\dll_medico.pdb
