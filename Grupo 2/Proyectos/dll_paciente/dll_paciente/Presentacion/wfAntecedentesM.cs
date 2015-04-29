@@ -44,8 +44,7 @@ namespace dll_paciente.Presentacion
                                {"fecha_nacimiento_paciente","Fecha Nacimiento","true"},
                                {"estado","Estado","false"},
                                };
-            cuDataGridD1.AlDatosEntrada.Add(sCadena);
-            cuDataGridD1.vinicializar();
+            
             /////////////////////////////////////////////////////////////
 
             //grid enfermedad
@@ -54,8 +53,7 @@ namespace dll_paciente.Presentacion
                                 {"nombre_enfermedad","Nombre","true"},
                                 {"estado","Estado","true"},
                                 };
-            cuDataGridD2.AlDatosEntrada.Add(sCadena2);
-            cuDataGridD2.vinicializar();
+            
 
         }
 
@@ -79,19 +77,13 @@ namespace dll_paciente.Presentacion
             btnenferdedad.Enabled = false;
         }
 
-        private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtidpaciente.Text = cuDataGridD1.SObtenerDato;
-        }
+        
 
         private void cuDataGridD2_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtidenfermedad.Text = cuDataGridD1.SObtenerDato;
-        }
+        
     }
 }

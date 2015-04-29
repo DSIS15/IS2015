@@ -18,3 +18,5 @@ C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Prese
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csproj.GenerateResource.Cache
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesM2.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csprojResolveAssemblyReference.cache

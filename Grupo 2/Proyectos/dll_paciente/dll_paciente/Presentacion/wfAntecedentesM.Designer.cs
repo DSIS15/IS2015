@@ -38,15 +38,7 @@
             this.txtidpaciente = new System.Windows.Forms.TextBox();
             this.txtidenfermedad = new System.Windows.Forms.TextBox();
             this.txtdescripcion = new System.Windows.Forms.TextBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.btnenferdedad = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // navegador1
@@ -123,69 +115,10 @@
             // txtdescripcion
             // 
             this.txtdescripcion.Location = new System.Drawing.Point(153, 143);
-            this.txtdescripcion.Multiline = true;
             this.txtdescripcion.Name = "txtdescripcion";
-            this.txtdescripcion.Size = new System.Drawing.Size(266, 52);
+            this.txtdescripcion.Size = new System.Drawing.Size(266, 20);
             this.txtdescripcion.TabIndex = 8;
             this.txtdescripcion.Tag = "Descripcion";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(23, 205);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(645, 147);
-            this.tabControl1.TabIndex = 9;
-            this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.cuDataGridD1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(637, 121);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Paciente";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
-            // 
-            // cuDataGridD1
-            // 
-            this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.Location = new System.Drawing.Point(7, 6);
-            this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "ID";
-            this.cuDataGridD1.Size = new System.Drawing.Size(624, 109);
-            this.cuDataGridD1.STabla = "paciente";
-            this.cuDataGridD1.TabIndex = 0;
-            this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(637, 121);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Enfermedad";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
-            // 
-            // cuDataGridD2
-            // 
-            this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
-            this.cuDataGridD2.Location = new System.Drawing.Point(7, 6);
-            this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "ID";
-            this.cuDataGridD2.Size = new System.Drawing.Size(624, 109);
-            this.cuDataGridD2.STabla = "enfermedades_antecedentes";
-            this.cuDataGridD2.TabIndex = 0;
-            this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
-            this.cuDataGridD2.Load += new System.EventHandler(this.cuDataGridD2_Load);
             // 
             // btnenferdedad
             // 
@@ -205,7 +138,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(688, 364);
             this.Controls.Add(this.btnenferdedad);
-            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.txtdescripcion);
             this.Controls.Add(this.txtidenfermedad);
             this.Controls.Add(this.txtidpaciente);
@@ -218,9 +150,6 @@
             this.Name = "wfAntecedentesM";
             this.Text = "wfAntecedentesM";
             this.Load += new System.EventHandler(this.wfAntecedentesM_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,11 +166,6 @@
         private System.Windows.Forms.TextBox txtidpaciente;
         private System.Windows.Forms.TextBox txtidenfermedad;
         private System.Windows.Forms.TextBox txtdescripcion;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
         private System.Windows.Forms.Button btnenferdedad;
     }
 }
