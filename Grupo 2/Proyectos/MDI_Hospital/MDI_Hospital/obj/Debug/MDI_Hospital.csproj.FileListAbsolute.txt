@@ -23,8 +23,6 @@ C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Propert
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
-C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_prueba.dll
-C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_prueba.pdb
 C:\Users\orochi\Desktop\Documentos a presentar\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe.config
 C:\Users\orochi\Desktop\Documentos a presentar\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
 C:\Users\orochi\Desktop\Documentos a presentar\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
@@ -59,3 +57,12 @@ C:\Users\Angel\Documents\Visual Studio 2013\Projects\MDI_Hospital\MDI_Hospital\o
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.wfMDI.resources
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Properties.Resources.resources
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-GT\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_paciente.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_bitacora.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_paciente.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.pdb
