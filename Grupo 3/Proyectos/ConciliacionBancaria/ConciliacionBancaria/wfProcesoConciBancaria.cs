@@ -134,10 +134,5 @@ namespace ConciliacionBancaria
                 VisorPDF.Show();
             }
         }
-
-        private void wfProcesoConciBancaria_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            VisorPDF.Dispose();
-        }
     }
 }

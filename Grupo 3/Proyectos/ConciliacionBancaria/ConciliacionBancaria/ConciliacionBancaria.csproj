@@ -36,6 +36,9 @@
     <Reference Include="Navegador">
       <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
     </Reference>
+    <Reference Include="Reporteador">
+      <HintPath>..\..\Reporteador\Reporteador\bin\Debug\Reporteador.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />

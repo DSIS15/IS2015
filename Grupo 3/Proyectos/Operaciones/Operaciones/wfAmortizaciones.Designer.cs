@@ -1,4 +1,4 @@
-﻿namespace Contable
+﻿namespace Operaciones
 {
     partial class wfAmortizacion
     {

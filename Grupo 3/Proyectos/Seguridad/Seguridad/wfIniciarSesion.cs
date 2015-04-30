@@ -62,9 +62,8 @@ namespace Seguridad
             if (Negocio.bValidarCredenciales(txtUsuario.Text, txtPassword.Text))
             {
                 Capas.csParametros.vObtenerPrivelegios();
-                wfMenuPrincipal.Owner = this;
-                wfMenuPrincipal.Show();
                 this.Hide();
+                wfMenuPrincipal.Show();                
             }
             else
             {
@@ -77,13 +76,6 @@ namespace Seguridad
         private void btnSalir_Click(object sender, EventArgs e)
         {
             tmrRelojSalida.Start();
-        }
-
-        private void wfIniciarSesion_VisibleChanged(object sender, EventArgs e)
-        {
-            txtUsuario.Text = string.Empty;
-            txtPassword.Text = string.Empty;
-            txtUsuario.Focus();
         }
 
         private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)

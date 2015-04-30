@@ -13,6 +13,7 @@ namespace Operaciones
     public partial class wfDetalleCuentas : Form
     {
         ArrayList alDatosEnviados = new ArrayList();
+        ArrayList alTemporal = new ArrayList();
         public wfDetalleCuentas()
         {
             InitializeComponent();
@@ -98,9 +99,38 @@ namespace Operaciones
         }
 
         
-        private void btnAgregarDcta_Click(object sender, EventArgs e)
+        private void txtEmpresa_Enter(object sender, EventArgs e)
         {
-            
+            Seguridad.wfEmpresas Empresa = new Seguridad.wfEmpresas();
+            Empresa.ShowDialog();
+            txtEmpresa.Text = Empresa.sCodigo;
+        }
+
+        private void navegador1_btnBeforeGuardar(object sender, EventArgs e)
+        {
+            if(!Capas.csNegocio.bValidarTextBoxes(alDatosEnviados))
+            {
+                navegador1.bEjecutarEvento = false;
+            }
+        }
+
+        private void txtMoneda_Enter(object sender, EventArgs e)
+        {
+            Seguridad.wfMonedas Moneda = new Seguridad.wfMonedas();
+            Moneda.ShowDialog();
+            txtMoneda.Text = Moneda.sCodigo;
+        }
+
+        private void txtTipoCuenta_Enter(object sender, EventArgs e)
+        {
+            wfCuentas Cuentas = new wfCuentas();
+            Cuentas.ShowDialog();
+        }
+
+        private void navegador1_btnAfterGuardar(object sender, EventArgs e)
+        {
+            wfCuentas Cuenta = new wfCuentas();
+            alTemporal.Add(Cuenta);
         }
 
     }

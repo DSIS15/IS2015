@@ -194,7 +194,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SCF - Iniciar Sesión";
             this.Load += new System.EventHandler(this.wfIniciarSesion_Load);
-            this.VisibleChanged += new System.EventHandler(this.wfIniciarSesion_VisibleChanged);
             this.pnlPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboLogo)).EndInit();
             this.ResumeLayout(false);

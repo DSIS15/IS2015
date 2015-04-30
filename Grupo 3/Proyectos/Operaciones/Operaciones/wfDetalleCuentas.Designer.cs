@@ -58,14 +58,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnAgregarDcta = new System.Windows.Forms.Button();
             this.txtDebeDcta = new System.Windows.Forms.TextBox();
-            this.txtPasivo2Dcta = new System.Windows.Forms.TextBox();
-            this.txtActivo2Dcta = new System.Windows.Forms.TextBox();
-            this.txtGanancia2Dcta = new System.Windows.Forms.TextBox();
-            this.txtPerdida2Dcta = new System.Windows.Forms.TextBox();
-            this.txtHaber2Dcta = new System.Windows.Forms.TextBox();
-            this.txtDebe2Dcta = new System.Windows.Forms.TextBox();
             this.plDcta.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,9 +72,11 @@
             this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(617, 55);
-            this.navegador1.sNombreTabla = "tabm_cuenta";
+            this.navegador1.sNombreTabla = "tabm_dcuenta";
             this.navegador1.TabIndex = 0;
             this.navegador1.Tag = "";
+            this.navegador1.btnBeforeGuardar += new System.EventHandler(this.navegador1_btnBeforeGuardar);
+            this.navegador1.btnAfterGuardar += new System.EventHandler(this.navegador1_btnAfterGuardar);
             // 
             // cboEstadoDcta
             // 
@@ -93,7 +88,7 @@
             this.cboEstadoDcta.Location = new System.Drawing.Point(455, 154);
             this.cboEstadoDcta.Name = "cboEstadoDcta";
             this.cboEstadoDcta.Size = new System.Drawing.Size(150, 25);
-            this.cboEstadoDcta.TabIndex = 5;
+            this.cboEstadoDcta.TabIndex = 7;
             this.cboEstadoDcta.Tag = "";
             this.cboEstadoDcta.SelectedIndexChanged += new System.EventHandler(this.cboEstadoCuenta_SelectedIndexChanged);
             // 
@@ -113,16 +108,17 @@
             this.lblEstadoDcta.Location = new System.Drawing.Point(364, 160);
             this.lblEstadoDcta.Name = "lblEstadoDcta";
             this.lblEstadoDcta.Size = new System.Drawing.Size(48, 17);
-            this.lblEstadoDcta.TabIndex = 10;
+            this.lblEstadoDcta.TabIndex = 7;
             this.lblEstadoDcta.Text = "Estado";
             // 
             // txtEmpresa
             // 
-            this.txtEmpresa.Location = new System.Drawing.Point(82, 98);
+            this.txtEmpresa.Location = new System.Drawing.Point(76, 98);
             this.txtEmpresa.Name = "txtEmpresa";
             this.txtEmpresa.Size = new System.Drawing.Size(150, 22);
             this.txtEmpresa.TabIndex = 2;
             this.txtEmpresa.Tag = "cod_empsa";
+            this.txtEmpresa.Enter += new System.EventHandler(this.txtEmpresa_Enter);
             // 
             // lblEmpresa
             // 
@@ -130,12 +126,12 @@
             this.lblEmpresa.Location = new System.Drawing.Point(12, 101);
             this.lblEmpresa.Name = "lblEmpresa";
             this.lblEmpresa.Size = new System.Drawing.Size(58, 17);
-            this.lblEmpresa.TabIndex = 7;
+            this.lblEmpresa.TabIndex = 2;
             this.lblEmpresa.Text = "Empresa";
             // 
             // txtCodigoDcta
             // 
-            this.txtCodigoDcta.Location = new System.Drawing.Point(82, 70);
+            this.txtCodigoDcta.Location = new System.Drawing.Point(76, 70);
             this.txtCodigoDcta.Name = "txtCodigoDcta";
             this.txtCodigoDcta.Size = new System.Drawing.Size(150, 22);
             this.txtCodigoDcta.TabIndex = 1;
@@ -147,7 +143,7 @@
             this.lblCodigoDcta.Location = new System.Drawing.Point(12, 73);
             this.lblCodigoDcta.Name = "lblCodigoDcta";
             this.lblCodigoDcta.Size = new System.Drawing.Size(52, 17);
-            this.lblCodigoDcta.TabIndex = 6;
+            this.lblCodigoDcta.TabIndex = 1;
             this.lblCodigoDcta.Text = "Código";
             // 
             // txtMoneda
@@ -155,8 +151,9 @@
             this.txtMoneda.Location = new System.Drawing.Point(455, 98);
             this.txtMoneda.Name = "txtMoneda";
             this.txtMoneda.Size = new System.Drawing.Size(150, 22);
-            this.txtMoneda.TabIndex = 30;
+            this.txtMoneda.TabIndex = 3;
             this.txtMoneda.Tag = "cod_mda";
+            this.txtMoneda.Enter += new System.EventHandler(this.txtMoneda_Enter);
             // 
             // lblMoneda
             // 
@@ -164,16 +161,17 @@
             this.lblMoneda.Location = new System.Drawing.Point(364, 101);
             this.lblMoneda.Name = "lblMoneda";
             this.lblMoneda.Size = new System.Drawing.Size(58, 17);
-            this.lblMoneda.TabIndex = 31;
+            this.lblMoneda.TabIndex = 3;
             this.lblMoneda.Text = "Moneda";
             // 
             // txtTipoCuenta
             // 
-            this.txtTipoCuenta.Location = new System.Drawing.Point(82, 126);
+            this.txtTipoCuenta.Location = new System.Drawing.Point(76, 126);
             this.txtTipoCuenta.Name = "txtTipoCuenta";
             this.txtTipoCuenta.Size = new System.Drawing.Size(150, 22);
-            this.txtTipoCuenta.TabIndex = 32;
+            this.txtTipoCuenta.TabIndex = 4;
             this.txtTipoCuenta.Tag = "cod_cta";
+            this.txtTipoCuenta.Enter += new System.EventHandler(this.txtTipoCuenta_Enter);
             // 
             // lblTipoCuenta
             // 
@@ -181,7 +179,7 @@
             this.lblTipoCuenta.Location = new System.Drawing.Point(12, 129);
             this.lblTipoCuenta.Name = "lblTipoCuenta";
             this.lblTipoCuenta.Size = new System.Drawing.Size(52, 17);
-            this.lblTipoCuenta.TabIndex = 33;
+            this.lblTipoCuenta.TabIndex = 4;
             this.lblTipoCuenta.Text = "Cuenta";
             // 
             // cboMesDcta
@@ -204,7 +202,7 @@
             this.cboMesDcta.Location = new System.Drawing.Point(455, 126);
             this.cboMesDcta.Name = "cboMesDcta";
             this.cboMesDcta.Size = new System.Drawing.Size(150, 25);
-            this.cboMesDcta.TabIndex = 34;
+            this.cboMesDcta.TabIndex = 5;
             this.cboMesDcta.Tag = "";
             this.cboMesDcta.SelectedIndexChanged += new System.EventHandler(this.cboMesDcta_SelectedIndexChanged);
             // 
@@ -223,34 +221,28 @@
             this.lblMesDcta.Location = new System.Drawing.Point(364, 129);
             this.lblMesDcta.Name = "lblMesDcta";
             this.lblMesDcta.Size = new System.Drawing.Size(32, 17);
-            this.lblMesDcta.TabIndex = 35;
+            this.lblMesDcta.TabIndex = 5;
             this.lblMesDcta.Text = "Mes";
             // 
             // txtAnioDcta
             // 
-            this.txtAnioDcta.Location = new System.Drawing.Point(82, 154);
+            this.txtAnioDcta.Location = new System.Drawing.Point(76, 154);
             this.txtAnioDcta.Name = "txtAnioDcta";
             this.txtAnioDcta.Size = new System.Drawing.Size(150, 22);
-            this.txtAnioDcta.TabIndex = 37;
+            this.txtAnioDcta.TabIndex = 6;
             this.txtAnioDcta.Tag = "anio_dcta";
             // 
             // lblAnioDcta
             // 
             this.lblAnioDcta.AutoSize = true;
-            this.lblAnioDcta.Location = new System.Drawing.Point(12, 160);
+            this.lblAnioDcta.Location = new System.Drawing.Point(12, 157);
             this.lblAnioDcta.Name = "lblAnioDcta";
             this.lblAnioDcta.Size = new System.Drawing.Size(32, 17);
-            this.lblAnioDcta.TabIndex = 38;
+            this.lblAnioDcta.TabIndex = 6;
             this.lblAnioDcta.Text = "Año";
             // 
             // plDcta
             // 
-            this.plDcta.Controls.Add(this.txtPasivo2Dcta);
-            this.plDcta.Controls.Add(this.txtActivo2Dcta);
-            this.plDcta.Controls.Add(this.txtGanancia2Dcta);
-            this.plDcta.Controls.Add(this.txtPerdida2Dcta);
-            this.plDcta.Controls.Add(this.txtHaber2Dcta);
-            this.plDcta.Controls.Add(this.txtDebe2Dcta);
             this.plDcta.Controls.Add(this.txtPasivoDcta);
             this.plDcta.Controls.Add(this.txtActivoDcta);
             this.plDcta.Controls.Add(this.txtGananciaDcta);
@@ -262,184 +254,120 @@
             this.plDcta.Controls.Add(this.label3);
             this.plDcta.Controls.Add(this.label2);
             this.plDcta.Controls.Add(this.label1);
-            this.plDcta.Controls.Add(this.btnAgregarDcta);
             this.plDcta.Controls.Add(this.txtDebeDcta);
-            this.plDcta.Location = new System.Drawing.Point(12, 185);
+            this.plDcta.Location = new System.Drawing.Point(15, 185);
             this.plDcta.Name = "plDcta";
-            this.plDcta.Size = new System.Drawing.Size(590, 83);
+            this.plDcta.Size = new System.Drawing.Size(590, 63);
             this.plDcta.TabIndex = 67;
             // 
             // txtPasivoDcta
             // 
-            this.txtPasivoDcta.Location = new System.Drawing.Point(470, 29);
+            this.txtPasivoDcta.Location = new System.Drawing.Point(487, 29);
             this.txtPasivoDcta.Name = "txtPasivoDcta";
-            this.txtPasivoDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtPasivoDcta.TabIndex = 79;
-            this.txtPasivoDcta.Tag = "";
+            this.txtPasivoDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtPasivoDcta.TabIndex = 13;
+            this.txtPasivoDcta.Tag = "pasivo_dcta";
             // 
             // txtActivoDcta
             // 
-            this.txtActivoDcta.Location = new System.Drawing.Point(377, 29);
+            this.txtActivoDcta.Location = new System.Drawing.Point(393, 29);
             this.txtActivoDcta.Name = "txtActivoDcta";
-            this.txtActivoDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtActivoDcta.TabIndex = 78;
-            this.txtActivoDcta.Tag = "";
+            this.txtActivoDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtActivoDcta.TabIndex = 12;
+            this.txtActivoDcta.Tag = "activo_dcta";
             // 
             // txtGananciaDcta
             // 
-            this.txtGananciaDcta.Location = new System.Drawing.Point(284, 29);
+            this.txtGananciaDcta.Location = new System.Drawing.Point(299, 29);
             this.txtGananciaDcta.Name = "txtGananciaDcta";
-            this.txtGananciaDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtGananciaDcta.TabIndex = 77;
-            this.txtGananciaDcta.Tag = "";
+            this.txtGananciaDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtGananciaDcta.TabIndex = 11;
+            this.txtGananciaDcta.Tag = "ganancia_dcta";
             // 
             // txtPerdidaDcta
             // 
-            this.txtPerdidaDcta.Location = new System.Drawing.Point(191, 29);
+            this.txtPerdidaDcta.Location = new System.Drawing.Point(205, 29);
             this.txtPerdidaDcta.Name = "txtPerdidaDcta";
-            this.txtPerdidaDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtPerdidaDcta.TabIndex = 76;
-            this.txtPerdidaDcta.Tag = "";
+            this.txtPerdidaDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtPerdidaDcta.TabIndex = 10;
+            this.txtPerdidaDcta.Tag = "perdida_dcta";
             // 
             // txtHaberDcta
             // 
-            this.txtHaberDcta.Location = new System.Drawing.Point(98, 29);
+            this.txtHaberDcta.Location = new System.Drawing.Point(111, 29);
             this.txtHaberDcta.Name = "txtHaberDcta";
-            this.txtHaberDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtHaberDcta.TabIndex = 75;
-            this.txtHaberDcta.Tag = "";
+            this.txtHaberDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtHaberDcta.TabIndex = 9;
+            this.txtHaberDcta.Tag = "haber_dcta";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(467, 9);
+            this.label6.Location = new System.Drawing.Point(484, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 17);
-            this.label6.TabIndex = 74;
+            this.label6.TabIndex = 13;
             this.label6.Text = "Pasivo";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(374, 9);
+            this.label5.Location = new System.Drawing.Point(390, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(49, 17);
-            this.label5.TabIndex = 73;
+            this.label5.TabIndex = 12;
             this.label5.Text = "Activo";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(281, 9);
+            this.label4.Location = new System.Drawing.Point(296, 9);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 17);
-            this.label4.TabIndex = 72;
+            this.label4.TabIndex = 11;
             this.label4.Text = "Ganancia";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(188, 9);
+            this.label3.Location = new System.Drawing.Point(202, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(54, 17);
-            this.label3.TabIndex = 71;
+            this.label3.TabIndex = 10;
             this.label3.Text = "Pérdida";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(95, 9);
+            this.label2.Location = new System.Drawing.Point(108, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 17);
-            this.label2.TabIndex = 70;
+            this.label2.TabIndex = 9;
             this.label2.Text = "Haber";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(5, 9);
+            this.label1.Location = new System.Drawing.Point(14, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(41, 17);
-            this.label1.TabIndex = 69;
+            this.label1.TabIndex = 8;
             this.label1.Text = "Debe";
-            // 
-            // btnAgregarDcta
-            // 
-            this.btnAgregarDcta.Location = new System.Drawing.Point(563, 29);
-            this.btnAgregarDcta.Name = "btnAgregarDcta";
-            this.btnAgregarDcta.Size = new System.Drawing.Size(22, 23);
-            this.btnAgregarDcta.TabIndex = 68;
-            this.btnAgregarDcta.Text = "+";
-            this.btnAgregarDcta.UseVisualStyleBackColor = true;
             // 
             // txtDebeDcta
             // 
-            this.txtDebeDcta.Location = new System.Drawing.Point(5, 29);
+            this.txtDebeDcta.Location = new System.Drawing.Point(17, 29);
             this.txtDebeDcta.Name = "txtDebeDcta";
-            this.txtDebeDcta.Size = new System.Drawing.Size(87, 22);
-            this.txtDebeDcta.TabIndex = 67;
-            this.txtDebeDcta.Tag = "";
-            // 
-            // txtPasivo2Dcta
-            // 
-            this.txtPasivo2Dcta.Location = new System.Drawing.Point(470, 57);
-            this.txtPasivo2Dcta.Name = "txtPasivo2Dcta";
-            this.txtPasivo2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtPasivo2Dcta.TabIndex = 85;
-            this.txtPasivo2Dcta.Tag = "";
-            this.txtPasivo2Dcta.Visible = false;
-            // 
-            // txtActivo2Dcta
-            // 
-            this.txtActivo2Dcta.Location = new System.Drawing.Point(377, 57);
-            this.txtActivo2Dcta.Name = "txtActivo2Dcta";
-            this.txtActivo2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtActivo2Dcta.TabIndex = 84;
-            this.txtActivo2Dcta.Tag = "";
-            this.txtActivo2Dcta.Visible = false;
-            // 
-            // txtGanancia2Dcta
-            // 
-            this.txtGanancia2Dcta.Location = new System.Drawing.Point(284, 57);
-            this.txtGanancia2Dcta.Name = "txtGanancia2Dcta";
-            this.txtGanancia2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtGanancia2Dcta.TabIndex = 83;
-            this.txtGanancia2Dcta.Tag = "";
-            this.txtGanancia2Dcta.Visible = false;
-            // 
-            // txtPerdida2Dcta
-            // 
-            this.txtPerdida2Dcta.Location = new System.Drawing.Point(191, 57);
-            this.txtPerdida2Dcta.Name = "txtPerdida2Dcta";
-            this.txtPerdida2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtPerdida2Dcta.TabIndex = 82;
-            this.txtPerdida2Dcta.Tag = "";
-            this.txtPerdida2Dcta.Visible = false;
-            // 
-            // txtHaber2Dcta
-            // 
-            this.txtHaber2Dcta.Location = new System.Drawing.Point(98, 57);
-            this.txtHaber2Dcta.Name = "txtHaber2Dcta";
-            this.txtHaber2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtHaber2Dcta.TabIndex = 81;
-            this.txtHaber2Dcta.Tag = "";
-            this.txtHaber2Dcta.Visible = false;
-            // 
-            // txtDebe2Dcta
-            // 
-            this.txtDebe2Dcta.Location = new System.Drawing.Point(5, 57);
-            this.txtDebe2Dcta.Name = "txtDebe2Dcta";
-            this.txtDebe2Dcta.Size = new System.Drawing.Size(87, 22);
-            this.txtDebe2Dcta.TabIndex = 80;
-            this.txtDebe2Dcta.Tag = "";
-            this.txtDebe2Dcta.Visible = false;
+            this.txtDebeDcta.Size = new System.Drawing.Size(88, 22);
+            this.txtDebeDcta.TabIndex = 8;
+            this.txtDebeDcta.Tag = "debe_dcta";
             // 
             // wfDetalleCuentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(617, 276);
+            this.ClientSize = new System.Drawing.Size(617, 261);
             this.Controls.Add(this.plDcta);
             this.Controls.Add(this.txtAnioDcta);
             this.Controls.Add(this.lblAnioDcta);
@@ -506,13 +434,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnAgregarDcta;
         private System.Windows.Forms.TextBox txtDebeDcta;
-        private System.Windows.Forms.TextBox txtPasivo2Dcta;
-        private System.Windows.Forms.TextBox txtActivo2Dcta;
-        private System.Windows.Forms.TextBox txtGanancia2Dcta;
-        private System.Windows.Forms.TextBox txtPerdida2Dcta;
-        private System.Windows.Forms.TextBox txtHaber2Dcta;
-        private System.Windows.Forms.TextBox txtDebe2Dcta;
     }
 }

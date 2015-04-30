@@ -13,7 +13,6 @@ C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\O
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.wfTipoCuenta.resources
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.Cache
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.csprojResolveAssemblyReference.cache
-C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfTipoCuenta.resources
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.csproj.GenerateResource.Cache
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.dll
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\Operaciones.dll
@@ -22,8 +21,11 @@ C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\O
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\Navegador.pdb
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\ODBCconnector.pdb
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.pdb
-C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Contable.wfPolizas.resources
-C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Contable.wfAmortizacion.resources
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfCuentas.resources
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfDetalleCuentas.resources
 C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\Operaciones.dll.config
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfClasificacion.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfAmortizacion.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\obj\Debug\Operaciones.wfPolizas.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\Seguridad.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Operaciones\Operaciones\bin\Debug\Seguridad.pdb

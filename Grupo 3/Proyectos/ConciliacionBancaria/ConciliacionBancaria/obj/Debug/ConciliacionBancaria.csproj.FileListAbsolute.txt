@@ -35,3 +35,5 @@ C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\obj
 C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\obj\Debug\ConciliacionBancaria.csproj.ResolveComReference.cache
 C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\obj\Debug\ConciliacionBancaria.wfProcesoConciBancaria.resources
 C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\obj\Debug\ConciliacionBancaria.wfConciliacionesBancarias.resources
+C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\bin\Debug\Reporteador.dll
+C:\Users\Anthony\Desktop\Proyectos\ConciliacionBancaria\ConciliacionBancaria\bin\Debug\Reporteador.pdb

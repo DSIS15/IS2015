@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contable
+namespace Operaciones
 {
     public partial class wfAmortizacion : Form
     {

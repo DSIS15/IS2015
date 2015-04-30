@@ -1,4 +1,4 @@
-﻿namespace Contable
+﻿namespace Operaciones
 {
     partial class wfPolizas
     {
@@ -28,37 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfPolizas));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.navegador1 = new Navegador.Navegador();
-            this.txtDetallePza = new System.Windows.Forms.TextBox();
-            this.txtFechEmisPza = new System.Windows.Forms.TextBox();
+            this.txtDetallePlz = new System.Windows.Forms.TextBox();
             this.lblFechEmisPza = new System.Windows.Forms.Label();
             this.txtMoneda = new System.Windows.Forms.TextBox();
             this.lblMoneda = new System.Windows.Forms.Label();
-            this.cboEstadoPza = new System.Windows.Forms.ComboBox();
-            this.txtEstadoPza = new System.Windows.Forms.TextBox();
-            this.lblEstadoPza = new System.Windows.Forms.Label();
-            this.txtNumPza = new System.Windows.Forms.TextBox();
+            this.txtEstadoPlz = new System.Windows.Forms.TextBox();
+            this.txtNumPlz = new System.Windows.Forms.TextBox();
             this.lblNumPza = new System.Windows.Forms.Label();
             this.txtCodEmpsa = new System.Windows.Forms.TextBox();
             this.lblCodEmpsa = new System.Windows.Forms.Label();
-            this.txtCodigoPza = new System.Windows.Forms.TextBox();
+            this.txtCodigoPlz = new System.Windows.Forms.TextBox();
             this.lblCodigoPza = new System.Windows.Forms.Label();
             this.lblDetallePza = new System.Windows.Forms.Label();
-            this.txtCargos = new System.Windows.Forms.TextBox();
+            this.dtpFechemiPlz = new System.Windows.Forms.DateTimePicker();
+            this.txtFechemiPlz = new System.Windows.Forms.TextBox();
+            this.lblEstadoPlz = new System.Windows.Forms.Label();
+            this.cboEstadoPlz = new System.Windows.Forms.ComboBox();
+            this.txtEstadoDplz = new System.Windows.Forms.TextBox();
+            this.txtCorrDplz = new System.Windows.Forms.TextBox();
+            this.lblCorrDplz = new System.Windows.Forms.Label();
+            this.btnTotalPlz = new System.Windows.Forms.Button();
+            this.btnAgregarDplz = new System.Windows.Forms.Button();
+            this.txtAbonoDplz = new System.Windows.Forms.TextBox();
+            this.lblAbonoDplz = new System.Windows.Forms.Label();
+            this.txtCargoDplz = new System.Windows.Forms.TextBox();
+            this.lblCargoDplz = new System.Windows.Forms.Label();
             this.txtAbonos = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dsDatos = new Operaciones.dsDatos();
-            this.dtPolizaBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dtaPoliza = new Operaciones.dsDatosTableAdapters.dtaPoliza();
-            this.Nomenclatura = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cargo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Abono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsDatos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtPolizaBindingSource)).BeginInit();
+            this.txtCargos = new System.Windows.Forms.TextBox();
+            this.dgvDplz = new System.Windows.Forms.DataGridView();
+            this.DgvCorrDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DgvNomencDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DgvCuentaDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DgvCargoDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DgvAbonoDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DgvEstadoDplz = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cboEstadoDplz = new System.Windows.Forms.ComboBox();
+            this.lblEstadoDplz = new System.Windows.Forms.Label();
+            this.txtCuentaDplz = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDplz)).BeginInit();
             this.SuspendLayout();
             // 
             // navegador1
@@ -71,30 +81,23 @@
             this.navegador1.Location = new System.Drawing.Point(0, 0);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(614, 55);
-            this.navegador1.sNombreTabla = "";
+            this.navegador1.sNombreTabla = "tabm_poliza";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnAfterNuevo += new System.EventHandler(this.navegador1_btnAfterNuevo);
             this.navegador1.btnBeforeGuardar += new System.EventHandler(this.navegador1_btnBeforeGuardar);
             // 
-            // txtDetallePza
+            // txtDetallePlz
             // 
-            this.txtDetallePza.Location = new System.Drawing.Point(451, 117);
-            this.txtDetallePza.Name = "txtDetallePza";
-            this.txtDetallePza.Size = new System.Drawing.Size(150, 22);
-            this.txtDetallePza.TabIndex = 7;
-            this.txtDetallePza.Tag = "descrip_plz";
-            // 
-            // txtFechEmisPza
-            // 
-            this.txtFechEmisPza.Location = new System.Drawing.Point(109, 117);
-            this.txtFechEmisPza.Name = "txtFechEmisPza";
-            this.txtFechEmisPza.Size = new System.Drawing.Size(150, 22);
-            this.txtFechEmisPza.TabIndex = 6;
-            this.txtFechEmisPza.Tag = "fechemi_plz";
+            this.txtDetallePlz.Location = new System.Drawing.Point(97, 145);
+            this.txtDetallePlz.Name = "txtDetallePlz";
+            this.txtDetallePlz.Size = new System.Drawing.Size(150, 22);
+            this.txtDetallePlz.TabIndex = 6;
+            this.txtDetallePlz.Tag = "descrip_plz";
             // 
             // lblFechEmisPza
             // 
             this.lblFechEmisPza.AutoSize = true;
-            this.lblFechEmisPza.Location = new System.Drawing.Point(12, 120);
+            this.lblFechEmisPza.Location = new System.Drawing.Point(355, 122);
             this.lblFechEmisPza.Name = "lblFechEmisPza";
             this.lblFechEmisPza.Size = new System.Drawing.Size(91, 17);
             this.lblFechEmisPza.TabIndex = 6;
@@ -102,67 +105,44 @@
             // 
             // txtMoneda
             // 
-            this.txtMoneda.Location = new System.Drawing.Point(109, 89);
+            this.txtMoneda.Location = new System.Drawing.Point(452, 89);
             this.txtMoneda.Name = "txtMoneda";
             this.txtMoneda.Size = new System.Drawing.Size(150, 22);
             this.txtMoneda.TabIndex = 3;
             this.txtMoneda.Tag = "cod_mda";
+            this.txtMoneda.Enter += new System.EventHandler(this.txtMoneda_Enter);
             // 
             // lblMoneda
             // 
             this.lblMoneda.AutoSize = true;
-            this.lblMoneda.Location = new System.Drawing.Point(12, 92);
+            this.lblMoneda.Location = new System.Drawing.Point(355, 92);
             this.lblMoneda.Name = "lblMoneda";
             this.lblMoneda.Size = new System.Drawing.Size(58, 17);
             this.lblMoneda.TabIndex = 3;
             this.lblMoneda.Text = "Moneda";
             // 
-            // cboEstadoPza
+            // txtEstadoPlz
             // 
-            this.cboEstadoPza.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboEstadoPza.FormattingEnabled = true;
-            this.cboEstadoPza.Items.AddRange(new object[] {
-            "Activado",
-            "Desactivado"});
-            this.cboEstadoPza.Location = new System.Drawing.Point(452, 145);
-            this.cboEstadoPza.Name = "cboEstadoPza";
-            this.cboEstadoPza.Size = new System.Drawing.Size(150, 25);
-            this.cboEstadoPza.TabIndex = 10;
-            this.cboEstadoPza.Tag = "";
-            this.cboEstadoPza.SelectedIndexChanged += new System.EventHandler(this.cboEstadoPza_SelectedIndexChanged);
+            this.txtEstadoPlz.Location = new System.Drawing.Point(324, 145);
+            this.txtEstadoPlz.Name = "txtEstadoPlz";
+            this.txtEstadoPlz.Size = new System.Drawing.Size(25, 22);
+            this.txtEstadoPlz.TabIndex = 35;
+            this.txtEstadoPlz.Tag = "estado_plz";
+            this.txtEstadoPlz.Visible = false;
+            this.txtEstadoPlz.TextChanged += new System.EventHandler(this.txtEstadoPza_TextChanged);
             // 
-            // txtEstadoPza
+            // txtNumPlz
             // 
-            this.txtEstadoPza.Location = new System.Drawing.Point(357, 145);
-            this.txtEstadoPza.Name = "txtEstadoPza";
-            this.txtEstadoPza.Size = new System.Drawing.Size(25, 22);
-            this.txtEstadoPza.TabIndex = 35;
-            this.txtEstadoPza.Tag = "estado_plz";
-            this.txtEstadoPza.Visible = false;
-            this.txtEstadoPza.TextChanged += new System.EventHandler(this.txtEstadoPza_TextChanged);
-            // 
-            // lblEstadoPza
-            // 
-            this.lblEstadoPza.AutoSize = true;
-            this.lblEstadoPza.Location = new System.Drawing.Point(388, 148);
-            this.lblEstadoPza.Name = "lblEstadoPza";
-            this.lblEstadoPza.Size = new System.Drawing.Size(48, 17);
-            this.lblEstadoPza.TabIndex = 34;
-            this.lblEstadoPza.Tag = "10";
-            this.lblEstadoPza.Text = "Estado";
-            // 
-            // txtNumPza
-            // 
-            this.txtNumPza.Location = new System.Drawing.Point(452, 89);
-            this.txtNumPza.Name = "txtNumPza";
-            this.txtNumPza.Size = new System.Drawing.Size(150, 22);
-            this.txtNumPza.TabIndex = 4;
-            this.txtNumPza.Tag = "num_plz";
+            this.txtNumPlz.Location = new System.Drawing.Point(97, 117);
+            this.txtNumPlz.Name = "txtNumPlz";
+            this.txtNumPlz.Size = new System.Drawing.Size(150, 22);
+            this.txtNumPlz.TabIndex = 4;
+            this.txtNumPlz.Tag = "num_plz";
             // 
             // lblNumPza
             // 
             this.lblNumPza.AutoSize = true;
-            this.lblNumPza.Location = new System.Drawing.Point(388, 92);
+            this.lblNumPza.Location = new System.Drawing.Point(12, 120);
             this.lblNumPza.Name = "lblNumPza";
             this.lblNumPza.Size = new System.Drawing.Size(55, 17);
             this.lblNumPza.TabIndex = 4;
@@ -170,28 +150,30 @@
             // 
             // txtCodEmpsa
             // 
-            this.txtCodEmpsa.Location = new System.Drawing.Point(452, 61);
+            this.txtCodEmpsa.Location = new System.Drawing.Point(97, 89);
             this.txtCodEmpsa.Name = "txtCodEmpsa";
             this.txtCodEmpsa.Size = new System.Drawing.Size(150, 22);
             this.txtCodEmpsa.TabIndex = 2;
             this.txtCodEmpsa.Tag = "cod_empsa";
+            this.txtCodEmpsa.Enter += new System.EventHandler(this.txtCodEmpsa_Enter);
             // 
             // lblCodEmpsa
             // 
             this.lblCodEmpsa.AutoSize = true;
-            this.lblCodEmpsa.Location = new System.Drawing.Point(388, 64);
+            this.lblCodEmpsa.Location = new System.Drawing.Point(12, 92);
             this.lblCodEmpsa.Name = "lblCodEmpsa";
             this.lblCodEmpsa.Size = new System.Drawing.Size(58, 17);
             this.lblCodEmpsa.TabIndex = 2;
             this.lblCodEmpsa.Text = "Empresa";
             // 
-            // txtCodigoPza
+            // txtCodigoPlz
             // 
-            this.txtCodigoPza.Location = new System.Drawing.Point(109, 61);
-            this.txtCodigoPza.Name = "txtCodigoPza";
-            this.txtCodigoPza.Size = new System.Drawing.Size(150, 22);
-            this.txtCodigoPza.TabIndex = 1;
-            this.txtCodigoPza.Tag = "cod_plz";
+            this.txtCodigoPlz.Location = new System.Drawing.Point(97, 61);
+            this.txtCodigoPlz.Name = "txtCodigoPlz";
+            this.txtCodigoPlz.Size = new System.Drawing.Size(150, 22);
+            this.txtCodigoPlz.TabIndex = 1;
+            this.txtCodigoPlz.Tag = "cod_plz";
+            this.txtCodigoPlz.TextChanged += new System.EventHandler(this.txtCodigoPlz_TextChanged);
             // 
             // lblCodigoPza
             // 
@@ -205,104 +187,285 @@
             // lblDetallePza
             // 
             this.lblDetallePza.AutoSize = true;
-            this.lblDetallePza.Location = new System.Drawing.Point(388, 120);
+            this.lblDetallePza.Location = new System.Drawing.Point(12, 148);
             this.lblDetallePza.Name = "lblDetallePza";
-            this.lblDetallePza.Size = new System.Drawing.Size(52, 17);
+            this.lblDetallePza.Size = new System.Drawing.Size(79, 17);
             this.lblDetallePza.TabIndex = 7;
-            this.lblDetallePza.Text = "Detalle";
+            this.lblDetallePza.Text = "Descripción";
             // 
-            // txtCargos
+            // dtpFechemiPlz
             // 
-            this.txtCargos.Location = new System.Drawing.Point(357, 367);
-            this.txtCargos.Name = "txtCargos";
-            this.txtCargos.Size = new System.Drawing.Size(120, 22);
-            this.txtCargos.TabIndex = 37;
-            this.txtCargos.Tag = "";
+            this.dtpFechemiPlz.Location = new System.Drawing.Point(452, 117);
+            this.dtpFechemiPlz.Name = "dtpFechemiPlz";
+            this.dtpFechemiPlz.Size = new System.Drawing.Size(150, 22);
+            this.dtpFechemiPlz.TabIndex = 40;
+            this.dtpFechemiPlz.ValueChanged += new System.EventHandler(this.dtpFechemiPlz_ValueChanged);
+            // 
+            // txtFechemiPlz
+            // 
+            this.txtFechemiPlz.Location = new System.Drawing.Point(324, 117);
+            this.txtFechemiPlz.Name = "txtFechemiPlz";
+            this.txtFechemiPlz.Size = new System.Drawing.Size(25, 22);
+            this.txtFechemiPlz.TabIndex = 41;
+            this.txtFechemiPlz.Tag = "fechemi_plz";
+            this.txtFechemiPlz.Visible = false;
+            this.txtFechemiPlz.TextChanged += new System.EventHandler(this.txtFechemiPlz_TextChanged);
+            // 
+            // lblEstadoPlz
+            // 
+            this.lblEstadoPlz.AutoSize = true;
+            this.lblEstadoPlz.Location = new System.Drawing.Point(355, 148);
+            this.lblEstadoPlz.Name = "lblEstadoPlz";
+            this.lblEstadoPlz.Size = new System.Drawing.Size(48, 17);
+            this.lblEstadoPlz.TabIndex = 65;
+            this.lblEstadoPlz.Tag = "10";
+            this.lblEstadoPlz.Text = "Estado";
+            // 
+            // cboEstadoPlz
+            // 
+            this.cboEstadoPlz.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboEstadoPlz.FormattingEnabled = true;
+            this.cboEstadoPlz.Items.AddRange(new object[] {
+            "Activado",
+            "Desactivado"});
+            this.cboEstadoPlz.Location = new System.Drawing.Point(452, 145);
+            this.cboEstadoPlz.Name = "cboEstadoPlz";
+            this.cboEstadoPlz.Size = new System.Drawing.Size(150, 25);
+            this.cboEstadoPlz.TabIndex = 64;
+            this.cboEstadoPlz.Tag = "";
+            this.cboEstadoPlz.SelectedIndexChanged += new System.EventHandler(this.cboEstadoPlz_SelectedIndexChanged);
+            // 
+            // txtEstadoDplz
+            // 
+            this.txtEstadoDplz.Location = new System.Drawing.Point(324, 232);
+            this.txtEstadoDplz.Name = "txtEstadoDplz";
+            this.txtEstadoDplz.Size = new System.Drawing.Size(25, 22);
+            this.txtEstadoDplz.TabIndex = 79;
+            this.txtEstadoDplz.Tag = "estado_dplz";
+            this.txtEstadoDplz.Visible = false;
+            this.txtEstadoDplz.TextChanged += new System.EventHandler(this.txtEstadoDplz_TextChanged);
+            // 
+            // txtCorrDplz
+            // 
+            this.txtCorrDplz.Location = new System.Drawing.Point(97, 204);
+            this.txtCorrDplz.Name = "txtCorrDplz";
+            this.txtCorrDplz.Size = new System.Drawing.Size(150, 22);
+            this.txtCorrDplz.TabIndex = 78;
+            this.txtCorrDplz.Tag = "corr_dplz";
+            // 
+            // lblCorrDplz
+            // 
+            this.lblCorrDplz.AutoSize = true;
+            this.lblCorrDplz.Location = new System.Drawing.Point(12, 207);
+            this.lblCorrDplz.Name = "lblCorrDplz";
+            this.lblCorrDplz.Size = new System.Drawing.Size(76, 17);
+            this.lblCorrDplz.TabIndex = 77;
+            this.lblCorrDplz.Text = "Correlativo";
+            // 
+            // btnTotalPlz
+            // 
+            this.btnTotalPlz.Location = new System.Drawing.Point(18, 458);
+            this.btnTotalPlz.Name = "btnTotalPlz";
+            this.btnTotalPlz.Size = new System.Drawing.Size(150, 28);
+            this.btnTotalPlz.TabIndex = 76;
+            this.btnTotalPlz.Text = "Totalizar";
+            this.btnTotalPlz.UseVisualStyleBackColor = true;
+            this.btnTotalPlz.Click += new System.EventHandler(this.btnTotalPlz_Click);
+            // 
+            // btnAgregarDplz
+            // 
+            this.btnAgregarDplz.Location = new System.Drawing.Point(556, 263);
+            this.btnAgregarDplz.Name = "btnAgregarDplz";
+            this.btnAgregarDplz.Size = new System.Drawing.Size(46, 28);
+            this.btnAgregarDplz.TabIndex = 75;
+            this.btnAgregarDplz.Text = "<-";
+            this.btnAgregarDplz.UseVisualStyleBackColor = true;
+            this.btnAgregarDplz.Click += new System.EventHandler(this.btnAgregarDplz_Click);
+            // 
+            // txtAbonoDplz
+            // 
+            this.txtAbonoDplz.Location = new System.Drawing.Point(97, 232);
+            this.txtAbonoDplz.Name = "txtAbonoDplz";
+            this.txtAbonoDplz.Size = new System.Drawing.Size(150, 22);
+            this.txtAbonoDplz.TabIndex = 74;
+            this.txtAbonoDplz.Tag = "";
+            // 
+            // lblAbonoDplz
+            // 
+            this.lblAbonoDplz.AutoSize = true;
+            this.lblAbonoDplz.Location = new System.Drawing.Point(12, 235);
+            this.lblAbonoDplz.Name = "lblAbonoDplz";
+            this.lblAbonoDplz.Size = new System.Drawing.Size(48, 17);
+            this.lblAbonoDplz.TabIndex = 73;
+            this.lblAbonoDplz.Text = "Abono";
+            // 
+            // txtCargoDplz
+            // 
+            this.txtCargoDplz.Location = new System.Drawing.Point(452, 204);
+            this.txtCargoDplz.Name = "txtCargoDplz";
+            this.txtCargoDplz.Size = new System.Drawing.Size(150, 22);
+            this.txtCargoDplz.TabIndex = 72;
+            this.txtCargoDplz.Tag = "";
+            // 
+            // lblCargoDplz
+            // 
+            this.lblCargoDplz.AutoSize = true;
+            this.lblCargoDplz.Location = new System.Drawing.Point(355, 207);
+            this.lblCargoDplz.Name = "lblCargoDplz";
+            this.lblCargoDplz.Size = new System.Drawing.Size(45, 17);
+            this.lblCargoDplz.TabIndex = 71;
+            this.lblCargoDplz.Text = "Cargo";
             // 
             // txtAbonos
             // 
-            this.txtAbonos.Location = new System.Drawing.Point(481, 367);
+            this.txtAbonos.Location = new System.Drawing.Point(406, 458);
             this.txtAbonos.Name = "txtAbonos";
-            this.txtAbonos.Size = new System.Drawing.Size(120, 22);
-            this.txtAbonos.TabIndex = 39;
+            this.txtAbonos.Size = new System.Drawing.Size(80, 22);
+            this.txtAbonos.TabIndex = 70;
             this.txtAbonos.Tag = "";
             // 
-            // dataGridView1
+            // txtCargos
             // 
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoGenerateColumns = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nomenclatura,
-            this.Cuenta,
-            this.Cargo,
-            this.Abono});
-            this.dataGridView1.DataSource = this.dtPolizaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 185);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(589, 176);
-            this.dataGridView1.TabIndex = 36;
+            this.txtCargos.Location = new System.Drawing.Point(320, 458);
+            this.txtCargos.Name = "txtCargos";
+            this.txtCargos.Size = new System.Drawing.Size(80, 22);
+            this.txtCargos.TabIndex = 69;
+            this.txtCargos.Tag = "";
             // 
-            // dsDatos
+            // dgvDplz
             // 
-            this.dsDatos.DataSetName = "dsDatos";
-            this.dsDatos.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.dgvDplz.AllowUserToDeleteRows = false;
+            this.dgvDplz.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
+            this.dgvDplz.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDplz.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DgvCorrDplz,
+            this.DgvNomencDplz,
+            this.DgvCuentaDplz,
+            this.DgvCargoDplz,
+            this.DgvAbonoDplz,
+            this.DgvEstadoDplz});
+            this.dgvDplz.Location = new System.Drawing.Point(18, 263);
+            this.dgvDplz.Name = "dgvDplz";
+            this.dgvDplz.ReadOnly = true;
+            this.dgvDplz.Size = new System.Drawing.Size(532, 189);
+            this.dgvDplz.TabIndex = 68;
+            this.dgvDplz.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDplz_CellEnter);
             // 
-            // dtaPoliza
+            // DgvCorrDplz
             // 
-            this.dtaPoliza.ClearBeforeFill = true;
+            this.DgvCorrDplz.HeaderText = "Corr.";
+            this.DgvCorrDplz.Name = "DgvCorrDplz";
+            this.DgvCorrDplz.ReadOnly = true;
+            this.DgvCorrDplz.Width = 45;
             // 
-            // Nomenclatura
+            // DgvNomencDplz
             // 
-            this.Nomenclatura.HeaderText = "Nomenc.";
-            this.Nomenclatura.Name = "Nomenclatura";
-            this.Nomenclatura.ReadOnly = true;
+            this.DgvNomencDplz.HeaderText = "Nomen.";
+            this.DgvNomencDplz.Name = "DgvNomencDplz";
+            this.DgvNomencDplz.ReadOnly = true;
+            this.DgvNomencDplz.Width = 65;
             // 
-            // Cuenta
+            // DgvCuentaDplz
             // 
-            this.Cuenta.HeaderText = "Cuenta";
-            this.Cuenta.Name = "Cuenta";
-            this.Cuenta.ReadOnly = true;
-            this.Cuenta.Width = 205;
+            this.DgvCuentaDplz.HeaderText = "Cuenta";
+            this.DgvCuentaDplz.Name = "DgvCuentaDplz";
+            this.DgvCuentaDplz.ReadOnly = true;
+            this.DgvCuentaDplz.Width = 150;
             // 
-            // Cargo
+            // DgvCargoDplz
             // 
-            this.Cargo.HeaderText = "Cargo";
-            this.Cargo.Name = "Cargo";
-            this.Cargo.ReadOnly = true;
-            this.Cargo.Width = 120;
+            dataGridViewCellStyle1.Format = "N2";
+            dataGridViewCellStyle1.NullValue = null;
+            this.DgvCargoDplz.DefaultCellStyle = dataGridViewCellStyle1;
+            this.DgvCargoDplz.HeaderText = "Cargo";
+            this.DgvCargoDplz.Name = "DgvCargoDplz";
+            this.DgvCargoDplz.ReadOnly = true;
+            this.DgvCargoDplz.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvCargoDplz.Width = 80;
             // 
-            // Abono
+            // DgvAbonoDplz
             // 
-            this.Abono.HeaderText = "Abono";
-            this.Abono.Name = "Abono";
-            this.Abono.ReadOnly = true;
-            this.Abono.Width = 120;
+            this.DgvAbonoDplz.HeaderText = "Abono";
+            this.DgvAbonoDplz.Name = "DgvAbonoDplz";
+            this.DgvAbonoDplz.ReadOnly = true;
+            this.DgvAbonoDplz.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.DgvAbonoDplz.Width = 80;
+            // 
+            // DgvEstadoDplz
+            // 
+            this.DgvEstadoDplz.HeaderText = "Estado";
+            this.DgvEstadoDplz.Name = "DgvEstadoDplz";
+            this.DgvEstadoDplz.ReadOnly = true;
+            this.DgvEstadoDplz.Width = 68;
+            // 
+            // cboEstadoDplz
+            // 
+            this.cboEstadoDplz.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboEstadoDplz.FormattingEnabled = true;
+            this.cboEstadoDplz.Items.AddRange(new object[] {
+            "Activado",
+            "Desactivado"});
+            this.cboEstadoDplz.Location = new System.Drawing.Point(452, 232);
+            this.cboEstadoDplz.Name = "cboEstadoDplz";
+            this.cboEstadoDplz.Size = new System.Drawing.Size(150, 25);
+            this.cboEstadoDplz.TabIndex = 66;
+            this.cboEstadoDplz.Tag = "";
+            this.cboEstadoDplz.SelectedIndexChanged += new System.EventHandler(this.cboEstadoDplz_SelectedIndexChanged_1);
+            // 
+            // lblEstadoDplz
+            // 
+            this.lblEstadoDplz.AutoSize = true;
+            this.lblEstadoDplz.Location = new System.Drawing.Point(355, 235);
+            this.lblEstadoDplz.Name = "lblEstadoDplz";
+            this.lblEstadoDplz.Size = new System.Drawing.Size(48, 17);
+            this.lblEstadoDplz.TabIndex = 67;
+            this.lblEstadoDplz.Tag = "10";
+            this.lblEstadoDplz.Text = "Estado";
+            // 
+            // txtCuentaDplz
+            // 
+            this.txtCuentaDplz.Location = new System.Drawing.Point(556, 297);
+            this.txtCuentaDplz.Name = "txtCuentaDplz";
+            this.txtCuentaDplz.Size = new System.Drawing.Size(25, 22);
+            this.txtCuentaDplz.TabIndex = 80;
+            this.txtCuentaDplz.Tag = "cod_cta";
             // 
             // wfPolizas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(614, 404);
+            this.ClientSize = new System.Drawing.Size(614, 492);
+            this.Controls.Add(this.txtCuentaDplz);
+            this.Controls.Add(this.txtEstadoDplz);
+            this.Controls.Add(this.txtCorrDplz);
+            this.Controls.Add(this.lblCorrDplz);
+            this.Controls.Add(this.btnTotalPlz);
+            this.Controls.Add(this.btnAgregarDplz);
+            this.Controls.Add(this.txtAbonoDplz);
+            this.Controls.Add(this.lblAbonoDplz);
+            this.Controls.Add(this.txtCargoDplz);
+            this.Controls.Add(this.lblCargoDplz);
             this.Controls.Add(this.txtAbonos);
             this.Controls.Add(this.txtCargos);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvDplz);
+            this.Controls.Add(this.cboEstadoDplz);
+            this.Controls.Add(this.lblEstadoDplz);
+            this.Controls.Add(this.cboEstadoPlz);
+            this.Controls.Add(this.lblEstadoPlz);
+            this.Controls.Add(this.txtFechemiPlz);
+            this.Controls.Add(this.dtpFechemiPlz);
             this.Controls.Add(this.lblDetallePza);
-            this.Controls.Add(this.txtDetallePza);
-            this.Controls.Add(this.txtFechEmisPza);
+            this.Controls.Add(this.txtDetallePlz);
             this.Controls.Add(this.lblFechEmisPza);
             this.Controls.Add(this.txtMoneda);
             this.Controls.Add(this.lblMoneda);
-            this.Controls.Add(this.cboEstadoPza);
-            this.Controls.Add(this.txtEstadoPza);
-            this.Controls.Add(this.lblEstadoPza);
-            this.Controls.Add(this.txtNumPza);
+            this.Controls.Add(this.txtEstadoPlz);
+            this.Controls.Add(this.txtNumPlz);
             this.Controls.Add(this.lblNumPza);
             this.Controls.Add(this.txtCodEmpsa);
             this.Controls.Add(this.lblCodEmpsa);
-            this.Controls.Add(this.txtCodigoPza);
+            this.Controls.Add(this.txtCodigoPlz);
             this.Controls.Add(this.lblCodigoPza);
             this.Controls.Add(this.navegador1);
             this.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -315,9 +478,7 @@
             this.ShowInTaskbar = false;
             this.Text = "Polizas";
             this.Load += new System.EventHandler(this.wfPolizas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dsDatos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dtPolizaBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDplz)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -326,31 +487,43 @@
         #endregion
 
         private Navegador.Navegador navegador1;
-        private System.Windows.Forms.TextBox txtDetallePza;
-        private System.Windows.Forms.TextBox txtFechEmisPza;
+        private System.Windows.Forms.TextBox txtDetallePlz;
         private System.Windows.Forms.Label lblFechEmisPza;
         private System.Windows.Forms.TextBox txtMoneda;
         private System.Windows.Forms.Label lblMoneda;
-        private System.Windows.Forms.ComboBox cboEstadoPza;
-        private System.Windows.Forms.TextBox txtEstadoPza;
-        private System.Windows.Forms.Label lblEstadoPza;
-        private System.Windows.Forms.TextBox txtNumPza;
+        private System.Windows.Forms.TextBox txtEstadoPlz;
+        private System.Windows.Forms.TextBox txtNumPlz;
         private System.Windows.Forms.Label lblNumPza;
         private System.Windows.Forms.TextBox txtCodEmpsa;
         private System.Windows.Forms.Label lblCodEmpsa;
-        private System.Windows.Forms.TextBox txtCodigoPza;
+        private System.Windows.Forms.TextBox txtCodigoPlz;
         private System.Windows.Forms.Label lblCodigoPza;
         private System.Windows.Forms.Label lblDetallePza;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox txtCargos;
+        private System.Windows.Forms.DateTimePicker dtpFechemiPlz;
+        private System.Windows.Forms.TextBox txtFechemiPlz;
+        private System.Windows.Forms.Label lblEstadoPlz;
+        private System.Windows.Forms.ComboBox cboEstadoPlz;
+        private System.Windows.Forms.TextBox txtEstadoDplz;
+        private System.Windows.Forms.TextBox txtCorrDplz;
+        private System.Windows.Forms.Label lblCorrDplz;
+        private System.Windows.Forms.Button btnTotalPlz;
+        private System.Windows.Forms.Button btnAgregarDplz;
+        private System.Windows.Forms.TextBox txtAbonoDplz;
+        private System.Windows.Forms.Label lblAbonoDplz;
+        private System.Windows.Forms.TextBox txtCargoDplz;
+        private System.Windows.Forms.Label lblCargoDplz;
         private System.Windows.Forms.TextBox txtAbonos;
-        private Operaciones.dsDatos dsDatos;
-        private System.Windows.Forms.BindingSource dtPolizaBindingSource;
-        private Operaciones.dsDatosTableAdapters.dtaPoliza dtaPoliza;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nomenclatura;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cuenta;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cargo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Abono;
+        private System.Windows.Forms.TextBox txtCargos;
+        private System.Windows.Forms.DataGridView dgvDplz;
+        private System.Windows.Forms.ComboBox cboEstadoDplz;
+        private System.Windows.Forms.Label lblEstadoDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvCorrDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvNomencDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvCuentaDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvCargoDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvAbonoDplz;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DgvEstadoDplz;
+        private System.Windows.Forms.TextBox txtCuentaDplz;
        
     }
 }

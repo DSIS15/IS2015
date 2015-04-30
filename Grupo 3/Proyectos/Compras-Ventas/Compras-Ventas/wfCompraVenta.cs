@@ -17,6 +17,11 @@ namespace Compras_Ventas
             InitializeComponent();
         }
 
+        private void wfCompraVenta_Load(object sender, EventArgs e)
+        {
+
+        }
+
        
     }
 }

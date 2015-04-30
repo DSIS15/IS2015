@@ -33,16 +33,14 @@
             this.cboEstadoCta = new System.Windows.Forms.ComboBox();
             this.txtEstadoCta = new System.Windows.Forms.TextBox();
             this.lblEstadoCta = new System.Windows.Forms.Label();
-            this.txtTipoCuenta = new System.Windows.Forms.TextBox();
-            this.lblTipoCuentaCta = new System.Windows.Forms.Label();
+            this.txtNombreCta = new System.Windows.Forms.TextBox();
+            this.lblNombreCta = new System.Windows.Forms.Label();
             this.txtCodigoCta = new System.Windows.Forms.TextBox();
             this.lblCodigoCta = new System.Windows.Forms.Label();
-            this.txtDescripcionCta = new System.Windows.Forms.TextBox();
-            this.lblDescripcionCta = new System.Windows.Forms.Label();
-            this.txtCuentaCta = new System.Windows.Forms.TextBox();
-            this.lblCuentaCta = new System.Windows.Forms.Label();
+            this.txtNomencCta = new System.Windows.Forms.TextBox();
+            this.lblNomencCta = new System.Windows.Forms.Label();
             this.lblClasificacionCta = new System.Windows.Forms.Label();
-            this.cboClasificionCta = new System.Windows.Forms.ComboBox();
+            this.txtCodigoClf = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // navegador1
@@ -58,6 +56,7 @@
             this.navegador1.sNombreTabla = "tabm_cuenta";
             this.navegador1.TabIndex = 0;
             this.navegador1.Tag = "";
+            this.navegador1.btnBeforeGuardar += new System.EventHandler(this.navegador1_btnBeforeGuardar);
             // 
             // cboEstadoCta
             // 
@@ -75,7 +74,7 @@
             // 
             // txtEstadoCta
             // 
-            this.txtEstadoCta.Location = new System.Drawing.Point(366, 126);
+            this.txtEstadoCta.Location = new System.Drawing.Point(362, 126);
             this.txtEstadoCta.Name = "txtEstadoCta";
             this.txtEstadoCta.Size = new System.Drawing.Size(25, 22);
             this.txtEstadoCta.TabIndex = 16;
@@ -86,37 +85,38 @@
             // lblEstadoCta
             // 
             this.lblEstadoCta.AutoSize = true;
-            this.lblEstadoCta.Location = new System.Drawing.Point(397, 129);
+            this.lblEstadoCta.Location = new System.Drawing.Point(393, 129);
             this.lblEstadoCta.Name = "lblEstadoCta";
             this.lblEstadoCta.Size = new System.Drawing.Size(48, 17);
-            this.lblEstadoCta.TabIndex = 10;
+            this.lblEstadoCta.TabIndex = 5;
             this.lblEstadoCta.Text = "Estado";
             // 
-            // txtTipoCuenta
+            // txtNombreCta
             // 
-            this.txtTipoCuenta.Location = new System.Drawing.Point(97, 98);
-            this.txtTipoCuenta.Name = "txtTipoCuenta";
-            this.txtTipoCuenta.Size = new System.Drawing.Size(150, 22);
-            this.txtTipoCuenta.TabIndex = 2;
-            this.txtTipoCuenta.Tag = "cod_tcta";
-            this.txtTipoCuenta.Enter += new System.EventHandler(this.txtTipoCuenta_Enter);
+            this.txtNombreCta.Location = new System.Drawing.Point(455, 98);
+            this.txtNombreCta.Name = "txtNombreCta";
+            this.txtNombreCta.Size = new System.Drawing.Size(150, 22);
+            this.txtNombreCta.TabIndex = 3;
+            this.txtNombreCta.Tag = "nombre_cta";
+            this.txtNombreCta.TextChanged += new System.EventHandler(this.txtNombreCta_TextChanged);
             // 
-            // lblTipoCuentaCta
+            // lblNombreCta
             // 
-            this.lblTipoCuentaCta.AutoSize = true;
-            this.lblTipoCuentaCta.Location = new System.Drawing.Point(12, 101);
-            this.lblTipoCuentaCta.Name = "lblTipoCuentaCta";
-            this.lblTipoCuentaCta.Size = new System.Drawing.Size(79, 17);
-            this.lblTipoCuentaCta.TabIndex = 2;
-            this.lblTipoCuentaCta.Text = "Tipo Cuenta";
+            this.lblNombreCta.AutoSize = true;
+            this.lblNombreCta.Location = new System.Drawing.Point(393, 101);
+            this.lblNombreCta.Name = "lblNombreCta";
+            this.lblNombreCta.Size = new System.Drawing.Size(56, 17);
+            this.lblNombreCta.TabIndex = 3;
+            this.lblNombreCta.Text = "Nombre";
             // 
             // txtCodigoCta
             // 
-            this.txtCodigoCta.Location = new System.Drawing.Point(97, 70);
+            this.txtCodigoCta.Location = new System.Drawing.Point(112, 70);
             this.txtCodigoCta.Name = "txtCodigoCta";
             this.txtCodigoCta.Size = new System.Drawing.Size(150, 22);
             this.txtCodigoCta.TabIndex = 1;
             this.txtCodigoCta.Tag = "cod_cta";
+            this.txtCodigoCta.TextChanged += new System.EventHandler(this.txtCodigoCta_TextChanged);
             // 
             // lblCodigoCta
             // 
@@ -127,61 +127,41 @@
             this.lblCodigoCta.TabIndex = 1;
             this.lblCodigoCta.Text = "Código";
             // 
-            // txtDescripcionCta
+            // txtNomencCta
             // 
-            this.txtDescripcionCta.Location = new System.Drawing.Point(97, 126);
-            this.txtDescripcionCta.Name = "txtDescripcionCta";
-            this.txtDescripcionCta.Size = new System.Drawing.Size(150, 22);
-            this.txtDescripcionCta.TabIndex = 4;
-            this.txtDescripcionCta.Tag = "descrip_cta";
+            this.txtNomencCta.Location = new System.Drawing.Point(112, 126);
+            this.txtNomencCta.Name = "txtNomencCta";
+            this.txtNomencCta.Size = new System.Drawing.Size(150, 22);
+            this.txtNomencCta.TabIndex = 4;
+            this.txtNomencCta.Tag = "nomenc_cta";
+            this.txtNomencCta.TextChanged += new System.EventHandler(this.txtNomencCta_TextChanged);
             // 
-            // lblDescripcionCta
+            // lblNomencCta
             // 
-            this.lblDescripcionCta.AutoSize = true;
-            this.lblDescripcionCta.Location = new System.Drawing.Point(12, 129);
-            this.lblDescripcionCta.Name = "lblDescripcionCta";
-            this.lblDescripcionCta.Size = new System.Drawing.Size(79, 17);
-            this.lblDescripcionCta.TabIndex = 31;
-            this.lblDescripcionCta.Text = "Descripción";
-            // 
-            // txtCuentaCta
-            // 
-            this.txtCuentaCta.Location = new System.Drawing.Point(455, 98);
-            this.txtCuentaCta.Name = "txtCuentaCta";
-            this.txtCuentaCta.Size = new System.Drawing.Size(150, 22);
-            this.txtCuentaCta.TabIndex = 3;
-            this.txtCuentaCta.Tag = "cuenta_cta";
-            // 
-            // lblCuentaCta
-            // 
-            this.lblCuentaCta.AutoSize = true;
-            this.lblCuentaCta.Location = new System.Drawing.Point(364, 101);
-            this.lblCuentaCta.Name = "lblCuentaCta";
-            this.lblCuentaCta.Size = new System.Drawing.Size(52, 17);
-            this.lblCuentaCta.TabIndex = 33;
-            this.lblCuentaCta.Text = "Cuenta";
+            this.lblNomencCta.AutoSize = true;
+            this.lblNomencCta.Location = new System.Drawing.Point(12, 129);
+            this.lblNomencCta.Name = "lblNomencCta";
+            this.lblNomencCta.Size = new System.Drawing.Size(94, 17);
+            this.lblNomencCta.TabIndex = 4;
+            this.lblNomencCta.Text = "Nomenclatura";
             // 
             // lblClasificacionCta
             // 
             this.lblClasificacionCta.AutoSize = true;
-            this.lblClasificacionCta.Location = new System.Drawing.Point(364, 73);
+            this.lblClasificacionCta.Location = new System.Drawing.Point(12, 101);
             this.lblClasificacionCta.Name = "lblClasificacionCta";
             this.lblClasificacionCta.Size = new System.Drawing.Size(85, 17);
-            this.lblClasificacionCta.TabIndex = 35;
+            this.lblClasificacionCta.TabIndex = 2;
             this.lblClasificacionCta.Text = "Clasificación";
             // 
-            // cboClasificionCta
+            // txtCodigoClf
             // 
-            this.cboClasificionCta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboClasificionCta.FormattingEnabled = true;
-            this.cboClasificionCta.Items.AddRange(new object[] {
-            "Activo",
-            "Pasivo"});
-            this.cboClasificionCta.Location = new System.Drawing.Point(455, 70);
-            this.cboClasificionCta.Name = "cboClasificionCta";
-            this.cboClasificionCta.Size = new System.Drawing.Size(150, 25);
-            this.cboClasificionCta.TabIndex = 36;
-            this.cboClasificionCta.Tag = "";
+            this.txtCodigoClf.Location = new System.Drawing.Point(112, 98);
+            this.txtCodigoClf.Name = "txtCodigoClf";
+            this.txtCodigoClf.Size = new System.Drawing.Size(150, 22);
+            this.txtCodigoClf.TabIndex = 2;
+            this.txtCodigoClf.Tag = "cod_clf";
+            this.txtCodigoClf.Enter += new System.EventHandler(this.txtCodigoClf_Enter);
             // 
             // wfCuentas
             // 
@@ -189,17 +169,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(617, 158);
-            this.Controls.Add(this.cboClasificionCta);
+            this.Controls.Add(this.txtCodigoClf);
             this.Controls.Add(this.lblClasificacionCta);
-            this.Controls.Add(this.txtCuentaCta);
-            this.Controls.Add(this.lblCuentaCta);
-            this.Controls.Add(this.txtDescripcionCta);
-            this.Controls.Add(this.lblDescripcionCta);
+            this.Controls.Add(this.txtNomencCta);
+            this.Controls.Add(this.lblNomencCta);
             this.Controls.Add(this.cboEstadoCta);
             this.Controls.Add(this.txtEstadoCta);
             this.Controls.Add(this.lblEstadoCta);
-            this.Controls.Add(this.txtTipoCuenta);
-            this.Controls.Add(this.lblTipoCuentaCta);
+            this.Controls.Add(this.txtNombreCta);
+            this.Controls.Add(this.lblNombreCta);
             this.Controls.Add(this.txtCodigoCta);
             this.Controls.Add(this.lblCodigoCta);
             this.Controls.Add(this.navegador1);
@@ -224,15 +202,13 @@
         private System.Windows.Forms.ComboBox cboEstadoCta;
         private System.Windows.Forms.TextBox txtEstadoCta;
         private System.Windows.Forms.Label lblEstadoCta;
-        private System.Windows.Forms.TextBox txtTipoCuenta;
-        private System.Windows.Forms.Label lblTipoCuentaCta;
+        private System.Windows.Forms.TextBox txtNombreCta;
+        private System.Windows.Forms.Label lblNombreCta;
         private System.Windows.Forms.TextBox txtCodigoCta;
         private System.Windows.Forms.Label lblCodigoCta;
-        private System.Windows.Forms.TextBox txtDescripcionCta;
-        private System.Windows.Forms.Label lblDescripcionCta;
-        private System.Windows.Forms.TextBox txtCuentaCta;
-        private System.Windows.Forms.Label lblCuentaCta;
+        private System.Windows.Forms.TextBox txtNomencCta;
+        private System.Windows.Forms.Label lblNomencCta;
         private System.Windows.Forms.Label lblClasificacionCta;
-        private System.Windows.Forms.ComboBox cboClasificionCta;
+        private System.Windows.Forms.TextBox txtCodigoClf;
     }
 }

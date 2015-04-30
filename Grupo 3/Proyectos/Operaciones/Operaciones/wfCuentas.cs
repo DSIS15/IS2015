@@ -13,6 +13,10 @@ namespace Operaciones
     public partial class wfCuentas : Form
     {
         ArrayList alDatosEnviados = new ArrayList();
+        public string sCodigo = string.Empty;
+        public string sNomenclatura = string.Empty;
+        public string sNombre = string.Empty;
+
         public wfCuentas()
         {
             InitializeComponent();
@@ -41,20 +45,42 @@ namespace Operaciones
         private void wfCuenta_Load(object sender, EventArgs e)
         {
             alDatosEnviados.Add(txtCodigoCta);
-            alDatosEnviados.Add(txtTipoCuenta);
-            alDatosEnviados.Add(txtCuentaCta);
-            alDatosEnviados.Add(txtDescripcionCta);
+            alDatosEnviados.Add(txtCodigoClf);
+            alDatosEnviados.Add(txtNombreCta);
+            alDatosEnviados.Add(txtNomencCta);
             alDatosEnviados.Add(txtEstadoCta);
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();
         }
 
-        private void txtTipoCuenta_Enter(object sender, EventArgs e)
+        private void navegador1_btnBeforeGuardar(object sender, EventArgs e)
         {
-            wfTipoCuenta TipoCuenta = new wfTipoCuenta();
-            TipoCuenta.ShowDialog();
+            if(!Capas.csNegocio.bValidarTextBoxes(alDatosEnviados))
+            {
+                navegador1.bEjecutarEvento = false;
+            }
         }
 
-        
+        private void txtCodigoCta_TextChanged(object sender, EventArgs e)
+        {
+            sCodigo = txtCodigoCta.Text;
+        }
+
+        private void txtNomencCta_TextChanged(object sender, EventArgs e)
+        {
+            sNomenclatura = txtNomencCta.Text;
+        }
+
+        private void txtNombreCta_TextChanged(object sender, EventArgs e)
+        {
+            sNombre = txtNombreCta.Text;
+        }
+
+        private void txtCodigoClf_Enter(object sender, EventArgs e)
+        {
+            wfClasificacion ClasificacionCuenta = new wfClasificacion();
+            ClasificacionCuenta.ShowDialog();
+            txtCodigoClf.Text = ClasificacionCuenta.sCodigo;
+        }        
     }
 }

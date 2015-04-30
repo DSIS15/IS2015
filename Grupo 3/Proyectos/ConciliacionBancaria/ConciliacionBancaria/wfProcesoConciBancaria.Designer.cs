@@ -36,8 +36,13 @@
             this.cboEstadoCuenta = new System.Windows.Forms.ComboBox();
             this.dgvMovimientos = new System.Windows.Forms.DataGridView();
             this.VisorPDF = new AxAcroPDFLib.AxAcroPDF();
+            this.spcContenedor = new System.Windows.Forms.SplitContainer();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovimientos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VisorPDF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spcContenedor)).BeginInit();
+            this.spcContenedor.Panel1.SuspendLayout();
+            this.spcContenedor.Panel2.SuspendLayout();
+            this.spcContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblCuenta
@@ -52,7 +57,7 @@
             // lblEstadoCuenta
             // 
             this.lblEstadoCuenta.AutoSize = true;
-            this.lblEstadoCuenta.Location = new System.Drawing.Point(438, 20);
+            this.lblEstadoCuenta.Location = new System.Drawing.Point(294, 20);
             this.lblEstadoCuenta.Name = "lblEstadoCuenta";
             this.lblEstadoCuenta.Size = new System.Drawing.Size(114, 17);
             this.lblEstadoCuenta.TabIndex = 1;
@@ -70,7 +75,7 @@
             // 
             // btnConciliarMovimientos
             // 
-            this.btnConciliarMovimientos.Location = new System.Drawing.Point(1017, 16);
+            this.btnConciliarMovimientos.Location = new System.Drawing.Point(781, 16);
             this.btnConciliarMovimientos.Name = "btnConciliarMovimientos";
             this.btnConciliarMovimientos.Size = new System.Drawing.Size(180, 25);
             this.btnConciliarMovimientos.TabIndex = 3;
@@ -82,7 +87,7 @@
             // 
             this.cboEstadoCuenta.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstadoCuenta.FormattingEnabled = true;
-            this.cboEstadoCuenta.Location = new System.Drawing.Point(558, 17);
+            this.cboEstadoCuenta.Location = new System.Drawing.Point(414, 17);
             this.cboEstadoCuenta.Name = "cboEstadoCuenta";
             this.cboEstadoCuenta.Size = new System.Drawing.Size(200, 25);
             this.cboEstadoCuenta.TabIndex = 4;
@@ -97,7 +102,8 @@
             this.dgvMovimientos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvMovimientos.BackgroundColor = System.Drawing.SystemColors.InactiveCaption;
             this.dgvMovimientos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMovimientos.Location = new System.Drawing.Point(616, 55);
+            this.dgvMovimientos.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvMovimientos.Location = new System.Drawing.Point(0, 0);
             this.dgvMovimientos.MultiSelect = false;
             this.dgvMovimientos.Name = "dgvMovimientos";
             this.dgvMovimientos.RowHeadersVisible = false;
@@ -105,26 +111,45 @@
             this.dgvMovimientos.RowTemplate.Height = 20;
             this.dgvMovimientos.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvMovimientos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMovimientos.Size = new System.Drawing.Size(587, 300);
+            this.dgvMovimientos.Size = new System.Drawing.Size(475, 300);
             this.dgvMovimientos.TabIndex = 24;
             // 
             // VisorPDF
             // 
+            this.VisorPDF.Dock = System.Windows.Forms.DockStyle.Fill;
             this.VisorPDF.Enabled = true;
-            this.VisorPDF.Location = new System.Drawing.Point(6, 55);
+            this.VisorPDF.Location = new System.Drawing.Point(0, 0);
             this.VisorPDF.Name = "VisorPDF";
             this.VisorPDF.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("VisorPDF.OcxState")));
-            this.VisorPDF.Size = new System.Drawing.Size(604, 300);
+            this.VisorPDF.Size = new System.Drawing.Size(475, 300);
             this.VisorPDF.TabIndex = 25;
+            // 
+            // spcContenedor
+            // 
+            this.spcContenedor.Location = new System.Drawing.Point(6, 55);
+            this.spcContenedor.Name = "spcContenedor";
+            // 
+            // spcContenedor.Panel1
+            // 
+            this.spcContenedor.Panel1.Controls.Add(this.VisorPDF);
+            this.spcContenedor.Panel1MinSize = 300;
+            // 
+            // spcContenedor.Panel2
+            // 
+            this.spcContenedor.Panel2.Controls.Add(this.dgvMovimientos);
+            this.spcContenedor.Panel2MinSize = 475;
+            this.spcContenedor.Size = new System.Drawing.Size(955, 300);
+            this.spcContenedor.SplitterDistance = 475;
+            this.spcContenedor.SplitterWidth = 5;
+            this.spcContenedor.TabIndex = 26;
             // 
             // wfProcesoConciBancaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1209, 361);
-            this.Controls.Add(this.VisorPDF);
-            this.Controls.Add(this.dgvMovimientos);
+            this.ClientSize = new System.Drawing.Size(969, 361);
+            this.Controls.Add(this.spcContenedor);
             this.Controls.Add(this.cboEstadoCuenta);
             this.Controls.Add(this.btnConciliarMovimientos);
             this.Controls.Add(this.txtCuenta);
@@ -139,10 +164,13 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "Conciliar Movimientos Bancarios";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.wfProcesoConciBancaria_FormClosing);
             this.Load += new System.EventHandler(this.wfProcesoConciBancaria_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovimientos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VisorPDF)).EndInit();
+            this.spcContenedor.Panel1.ResumeLayout(false);
+            this.spcContenedor.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spcContenedor)).EndInit();
+            this.spcContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -157,5 +185,6 @@
         private System.Windows.Forms.ComboBox cboEstadoCuenta;
         private System.Windows.Forms.DataGridView dgvMovimientos;
         private AxAcroPDFLib.AxAcroPDF VisorPDF;
+        private System.Windows.Forms.SplitContainer spcContenedor;
     }
 }

@@ -50,7 +50,7 @@ namespace SCF
             tssllEmpresa_Click(this, e);
             tssllMoneda_Click(this, e);
             ODBCconnector.csBitacora.vRegistarEnBitacora("Inicio de sesión");
-            bSesionIniciada = true;
+            bSesionIniciada = true;            
         }
 
         private void vValidacionFormulario(string sNombreFormulario, Form frmFormulario)
@@ -78,16 +78,15 @@ namespace SCF
         {
             if (bSesionIniciada)
             {
-                EventArgs ev = new EventArgs();            
-                tsmiSalir_Click(this, ev);
+                bSesionIniciada = false;
+                ODBCconnector.csBitacora.vRegistarEnBitacora("Cierre de sesión");
+                Application.Exit();
             }
         }
 
         private void tsmiSalir_Click(object sender, EventArgs e)
         {
-            bSesionIniciada = false;
-            ODBCconnector.csBitacora.vRegistarEnBitacora("Cierre de sesión");
-            Application.Exit();
+            this.Close();
         }
 
         private void tsmiCascada_Click(object sender, EventArgs e)
@@ -225,7 +224,7 @@ namespace SCF
             Seguridad.wfMonedas Monedas = new Seguridad.wfMonedas();
             Monedas.ShowDialog();
             ArrayList alMoneda = new ArrayList();
-            alMoneda = ODBCconnector.csFunciones.alConsultarQuery("select cod_mda, concat(moneda_mda,' (',abrev_mda,')') as 'moneda', tipocambio_mda from tabm_moneda where cod_mda='" + Monedas.sCodigo + "'");
+            alMoneda = ODBCconnector.csFunciones.alConsultarQuery("select cod_mda, concat(moneda_mda,' (',abrev_mda,')'), tipocambio_mda from tabm_moneda where cod_mda='" + Monedas.sCodigo + "'");
             Capas.csParametros.AlMoneda = (ArrayList)alMoneda[0];
             tsslMoneda.Text = Capas.csParametros.AlMoneda[1].ToString();
         }
@@ -263,8 +262,8 @@ namespace SCF
 
         private void btnC1_2_Click(object sender, EventArgs e)
         {
-            Operaciones.wfTipoCuenta TipoCuentas = new Operaciones.wfTipoCuenta();
-            vValidacionFormulario("wfTipoCuenta", TipoCuentas);
+            //Operaciones.wfTipoCuenta TipoCuentas = new Operaciones.wfTipoCuenta();
+            //vValidacionFormulario("wfTipoCuenta", TipoCuentas);
         }
         
         private void btnC2_1_Click(object sender, EventArgs e)

@@ -11,3 +11,16 @@ C:\Users\Anthony\Desktop\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\ODBCc
 C:\Users\Anthony\Desktop\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Capas.pdb
 C:\Users\Anthony\Desktop\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.dll
 C:\Users\Anthony\Desktop\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Compras-Ventas.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Compras-Ventas.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Navegador.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\ODBCconnector.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Capas.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Navegador.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\ODBCconnector.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\bin\Debug\Capas.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.csprojResolveAssemblyReference.cache
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras_Ventas.wfCompraVenta.resources
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.csproj.GenerateResource.Cache
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Compras-Ventas\Compras-Ventas\obj\Debug\Compras-Ventas.pdb
