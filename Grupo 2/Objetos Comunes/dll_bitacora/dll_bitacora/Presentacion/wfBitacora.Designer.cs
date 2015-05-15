@@ -35,21 +35,27 @@
             // cuDataGridConBusqueda1
             // 
             this.cuDataGridConBusqueda1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridConBusqueda1.AlDatosEntrada")));
+            this.cuDataGridConBusqueda1.AutoScroll = true;
             this.cuDataGridConBusqueda1.AutoSize = true;
+            this.cuDataGridConBusqueda1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.cuDataGridConBusqueda1.Location = new System.Drawing.Point(12, 12);
             this.cuDataGridConBusqueda1.Name = "cuDataGridConBusqueda1";
-            this.cuDataGridConBusqueda1.Size = new System.Drawing.Size(579, 324);
+            this.cuDataGridConBusqueda1.Size = new System.Drawing.Size(571, 322);
             this.cuDataGridConBusqueda1.STabla = "viewbitacora_hospital";
             this.cuDataGridConBusqueda1.TabIndex = 0;
+            this.cuDataGridConBusqueda1.AutoSizeChanged += new System.EventHandler(this.cuDataGridConBusqueda1_AutoSizeChanged);
             this.cuDataGridConBusqueda1.Load += new System.EventHandler(this.cuDataGridConBusqueda1_Load);
             // 
             // wfBitacora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
+            this.AutoScroll = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(596, 339);
             this.Controls.Add(this.cuDataGridConBusqueda1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfBitacora";
             this.Text = "wfBitacora";
             this.Load += new System.EventHandler(this.wfBitacora_Load);

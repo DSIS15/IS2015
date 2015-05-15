@@ -47,7 +47,11 @@ namespace dll_bitacora.Presentacion
                 {
                     if (csn_obtenercampos.bCompararCampos(alDatosEntrada, STabla) == true)
                     {                        
-                        dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);                        
+                        
+                        dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);
+                        
+                        dgvTabla.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                       
                         cbCampos.DataSource = csn_obtenercampos.cbllenarcombo(alDatosEntrada).Items;
                     }
                     else

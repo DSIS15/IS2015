@@ -38,6 +38,8 @@
             // 
             this.dgvTabla.AllowUserToAddRows = false;
             this.dgvTabla.AllowUserToDeleteRows = false;
+            this.dgvTabla.AllowUserToResizeColumns = false;
+            this.dgvTabla.AllowUserToResizeRows = false;
             this.dgvTabla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTabla.Location = new System.Drawing.Point(0, 49);
             this.dgvTabla.Name = "dgvTabla";

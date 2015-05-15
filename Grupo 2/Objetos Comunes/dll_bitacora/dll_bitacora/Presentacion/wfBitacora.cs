@@ -38,5 +38,11 @@ namespace dll_bitacora.Presentacion
         {
 
         }
+
+        private void cuDataGridConBusqueda1_AutoSizeChanged(object sender, EventArgs e)
+        {
+
+
+        }
     }
 }
