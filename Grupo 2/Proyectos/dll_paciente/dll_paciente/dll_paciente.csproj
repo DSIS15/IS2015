@@ -48,17 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Presentacion\wfAntecedentesM2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Presentacion\wfAntecedentesM2.Designer.cs">
-      <DependentUpon>wfAntecedentesM2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Presentacion\wfEnfermedadesAnt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\wfEnfermedadesAnt.Designer.cs">
       <DependentUpon>wfEnfermedadesAnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfExamenRutinario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfExamenRutinario.Designer.cs">
+      <DependentUpon>wfExamenRutinario.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\wfPaciente.cs">
       <SubType>Form</SubType>
@@ -75,11 +75,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Presentacion\wfAntecedentesM2.resx">
-      <DependentUpon>wfAntecedentesM2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfEnfermedadesAnt.resx">
       <DependentUpon>wfEnfermedadesAnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfExamenRutinario.resx">
+      <DependentUpon>wfExamenRutinario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\wfPaciente.resx">
       <DependentUpon>wfPaciente.cs</DependentUpon>
