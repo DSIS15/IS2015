@@ -33,14 +33,14 @@
             this.lblid_exrutinario = new System.Windows.Forms.Label();
             this.lblpresion = new System.Windows.Forms.Label();
             this.lblcolesterol = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblglucosa = new System.Windows.Forms.Label();
             this.lblestatura = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblpeso = new System.Windows.Forms.Label();
             this.lblestadocavidadbucal = new System.Windows.Forms.Label();
             this.lblestadooido = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblidpaciente = new System.Windows.Forms.Label();
+            this.lblidmedico = new System.Windows.Forms.Label();
+            this.lbltipodesangre = new System.Windows.Forms.Label();
             this.txtid_exrutinario = new System.Windows.Forms.TextBox();
             this.txtpresion = new System.Windows.Forms.TextBox();
             this.txtcolesterol = new System.Windows.Forms.TextBox();
@@ -101,14 +101,14 @@
             this.lblcolesterol.TabIndex = 3;
             this.lblcolesterol.Text = "Colesterol:";
             // 
-            // label3
+            // lblglucosa
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 200);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Glucosa:";
+            this.lblglucosa.AutoSize = true;
+            this.lblglucosa.Location = new System.Drawing.Point(29, 200);
+            this.lblglucosa.Name = "lblglucosa";
+            this.lblglucosa.Size = new System.Drawing.Size(49, 13);
+            this.lblglucosa.TabIndex = 4;
+            this.lblglucosa.Text = "Glucosa:";
             // 
             // lblestatura
             // 
@@ -119,14 +119,14 @@
             this.lblestatura.TabIndex = 5;
             this.lblestatura.Text = "Estatura:";
             // 
-            // label5
+            // lblpeso
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(297, 168);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Peso:";
+            this.lblpeso.AutoSize = true;
+            this.lblpeso.Location = new System.Drawing.Point(297, 168);
+            this.lblpeso.Name = "lblpeso";
+            this.lblpeso.Size = new System.Drawing.Size(34, 13);
+            this.lblpeso.TabIndex = 6;
+            this.lblpeso.Text = "Peso:";
             // 
             // lblestadocavidadbucal
             // 
@@ -140,38 +140,38 @@
             // lblestadooido
             // 
             this.lblestadooido.AutoSize = true;
-            this.lblestadooido.Location = new System.Drawing.Point(547, 168);
+            this.lblestadooido.Location = new System.Drawing.Point(536, 166);
             this.lblestadooido.Name = "lblestadooido";
             this.lblestadooido.Size = new System.Drawing.Size(70, 13);
             this.lblestadooido.TabIndex = 8;
             this.lblestadooido.Text = "Estado Oído:";
             // 
-            // label8
+            // lblidpaciente
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(297, 97);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 13);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "ID Paciente:";
+            this.lblidpaciente.AutoSize = true;
+            this.lblidpaciente.Location = new System.Drawing.Point(297, 97);
+            this.lblidpaciente.Name = "lblidpaciente";
+            this.lblidpaciente.Size = new System.Drawing.Size(66, 13);
+            this.lblidpaciente.TabIndex = 9;
+            this.lblidpaciente.Text = "ID Paciente:";
             // 
-            // label9
+            // lblidmedico
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(536, 97);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 13);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "ID médico:";
+            this.lblidmedico.AutoSize = true;
+            this.lblidmedico.Location = new System.Drawing.Point(536, 97);
+            this.lblidmedico.Name = "lblidmedico";
+            this.lblidmedico.Size = new System.Drawing.Size(58, 13);
+            this.lblidmedico.TabIndex = 10;
+            this.lblidmedico.Text = "ID médico:";
             // 
-            // label10
+            // lbltipodesangre
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(536, 127);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 13);
-            this.label10.TabIndex = 11;
-            this.label10.Text = "Tipo de sangre:";
+            this.lbltipodesangre.AutoSize = true;
+            this.lbltipodesangre.Location = new System.Drawing.Point(536, 127);
+            this.lbltipodesangre.Name = "lbltipodesangre";
+            this.lbltipodesangre.Size = new System.Drawing.Size(81, 13);
+            this.lbltipodesangre.TabIndex = 11;
+            this.lbltipodesangre.Text = "Tipo de sangre:";
             // 
             // txtid_exrutinario
             // 
@@ -355,14 +355,14 @@
             this.Controls.Add(this.txtcolesterol);
             this.Controls.Add(this.txtpresion);
             this.Controls.Add(this.txtid_exrutinario);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.lbltipodesangre);
+            this.Controls.Add(this.lblidmedico);
+            this.Controls.Add(this.lblidpaciente);
             this.Controls.Add(this.lblestadooido);
             this.Controls.Add(this.lblestadocavidadbucal);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblpeso);
             this.Controls.Add(this.lblestatura);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblglucosa);
             this.Controls.Add(this.lblcolesterol);
             this.Controls.Add(this.lblpresion);
             this.Controls.Add(this.lblid_exrutinario);
@@ -384,14 +384,14 @@
         private System.Windows.Forms.Label lblid_exrutinario;
         private System.Windows.Forms.Label lblpresion;
         private System.Windows.Forms.Label lblcolesterol;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblglucosa;
         private System.Windows.Forms.Label lblestatura;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblpeso;
         private System.Windows.Forms.Label lblestadocavidadbucal;
         private System.Windows.Forms.Label lblestadooido;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblidpaciente;
+        private System.Windows.Forms.Label lblidmedico;
+        private System.Windows.Forms.Label lbltipodesangre;
         private System.Windows.Forms.TextBox txtid_exrutinario;
         private System.Windows.Forms.TextBox txtpresion;
         private System.Windows.Forms.TextBox txtcolesterol;

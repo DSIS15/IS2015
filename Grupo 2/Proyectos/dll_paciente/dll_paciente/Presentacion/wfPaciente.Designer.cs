@@ -43,7 +43,7 @@
             this.txtSexo = new System.Windows.Forms.TextBox();
             this.lblidentificacion = new System.Windows.Forms.Label();
             this.txtidentificacion = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblfechanacimiento = new System.Windows.Forms.Label();
             this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
             this.cboEstado = new System.Windows.Forms.ComboBox();
@@ -177,14 +177,14 @@
             this.txtidentificacion.TabIndex = 8;
             this.txtidentificacion.Tag = "identificacion_paciente";
             // 
-            // label1
+            // lblfechanacimiento
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(331, 220);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Fecha Nacimiento";
+            this.lblfechanacimiento.AutoSize = true;
+            this.lblfechanacimiento.Location = new System.Drawing.Point(331, 220);
+            this.lblfechanacimiento.Name = "lblfechanacimiento";
+            this.lblfechanacimiento.Size = new System.Drawing.Size(93, 13);
+            this.lblfechanacimiento.TabIndex = 19;
+            this.lblfechanacimiento.Text = "Fecha Nacimiento";
             // 
             // lblestado
             // 
@@ -294,7 +294,7 @@
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblfechanacimiento);
             this.Controls.Add(this.txtidentificacion);
             this.Controls.Add(this.lblidentificacion);
             this.Controls.Add(this.txtSexo);
@@ -333,7 +333,7 @@
         private System.Windows.Forms.TextBox txtSexo;
         private System.Windows.Forms.Label lblidentificacion;
         private System.Windows.Forms.TextBox txtidentificacion;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblfechanacimiento;
         private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
         private System.Windows.Forms.ComboBox cboEstado;
