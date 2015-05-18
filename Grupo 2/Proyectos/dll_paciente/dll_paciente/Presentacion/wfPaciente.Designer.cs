@@ -39,29 +39,26 @@
             this.txtprimerAp = new System.Windows.Forms.TextBox();
             this.txtSegundoApe = new System.Windows.Forms.TextBox();
             this.txtdireccion = new System.Windows.Forms.TextBox();
-            this.lblEstatura = new System.Windows.Forms.Label();
-            this.txtEstatura = new System.Windows.Forms.TextBox();
-            this.lblPeso = new System.Windows.Forms.Label();
-            this.txtpeso = new System.Windows.Forms.TextBox();
             this.lblSangre = new System.Windows.Forms.Label();
-            this.txtsangre = new System.Windows.Forms.TextBox();
+            this.txtSexo = new System.Windows.Forms.TextBox();
             this.lblidentificacion = new System.Windows.Forms.Label();
             this.txtidentificacion = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtfecha = new System.Windows.Forms.TextBox();
             this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.cbSangre = new System.Windows.Forms.ComboBox();
+            this.cbSexo = new System.Windows.Forms.ComboBox();
             this.navegador1 = new Navegador.Navegador();
             this.lbltel = new System.Windows.Forms.Label();
             this.txttel = new System.Windows.Forms.TextBox();
+            this.dtpfecha = new System.Windows.Forms.DateTimePicker();
+            this.txtFecha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(23, 101);
+            this.lblID.Location = new System.Drawing.Point(38, 100);
             this.lblID.Name = "lblID";
             this.lblID.Size = new System.Drawing.Size(62, 13);
             this.lblID.TabIndex = 1;
@@ -105,9 +102,9 @@
             // 
             // txtIDP
             // 
-            this.txtIDP.Location = new System.Drawing.Point(83, 95);
+            this.txtIDP.Location = new System.Drawing.Point(150, 93);
             this.txtIDP.Name = "txtIDP";
-            this.txtIDP.Size = new System.Drawing.Size(45, 20);
+            this.txtIDP.Size = new System.Drawing.Size(65, 20);
             this.txtIDP.TabIndex = 0;
             this.txtIDP.Tag = "id_pacientes";
             // 
@@ -115,7 +112,7 @@
             // 
             this.txtNom.Location = new System.Drawing.Point(150, 134);
             this.txtNom.Name = "txtNom";
-            this.txtNom.Size = new System.Drawing.Size(100, 20);
+            this.txtNom.Size = new System.Drawing.Size(162, 20);
             this.txtNom.TabIndex = 4;
             this.txtNom.Tag = "nombre_paciente";
             // 
@@ -123,7 +120,7 @@
             // 
             this.txtprimerAp.Location = new System.Drawing.Point(443, 134);
             this.txtprimerAp.Name = "txtprimerAp";
-            this.txtprimerAp.Size = new System.Drawing.Size(100, 20);
+            this.txtprimerAp.Size = new System.Drawing.Size(132, 20);
             this.txtprimerAp.TabIndex = 5;
             this.txtprimerAp.Tag = "primer_apellido";
             // 
@@ -131,7 +128,7 @@
             // 
             this.txtSegundoApe.Location = new System.Drawing.Point(150, 171);
             this.txtSegundoApe.Name = "txtSegundoApe";
-            this.txtSegundoApe.Size = new System.Drawing.Size(100, 20);
+            this.txtSegundoApe.Size = new System.Drawing.Size(162, 20);
             this.txtSegundoApe.TabIndex = 6;
             this.txtSegundoApe.Tag = "segundo_apellido";
             // 
@@ -143,64 +140,30 @@
             this.txtdireccion.TabIndex = 7;
             this.txtdireccion.Tag = "direccion_paciente";
             // 
-            // lblEstatura
-            // 
-            this.lblEstatura.AutoSize = true;
-            this.lblEstatura.Location = new System.Drawing.Point(169, 99);
-            this.lblEstatura.Name = "lblEstatura";
-            this.lblEstatura.Size = new System.Drawing.Size(46, 13);
-            this.lblEstatura.TabIndex = 11;
-            this.lblEstatura.Text = "Estatura";
-            // 
-            // txtEstatura
-            // 
-            this.txtEstatura.Location = new System.Drawing.Point(221, 93);
-            this.txtEstatura.Name = "txtEstatura";
-            this.txtEstatura.Size = new System.Drawing.Size(52, 20);
-            this.txtEstatura.TabIndex = 1;
-            this.txtEstatura.Tag = "estatura_paciente";
-            // 
-            // lblPeso
-            // 
-            this.lblPeso.AutoSize = true;
-            this.lblPeso.Location = new System.Drawing.Point(306, 100);
-            this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(31, 13);
-            this.lblPeso.TabIndex = 13;
-            this.lblPeso.Text = "Peso";
-            // 
-            // txtpeso
-            // 
-            this.txtpeso.Location = new System.Drawing.Point(343, 92);
-            this.txtpeso.Name = "txtpeso";
-            this.txtpeso.Size = new System.Drawing.Size(64, 20);
-            this.txtpeso.TabIndex = 2;
-            this.txtpeso.Tag = "peso_paciente";
-            // 
             // lblSangre
             // 
             this.lblSangre.AutoSize = true;
-            this.lblSangre.Location = new System.Drawing.Point(44, 259);
+            this.lblSangre.Location = new System.Drawing.Point(38, 259);
             this.lblSangre.Name = "lblSangre";
-            this.lblSangre.Size = new System.Drawing.Size(41, 13);
+            this.lblSangre.Size = new System.Drawing.Size(31, 13);
             this.lblSangre.TabIndex = 15;
-            this.lblSangre.Text = "Sangre";
+            this.lblSangre.Text = "Sexo";
             // 
-            // txtsangre
+            // txtSexo
             // 
-            this.txtsangre.Location = new System.Drawing.Point(254, 253);
-            this.txtsangre.Name = "txtsangre";
-            this.txtsangre.Size = new System.Drawing.Size(30, 20);
-            this.txtsangre.TabIndex = 16;
-            this.txtsangre.Tag = "sangre_paciente";
-            this.txtsangre.Text = "A+";
-            this.txtsangre.Visible = false;
-            this.txtsangre.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
+            this.txtSexo.Location = new System.Drawing.Point(254, 253);
+            this.txtSexo.Name = "txtSexo";
+            this.txtSexo.Size = new System.Drawing.Size(30, 20);
+            this.txtSexo.TabIndex = 16;
+            this.txtSexo.Tag = "sexo";
+            this.txtSexo.Text = "M";
+            this.txtSexo.Visible = false;
+            this.txtSexo.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
             // 
             // lblidentificacion
             // 
             this.lblidentificacion.AutoSize = true;
-            this.lblidentificacion.Location = new System.Drawing.Point(41, 220);
+            this.lblidentificacion.Location = new System.Drawing.Point(38, 220);
             this.lblidentificacion.Name = "lblidentificacion";
             this.lblidentificacion.Size = new System.Drawing.Size(70, 13);
             this.lblidentificacion.TabIndex = 17;
@@ -210,7 +173,7 @@
             // 
             this.txtidentificacion.Location = new System.Drawing.Point(150, 213);
             this.txtidentificacion.Name = "txtidentificacion";
-            this.txtidentificacion.Size = new System.Drawing.Size(100, 20);
+            this.txtidentificacion.Size = new System.Drawing.Size(162, 20);
             this.txtidentificacion.TabIndex = 8;
             this.txtidentificacion.Tag = "identificacion_paciente";
             // 
@@ -223,18 +186,10 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Fecha Nacimiento";
             // 
-            // txtfecha
-            // 
-            this.txtfecha.Location = new System.Drawing.Point(443, 213);
-            this.txtfecha.Name = "txtfecha";
-            this.txtfecha.Size = new System.Drawing.Size(100, 20);
-            this.txtfecha.TabIndex = 9;
-            this.txtfecha.Tag = "fecha_nacimiento_paciente";
-            // 
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(417, 100);
+            this.lblestado.Location = new System.Drawing.Point(340, 93);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 21;
@@ -242,7 +197,7 @@
             // 
             // txtestado
             // 
-            this.txtestado.Location = new System.Drawing.Point(590, 94);
+            this.txtestado.Location = new System.Drawing.Point(581, 94);
             this.txtestado.Name = "txtestado";
             this.txtestado.Size = new System.Drawing.Size(29, 20);
             this.txtestado.TabIndex = 22;
@@ -257,30 +212,24 @@
             this.cbEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cbEstado.Location = new System.Drawing.Point(476, 94);
+            this.cbEstado.Location = new System.Drawing.Point(443, 93);
             this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(108, 21);
+            this.cbEstado.Size = new System.Drawing.Size(132, 21);
             this.cbEstado.TabIndex = 3;
             this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
-            // cbSangre
+            // cbSexo
             // 
-            this.cbSangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbSangre.FormattingEnabled = true;
-            this.cbSangre.Items.AddRange(new object[] {
-            "A+",
-            "A-",
-            "B+",
-            "B-",
-            "AB+",
-            "AB-",
-            "O+",
-            "O-"});
-            this.cbSangre.Location = new System.Drawing.Point(148, 251);
-            this.cbSangre.Name = "cbSangre";
-            this.cbSangre.Size = new System.Drawing.Size(100, 21);
-            this.cbSangre.TabIndex = 10;
-            this.cbSangre.SelectedIndexChanged += new System.EventHandler(this.cbSangre_SelectedIndexChanged);
+            this.cbSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbSexo.FormattingEnabled = true;
+            this.cbSexo.Items.AddRange(new object[] {
+            "M",
+            "F"});
+            this.cbSexo.Location = new System.Drawing.Point(148, 251);
+            this.cbSexo.Name = "cbSexo";
+            this.cbSexo.Size = new System.Drawing.Size(100, 21);
+            this.cbSexo.TabIndex = 10;
+            this.cbSexo.SelectedIndexChanged += new System.EventHandler(this.cbSangre_SelectedIndexChanged);
             // 
             // navegador1
             // 
@@ -306,32 +255,50 @@
             // 
             this.txttel.Location = new System.Drawing.Point(443, 252);
             this.txttel.Name = "txttel";
-            this.txttel.Size = new System.Drawing.Size(100, 20);
+            this.txttel.Size = new System.Drawing.Size(132, 20);
             this.txttel.TabIndex = 11;
             this.txttel.Tag = "telefono_paciente";
+            // 
+            // dtpfecha
+            // 
+            this.dtpfecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpfecha.Location = new System.Drawing.Point(443, 214);
+            this.dtpfecha.Name = "dtpfecha";
+            this.dtpfecha.Size = new System.Drawing.Size(132, 20);
+            this.dtpfecha.TabIndex = 27;
+            this.dtpfecha.Tag = "";
+            this.dtpfecha.Value = new System.DateTime(2015, 5, 17, 18, 37, 50, 0);
+            this.dtpfecha.ValueChanged += new System.EventHandler(this.dtpfecha_ValueChanged);
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.Location = new System.Drawing.Point(581, 213);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.Size = new System.Drawing.Size(100, 20);
+            this.txtFecha.TabIndex = 28;
+            this.txtFecha.Tag = "fecha_nacimiento_paciente";
+            this.txtFecha.Visible = false;
+            this.txtFecha.TextChanged += new System.EventHandler(this.txtFecha_TextChanged);
             // 
             // wfPaciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 293);
+            this.ClientSize = new System.Drawing.Size(690, 319);
+            this.Controls.Add(this.txtFecha);
+            this.Controls.Add(this.dtpfecha);
             this.Controls.Add(this.txttel);
             this.Controls.Add(this.lbltel);
             this.Controls.Add(this.navegador1);
-            this.Controls.Add(this.cbSangre);
+            this.Controls.Add(this.cbSexo);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
-            this.Controls.Add(this.txtfecha);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtidentificacion);
             this.Controls.Add(this.lblidentificacion);
-            this.Controls.Add(this.txtsangre);
+            this.Controls.Add(this.txtSexo);
             this.Controls.Add(this.lblSangre);
-            this.Controls.Add(this.txtpeso);
-            this.Controls.Add(this.lblPeso);
-            this.Controls.Add(this.txtEstatura);
-            this.Controls.Add(this.lblEstatura);
             this.Controls.Add(this.txtdireccion);
             this.Controls.Add(this.txtSegundoApe);
             this.Controls.Add(this.txtprimerAp);
@@ -343,7 +310,7 @@
             this.Controls.Add(this.lblNomPac);
             this.Controls.Add(this.lblID);
             this.Name = "wfPaciente";
-            this.Text = "wfPaciente";
+            this.Text = "Formulario Paciente";
             this.Load += new System.EventHandler(this.wfPaciente_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -362,22 +329,19 @@
         private System.Windows.Forms.TextBox txtprimerAp;
         private System.Windows.Forms.TextBox txtSegundoApe;
         private System.Windows.Forms.TextBox txtdireccion;
-        private System.Windows.Forms.Label lblEstatura;
-        private System.Windows.Forms.TextBox txtEstatura;
-        private System.Windows.Forms.Label lblPeso;
-        private System.Windows.Forms.TextBox txtpeso;
         private System.Windows.Forms.Label lblSangre;
-        private System.Windows.Forms.TextBox txtsangre;
+        private System.Windows.Forms.TextBox txtSexo;
         private System.Windows.Forms.Label lblidentificacion;
         private System.Windows.Forms.TextBox txtidentificacion;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtfecha;
         private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.ComboBox cbSangre;
+        private System.Windows.Forms.ComboBox cbSexo;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.Label lbltel;
         private System.Windows.Forms.TextBox txttel;
+        private System.Windows.Forms.DateTimePicker dtpfecha;
+        private System.Windows.Forms.TextBox txtFecha;
     }
 }

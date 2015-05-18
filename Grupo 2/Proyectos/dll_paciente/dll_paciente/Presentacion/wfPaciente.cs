@@ -20,17 +20,16 @@ namespace dll_paciente.Presentacion
 
         private void wfPaciente_Load(object sender, EventArgs e)
         {
+       
             alDatosEntrada.Add(txtIDP);
             alDatosEntrada.Add(txtNom);
             alDatosEntrada.Add(txtprimerAp);
             alDatosEntrada.Add(txtSegundoApe);
             alDatosEntrada.Add(txtdireccion);
             alDatosEntrada.Add(txttel);            
-            alDatosEntrada.Add(txtEstatura);
-            alDatosEntrada.Add(txtpeso);
-            alDatosEntrada.Add(txtsangre);
+            alDatosEntrada.Add(txtSexo);
             alDatosEntrada.Add(txtidentificacion);
-            alDatosEntrada.Add(txtfecha);
+            alDatosEntrada.Add(txtFecha);
             alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada=alDatosEntrada;
             navegador1.vIniciarNavegador();
@@ -38,12 +37,12 @@ namespace dll_paciente.Presentacion
 
         private void cbSangre_SelectedIndexChanged(object sender, EventArgs e)
         {
-            txtsangre.Text = cbSangre.Text;
+            txtSexo.Text = cbSexo.Text;
         }
 
         private void txtsangre_TextChanged(object sender, EventArgs e)
         {
-           cbSangre.Text  = txtsangre.Text;
+           cbSexo.Text  = txtSexo.Text;
         }
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
@@ -69,6 +68,16 @@ namespace dll_paciente.Presentacion
                 cbEstado.Text = "Desactivado";
             }
             
+        }
+
+        private void dtpfecha_ValueChanged(object sender, EventArgs e)
+        {
+            txtFecha.Text = dtpfecha.Text;
+        }
+
+        private void txtFecha_TextChanged(object sender, EventArgs e)
+        {
+            dtpfecha.Text = txtFecha.Text;
         }
     }
 }

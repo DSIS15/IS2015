@@ -100,6 +100,7 @@
             this.txtestado.Size = new System.Drawing.Size(24, 20);
             this.txtestado.TabIndex = 6;
             this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
             // cbEstado
@@ -129,7 +130,7 @@
             this.Controls.Add(this.lblidenfermedad);
             this.Controls.Add(this.navegador1);
             this.Name = "wfEnfermedadesAnt";
-            this.Text = "wfEnfermedadesAnt";
+            this.Text = "Enfermedades Antecedentes";
             this.Load += new System.EventHandler(this.wfEnfermedadesAnt_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

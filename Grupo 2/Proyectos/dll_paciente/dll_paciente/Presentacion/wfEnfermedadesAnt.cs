@@ -21,27 +21,25 @@ namespace dll_paciente.Presentacion
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            switch(cbEstado.SelectedIndex)
+            if (cbEstado.SelectedItem.Equals("Activado"))
             {
-                case 0: txtestado.Text = "1";
-                    break;
-                case 1: txtestado.Text = "0";
-                    break;
-                default:
-                    break;
+                txtestado.Text = "1";
+            }
+            else
+            {
+                txtestado.Text = "0";
             }
         }
 
         private void txtestado_TextChanged(object sender, EventArgs e)
         {
-            switch (txtestado.Text)
+            if (txtestado.Text.Equals("1"))
             {
-                case "1": cbEstado.SelectedIndex = 0;
-                    break;
-                case "2": cbEstado.SelectedIndex = 1;
-                    break;
-                default: cbEstado.SelectedIndex = -1;
-                    break;
+                cbEstado.Text = "Activado";
+            }
+            else
+            {
+                cbEstado.Text = "Desactivado";
             }
         }
 
