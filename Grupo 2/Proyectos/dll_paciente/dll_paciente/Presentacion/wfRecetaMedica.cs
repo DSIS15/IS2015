@@ -11,42 +11,55 @@ using System.Windows.Forms;
 
 namespace dll_paciente.Presentacion
 {
-    public partial class wfExamenRutinario : Form
+    public partial class wfRecetaMedica : Form
     {
         ArrayList alDatosEntrada = new ArrayList();
-        public wfExamenRutinario()
+        public wfRecetaMedica()
         {
             InitializeComponent();
         }
 
-        private void cbosangre_SelectedIndexChanged(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
-            txtsangre.Text = cbosangre.Text;
-         }
-
-        private void txtsangre_TextChanged(object sender, EventArgs e)
-        {
-            cbosangre.Text = txtsangre.Text;
-           
+            if (cboEstado.SelectedItem.Equals("Activado"))
+            {
+                txtestado.Text = "1";
             }
+            else
+            {
+                txtestado.Text = "0";
+            }
+        }
 
-        private void wfExamenRutinario_Load(object sender, EventArgs e)
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            alDatosEntrada.Add(txtid_exrutinario);
-            alDatosEntrada.Add(txtpresion);
-            alDatosEntrada.Add(txtcolesterol);
-            alDatosEntrada.Add(txtglucosa);
-            alDatosEntrada.Add(txtpeso);
-            alDatosEntrada.Add(txtestatura);
-            alDatosEntrada.Add(txtestado_cavidad_bucal);
-            alDatosEntrada.Add(txtestado_oido);
-            alDatosEntrada.Add(txtid_pacientes);
+            txtvia_de_administracion.Text = cbovia_de_administracion.Text;
+        }
+
+        private void txtestado_TextChanged(object sender, EventArgs e)
+        {
+            if (txtestado.Text.Equals("1"))
+            {
+                cboEstado.Text = "Activado";
+            }
+            else
+            {
+                cboEstado.Text = "Desactivado";
+            }
+        }
+
+        private void wfRecetaMedica_Load(object sender, EventArgs e)
+        {
+            alDatosEntrada.Add(txtid_recetamedica);
             alDatosEntrada.Add(txtid_medico);
-            alDatosEntrada.Add(txtsangre);
+            alDatosEntrada.Add(txtid_pacientes);
+            alDatosEntrada.Add(txtnom_med);
+            alDatosEntrada.Add(txtcatmedico);
+            alDatosEntrada.Add(txtvia_de_administracion);
+            alDatosEntrada.Add(txtdosis);
+            alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
-        
             ///////////////////////////////////////
             //Datos Grid Paciente
             String[,] Scaden ={
@@ -80,6 +93,11 @@ namespace dll_paciente.Presentacion
             ///////////////////////////////////
         }
 
+        private void txtid_recetamedica_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtid_pacientes.Text = cuDataGridD1.SObtenerDato;
@@ -89,6 +107,20 @@ namespace dll_paciente.Presentacion
         {
             txtid_medico.Text = cuDataGridD2.SObtenerDato;
         }
+
+        private void cbocatmedico_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtcatmedico.Text = cbocatmedico.Text;
+        }
+
+        private void txtcatmedico_TextChanged(object sender, EventArgs e)
+        {
+             cbocatmedico.Text = txtcatmedico.Text;
+        }
+
+        private void txtvia_de_administracion_TextChanged(object sender, EventArgs e)
+        {
+            cbovia_de_administracion.Text = txtvia_de_administracion.Text;
         }
     }
-
+}

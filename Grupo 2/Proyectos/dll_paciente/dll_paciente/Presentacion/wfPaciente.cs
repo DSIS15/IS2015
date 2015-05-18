@@ -47,7 +47,7 @@ namespace dll_paciente.Presentacion
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbEstado.SelectedItem.Equals("Activado"))
+            if (cboEstado.SelectedItem.Equals("Activado"))
             {
                 txtestado.Text = "1";
             }
@@ -61,11 +61,11 @@ namespace dll_paciente.Presentacion
         {
             if (txtestado.Text.Equals("1"))
             {
-                cbEstado.Text = "Activado";
+                cboEstado.Text = "Activado";
             }
             else
             {
-                cbEstado.Text = "Desactivado";
+                cboEstado.Text = "Desactivado";
             }
             
         }

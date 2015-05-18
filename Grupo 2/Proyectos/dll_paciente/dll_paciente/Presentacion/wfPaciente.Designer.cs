@@ -46,7 +46,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
-            this.cbEstado = new System.Windows.Forms.ComboBox();
+            this.cboEstado = new System.Windows.Forms.ComboBox();
             this.cbSexo = new System.Windows.Forms.ComboBox();
             this.navegador1 = new Navegador.Navegador();
             this.lbltel = new System.Windows.Forms.Label();
@@ -189,7 +189,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(340, 93);
+            this.lblestado.Location = new System.Drawing.Point(331, 93);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 21;
@@ -205,18 +205,18 @@
             this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
-            // cbEstado
+            // cboEstado
             // 
-            this.cbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Items.AddRange(new object[] {
+            this.cboEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboEstado.FormattingEnabled = true;
+            this.cboEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cbEstado.Location = new System.Drawing.Point(443, 93);
-            this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(132, 21);
-            this.cbEstado.TabIndex = 3;
-            this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
+            this.cboEstado.Location = new System.Drawing.Point(443, 93);
+            this.cboEstado.Name = "cboEstado";
+            this.cboEstado.Size = new System.Drawing.Size(132, 21);
+            this.cboEstado.TabIndex = 3;
+            this.cboEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
             // cbSexo
             // 
@@ -291,7 +291,7 @@
             this.Controls.Add(this.lbltel);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.cbSexo);
-            this.Controls.Add(this.cbEstado);
+            this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
             this.Controls.Add(this.label1);
@@ -336,7 +336,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
-        private System.Windows.Forms.ComboBox cbEstado;
+        private System.Windows.Forms.ComboBox cboEstado;
         private System.Windows.Forms.ComboBox cbSexo;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.Label lbltel;
