@@ -29,42 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfModulo));
-            this.lblIDmodulo = new System.Windows.Forms.Label();
-            this.lblNomModulo = new System.Windows.Forms.Label();
+            this.lblcodmod = new System.Windows.Forms.Label();
+            this.lblnommodulo = new System.Windows.Forms.Label();
             this.txtIDModulo = new System.Windows.Forms.TextBox();
             this.txtNombreMod = new System.Windows.Forms.TextBox();
-            this.lblNomDLL = new System.Windows.Forms.Label();
+            this.lblnomdll = new System.Windows.Forms.Label();
             this.txtNombreDLL = new System.Windows.Forms.TextBox();
-            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.lblfecC = new System.Windows.Forms.Label();
-            this.lblfecm = new System.Windows.Forms.Label();
+            this.lblfechcreacion = new System.Windows.Forms.Label();
+            this.lblfechmodificacion = new System.Windows.Forms.Label();
             this.txtfecc = new System.Windows.Forms.TextBox();
             this.txtfecm = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblIDmodulo
+            // lblcodmod
             // 
-            this.lblIDmodulo.AutoSize = true;
-            this.lblIDmodulo.Location = new System.Drawing.Point(29, 108);
-            this.lblIDmodulo.Name = "lblIDmodulo";
-            this.lblIDmodulo.Size = new System.Drawing.Size(56, 13);
-            this.lblIDmodulo.TabIndex = 0;
-            this.lblIDmodulo.Text = "ID Modulo";
+            this.lblcodmod.AutoSize = true;
+            this.lblcodmod.Location = new System.Drawing.Point(29, 110);
+            this.lblcodmod.Name = "lblcodmod";
+            this.lblcodmod.Size = new System.Drawing.Size(77, 13);
+            this.lblcodmod.TabIndex = 0;
+            this.lblcodmod.Text = "Código módulo";
             // 
-            // lblNomModulo
+            // lblnommodulo
             // 
-            this.lblNomModulo.AutoSize = true;
-            this.lblNomModulo.Location = new System.Drawing.Point(29, 147);
-            this.lblNomModulo.Name = "lblNomModulo";
-            this.lblNomModulo.Size = new System.Drawing.Size(82, 13);
-            this.lblNomModulo.TabIndex = 1;
-            this.lblNomModulo.Text = "Nombre Modulo";
+            this.lblnommodulo.AutoSize = true;
+            this.lblnommodulo.Location = new System.Drawing.Point(29, 147);
+            this.lblnommodulo.Name = "lblnommodulo";
+            this.lblnommodulo.Size = new System.Drawing.Size(81, 13);
+            this.lblnommodulo.TabIndex = 1;
+            this.lblnommodulo.Text = "Nombre módulo";
             // 
             // txtIDModulo
             // 
@@ -82,14 +79,14 @@
             this.txtNombreMod.TabIndex = 3;
             this.txtNombreMod.Tag = "nombre_modulo";
             // 
-            // lblNomDLL
+            // lblnomdll
             // 
-            this.lblNomDLL.AutoSize = true;
-            this.lblNomDLL.Location = new System.Drawing.Point(260, 108);
-            this.lblNomDLL.Name = "lblNomDLL";
-            this.lblNomDLL.Size = new System.Drawing.Size(67, 13);
-            this.lblNomDLL.TabIndex = 4;
-            this.lblNomDLL.Text = "Nombre DLL";
+            this.lblnomdll.AutoSize = true;
+            this.lblnomdll.Location = new System.Drawing.Point(260, 108);
+            this.lblnomdll.Name = "lblnomdll";
+            this.lblnomdll.Size = new System.Drawing.Size(67, 13);
+            this.lblnomdll.TabIndex = 4;
+            this.lblnomdll.Text = "Nombre DLL";
             // 
             // txtNombreDLL
             // 
@@ -99,14 +96,14 @@
             this.txtNombreDLL.TabIndex = 2;
             this.txtNombreDLL.Tag = "nombre_dll";
             // 
-            // lblEstado
+            // lblestado
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(499, 108);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(40, 13);
-            this.lblEstado.TabIndex = 6;
-            this.lblEstado.Text = "Estado";
+            this.lblestado.AutoSize = true;
+            this.lblestado.Location = new System.Drawing.Point(499, 108);
+            this.lblestado.Name = "lblestado";
+            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.TabIndex = 6;
+            this.lblestado.Text = "Estado";
             // 
             // txtestado
             // 
@@ -128,7 +125,11 @@
             this.navegador1.sNombreTabla = "modulo";
             this.navegador1.TabIndex = 8;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
+            this.navegador1.btnBuscar_AfterClick += new System.EventHandler(this.navegador1_btnBuscar_AfterClick);
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
+            this.navegador1.btnEliminar_AfterClick += new System.EventHandler(this.navegador1_btnEliminar_AfterClick);
+            this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
             // 
             // cbEstado
             // 
@@ -143,23 +144,23 @@
             this.cbEstado.TabIndex = 5;
             this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
-            // lblfecC
+            // lblfechcreacion
             // 
-            this.lblfecC.AutoSize = true;
-            this.lblfecC.Location = new System.Drawing.Point(260, 146);
-            this.lblfecC.Name = "lblfecC";
-            this.lblfecC.Size = new System.Drawing.Size(82, 13);
-            this.lblfecC.TabIndex = 9;
-            this.lblfecC.Text = "Fecha Creacion";
+            this.lblfechcreacion.AutoSize = true;
+            this.lblfechcreacion.Location = new System.Drawing.Point(260, 146);
+            this.lblfechcreacion.Name = "lblfechcreacion";
+            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.TabIndex = 9;
+            this.lblfechcreacion.Text = "Fecha creación";
             // 
-            // lblfecm
+            // lblfechmodificacion
             // 
-            this.lblfecm.AutoSize = true;
-            this.lblfecm.Location = new System.Drawing.Point(499, 147);
-            this.lblfecm.Name = "lblfecm";
-            this.lblfecm.Size = new System.Drawing.Size(100, 13);
-            this.lblfecm.TabIndex = 10;
-            this.lblfecm.Text = "Fecha Modificacoin";
+            this.lblfechmodificacion.AutoSize = true;
+            this.lblfechmodificacion.Location = new System.Drawing.Point(499, 147);
+            this.lblfechmodificacion.Name = "lblfechmodificacion";
+            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.TabIndex = 10;
+            this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecc
             // 
@@ -177,54 +178,28 @@
             this.txtfecm.TabIndex = 12;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "EN-US",
-            "ES-CO",
-            "JA-JP"});
-            this.listBox1.Location = new System.Drawing.Point(658, 166);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(50, 43);
-            this.listBox1.TabIndex = 16;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(709, 166);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
-            // 
             // wfModulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(740, 217);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.txtfecc);
-            this.Controls.Add(this.lblfecm);
-            this.Controls.Add(this.lblfecC);
+            this.Controls.Add(this.lblfechmodificacion);
+            this.Controls.Add(this.lblfechcreacion);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtestado);
-            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblestado);
             this.Controls.Add(this.txtNombreDLL);
-            this.Controls.Add(this.lblNomDLL);
+            this.Controls.Add(this.lblnomdll);
             this.Controls.Add(this.txtNombreMod);
             this.Controls.Add(this.txtIDModulo);
-            this.Controls.Add(this.lblNomModulo);
-            this.Controls.Add(this.lblIDmodulo);
+            this.Controls.Add(this.lblnommodulo);
+            this.Controls.Add(this.lblcodmod);
             this.Name = "wfModulo";
             this.Text = "Crear Modulo";
             this.Load += new System.EventHandler(this.wfModulo_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -232,21 +207,19 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblIDmodulo;
-        private System.Windows.Forms.Label lblNomModulo;
+        private System.Windows.Forms.Label lblcodmod;
+        private System.Windows.Forms.Label lblnommodulo;
         private System.Windows.Forms.TextBox txtIDModulo;
         private System.Windows.Forms.TextBox txtNombreMod;
-        private System.Windows.Forms.Label lblNomDLL;
+        private System.Windows.Forms.Label lblnomdll;
         private System.Windows.Forms.TextBox txtNombreDLL;
-        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.Label lblfecC;
-        private System.Windows.Forms.Label lblfecm;
+        private System.Windows.Forms.Label lblfechcreacion;
+        private System.Windows.Forms.Label lblfechmodificacion;
         private System.Windows.Forms.TextBox txtfecc;
         private System.Windows.Forms.TextBox txtfecm;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

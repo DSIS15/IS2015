@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
-using dll_seguridad.Recursos_localizables;
 using System.Threading;
 using System.Globalization;
 
@@ -73,7 +72,7 @@ namespace dll_seguridad.Presentacion
             txtfecm.Enabled = false;
             txtfech.Enabled = false;
             txtCodPerfil.Enabled = false;
-            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se inserto un registro nuevo en perfiles");
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en perfiles");
         }
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
@@ -83,26 +82,45 @@ namespace dll_seguridad.Presentacion
             txtfecm.Enabled = false;
             txtfech.Enabled = false;
             txtCodPerfil.Enabled = false;
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Nuevo perfil");
         }
-
-        public void AplicarIdioma()
+               
+        private void navegador1_Load(object sender, EventArgs e)
         {
-            lblCodPerfil.Text = StringResources.Label18;
-            lblEstadoPerf.Text = StringResources.Label19;
-            lblNombre_perfil.Text = StringResources.Label20;
-            lblfecCreaPerf.Text = StringResources.Label21;
-            lblfecmPerf.Text = StringResources.Label22;
-            
-
-
-            this.Text = StringResources.WindowTitle3;
 
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
-            AplicarIdioma();
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se guardo un nuevo perfil");
         }
+
+        private void navegador1_btnBuscar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se busco un perfil");
+        }
+
+        private void navegador1_btnEliminar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se elimino un perfil");
+        }
+
+        private void navegador1_btnImprimir_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se imprimio un registro en perfiles");
+        }
+
+        private void navegador1_btnLimpiar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron los registros en perfil");
+        }
+
+        private void navegador1_btnRecargar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se recargaron los registros en perfil");
+        }
+
+        
+        
     }
 }

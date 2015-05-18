@@ -1,4 +1,4 @@
-﻿using dll_seguridad.Recursos_localizables;
+﻿
 /*Fecha y lugar de Modificacion: Guatemala, Guatemala, 08-03-2015
  * Autor: Jaime Iván Muñoz Enriquez  
  * Descripcion: Este es el formulario de Inicio de sesion de los usuarios
@@ -25,13 +25,6 @@ namespace dll_seguridad.Presentacion
         private Negocio.csN_InicioSesion csn_inicio = new Negocio.csN_InicioSesion();
         private static String sUsuario;
         private static String sCodigoUsuario;
-        private static String sMoneda;
-
-        public static String SMoneda
-        {
-            get { return wfInicioSesion.sMoneda; }
-            set { wfInicioSesion.sMoneda = value; }
-        }
 
         public static String SCodigoUsuario
         {
@@ -56,9 +49,7 @@ namespace dll_seguridad.Presentacion
 
         private void wfInicioSesion_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'monedads.DataTable' Puede moverla o quitarla según sea necesario.
-            this.dataTableTableAdapter.Fill(this.monedads.DataTable);
-
+            cuIdioma1.vinicializaridioma((Form)sender);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -67,8 +58,6 @@ namespace dll_seguridad.Presentacion
             //metodo de la clase csN_InicioSesion capa Negocio  para validar datos
             csn_inicio.vIninicio(txtUsuario.Text, txtContraseña.Text);            
             //MessageBox.Show("CodUsuario Presentacion "+ sCodigoUsuario);
-           SMoneda= cmbTasaCambio.SelectedItem.ToString();
-
         }
         //boton de salir
         private void btnSalir_Click(object sender, EventArgs e)
@@ -87,54 +76,10 @@ namespace dll_seguridad.Presentacion
 
         }
 
-        public void AplicarIdioma()
-        {
-            lblSistema.Text = StringResources.Label1;
-            lblHospital.Text = StringResources.Label2;
-            lblUsuari.Text = StringResources.Label3;
-            lblContraseña.Text = StringResources.Label4;
-            lblMoneda.Text = StringResources.Label5;
-            btnIniciarSesion.Text = StringResources.ButtonLabel1;
-            btnSalir.Text = StringResources.ButtonLabel2;
-            
-
-            this.Text = StringResources.WindowTitle1;
-
-        }
-
+       
         public void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
-            AplicarIdioma();
+            
         }
-
-        private void fillByToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.dataTableTableAdapter.FillBy(this.monedads.DataTable);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
-
-        private void fillBy1ToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.dataTableTableAdapter.FillBy1(this.monedads.DataTable);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
-        }
-
-      
-
     }
 }

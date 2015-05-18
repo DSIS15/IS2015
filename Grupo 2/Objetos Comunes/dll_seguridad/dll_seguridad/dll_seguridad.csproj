@@ -37,11 +37,16 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
+    <Reference Include="dll_idioma, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Documents\Visual Studio 2013\Projects\dll_idioma\dll_idioma\bin\Debug\dll_idioma.dll</HintPath>
+    </Reference>
     <Reference Include="Navegador">
       <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
     </Reference>
-    <Reference Include="ODBCconnector">
-      <HintPath>..\..\..\..\..\Downloads\ODBC\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+    <Reference Include="ODBCconnector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ODBCconnector\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Activities" />
@@ -60,15 +65,6 @@
   <ItemGroup>
     <Compile Include="Datos\csD_CrearMenu.cs" />
     <Compile Include="Datos\csD_InicioSesion.cs" />
-    <Compile Include="monedads.cs">
-      <DependentUpon>monedads.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="monedads.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>monedads.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Negocio\csN_CrearMenu.cs" />
     <Compile Include="Negocio\csN_InicioSesion.cs" />
     <Compile Include="Presentacion\csP_CrearMenu.cs">
@@ -122,31 +118,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="Recursos localizables\StringResources.EN-US.Designer.cs">
-      <DependentUpon>StringResources.EN-US.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Recursos localizables\StringResources.JA-JP.Designer.cs">
-      <DependentUpon>StringResources.JA-JP.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Recursos localizables\StringResources.ES-CO.Designer.cs">
-      <DependentUpon>StringResources.ES-CO.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Recursos localizables\StringResources.Designer.cs">
-      <DependentUpon>StringResources.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Presentacion\wfDetMod.resx">
@@ -175,40 +146,8 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Recursos localizables\StringResources.EN-US.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>StringResources.EN-US.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Recursos localizables\StringResources.JA-JP.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>StringResources.JA-JP.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Recursos localizables\StringResources.ES-CO.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>StringResources.ES-CO.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Recursos localizables\StringResources.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>StringResources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-    <None Include="monedads.xsc">
-      <DependentUpon>monedads.xsd</DependentUpon>
-    </None>
-    <None Include="monedads.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>monedads.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="monedads.xss">
-      <DependentUpon>monedads.xsd</DependentUpon>
-    </None>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
     <None Include="Resources\hospital.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

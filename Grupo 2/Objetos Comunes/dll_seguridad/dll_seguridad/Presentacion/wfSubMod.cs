@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
-using dll_seguridad.Recursos_localizables;
 using System.Threading;
 using System.Globalization;
 
@@ -39,15 +38,15 @@ namespace dll_seguridad.Presentacion
 
             //Datos del Grid 
             String[,] sCadena={
-                              {"id_modulo","Código","true"},
+                              {"id_modulo","Codigo","true"},
                               {"nombre_modulo","Nombre","true"},
                               {"nombre_dll","Nombre_DLL","false"},
                               {"fecha_creacion","Fecha Creación","true",},
                               {"fecha_modificacion","Fecha Modificación","true",},
                               {"estado","Estado","true"},                              
                               };
-            cuDataGridD1.AlDatosEntrada.Add(sCadena);
-            cuDataGridD1.vinicializar();
+            dgvmodulo.AlDatosEntrada.Add(sCadena);
+            dgvmodulo.vinicializar();
         }
 
         private void txtEstado_TextChanged(object sender, EventArgs e)
@@ -72,7 +71,7 @@ namespace dll_seguridad.Presentacion
 
         private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtIDMod.Text = cuDataGridD1.SObtenerDato;
+            txtIDMod.Text = dgvmodulo.SObtenerDato;
         }
 
         private void cuDataGridD1_Load(object sender, EventArgs e)
@@ -82,6 +81,9 @@ namespace dll_seguridad.Presentacion
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
+
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se agrego un registro en submodulo");
+            
             txtfecc.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecc.Enabled = txtfecm.Enabled = false;
@@ -89,29 +91,32 @@ namespace dll_seguridad.Presentacion
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
         {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en submodulo");
+            
             txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecc.Enabled = txtfecm.Enabled = false;
         }
 
-        public void AplicarIdioma()
+        private void navegador1_btnBuscar_AfterClick(object sender, EventArgs e)
         {
-            lblIDSubMod.Text = StringResources.Label29;
-            lblIDMod.Text = StringResources.Label30;
-            lblEstadoSubMod.Text = StringResources.Label31;
-            lblNomSubMod.Text = StringResources.Label32;
-            lblNomwf.Text = StringResources.Label33;
-            lblfeccSubMod.Text = StringResources.Label34;
-            lblfecmSubMod.Text = StringResources.Label35;
-
-
-            this.Text = StringResources.WindowTitle6;
-
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se busco un registro en submodulo");
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void navegador1_btnEliminar_AfterClick(object sender, EventArgs e)
         {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
-            AplicarIdioma();
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se elimino un registro en submodulo");
         }
+
+        private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se guardo un registro en submodulo");
+        }
+
+        private void navegador1_btnLimpiar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron registros en submodulo");
+        }
+
+        
     }
 }

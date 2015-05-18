@@ -10,8 +10,6 @@ C:\Users\orochi\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_segurida
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_prueba.dll
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_prueba.pdb
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfInicioSesion.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfModulo.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfPerfiles.resources
@@ -92,9 +90,6 @@ C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\EN-US\dll_seguridad
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\Presentacion\csP_CrearMenu.cs
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.pdb
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\EN-US\dll_seguridad.resources.dll
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\dll_seguridad.resources.dll
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ES-CO\dll_seguridad.resources.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\Navegador.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.pdb
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\Navegador.pdb
@@ -107,16 +102,28 @@ C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfSubMod.resources
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfUsuario.resources
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Properties.Resources.resources
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Recursos_localizables.StringResources.resources
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Recursos_localizables.StringResources.EN-US.resources
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Recursos_localizables.StringResources.JA-JP.resources
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Recursos_localizables.StringResources.ES-CO.resources
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csproj.GenerateResource.Cache
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\EN-US\dll_seguridad.resources.dll
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\JA-JP\dll_seguridad.resources.dll
-C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\ES-CO\dll_seguridad.resources.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.pdb
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.csprojResolveAssemblyReference.cache
-C:\Users\Jessy\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll.config
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfDetMod.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfRoll.resources
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\CultureResources.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-CO\CultureResources.resources.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-US\CultureResources.resources.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\CultureResources.resources.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_idioma.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_idioma.pdb
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-GT\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\EN-US\dll_idioma.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\CultureResources.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_idioma.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ES-CO\CultureResources.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ES-US\CultureResources.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\CultureResources.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\EN-US\dll_idioma.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ES-GT\dll_idioma.resources.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.dll

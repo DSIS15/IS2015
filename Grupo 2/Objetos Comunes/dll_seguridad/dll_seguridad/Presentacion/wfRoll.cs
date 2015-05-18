@@ -62,6 +62,9 @@ namespace dll_seguridad.Presentacion
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
+
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se creo un registro en rol");
+            
           txtfecc.Text =  DateTime.Now.ToString("yyyy/MM/dd");
           txtfecm.Text =  DateTime.Now.ToString("yyyy/MM/dd");
           txtfecc.Enabled = txtfecm.Enabled = false;
@@ -69,6 +72,8 @@ namespace dll_seguridad.Presentacion
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
         {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en rol");
+            
             txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfecc.Enabled = txtfecm.Enabled = false;
         }
@@ -76,6 +81,26 @@ namespace dll_seguridad.Presentacion
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void navegador1_btnBuscar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se busco un registro en rol");
+        }
+
+        private void navegador1_btnEliminar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se elimino un registro en rol");
+        }
+
+        private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se guardo un registro en rol");
+        }
+
+        private void navegador1_btnLimpiar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron registros en rol");
         }
 
       

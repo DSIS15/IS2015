@@ -29,49 +29,46 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfPerfiles));
-            this.lblCodPerfil = new System.Windows.Forms.Label();
-            this.lblNombre_perfil = new System.Windows.Forms.Label();
-            this.lblEstadoPerf = new System.Windows.Forms.Label();
+            this.lblcodperfil = new System.Windows.Forms.Label();
+            this.lblnombreperfil = new System.Windows.Forms.Label();
+            this.lblestado = new System.Windows.Forms.Label();
             this.txtCodPerfil = new System.Windows.Forms.TextBox();
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
-            this.lblfecCreaPerf = new System.Windows.Forms.Label();
+            this.lblfechcreacion = new System.Windows.Forms.Label();
             this.txtfech = new System.Windows.Forms.TextBox();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.lblfecmPerf = new System.Windows.Forms.Label();
+            this.lblfechmodificacion = new System.Windows.Forms.Label();
             this.txtfecm = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblCodPerfil
+            // lblcodperfil
             // 
-            this.lblCodPerfil.AutoSize = true;
-            this.lblCodPerfil.Location = new System.Drawing.Point(29, 109);
-            this.lblCodPerfil.Name = "lblCodPerfil";
-            this.lblCodPerfil.Size = new System.Drawing.Size(66, 13);
-            this.lblCodPerfil.TabIndex = 0;
-            this.lblCodPerfil.Text = "Codigo Perfil";
+            this.lblcodperfil.AutoSize = true;
+            this.lblcodperfil.Location = new System.Drawing.Point(29, 109);
+            this.lblcodperfil.Name = "lblcodperfil";
+            this.lblcodperfil.Size = new System.Drawing.Size(65, 13);
+            this.lblcodperfil.TabIndex = 0;
+            this.lblcodperfil.Text = "Código perfil";
             // 
-            // lblNombre_perfil
+            // lblnombreperfil
             // 
-            this.lblNombre_perfil.AutoSize = true;
-            this.lblNombre_perfil.Location = new System.Drawing.Point(374, 108);
-            this.lblNombre_perfil.Name = "lblNombre_perfil";
-            this.lblNombre_perfil.Size = new System.Drawing.Size(70, 13);
-            this.lblNombre_perfil.TabIndex = 1;
-            this.lblNombre_perfil.Text = "Nombre Perfil";
+            this.lblnombreperfil.AutoSize = true;
+            this.lblnombreperfil.Location = new System.Drawing.Point(176, 108);
+            this.lblnombreperfil.Name = "lblnombreperfil";
+            this.lblnombreperfil.Size = new System.Drawing.Size(69, 13);
+            this.lblnombreperfil.TabIndex = 1;
+            this.lblnombreperfil.Text = "Nombre perfil";
             // 
-            // lblEstadoPerf
+            // lblestado
             // 
-            this.lblEstadoPerf.AutoSize = true;
-            this.lblEstadoPerf.Location = new System.Drawing.Point(175, 109);
-            this.lblEstadoPerf.Name = "lblEstadoPerf";
-            this.lblEstadoPerf.Size = new System.Drawing.Size(40, 13);
-            this.lblEstadoPerf.TabIndex = 2;
-            this.lblEstadoPerf.Text = "Estado";
+            this.lblestado.AutoSize = true;
+            this.lblestado.Location = new System.Drawing.Point(400, 109);
+            this.lblestado.Name = "lblestado";
+            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.TabIndex = 2;
+            this.lblestado.Text = "Estado";
             // 
             // txtCodPerfil
             // 
@@ -84,7 +81,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(333, 101);
+            this.txtEstado.Location = new System.Drawing.Point(558, 101);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 4;
@@ -93,7 +90,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(452, 101);
+            this.txtNombre.Location = new System.Drawing.Point(254, 101);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 3;
@@ -110,17 +107,20 @@
             this.navegador1.sNombreTabla = "perfil";
             this.navegador1.TabIndex = 6;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
-            this.navegador1.btnModificar_BeforeClick += new System.EventHandler(this.navegador1_btnModificar_BeforeClick);
+            this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
+            this.navegador1.btnBuscar_AfterClick += new System.EventHandler(this.navegador1_btnBuscar_AfterClick);
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
+            this.navegador1.btnEliminar_AfterClick += new System.EventHandler(this.navegador1_btnEliminar_AfterClick);
+            this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
             // 
-            // lblfecCreaPerf
+            // lblfechcreacion
             // 
-            this.lblfecCreaPerf.AutoSize = true;
-            this.lblfecCreaPerf.Location = new System.Drawing.Point(29, 152);
-            this.lblfecCreaPerf.Name = "lblfecCreaPerf";
-            this.lblfecCreaPerf.Size = new System.Drawing.Size(82, 13);
-            this.lblfecCreaPerf.TabIndex = 7;
-            this.lblfecCreaPerf.Text = "Fecha Creación";
+            this.lblfechcreacion.AutoSize = true;
+            this.lblfechcreacion.Location = new System.Drawing.Point(29, 152);
+            this.lblfechcreacion.Name = "lblfechcreacion";
+            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.TabIndex = 7;
+            this.lblfechcreacion.Text = "Fecha creación";
             // 
             // txtfech
             // 
@@ -137,20 +137,20 @@
             this.cbEstado.Items.AddRange(new object[] {
             "Activado ",
             "Desactivado"});
-            this.cbEstado.Location = new System.Drawing.Point(231, 101);
+            this.cbEstado.Location = new System.Drawing.Point(456, 101);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(100, 21);
             this.cbEstado.TabIndex = 2;
             this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // lblfecmPerf
+            // lblfechmodificacion
             // 
-            this.lblfecmPerf.AutoSize = true;
-            this.lblfecmPerf.Location = new System.Drawing.Point(254, 152);
-            this.lblfecmPerf.Name = "lblfecmPerf";
-            this.lblfecmPerf.Size = new System.Drawing.Size(100, 13);
-            this.lblfecmPerf.TabIndex = 8;
-            this.lblfecmPerf.Text = "Fecha Modificación";
+            this.lblfechmodificacion.AutoSize = true;
+            this.lblfechmodificacion.Location = new System.Drawing.Point(254, 152);
+            this.lblfechmodificacion.Name = "lblfechmodificacion";
+            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.TabIndex = 8;
+            this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecm
             // 
@@ -160,52 +160,26 @@
             this.txtfecm.TabIndex = 9;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "EN-US",
-            "ES-CO",
-            "JA-JP"});
-            this.listBox1.Location = new System.Drawing.Point(563, 145);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(50, 43);
-            this.listBox1.TabIndex = 17;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(606, 145);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
-            this.pictureBox2.TabIndex = 18;
-            this.pictureBox2.TabStop = false;
-            // 
             // wfPerfiles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 197);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
-            this.Controls.Add(this.lblfecmPerf);
+            this.Controls.Add(this.lblfechmodificacion);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.txtfech);
-            this.Controls.Add(this.lblfecCreaPerf);
+            this.Controls.Add(this.lblfechcreacion);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.txtCodPerfil);
-            this.Controls.Add(this.lblEstadoPerf);
-            this.Controls.Add(this.lblNombre_perfil);
-            this.Controls.Add(this.lblCodPerfil);
+            this.Controls.Add(this.lblestado);
+            this.Controls.Add(this.lblnombreperfil);
+            this.Controls.Add(this.lblcodperfil);
             this.Name = "wfPerfiles";
             this.Text = "Crear Perfil";
             this.Load += new System.EventHandler(this.wfPerfil_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,20 +187,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblCodPerfil;
-        private System.Windows.Forms.Label lblNombre_perfil;
-        private System.Windows.Forms.Label lblEstadoPerf;
+        private System.Windows.Forms.Label lblcodperfil;
+        private System.Windows.Forms.Label lblnombreperfil;
+        private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtCodPerfil;
         private System.Windows.Forms.TextBox txtEstado;
         private System.Windows.Forms.TextBox txtNombre;
         private Navegador.Navegador navegador1;
-        private System.Windows.Forms.Label lblfecCreaPerf;
+        private System.Windows.Forms.Label lblfechcreacion;
         private System.Windows.Forms.TextBox txtfech;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.Label lblfecmPerf;
+        private System.Windows.Forms.Label lblfechmodificacion;
         private System.Windows.Forms.TextBox txtfecm;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
 
     }
 }

@@ -115,6 +115,7 @@ namespace dll_seguridad.Negocio
                 
                 wfFormulario.WindowState = FormWindowState.Normal;
                 wfFormulario.MdiParent = wfFormMDI;
+                dll_idioma.Presentacion.csp_cambiodeidioma.vinicializaridioma(wfFormulario);
                 wfFormulario.Show();
                 }
                 catch

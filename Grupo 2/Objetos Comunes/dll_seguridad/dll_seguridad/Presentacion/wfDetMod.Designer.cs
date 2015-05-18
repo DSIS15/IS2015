@@ -29,41 +29,38 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfDetMod));
-            this.lblIDDetMod = new System.Windows.Forms.Label();
+            this.lbliddetmod = new System.Windows.Forms.Label();
             this.txtIDDetMod = new System.Windows.Forms.TextBox();
-            this.lblCodMod = new System.Windows.Forms.Label();
+            this.lblcodmod = new System.Windows.Forms.Label();
             this.txtIDModulo = new System.Windows.Forms.TextBox();
-            this.lblCodPerf = new System.Windows.Forms.Label();
+            this.lblcodperfil = new System.Windows.Forms.Label();
             this.txtCodPerf = new System.Windows.Forms.TextBox();
-            this.lblEstado = new System.Windows.Forms.Label();
+            this.lblestado = new System.Windows.Forms.Label();
             this.txtestado = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
             this.cbEstado = new System.Windows.Forms.ComboBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.lblfecC = new System.Windows.Forms.Label();
+            this.tbcdetmodulo = new System.Windows.Forms.TabControl();
+            this.tbpmodulo = new System.Windows.Forms.TabPage();
+            this.dgvmodulo = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tbpperfil = new System.Windows.Forms.TabPage();
+            this.dgvperfil = new dll_bitacora.Presentacion.cuDataGridD();
+            this.lblfechcreacion = new System.Windows.Forms.Label();
             this.txtfecC = new System.Windows.Forms.TextBox();
-            this.lblfecm = new System.Windows.Forms.Label();
+            this.lblfechmodificacion = new System.Windows.Forms.Label();
             this.txtfecm = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.tbcdetmodulo.SuspendLayout();
+            this.tbpmodulo.SuspendLayout();
+            this.tbpperfil.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblIDDetMod
+            // lbliddetmod
             // 
-            this.lblIDDetMod.AutoSize = true;
-            this.lblIDDetMod.Location = new System.Drawing.Point(45, 93);
-            this.lblIDDetMod.Name = "lblIDDetMod";
-            this.lblIDDetMod.Size = new System.Drawing.Size(40, 13);
-            this.lblIDDetMod.TabIndex = 0;
-            this.lblIDDetMod.Text = "Código";
+            this.lbliddetmod.AutoSize = true;
+            this.lbliddetmod.Location = new System.Drawing.Point(45, 93);
+            this.lbliddetmod.Name = "lbliddetmod";
+            this.lbliddetmod.Size = new System.Drawing.Size(40, 13);
+            this.lbliddetmod.TabIndex = 0;
+            this.lbliddetmod.Text = "Código";
             // 
             // txtIDDetMod
             // 
@@ -71,16 +68,16 @@
             this.txtIDDetMod.Name = "txtIDDetMod";
             this.txtIDDetMod.Size = new System.Drawing.Size(27, 20);
             this.txtIDDetMod.TabIndex = 1;
-            this.txtIDDetMod.Tag = "id_detmod";
+            this.txtIDDetMod.Tag = "id_detmodulo";
             // 
-            // lblCodMod
+            // lblcodmod
             // 
-            this.lblCodMod.AutoSize = true;
-            this.lblCodMod.Location = new System.Drawing.Point(145, 93);
-            this.lblCodMod.Name = "lblCodMod";
-            this.lblCodMod.Size = new System.Drawing.Size(78, 13);
-            this.lblCodMod.TabIndex = 2;
-            this.lblCodMod.Text = "Codigo Modulo";
+            this.lblcodmod.AutoSize = true;
+            this.lblcodmod.Location = new System.Drawing.Point(145, 93);
+            this.lblcodmod.Name = "lblcodmod";
+            this.lblcodmod.Size = new System.Drawing.Size(77, 13);
+            this.lblcodmod.TabIndex = 2;
+            this.lblcodmod.Text = "Codigo módulo";
             // 
             // txtIDModulo
             // 
@@ -90,14 +87,14 @@
             this.txtIDModulo.TabIndex = 3;
             this.txtIDModulo.Tag = "id_modulo";
             // 
-            // lblCodPerf
+            // lblcodperfil
             // 
-            this.lblCodPerf.AutoSize = true;
-            this.lblCodPerf.Location = new System.Drawing.Point(281, 93);
-            this.lblCodPerf.Name = "lblCodPerf";
-            this.lblCodPerf.Size = new System.Drawing.Size(66, 13);
-            this.lblCodPerf.TabIndex = 4;
-            this.lblCodPerf.Text = "Codigo Perfil";
+            this.lblcodperfil.AutoSize = true;
+            this.lblcodperfil.Location = new System.Drawing.Point(281, 93);
+            this.lblcodperfil.Name = "lblcodperfil";
+            this.lblcodperfil.Size = new System.Drawing.Size(65, 13);
+            this.lblcodperfil.TabIndex = 4;
+            this.lblcodperfil.Text = "Código perfil";
             // 
             // txtCodPerf
             // 
@@ -107,14 +104,14 @@
             this.txtCodPerf.TabIndex = 5;
             this.txtCodPerf.Tag = "codigo_perfil";
             // 
-            // lblEstado
+            // lblestado
             // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(416, 93);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(40, 13);
-            this.lblEstado.TabIndex = 6;
-            this.lblEstado.Text = "Estado";
+            this.lblestado.AutoSize = true;
+            this.lblestado.Location = new System.Drawing.Point(416, 93);
+            this.lblestado.Name = "lblestado";
+            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.TabIndex = 6;
+            this.lblestado.Text = "Estado";
             // 
             // txtestado
             // 
@@ -137,7 +134,10 @@
             this.navegador1.TabIndex = 8;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
+            this.navegador1.btnBuscar_AfterClick += new System.EventHandler(this.navegador1_btnBuscar_AfterClick);
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
+            this.navegador1.btnEliminar_AfterClick += new System.EventHandler(this.navegador1_btnEliminar_AfterClick);
+            this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
             // 
             // cbEstado
             // 
@@ -152,68 +152,69 @@
             this.cbEstado.TabIndex = 9;
             this.cbEstado.SelectedIndexChanged += new System.EventHandler(this.cbEstado_SelectedIndexChanged);
             // 
-            // tabControl1
+            // tbcdetmodulo
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(48, 164);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(560, 172);
-            this.tabControl1.TabIndex = 10;
+            this.tbcdetmodulo.Controls.Add(this.tbpmodulo);
+            this.tbcdetmodulo.Controls.Add(this.tbpperfil);
+            this.tbcdetmodulo.Location = new System.Drawing.Point(48, 164);
+            this.tbcdetmodulo.Name = "tbcdetmodulo";
+            this.tbcdetmodulo.SelectedIndex = 0;
+            this.tbcdetmodulo.Size = new System.Drawing.Size(560, 172);
+            this.tbcdetmodulo.TabIndex = 10;
             // 
-            // tabPage1
+            // tbpmodulo
             // 
-            this.tabPage1.Controls.Add(this.cuDataGridD1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(552, 146);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Modulo";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tbpmodulo.Controls.Add(this.dgvmodulo);
+            this.tbpmodulo.Location = new System.Drawing.Point(4, 22);
+            this.tbpmodulo.Name = "tbpmodulo";
+            this.tbpmodulo.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpmodulo.Size = new System.Drawing.Size(552, 146);
+            this.tbpmodulo.TabIndex = 0;
+            this.tbpmodulo.Text = "Modulo";
+            this.tbpmodulo.UseVisualStyleBackColor = true;
             // 
-            // cuDataGridD1
+            // dgvmodulo
             // 
-            this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.Location = new System.Drawing.Point(3, 7);
-            this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(543, 133);
-            this.cuDataGridD1.STabla = "modulo";
-            this.cuDataGridD1.TabIndex = 0;
-            this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
+            this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
+            this.dgvmodulo.Location = new System.Drawing.Point(3, 7);
+            this.dgvmodulo.Name = "dgvmodulo";
+            this.dgvmodulo.SCampo = "Codigo";
+            this.dgvmodulo.Size = new System.Drawing.Size(543, 133);
+            this.dgvmodulo.STabla = "modulo";
+            this.dgvmodulo.TabIndex = 0;
+            this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             // 
-            // tabPage2
+            // tbpperfil
             // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(552, 146);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Perfil";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbpperfil.Controls.Add(this.dgvperfil);
+            this.tbpperfil.Location = new System.Drawing.Point(4, 22);
+            this.tbpperfil.Name = "tbpperfil";
+            this.tbpperfil.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpperfil.Size = new System.Drawing.Size(552, 146);
+            this.tbpperfil.TabIndex = 1;
+            this.tbpperfil.Text = "Perfil";
+            this.tbpperfil.UseVisualStyleBackColor = true;
             // 
-            // cuDataGridD2
+            // dgvperfil
             // 
-            this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
-            this.cuDataGridD2.Location = new System.Drawing.Point(0, 4);
-            this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
-            this.cuDataGridD2.Size = new System.Drawing.Size(546, 136);
-            this.cuDataGridD2.STabla = "perfil";
-            this.cuDataGridD2.TabIndex = 0;
-            this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
+            this.dgvperfil.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvperfil.AlDatosEntrada")));
+            this.dgvperfil.Location = new System.Drawing.Point(0, 4);
+            this.dgvperfil.Name = "dgvperfil";
+            this.dgvperfil.SCampo = "Codigo";
+            this.dgvperfil.Size = new System.Drawing.Size(546, 136);
+            this.dgvperfil.STabla = "perfil";
+            this.dgvperfil.TabIndex = 0;
+            this.dgvperfil.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
+            this.dgvperfil.Load += new System.EventHandler(this.cuDataGridD2_Load);
             // 
-            // lblfecC
+            // lblfechcreacion
             // 
-            this.lblfecC.AutoSize = true;
-            this.lblfecC.Location = new System.Drawing.Point(45, 134);
-            this.lblfecC.Name = "lblfecC";
-            this.lblfecC.Size = new System.Drawing.Size(82, 13);
-            this.lblfecC.TabIndex = 11;
-            this.lblfecC.Text = "Fecha Creación";
+            this.lblfechcreacion.AutoSize = true;
+            this.lblfechcreacion.Location = new System.Drawing.Point(45, 134);
+            this.lblfechcreacion.Name = "lblfechcreacion";
+            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.TabIndex = 11;
+            this.lblfechcreacion.Text = "Fecha creación";
             // 
             // txtfecC
             // 
@@ -223,14 +224,14 @@
             this.txtfecC.TabIndex = 12;
             this.txtfecC.Tag = "fecha_creacion";
             // 
-            // lblfecm
+            // lblfechmodificacion
             // 
-            this.lblfecm.AutoSize = true;
-            this.lblfecm.Location = new System.Drawing.Point(311, 133);
-            this.lblfecm.Name = "lblfecm";
-            this.lblfecm.Size = new System.Drawing.Size(100, 13);
-            this.lblfecm.TabIndex = 13;
-            this.lblfecm.Text = "Fecha Modificación";
+            this.lblfechmodificacion.AutoSize = true;
+            this.lblfechmodificacion.Location = new System.Drawing.Point(311, 133);
+            this.lblfechmodificacion.Name = "lblfechmodificacion";
+            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.TabIndex = 13;
+            this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecm
             // 
@@ -240,58 +241,32 @@
             this.txtfecm.TabIndex = 14;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "EN-US",
-            "ES-CO",
-            "JA-JP"});
-            this.listBox1.Location = new System.Drawing.Point(551, 133);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(50, 43);
-            this.listBox1.TabIndex = 15;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(603, 133);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            // 
             // wfDetMod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(642, 359);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
-            this.Controls.Add(this.lblfecm);
+            this.Controls.Add(this.lblfechmodificacion);
             this.Controls.Add(this.txtfecC);
-            this.Controls.Add(this.lblfecC);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.lblfechcreacion);
+            this.Controls.Add(this.tbcdetmodulo);
             this.Controls.Add(this.cbEstado);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtestado);
-            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblestado);
             this.Controls.Add(this.txtCodPerf);
-            this.Controls.Add(this.lblCodPerf);
+            this.Controls.Add(this.lblcodperfil);
             this.Controls.Add(this.txtIDModulo);
-            this.Controls.Add(this.lblCodMod);
+            this.Controls.Add(this.lblcodmod);
             this.Controls.Add(this.txtIDDetMod);
-            this.Controls.Add(this.lblIDDetMod);
+            this.Controls.Add(this.lbliddetmod);
             this.Name = "wfDetMod";
             this.Text = "Detalle de Modulo";
             this.Load += new System.EventHandler(this.wfDetMod_Load);
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.tbcdetmodulo.ResumeLayout(false);
+            this.tbpmodulo.ResumeLayout(false);
+            this.tbpperfil.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -299,26 +274,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblIDDetMod;
+        private System.Windows.Forms.Label lbliddetmod;
         private System.Windows.Forms.TextBox txtIDDetMod;
-        private System.Windows.Forms.Label lblCodMod;
+        private System.Windows.Forms.Label lblcodmod;
         private System.Windows.Forms.TextBox txtIDModulo;
-        private System.Windows.Forms.Label lblCodPerf;
+        private System.Windows.Forms.Label lblcodperfil;
         private System.Windows.Forms.TextBox txtCodPerf;
-        private System.Windows.Forms.Label lblEstado;
+        private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtestado;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.ComboBox cbEstado;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
-        private System.Windows.Forms.Label lblfecC;
+        private System.Windows.Forms.TabControl tbcdetmodulo;
+        private System.Windows.Forms.TabPage tbpmodulo;
+        private System.Windows.Forms.TabPage tbpperfil;
+        private dll_bitacora.Presentacion.cuDataGridD dgvmodulo;
+        private dll_bitacora.Presentacion.cuDataGridD dgvperfil;
+        private System.Windows.Forms.Label lblfechcreacion;
         private System.Windows.Forms.TextBox txtfecC;
-        private System.Windows.Forms.Label lblfecm;
+        private System.Windows.Forms.Label lblfechmodificacion;
         private System.Windows.Forms.TextBox txtfecm;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

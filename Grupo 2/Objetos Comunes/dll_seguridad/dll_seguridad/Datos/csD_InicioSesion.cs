@@ -38,13 +38,20 @@ namespace dll_seguridad.Datos
         {
             sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "'";
             alResultado = csFunciones.alConsultar(sQuery);
-            if (alResultado.Count != 0)
+            if (alResultado != null)
             {
-                sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "' AND estado=1";
-                ArrayList alResp = csFunciones.alConsultar(sQuery);
-                if (alResp.Count != 0)
+                if (alResultado.Count != 0)
                 {
-                    return true;
+                    sQuery = "Select alias_usuario, contrasena_usuario from usuario where  alias_usuario= '" + sUsuario + "' AND contrasena_usuario= '" + sContraseña + "' AND estado=1";
+                    ArrayList alResp = csFunciones.alConsultar(sQuery);
+                    if (alResp.Count != 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
                 }
                 else
                 {
@@ -52,9 +59,11 @@ namespace dll_seguridad.Datos
                 }
             }
             else
-                {
-                    return false;
-                }
+            {
+                return false;
+            }
         }
     }
+
+
 }

@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfSubMod));
-            this.lblIDSubMod = new System.Windows.Forms.Label();
-            this.lblIDMod = new System.Windows.Forms.Label();
-            this.lblNomSubMod = new System.Windows.Forms.Label();
-            this.lblNomwf = new System.Windows.Forms.Label();
-            this.lblEstadoSubMod = new System.Windows.Forms.Label();
+            this.lblcodsubmod = new System.Windows.Forms.Label();
+            this.lblcodmod = new System.Windows.Forms.Label();
+            this.lblnomsubmod = new System.Windows.Forms.Label();
+            this.lblnombrewf = new System.Windows.Forms.Label();
+            this.lblestado = new System.Windows.Forms.Label();
             this.txtIDSubMod = new System.Windows.Forms.TextBox();
             this.txtIDMod = new System.Windows.Forms.TextBox();
             this.txtNomSubMod = new System.Windows.Forms.TextBox();
@@ -41,64 +41,61 @@
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
             this.cbestado = new System.Windows.Forms.ComboBox();
-            this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.lblfeccSubMod = new System.Windows.Forms.Label();
-            this.lblfecmSubMod = new System.Windows.Forms.Label();
+            this.dgvmodulo = new dll_bitacora.Presentacion.cuDataGridD();
+            this.lblfechcreacion = new System.Windows.Forms.Label();
+            this.lblfechmodificacion = new System.Windows.Forms.Label();
             this.txtfecc = new System.Windows.Forms.TextBox();
             this.txtfecm = new System.Windows.Forms.TextBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblIDSubMod
+            // lblcodsubmod
             // 
-            this.lblIDSubMod.AutoSize = true;
-            this.lblIDSubMod.Location = new System.Drawing.Point(22, 100);
-            this.lblIDSubMod.Name = "lblIDSubMod";
-            this.lblIDSubMod.Size = new System.Drawing.Size(78, 13);
-            this.lblIDSubMod.TabIndex = 0;
-            this.lblIDSubMod.Text = "ID Sub Modulo";
+            this.lblcodsubmod.AutoSize = true;
+            this.lblcodsubmod.Location = new System.Drawing.Point(22, 100);
+            this.lblcodsubmod.Name = "lblcodsubmod";
+            this.lblcodsubmod.Size = new System.Drawing.Size(97, 13);
+            this.lblcodsubmod.TabIndex = 0;
+            this.lblcodsubmod.Text = "Código sub módulo";
             // 
-            // lblIDMod
+            // lblcodmod
             // 
-            this.lblIDMod.AutoSize = true;
-            this.lblIDMod.Location = new System.Drawing.Point(212, 100);
-            this.lblIDMod.Name = "lblIDMod";
-            this.lblIDMod.Size = new System.Drawing.Size(56, 13);
-            this.lblIDMod.TabIndex = 1;
-            this.lblIDMod.Text = "ID Modulo";
+            this.lblcodmod.AutoSize = true;
+            this.lblcodmod.Location = new System.Drawing.Point(195, 100);
+            this.lblcodmod.Name = "lblcodmod";
+            this.lblcodmod.Size = new System.Drawing.Size(77, 13);
+            this.lblcodmod.TabIndex = 1;
+            this.lblcodmod.Text = "Código módulo";
             // 
-            // lblNomSubMod
+            // lblnomsubmod
             // 
-            this.lblNomSubMod.AutoSize = true;
-            this.lblNomSubMod.Location = new System.Drawing.Point(22, 137);
-            this.lblNomSubMod.Name = "lblNomSubMod";
-            this.lblNomSubMod.Size = new System.Drawing.Size(104, 13);
-            this.lblNomSubMod.TabIndex = 2;
-            this.lblNomSubMod.Text = "Nombre Sub Modulo";
+            this.lblnomsubmod.AutoSize = true;
+            this.lblnomsubmod.Location = new System.Drawing.Point(22, 137);
+            this.lblnomsubmod.Name = "lblnomsubmod";
+            this.lblnomsubmod.Size = new System.Drawing.Size(101, 13);
+            this.lblnomsubmod.TabIndex = 2;
+            this.lblnomsubmod.Text = "Nombre sub módulo";
             // 
-            // lblNomwf
+            // lblnombrewf
             // 
-            this.lblNomwf.AutoSize = true;
-            this.lblNomwf.Location = new System.Drawing.Point(312, 136);
-            this.lblNomwf.Name = "lblNomwf";
-            this.lblNomwf.Size = new System.Drawing.Size(95, 13);
-            this.lblNomwf.TabIndex = 3;
-            this.lblNomwf.Text = "Nombre Formulario";
+            this.lblnombrewf.AutoSize = true;
+            this.lblnombrewf.Location = new System.Drawing.Point(312, 136);
+            this.lblnombrewf.Name = "lblnombrewf";
+            this.lblnombrewf.Size = new System.Drawing.Size(92, 13);
+            this.lblnombrewf.TabIndex = 3;
+            this.lblnombrewf.Text = "Nombre formulario";
             // 
-            // lblEstadoSubMod
+            // lblestado
             // 
-            this.lblEstadoSubMod.AutoSize = true;
-            this.lblEstadoSubMod.Location = new System.Drawing.Point(367, 101);
-            this.lblEstadoSubMod.Name = "lblEstadoSubMod";
-            this.lblEstadoSubMod.Size = new System.Drawing.Size(40, 13);
-            this.lblEstadoSubMod.TabIndex = 4;
-            this.lblEstadoSubMod.Text = "Estado";
+            this.lblestado.AutoSize = true;
+            this.lblestado.Location = new System.Drawing.Point(367, 101);
+            this.lblestado.Name = "lblestado";
+            this.lblestado.Size = new System.Drawing.Size(40, 13);
+            this.lblestado.TabIndex = 4;
+            this.lblestado.Text = "Estado";
             // 
             // txtIDSubMod
             // 
-            this.txtIDSubMod.Location = new System.Drawing.Point(117, 93);
+            this.txtIDSubMod.Location = new System.Drawing.Point(123, 93);
             this.txtIDSubMod.Name = "txtIDSubMod";
             this.txtIDSubMod.Size = new System.Drawing.Size(28, 20);
             this.txtIDSubMod.TabIndex = 1;
@@ -148,7 +145,11 @@
             this.navegador1.sNombreTabla = "sub_modulo";
             this.navegador1.TabIndex = 9;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
+            this.navegador1.btnBuscar_AfterClick += new System.EventHandler(this.navegador1_btnBuscar_AfterClick);
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
+            this.navegador1.btnEliminar_AfterClick += new System.EventHandler(this.navegador1_btnEliminar_AfterClick);
+            this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
             // 
             // cbestado
             // 
@@ -163,35 +164,35 @@
             this.cbestado.TabIndex = 3;
             this.cbestado.SelectedIndexChanged += new System.EventHandler(this.cbestado_SelectedIndexChanged);
             // 
-            // cuDataGridD1
+            // dgvmodulo
             // 
-            this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.Location = new System.Drawing.Point(25, 206);
-            this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Código";
-            this.cuDataGridD1.Size = new System.Drawing.Size(571, 159);
-            this.cuDataGridD1.STabla = "modulo";
-            this.cuDataGridD1.TabIndex = 10;
-            this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
-            this.cuDataGridD1.Load += new System.EventHandler(this.cuDataGridD1_Load);
+            this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
+            this.dgvmodulo.Location = new System.Drawing.Point(25, 206);
+            this.dgvmodulo.Name = "dgvmodulo";
+            this.dgvmodulo.SCampo = "Código";
+            this.dgvmodulo.Size = new System.Drawing.Size(571, 159);
+            this.dgvmodulo.STabla = "modulo";
+            this.dgvmodulo.TabIndex = 10;
+            this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
+            this.dgvmodulo.Load += new System.EventHandler(this.cuDataGridD1_Load);
             // 
-            // lblfeccSubMod
+            // lblfechcreacion
             // 
-            this.lblfeccSubMod.AutoSize = true;
-            this.lblfeccSubMod.Location = new System.Drawing.Point(25, 168);
-            this.lblfeccSubMod.Name = "lblfeccSubMod";
-            this.lblfeccSubMod.Size = new System.Drawing.Size(82, 13);
-            this.lblfeccSubMod.TabIndex = 11;
-            this.lblfeccSubMod.Text = "Fecha Creación";
+            this.lblfechcreacion.AutoSize = true;
+            this.lblfechcreacion.Location = new System.Drawing.Point(25, 168);
+            this.lblfechcreacion.Name = "lblfechcreacion";
+            this.lblfechcreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblfechcreacion.TabIndex = 11;
+            this.lblfechcreacion.Text = "Fecha creación";
             // 
-            // lblfecmSubMod
+            // lblfechmodificacion
             // 
-            this.lblfecmSubMod.AutoSize = true;
-            this.lblfecmSubMod.Location = new System.Drawing.Point(315, 167);
-            this.lblfecmSubMod.Name = "lblfecmSubMod";
-            this.lblfecmSubMod.Size = new System.Drawing.Size(100, 13);
-            this.lblfecmSubMod.TabIndex = 12;
-            this.lblfecmSubMod.Text = "Fecha Modificación";
+            this.lblfechmodificacion.AutoSize = true;
+            this.lblfechmodificacion.Location = new System.Drawing.Point(315, 167);
+            this.lblfechmodificacion.Name = "lblfechmodificacion";
+            this.lblfechmodificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblfechmodificacion.TabIndex = 12;
+            this.lblfechmodificacion.Text = "Fecha modificación";
             // 
             // txtfecc
             // 
@@ -209,41 +210,16 @@
             this.txtfecm.TabIndex = 14;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
-            "EN-US",
-            "ES-CO",
-            "JA-JP"});
-            this.listBox1.Location = new System.Drawing.Point(546, 145);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(50, 43);
-            this.listBox1.TabIndex = 24;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(593, 145);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(27, 43);
-            this.pictureBox2.TabIndex = 25;
-            this.pictureBox2.TabStop = false;
-            // 
             // wfSubMod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 377);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.txtfecc);
-            this.Controls.Add(this.lblfecmSubMod);
-            this.Controls.Add(this.lblfeccSubMod);
-            this.Controls.Add(this.cuDataGridD1);
+            this.Controls.Add(this.lblfechmodificacion);
+            this.Controls.Add(this.lblfechcreacion);
+            this.Controls.Add(this.dgvmodulo);
             this.Controls.Add(this.cbestado);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtEstado);
@@ -251,15 +227,14 @@
             this.Controls.Add(this.txtNomSubMod);
             this.Controls.Add(this.txtIDMod);
             this.Controls.Add(this.txtIDSubMod);
-            this.Controls.Add(this.lblEstadoSubMod);
-            this.Controls.Add(this.lblNomwf);
-            this.Controls.Add(this.lblNomSubMod);
-            this.Controls.Add(this.lblIDMod);
-            this.Controls.Add(this.lblIDSubMod);
+            this.Controls.Add(this.lblestado);
+            this.Controls.Add(this.lblnombrewf);
+            this.Controls.Add(this.lblnomsubmod);
+            this.Controls.Add(this.lblcodmod);
+            this.Controls.Add(this.lblcodsubmod);
             this.Name = "wfSubMod";
             this.Text = "Sub Modulo";
             this.Load += new System.EventHandler(this.wfSubMod_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,11 +242,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblIDSubMod;
-        private System.Windows.Forms.Label lblIDMod;
-        private System.Windows.Forms.Label lblNomSubMod;
-        private System.Windows.Forms.Label lblNomwf;
-        private System.Windows.Forms.Label lblEstadoSubMod;
+        private System.Windows.Forms.Label lblcodsubmod;
+        private System.Windows.Forms.Label lblcodmod;
+        private System.Windows.Forms.Label lblnomsubmod;
+        private System.Windows.Forms.Label lblnombrewf;
+        private System.Windows.Forms.Label lblestado;
         private System.Windows.Forms.TextBox txtIDSubMod;
         private System.Windows.Forms.TextBox txtIDMod;
         private System.Windows.Forms.TextBox txtNomSubMod;
@@ -279,12 +254,10 @@
         private System.Windows.Forms.TextBox txtEstado;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.ComboBox cbestado;
-        private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.Label lblfeccSubMod;
-        private System.Windows.Forms.Label lblfecmSubMod;
+        private dll_bitacora.Presentacion.cuDataGridD dgvmodulo;
+        private System.Windows.Forms.Label lblfechcreacion;
+        private System.Windows.Forms.Label lblfechmodificacion;
         private System.Windows.Forms.TextBox txtfecc;
         private System.Windows.Forms.TextBox txtfecm;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

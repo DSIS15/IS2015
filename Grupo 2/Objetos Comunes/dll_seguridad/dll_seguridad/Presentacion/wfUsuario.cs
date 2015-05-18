@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 using System.Security.Cryptography;
-using dll_seguridad.Recursos_localizables;
 using System.Threading;
 using System.Globalization;
 
@@ -50,8 +49,8 @@ namespace dll_seguridad.Presentacion
                                 {"fecha_modificacion","Fecha Modificación","true",},
                                 {"estado","Estado","false"}
                               };
-            cuDataGridD1.AlDatosEntrada.Add(Scadena);
-            cuDataGridD1.vinicializar();
+            dgvperfil.AlDatosEntrada.Add(Scadena);
+            dgvperfil.vinicializar();
             ////////////////////////////////////////////////////
 
             //Datos del grid Roll
@@ -84,7 +83,7 @@ namespace dll_seguridad.Presentacion
 
         private void cuDataGridD1_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtCodPerfil.Text = cuDataGridD1.SObtenerDato;
+            txtCodPerfil.Text = dgvperfil.SObtenerDato;
         }
 
         private void cuDataGridD1_Load(object sender, EventArgs e)
@@ -103,7 +102,9 @@ namespace dll_seguridad.Presentacion
         }
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
-        {            
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se agrego un registro en usuario");
+            
             txtfechcrea.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtIDUsuario.Enabled = false;
@@ -115,6 +116,8 @@ namespace dll_seguridad.Presentacion
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
         {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en usuario");
+            
             txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
             txtIDUsuario.Enabled = false;
             txtCodPerfil.Enabled = false;
@@ -132,48 +135,46 @@ namespace dll_seguridad.Presentacion
             txtEncriptar.Text = login_pass.ToString();
         }
 
-        public void AplicarIdioma()
-        {
-            lblIDusuario.Text = StringResources.Label36;
-            lblCodPer.Text = StringResources.Label37;
-            
-            lblEstadoUser.Text = StringResources.Label39;
-            lblNomUser.Text = StringResources.Label40;
-            lblDireccionUser.Text = StringResources.Label41;
-            lbl1ApellidoUser.Text = StringResources.Label42;
-            lblAlias.Text = StringResources.Label43;
-            lbltxt2Apellido.Text = StringResources.Label44;
-            lblPaswUser.Text = StringResources.Label45;
-            lblfechcreauser.Text = StringResources.Label46;
-            lblfecmodUser.Text = StringResources.Label47;
-
-
-            this.Text = StringResources.WindowTitle7;
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            Thread.CurrentThread.CurrentUICulture = new CultureInfo((string)listBox1.SelectedItem);
-            AplicarIdioma();
-        }
+        
 
         private void txtContraseña_TextChanged(object sender, EventArgs e)
         {
             //byte[] byEncriptado = Encoding.Unicode.GetBytes(txtContraseña.Text);
-           // txtEncriptar.Text = Convert.ToBase64String(byEncriptado);
+            //txtEncriptar.Text = Convert.ToBase64String(byEncriptado);
         }
 
         private void txtEncriptar_TextChanged(object sender, EventArgs e)
         {
-           // txtContraseña.Text = txtEncriptar.Text;            
+            txtContraseña.Text = txtEncriptar.Text;            
             //byte[] byDesencriptar = Convert.FromBase64String(txtEncriptar.Text);
            //txtEncriptar.Text = Encoding.Unicode.GetString(byDesencriptar);
         }
 
         private void navegador1_btnGuardar_AfterClick(object sender, EventArgs e)
         {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se guardo un registro en usuario");
+            
             txtContraseña.Enabled = false; 
+        }
+
+        private void cuDataGridD1_sdgv_CellClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            txtCodPerfil.Text = dgvperfil.SObtenerDato;
+        }
+
+        private void navegador1_btnBuscar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se busco un registro en usuario");
+        }
+
+        private void navegador1_btnEliminar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se elimino un registro en usuario");
+        }
+
+        private void navegador1_btnLimpiar_AfterClick(object sender, EventArgs e)
+        {
+            dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron registros en usuario");
         }
     }
 }

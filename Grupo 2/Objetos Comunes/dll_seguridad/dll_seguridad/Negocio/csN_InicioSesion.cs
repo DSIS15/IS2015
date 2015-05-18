@@ -39,7 +39,7 @@ namespace dll_seguridad.Negocio
             if (String.IsNullOrEmpty(sUsuario) || string.IsNullOrEmpty(sContraseña))
             {
                 //Mensaje de error
-                MessageBox.Show("Ingrese el Usuario/Contraseña vacios","Hospital");                
+                MessageBox.Show("Ingrese el Usuario/Contraseña vacios","Hospital", MessageBoxButtons.OK, MessageBoxIcon.Warning);                
             }
             else
                 {
@@ -48,6 +48,7 @@ namespace dll_seguridad.Negocio
                         sCodigoUsuarioN = sObtenerCodigoUsuarioD(sUsuario,sContraseña);
                         Presentacion.wfInicioSesion.SCodigoUsuario = sCodigoUsuarioN;
                         dll_bitacora.Presentacion.cs_PInsercionBitacora.SCodiUsuario = sCodigoUsuarioN;
+                        dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Inicio de Sesión");
                         //MessageBox.Show("Variable Asignada capa Negocio "+ sCodigoUsuarioN);
                         
                         //Ocultando la ventanda wfInicioSesion
@@ -59,7 +60,7 @@ namespace dll_seguridad.Negocio
                     else
                         {
                             //Mensaje de error de autentificacion
-                            MessageBox.Show("Error en autentificacion /n contacte al Administrador del Sistema","Hospital");
+                            MessageBox.Show("Error en autentificacion contacte al Administrador del Sistema","Hospital", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                 }        
         }
