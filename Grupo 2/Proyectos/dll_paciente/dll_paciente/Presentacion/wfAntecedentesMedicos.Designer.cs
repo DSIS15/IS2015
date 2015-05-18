@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfAntecedentesMedicos));
             this.navegador1 = new Navegador.Navegador();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tbppaciente = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tbcantecedentesmedicos = new System.Windows.Forms.TabControl();
+            this.tbppaciente = new System.Windows.Forms.TabPage();
             this.tbpemfermedad = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.lbldescripcion = new System.Windows.Forms.Label();
@@ -43,8 +43,8 @@
             this.txtidenfermedad = new System.Windows.Forms.TextBox();
             this.txtidpaciente = new System.Windows.Forms.TextBox();
             this.txtidantecedente = new System.Windows.Forms.TextBox();
+            this.tbcantecedentesmedicos.SuspendLayout();
             this.tbppaciente.SuspendLayout();
-            this.tabPage1.SuspendLayout();
             this.tbpemfermedad.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,26 +71,26 @@
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             this.cuDataGridD1.Load += new System.EventHandler(this.cuDataGridD1_Load);
             // 
+            // tbcantecedentesmedicos
+            // 
+            this.tbcantecedentesmedicos.Controls.Add(this.tbppaciente);
+            this.tbcantecedentesmedicos.Controls.Add(this.tbpemfermedad);
+            this.tbcantecedentesmedicos.Location = new System.Drawing.Point(40, 220);
+            this.tbcantecedentesmedicos.Name = "tbcantecedentesmedicos";
+            this.tbcantecedentesmedicos.SelectedIndex = 0;
+            this.tbcantecedentesmedicos.Size = new System.Drawing.Size(598, 221);
+            this.tbcantecedentesmedicos.TabIndex = 2;
+            // 
             // tbppaciente
             // 
-            this.tbppaciente.Controls.Add(this.tabPage1);
-            this.tbppaciente.Controls.Add(this.tbpemfermedad);
-            this.tbppaciente.Location = new System.Drawing.Point(40, 220);
+            this.tbppaciente.Controls.Add(this.cuDataGridD1);
+            this.tbppaciente.Location = new System.Drawing.Point(4, 22);
             this.tbppaciente.Name = "tbppaciente";
-            this.tbppaciente.SelectedIndex = 0;
-            this.tbppaciente.Size = new System.Drawing.Size(598, 221);
-            this.tbppaciente.TabIndex = 2;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.Controls.Add(this.cuDataGridD1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(590, 195);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Paciente";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
+            this.tbppaciente.Size = new System.Drawing.Size(590, 195);
+            this.tbppaciente.TabIndex = 0;
+            this.tbppaciente.Text = "Paciente";
+            this.tbppaciente.UseVisualStyleBackColor = true;
             // 
             // tbpemfermedad
             // 
@@ -196,13 +196,13 @@
             this.Controls.Add(this.txtidenfermedad);
             this.Controls.Add(this.txtidpaciente);
             this.Controls.Add(this.txtidantecedente);
-            this.Controls.Add(this.tbppaciente);
+            this.Controls.Add(this.tbcantecedentesmedicos);
             this.Controls.Add(this.navegador1);
             this.Name = "wfAntecedentesMedicos";
             this.Text = "Antecedentes Medicos";
             this.Load += new System.EventHandler(this.wfAntecedentesMedicos_Load);
+            this.tbcantecedentesmedicos.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
             this.tbpemfermedad.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -213,8 +213,8 @@
 
         private Navegador.Navegador navegador1;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.TabControl tbppaciente;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabControl tbcantecedentesmedicos;
+        private System.Windows.Forms.TabPage tbppaciente;
         private System.Windows.Forms.TabPage tbpemfermedad;
         private System.Windows.Forms.Label lbldescripcion;
         private System.Windows.Forms.Label lblidenfermedad;

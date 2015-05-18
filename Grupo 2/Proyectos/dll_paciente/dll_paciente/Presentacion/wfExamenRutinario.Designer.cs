@@ -52,13 +52,13 @@
             this.txtid_medico = new System.Windows.Forms.TextBox();
             this.txtestado_oido = new System.Windows.Forms.TextBox();
             this.cbosangre = new System.Windows.Forms.ComboBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tbcexamenrutinario = new System.Windows.Forms.TabControl();
             this.tbppaciente = new System.Windows.Forms.TabPage();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
             this.tbpmedico = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.txtsangre = new System.Windows.Forms.TextBox();
-            this.tabControl1.SuspendLayout();
+            this.tbcexamenrutinario.SuspendLayout();
             this.tbppaciente.SuspendLayout();
             this.tbpmedico.SuspendLayout();
             this.SuspendLayout();
@@ -273,15 +273,15 @@
             this.cbosangre.TabIndex = 22;
             this.cbosangre.SelectedIndexChanged += new System.EventHandler(this.cbosangre_SelectedIndexChanged);
             // 
-            // tabControl1
+            // tbcexamenrutinario
             // 
-            this.tabControl1.Controls.Add(this.tbppaciente);
-            this.tabControl1.Controls.Add(this.tbpmedico);
-            this.tabControl1.Location = new System.Drawing.Point(32, 277);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(712, 160);
-            this.tabControl1.TabIndex = 23;
+            this.tbcexamenrutinario.Controls.Add(this.tbppaciente);
+            this.tbcexamenrutinario.Controls.Add(this.tbpmedico);
+            this.tbcexamenrutinario.Location = new System.Drawing.Point(32, 277);
+            this.tbcexamenrutinario.Name = "tbcexamenrutinario";
+            this.tbcexamenrutinario.SelectedIndex = 0;
+            this.tbcexamenrutinario.Size = new System.Drawing.Size(712, 160);
+            this.tbcexamenrutinario.TabIndex = 23;
             // 
             // tbppaciente
             // 
@@ -343,7 +343,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(793, 440);
             this.Controls.Add(this.txtsangre);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tbcexamenrutinario);
             this.Controls.Add(this.cbosangre);
             this.Controls.Add(this.txtestado_oido);
             this.Controls.Add(this.txtid_medico);
@@ -370,7 +370,7 @@
             this.Name = "wfExamenRutinario";
             this.Text = "Examen Rutinario";
             this.Load += new System.EventHandler(this.wfExamenRutinario_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tbcexamenrutinario.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
             this.tbpmedico.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -403,7 +403,7 @@
         private System.Windows.Forms.TextBox txtid_medico;
         private System.Windows.Forms.TextBox txtestado_oido;
         private System.Windows.Forms.ComboBox cbosangre;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tbcexamenrutinario;
         private System.Windows.Forms.TabPage tbppaciente;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
         private System.Windows.Forms.TabPage tbpmedico;

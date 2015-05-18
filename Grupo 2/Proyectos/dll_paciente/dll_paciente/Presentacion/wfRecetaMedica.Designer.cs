@@ -37,10 +37,10 @@
             this.lblviadeadmin = new System.Windows.Forms.Label();
             this.lbldosis = new System.Windows.Forms.Label();
             this.lblestado = new System.Windows.Forms.Label();
-            this.tbpmedico = new System.Windows.Forms.TabControl();
+            this.tbcrecetamedica = new System.Windows.Forms.TabControl();
             this.tbppaciente = new System.Windows.Forms.TabPage();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tbcmedico = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.navegador1 = new Navegador.Navegador();
             this.txtid_recetamedica = new System.Windows.Forms.TextBox();
@@ -54,9 +54,9 @@
             this.cboEstado = new System.Windows.Forms.ComboBox();
             this.cbocatmedico = new System.Windows.Forms.ComboBox();
             this.cbovia_de_administracion = new System.Windows.Forms.ComboBox();
-            this.tbpmedico.SuspendLayout();
+            this.tbcrecetamedica.SuspendLayout();
             this.tbppaciente.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.tbcmedico.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblrecetamedica
@@ -131,15 +131,15 @@
             this.lblestado.TabIndex = 7;
             this.lblestado.Text = "Estado:";
             // 
-            // tbpmedico
+            // tbcrecetamedica
             // 
-            this.tbpmedico.Controls.Add(this.tbppaciente);
-            this.tbpmedico.Controls.Add(this.tabPage2);
-            this.tbpmedico.Location = new System.Drawing.Point(63, 229);
-            this.tbpmedico.Name = "tbpmedico";
-            this.tbpmedico.SelectedIndex = 0;
-            this.tbpmedico.Size = new System.Drawing.Size(701, 170);
-            this.tbpmedico.TabIndex = 8;
+            this.tbcrecetamedica.Controls.Add(this.tbppaciente);
+            this.tbcrecetamedica.Controls.Add(this.tbcmedico);
+            this.tbcrecetamedica.Location = new System.Drawing.Point(63, 229);
+            this.tbcrecetamedica.Name = "tbcrecetamedica";
+            this.tbcrecetamedica.SelectedIndex = 0;
+            this.tbcrecetamedica.Size = new System.Drawing.Size(701, 170);
+            this.tbcrecetamedica.TabIndex = 8;
             // 
             // tbppaciente
             // 
@@ -163,16 +163,16 @@
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             // 
-            // tabPage2
+            // tbcmedico
             // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(693, 144);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Médico";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbcmedico.Controls.Add(this.cuDataGridD2);
+            this.tbcmedico.Location = new System.Drawing.Point(4, 22);
+            this.tbcmedico.Name = "tbcmedico";
+            this.tbcmedico.Padding = new System.Windows.Forms.Padding(3);
+            this.tbcmedico.Size = new System.Drawing.Size(693, 144);
+            this.tbcmedico.TabIndex = 1;
+            this.tbcmedico.Text = "Médico";
+            this.tbcmedico.UseVisualStyleBackColor = true;
             // 
             // cuDataGridD2
             // 
@@ -325,7 +325,7 @@
             this.Controls.Add(this.txtnom_med);
             this.Controls.Add(this.txtid_recetamedica);
             this.Controls.Add(this.navegador1);
-            this.Controls.Add(this.tbpmedico);
+            this.Controls.Add(this.tbcrecetamedica);
             this.Controls.Add(this.lblestado);
             this.Controls.Add(this.lbldosis);
             this.Controls.Add(this.lblviadeadmin);
@@ -337,9 +337,9 @@
             this.Name = "wfRecetaMedica";
             this.Text = "Receta Medica";
             this.Load += new System.EventHandler(this.wfRecetaMedica_Load);
-            this.tbpmedico.ResumeLayout(false);
+            this.tbcrecetamedica.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
+            this.tbcmedico.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -355,10 +355,10 @@
         private System.Windows.Forms.Label lblviadeadmin;
         private System.Windows.Forms.Label lbldosis;
         private System.Windows.Forms.Label lblestado;
-        private System.Windows.Forms.TabControl tbpmedico;
+        private System.Windows.Forms.TabControl tbcrecetamedica;
         private System.Windows.Forms.TabPage tbppaciente;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tbcmedico;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.TextBox txtid_recetamedica;
