@@ -1,0 +1,10 @@
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\bin\Debug\dll_report.dll.config
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\bin\Debug\dll_report.dll
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\bin\Debug\dll_report.pdb
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\dll_report.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\dll_report.wfReporte.resources
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\dll_report.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\RdlCompile.cache
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\RdlCompile.compiled
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\dll_report.dll
+C:\Users\Jessy\Desktop\reportdany\dll_report\dll_report\obj\Debug\dll_report.pdb
