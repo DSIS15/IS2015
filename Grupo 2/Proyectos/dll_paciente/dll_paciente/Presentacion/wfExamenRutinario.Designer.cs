@@ -53,14 +53,14 @@
             this.txtestado_oido = new System.Windows.Forms.TextBox();
             this.cbosangre = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tbppaciente = new System.Windows.Forms.TabPage();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
-            this.txtsangre = new System.Windows.Forms.TextBox();
+            this.tbpmedico = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
+            this.txtsangre = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
+            this.tbppaciente.SuspendLayout();
+            this.tbpmedico.SuspendLayout();
             this.SuspendLayout();
             // 
             // navegador1
@@ -275,35 +275,24 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tbppaciente);
+            this.tabControl1.Controls.Add(this.tbpmedico);
             this.tabControl1.Location = new System.Drawing.Point(32, 277);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(712, 160);
             this.tabControl1.TabIndex = 23;
             // 
-            // tabPage1
+            // tbppaciente
             // 
-            this.tabPage1.Controls.Add(this.cuDataGridD1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(704, 134);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Paciente";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(704, 134);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Médico";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbppaciente.Controls.Add(this.cuDataGridD1);
+            this.tbppaciente.Location = new System.Drawing.Point(4, 22);
+            this.tbppaciente.Name = "tbppaciente";
+            this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
+            this.tbppaciente.Size = new System.Drawing.Size(704, 134);
+            this.tbppaciente.TabIndex = 0;
+            this.tbppaciente.Text = "Paciente";
+            this.tbppaciente.UseVisualStyleBackColor = true;
             // 
             // cuDataGridD1
             // 
@@ -316,15 +305,16 @@
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             // 
-            // txtsangre
+            // tbpmedico
             // 
-            this.txtsangre.Location = new System.Drawing.Point(750, 119);
-            this.txtsangre.Name = "txtsangre";
-            this.txtsangre.Size = new System.Drawing.Size(31, 20);
-            this.txtsangre.TabIndex = 24;
-            this.txtsangre.Tag = "sangre";
-            this.txtsangre.Visible = false;
-            this.txtsangre.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
+            this.tbpmedico.Controls.Add(this.cuDataGridD2);
+            this.tbpmedico.Location = new System.Drawing.Point(4, 22);
+            this.tbpmedico.Name = "tbpmedico";
+            this.tbpmedico.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpmedico.Size = new System.Drawing.Size(704, 134);
+            this.tbpmedico.TabIndex = 1;
+            this.tbpmedico.Text = "Médico";
+            this.tbpmedico.UseVisualStyleBackColor = true;
             // 
             // cuDataGridD2
             // 
@@ -336,6 +326,16 @@
             this.cuDataGridD2.STabla = "medico";
             this.cuDataGridD2.TabIndex = 0;
             this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
+            // 
+            // txtsangre
+            // 
+            this.txtsangre.Location = new System.Drawing.Point(750, 119);
+            this.txtsangre.Name = "txtsangre";
+            this.txtsangre.Size = new System.Drawing.Size(31, 20);
+            this.txtsangre.TabIndex = 24;
+            this.txtsangre.Tag = "sangre";
+            this.txtsangre.Visible = false;
+            this.txtsangre.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
             // 
             // wfExamenRutinario
             // 
@@ -371,8 +371,8 @@
             this.Text = "Examen Rutinario";
             this.Load += new System.EventHandler(this.wfExamenRutinario_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
+            this.tbppaciente.ResumeLayout(false);
+            this.tbpmedico.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -404,9 +404,9 @@
         private System.Windows.Forms.TextBox txtestado_oido;
         private System.Windows.Forms.ComboBox cbosangre;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tbppaciente;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tbpmedico;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
         private System.Windows.Forms.TextBox txtsangre;
     }

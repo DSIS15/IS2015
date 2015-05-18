@@ -20,3 +20,4 @@ C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.cspro
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfRecetaMedica.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csprojResolveAssemblyReference.cache
