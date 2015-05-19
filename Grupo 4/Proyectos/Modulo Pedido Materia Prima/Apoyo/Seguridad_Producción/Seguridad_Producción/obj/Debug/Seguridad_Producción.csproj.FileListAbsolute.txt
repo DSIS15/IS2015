@@ -1,0 +1,50 @@
+c:\users\rodrigo\documents\visual studio 2013\Projects\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+c:\users\rodrigo\documents\visual studio 2013\Projects\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+c:\users\rodrigo\documents\visual studio 2013\Projects\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+c:\users\rodrigo\documents\visual studio 2013\Projects\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\EFPEM\Desktop\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\EFPEM\Desktop\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Navegador.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\ODBCconnector.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\Navegador.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfEmpresa.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfMoneda.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Presentación.wfInicioSesion.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfEmpresa.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfMoneda.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csprojResolveAssemblyReference.cache
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csprojResolveAssemblyReference.cache
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Presentación.wfInicioSesion.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Properties.Resources.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfEmpresa.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfMoneda.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\Miranda Juárez\Desktop\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Presentación.wfInicioSesion.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfEmpresa.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.wfMoneda.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Proyectos\Seguridad_Producción\Seguridad_Producción\obj\Debug\Seguridad_Producción.pdb

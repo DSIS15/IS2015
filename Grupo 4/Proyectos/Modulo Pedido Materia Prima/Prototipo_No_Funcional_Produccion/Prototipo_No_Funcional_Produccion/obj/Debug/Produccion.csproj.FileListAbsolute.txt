@@ -1,0 +1,135 @@
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad.dll
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Producion.wfMenuPrincipal.resources
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Producion.Properties.Resources.resources
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.exe.config
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.exe
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.pdb
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.exe
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfInicioSesion.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Documents\Software\Proyecto\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.dll
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.dll
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.dll
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfInicioSesion.resources
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\EFPEM\Desktop\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfInicioSesion.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\arreglar\subir ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\SIP_Administrativo.dll
+C:\Users\Rodrigo\Documents\Software\Proyecto\Proceso\Modificando\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\SIP_Administrativo.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.dll
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\SIP_Administrativo.pdb
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Miranda Juárez\Desktop\Proyectos\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad_Producción.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\SIP_Administrativo.pdb
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Miranda R\Desktop\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\pdFormula.dll
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\pdFormula.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe.config
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.exe
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion_EnterpriseSolution.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\pdFormula.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
