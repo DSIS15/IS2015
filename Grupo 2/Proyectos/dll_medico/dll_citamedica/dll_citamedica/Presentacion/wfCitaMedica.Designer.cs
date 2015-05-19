@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfCitaMedica));
             this.navegador1 = new Navegador.Navegador();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblIdCita = new System.Windows.Forms.Label();
             this.txtIdCita = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblIdUsuario = new System.Windows.Forms.Label();
+            this.lblIdMedico = new System.Windows.Forms.Label();
+            this.lblIdPaciente = new System.Windows.Forms.Label();
+            this.lblFechaCita = new System.Windows.Forms.Label();
+            this.lblTipoCita = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.cboEstadoCita = new System.Windows.Forms.ComboBox();
             this.txtTipoCita = new System.Windows.Forms.TextBox();
             this.txtEstadoCita = new System.Windows.Forms.TextBox();
@@ -70,14 +70,14 @@
             this.navegador1.sNombreTabla = "cita_medica";
             this.navegador1.TabIndex = 0;
             // 
-            // label1
+            // lblIdCita
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 103);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Id cita";
+            this.lblIdCita.AutoSize = true;
+            this.lblIdCita.Location = new System.Drawing.Point(46, 103);
+            this.lblIdCita.Name = "lblIdCita";
+            this.lblIdCita.Size = new System.Drawing.Size(36, 13);
+            this.lblIdCita.TabIndex = 1;
+            this.lblIdCita.Text = "Id cita";
             // 
             // txtIdCita
             // 
@@ -87,60 +87,60 @@
             this.txtIdCita.TabIndex = 2;
             this.txtIdCita.Tag = "id_cita_medi";
             // 
-            // label2
+            // lblIdUsuario
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(206, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Id usuario";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lblIdUsuario.AutoSize = true;
+            this.lblIdUsuario.Location = new System.Drawing.Point(206, 106);
+            this.lblIdUsuario.Name = "lblIdUsuario";
+            this.lblIdUsuario.Size = new System.Drawing.Size(53, 13);
+            this.lblIdUsuario.TabIndex = 4;
+            this.lblIdUsuario.Text = "Id usuario";
+            this.lblIdUsuario.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // lblIdMedico
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 144);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Id medico";
+            this.lblIdMedico.AutoSize = true;
+            this.lblIdMedico.Location = new System.Drawing.Point(29, 144);
+            this.lblIdMedico.Name = "lblIdMedico";
+            this.lblIdMedico.Size = new System.Drawing.Size(53, 13);
+            this.lblIdMedico.TabIndex = 5;
+            this.lblIdMedico.Text = "Id medico";
             // 
-            // label4
+            // lblIdPaciente
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(224, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 13);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "Id paciente";
+            this.lblIdPaciente.AutoSize = true;
+            this.lblIdPaciente.Location = new System.Drawing.Point(224, 152);
+            this.lblIdPaciente.Name = "lblIdPaciente";
+            this.lblIdPaciente.Size = new System.Drawing.Size(60, 13);
+            this.lblIdPaciente.TabIndex = 8;
+            this.lblIdPaciente.Text = "Id paciente";
             // 
-            // label5
+            // lblFechaCita
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(409, 160);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Fecha cita";
+            this.lblFechaCita.AutoSize = true;
+            this.lblFechaCita.Location = new System.Drawing.Point(409, 160);
+            this.lblFechaCita.Name = "lblFechaCita";
+            this.lblFechaCita.Size = new System.Drawing.Size(57, 13);
+            this.lblFechaCita.TabIndex = 9;
+            this.lblFechaCita.Text = "Fecha cita";
             // 
-            // label6
+            // lblTipoCita
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(46, 199);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Tipo cita";
+            this.lblTipoCita.AutoSize = true;
+            this.lblTipoCita.Location = new System.Drawing.Point(46, 199);
+            this.lblTipoCita.Name = "lblTipoCita";
+            this.lblTipoCita.Size = new System.Drawing.Size(48, 13);
+            this.lblTipoCita.TabIndex = 11;
+            this.lblTipoCita.Text = "Tipo cita";
             // 
-            // label7
+            // lblEstado
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(426, 106);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Estado";
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(426, 106);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(40, 13);
+            this.lblEstado.TabIndex = 12;
+            this.lblEstado.Text = "Estado";
             // 
             // cboEstadoCita
             // 
@@ -307,14 +307,14 @@
             this.Controls.Add(this.txtEstadoCita);
             this.Controls.Add(this.txtTipoCita);
             this.Controls.Add(this.cboEstadoCita);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblTipoCita);
+            this.Controls.Add(this.lblFechaCita);
+            this.Controls.Add(this.lblIdPaciente);
+            this.Controls.Add(this.lblIdMedico);
+            this.Controls.Add(this.lblIdUsuario);
             this.Controls.Add(this.txtIdCita);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIdCita);
             this.Controls.Add(this.navegador1);
             this.Name = "wfCitaMedica";
             this.Text = "wfCitaMedica";
@@ -331,14 +331,14 @@
         #endregion
 
         private Navegador.Navegador navegador1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblIdCita;
         private System.Windows.Forms.TextBox txtIdCita;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblIdUsuario;
+        private System.Windows.Forms.Label lblIdMedico;
+        private System.Windows.Forms.Label lblIdPaciente;
+        private System.Windows.Forms.Label lblFechaCita;
+        private System.Windows.Forms.Label lblTipoCita;
+        private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.ComboBox cboEstadoCita;
         private System.Windows.Forms.TextBox txtTipoCita;
         private System.Windows.Forms.TextBox txtEstadoCita;

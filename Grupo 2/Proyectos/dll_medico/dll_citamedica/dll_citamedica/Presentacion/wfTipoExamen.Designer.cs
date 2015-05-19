@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfTipoExamen));
             this.navegador1 = new Navegador.Navegador();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblIdTipoExamen = new System.Windows.Forms.Label();
             this.txtIdTipoExamen = new System.Windows.Forms.TextBox();
             this.cboEstado = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblDescripcion = new System.Windows.Forms.Label();
+            this.lblFechaCreacion = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.txtFechaCreacion = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblFechaModificacion = new System.Windows.Forms.Label();
             this.txtFechaModificacion = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.dtFechaCreacion = new System.Windows.Forms.DateTimePicker();
             this.dtFechaModificacion = new System.Windows.Forms.DateTimePicker();
             this.txtEstado = new System.Windows.Forms.TextBox();
@@ -58,14 +58,14 @@
             this.navegador1.sNombreTabla = "tipo_examen";
             this.navegador1.TabIndex = 0;
             // 
-            // label1
+            // lblIdTipoExamen
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(42, 113);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Id tipo examen";
+            this.lblIdTipoExamen.AutoSize = true;
+            this.lblIdTipoExamen.Location = new System.Drawing.Point(42, 113);
+            this.lblIdTipoExamen.Name = "lblIdTipoExamen";
+            this.lblIdTipoExamen.Size = new System.Drawing.Size(76, 13);
+            this.lblIdTipoExamen.TabIndex = 1;
+            this.lblIdTipoExamen.Text = "Id tipo examen";
             // 
             // txtIdTipoExamen
             // 
@@ -85,32 +85,32 @@
             this.cboEstado.TabIndex = 3;
             this.cboEstado.SelectedIndexChanged += new System.EventHandler(this.cboEstado_SelectedIndexChanged);
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(74, 151);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nombre";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(74, 151);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.TabIndex = 4;
+            this.lblNombre.Text = "Nombre";
             // 
-            // label3
+            // lblDescripcion
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(324, 151);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Descripcion";
+            this.lblDescripcion.AutoSize = true;
+            this.lblDescripcion.Location = new System.Drawing.Point(324, 151);
+            this.lblDescripcion.Name = "lblDescripcion";
+            this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
+            this.lblDescripcion.TabIndex = 5;
+            this.lblDescripcion.Text = "Descripcion";
             // 
-            // label4
+            // lblFechaCreacion
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(42, 203);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(81, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Fecha creacion";
+            this.lblFechaCreacion.AutoSize = true;
+            this.lblFechaCreacion.Location = new System.Drawing.Point(42, 203);
+            this.lblFechaCreacion.Name = "lblFechaCreacion";
+            this.lblFechaCreacion.Size = new System.Drawing.Size(81, 13);
+            this.lblFechaCreacion.TabIndex = 6;
+            this.lblFechaCreacion.Text = "Fecha creacion";
             // 
             // txtNombre
             // 
@@ -138,14 +138,14 @@
             this.txtFechaCreacion.Visible = false;
             this.txtFechaCreacion.TextChanged += new System.EventHandler(this.txtFechaCreacion_TextChanged);
             // 
-            // label5
+            // lblFechaModificacion
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(293, 209);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(99, 13);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "Fecha modificacion";
+            this.lblFechaModificacion.AutoSize = true;
+            this.lblFechaModificacion.Location = new System.Drawing.Point(293, 209);
+            this.lblFechaModificacion.Name = "lblFechaModificacion";
+            this.lblFechaModificacion.Size = new System.Drawing.Size(99, 13);
+            this.lblFechaModificacion.TabIndex = 10;
+            this.lblFechaModificacion.Text = "Fecha modificacion";
             // 
             // txtFechaModificacion
             // 
@@ -157,14 +157,14 @@
             this.txtFechaModificacion.Visible = false;
             this.txtFechaModificacion.TextChanged += new System.EventHandler(this.txtFechaModificacion_TextChanged);
             // 
-            // label6
+            // lblEstado
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(347, 110);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Estado";
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(347, 110);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(40, 13);
+            this.lblEstado.TabIndex = 12;
+            this.lblEstado.Text = "Estado";
             // 
             // dtFechaCreacion
             // 
@@ -202,18 +202,18 @@
             this.Controls.Add(this.txtEstado);
             this.Controls.Add(this.dtFechaModificacion);
             this.Controls.Add(this.dtFechaCreacion);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblEstado);
             this.Controls.Add(this.txtFechaModificacion);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblFechaModificacion);
             this.Controls.Add(this.txtFechaCreacion);
             this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblFechaCreacion);
+            this.Controls.Add(this.lblDescripcion);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.cboEstado);
             this.Controls.Add(this.txtIdTipoExamen);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIdTipoExamen);
             this.Controls.Add(this.navegador1);
             this.Name = "wfTipoExamen";
             this.Text = "wfTipoExamen";
@@ -226,18 +226,18 @@
         #endregion
 
         private Navegador.Navegador navegador1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblIdTipoExamen;
         private System.Windows.Forms.TextBox txtIdTipoExamen;
         private System.Windows.Forms.ComboBox cboEstado;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblDescripcion;
+        private System.Windows.Forms.Label lblFechaCreacion;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.TextBox txtFechaCreacion;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblFechaModificacion;
         private System.Windows.Forms.TextBox txtFechaModificacion;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.DateTimePicker dtFechaCreacion;
         private System.Windows.Forms.DateTimePicker dtFechaModificacion;
         private System.Windows.Forms.TextBox txtEstado;

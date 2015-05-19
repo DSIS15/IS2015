@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfMedico));
             this.navegador1 = new Navegador.Navegador();
             this.txtIdMedico = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblMedico = new System.Windows.Forms.Label();
             this.cboEstadoMedico = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblPrimerApellido = new System.Windows.Forms.Label();
+            this.lblSegundoApellido = new System.Windows.Forms.Label();
+            this.lblFechaIngreso = new System.Windows.Forms.Label();
+            this.lblEstado = new System.Windows.Forms.Label();
             this.txtNombreMedico = new System.Windows.Forms.TextBox();
             this.txtPrimerApMedico = new System.Windows.Forms.TextBox();
             this.txtSegundoApMedico = new System.Windows.Forms.TextBox();
@@ -65,14 +65,14 @@
             this.txtIdMedico.TabIndex = 1;
             this.txtIdMedico.Tag = "id_medico";
             // 
-            // label1
+            // lblMedico
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(86, 129);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Id medico";
+            this.lblMedico.AutoSize = true;
+            this.lblMedico.Location = new System.Drawing.Point(86, 129);
+            this.lblMedico.Name = "lblMedico";
+            this.lblMedico.Size = new System.Drawing.Size(53, 13);
+            this.lblMedico.TabIndex = 2;
+            this.lblMedico.Text = "Id medico";
             // 
             // cboEstadoMedico
             // 
@@ -87,50 +87,50 @@
             this.cboEstadoMedico.TabIndex = 3;
             this.cboEstadoMedico.SelectedIndexChanged += new System.EventHandler(this.cboEstadoMedico_SelectedIndexChanged);
             // 
-            // label2
+            // lblNombre
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(95, 178);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Nombre";
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(95, 178);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(44, 13);
+            this.lblNombre.TabIndex = 4;
+            this.lblNombre.Text = "Nombre";
             // 
-            // label3
+            // lblPrimerApellido
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(323, 178);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Primer Apellido";
+            this.lblPrimerApellido.AutoSize = true;
+            this.lblPrimerApellido.Location = new System.Drawing.Point(323, 178);
+            this.lblPrimerApellido.Name = "lblPrimerApellido";
+            this.lblPrimerApellido.Size = new System.Drawing.Size(76, 13);
+            this.lblPrimerApellido.TabIndex = 5;
+            this.lblPrimerApellido.Text = "Primer Apellido";
             // 
-            // label4
+            // lblSegundoApellido
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(49, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Segundo Apellido";
+            this.lblSegundoApellido.AutoSize = true;
+            this.lblSegundoApellido.Location = new System.Drawing.Point(49, 219);
+            this.lblSegundoApellido.Name = "lblSegundoApellido";
+            this.lblSegundoApellido.Size = new System.Drawing.Size(90, 13);
+            this.lblSegundoApellido.TabIndex = 6;
+            this.lblSegundoApellido.Text = "Segundo Apellido";
             // 
-            // label5
+            // lblFechaIngreso
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(325, 219);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 13);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Fecha ingreso";
+            this.lblFechaIngreso.AutoSize = true;
+            this.lblFechaIngreso.Location = new System.Drawing.Point(325, 219);
+            this.lblFechaIngreso.Name = "lblFechaIngreso";
+            this.lblFechaIngreso.Size = new System.Drawing.Size(74, 13);
+            this.lblFechaIngreso.TabIndex = 7;
+            this.lblFechaIngreso.Text = "Fecha ingreso";
             // 
-            // label6
+            // lblEstado
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(346, 129);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Estado";
+            this.lblEstado.AutoSize = true;
+            this.lblEstado.Location = new System.Drawing.Point(346, 129);
+            this.lblEstado.Name = "lblEstado";
+            this.lblEstado.Size = new System.Drawing.Size(40, 13);
+            this.lblEstado.TabIndex = 8;
+            this.lblEstado.Text = "Estado";
             // 
             // txtNombreMedico
             // 
@@ -195,13 +195,13 @@
             this.Controls.Add(this.txtSegundoApMedico);
             this.Controls.Add(this.txtPrimerApMedico);
             this.Controls.Add(this.txtNombreMedico);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblEstado);
+            this.Controls.Add(this.lblFechaIngreso);
+            this.Controls.Add(this.lblSegundoApellido);
+            this.Controls.Add(this.lblPrimerApellido);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.cboEstadoMedico);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblMedico);
             this.Controls.Add(this.txtIdMedico);
             this.Controls.Add(this.navegador1);
             this.Name = "wfMedico";
@@ -216,13 +216,13 @@
 
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.TextBox txtIdMedico;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblMedico;
         private System.Windows.Forms.ComboBox cboEstadoMedico;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblPrimerApellido;
+        private System.Windows.Forms.Label lblSegundoApellido;
+        private System.Windows.Forms.Label lblFechaIngreso;
+        private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.TextBox txtNombreMedico;
         private System.Windows.Forms.TextBox txtPrimerApMedico;
         private System.Windows.Forms.TextBox txtSegundoApMedico;

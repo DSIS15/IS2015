@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfDetExamen));
             this.navegador1 = new Navegador.Navegador();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblIdDetalle = new System.Windows.Forms.Label();
             this.txtIdDetalle = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblIdPacientes = new System.Windows.Forms.Label();
+            this.lblIdTipoExamen = new System.Windows.Forms.Label();
+            this.lblIdMedico = new System.Windows.Forms.Label();
             this.txtIdPacientes = new System.Windows.Forms.TextBox();
             this.txtIdTipoExamen = new System.Windows.Forms.TextBox();
             this.txtIdMedico = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.cuDataGridD1 = new dll_bitacora.Presentacion.cuDataGridD();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.cuDataGridD3 = new dll_bitacora.Presentacion.cuDataGridD();
@@ -62,14 +62,14 @@
             this.navegador1.sNombreTabla = "det_examen";
             this.navegador1.TabIndex = 0;
             // 
-            // label1
+            // lblIdDetalle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(72, 101);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Id Detalle";
+            this.lblIdDetalle.AutoSize = true;
+            this.lblIdDetalle.Location = new System.Drawing.Point(72, 101);
+            this.lblIdDetalle.Name = "lblIdDetalle";
+            this.lblIdDetalle.Size = new System.Drawing.Size(52, 13);
+            this.lblIdDetalle.TabIndex = 1;
+            this.lblIdDetalle.Text = "Id Detalle";
             // 
             // txtIdDetalle
             // 
@@ -79,32 +79,32 @@
             this.txtIdDetalle.TabIndex = 3;
             this.txtIdDetalle.Tag = "id_det_examen";
             // 
-            // label2
+            // lblIdPacientes
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(302, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Id pacientes";
+            this.lblIdPacientes.AutoSize = true;
+            this.lblIdPacientes.Location = new System.Drawing.Point(302, 98);
+            this.lblIdPacientes.Name = "lblIdPacientes";
+            this.lblIdPacientes.Size = new System.Drawing.Size(65, 13);
+            this.lblIdPacientes.TabIndex = 4;
+            this.lblIdPacientes.Text = "Id pacientes";
             // 
-            // label3
+            // lblIdTipoExamen
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(72, 137);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Id tipo examen";
+            this.lblIdTipoExamen.AutoSize = true;
+            this.lblIdTipoExamen.Location = new System.Drawing.Point(72, 137);
+            this.lblIdTipoExamen.Name = "lblIdTipoExamen";
+            this.lblIdTipoExamen.Size = new System.Drawing.Size(76, 13);
+            this.lblIdTipoExamen.TabIndex = 5;
+            this.lblIdTipoExamen.Text = "Id tipo examen";
             // 
-            // label4
+            // lblIdMedico
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(302, 138);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Id medico";
+            this.lblIdMedico.AutoSize = true;
+            this.lblIdMedico.Location = new System.Drawing.Point(302, 138);
+            this.lblIdMedico.Name = "lblIdMedico";
+            this.lblIdMedico.Size = new System.Drawing.Size(53, 13);
+            this.lblIdMedico.TabIndex = 6;
+            this.lblIdMedico.Text = "Id medico";
             // 
             // txtIdPacientes
             // 
@@ -153,17 +153,6 @@
             this.tabPage1.Text = "Pacientes";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.cuDataGridD2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(499, 132);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Tipo Examen";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
@@ -175,6 +164,17 @@
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
             this.cuDataGridD1.Load += new System.EventHandler(this.cuDataGridD1_Load);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.cuDataGridD2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(499, 132);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Tipo Examen";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // cuDataGridD2
             // 
@@ -220,11 +220,11 @@
             this.Controls.Add(this.txtIdMedico);
             this.Controls.Add(this.txtIdTipoExamen);
             this.Controls.Add(this.txtIdPacientes);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblIdMedico);
+            this.Controls.Add(this.lblIdTipoExamen);
+            this.Controls.Add(this.lblIdPacientes);
             this.Controls.Add(this.txtIdDetalle);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblIdDetalle);
             this.Controls.Add(this.navegador1);
             this.Name = "wfDetExamen";
             this.Text = "wfDetExamen";
@@ -241,11 +241,11 @@
         #endregion
 
         private Navegador.Navegador navegador1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblIdDetalle;
         private System.Windows.Forms.TextBox txtIdDetalle;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblIdPacientes;
+        private System.Windows.Forms.Label lblIdTipoExamen;
+        private System.Windows.Forms.Label lblIdMedico;
         private System.Windows.Forms.TextBox txtIdPacientes;
         private System.Windows.Forms.TextBox txtIdTipoExamen;
         private System.Windows.Forms.TextBox txtIdMedico;

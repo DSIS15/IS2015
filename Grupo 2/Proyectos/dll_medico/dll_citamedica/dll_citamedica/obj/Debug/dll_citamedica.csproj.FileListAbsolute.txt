@@ -28,3 +28,18 @@ C:\Users\Jessy\Desktop\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_me
 C:\Users\Jessy\Desktop\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_medico.pdb
 C:\Users\Jessy\Desktop\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_bitacora.dll
 C:\Users\Jessy\Desktop\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_bitacora.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_medico.dll.config
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_medico.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_medico.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\Navegador.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\dll_bitacora.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\Navegador.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\bin\Debug\ODBCconnector.pdb
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.csprojResolveAssemblyReference.cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.Presentacion.wfCitaMedica.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.Presentacion.wfDetExamen.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.Presentacion.wfMedico.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.Presentacion.wfTipoExamen.resources
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_citamedica.csproj.GenerateResource.Cache
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_medico.dll
+C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_medico\dll_citamedica\dll_citamedica\obj\Debug\dll_medico.pdb
