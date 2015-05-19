@@ -37,6 +37,32 @@ namespace dll_bitacora.Negocio
             return cbDatos;        
         }
 
+        public ArrayList alObtenerCampos(ArrayList alCampos)
+        {
+            ArrayList alObtenerCampos = new ArrayList();
+            sCadena= (String[,])alCampos[0];
+            for (int icontador = 0; icontador < sCadena.GetLength(0); icontador++)
+            {
+                if (String.Compare(sCadena[icontador, 2], "true") == 0) { alObtenerCampos.Add(sCadena[icontador,1]); }
+            }
+                return alObtenerCampos;
+        }
+
+
+        public int iObtenerCount(ArrayList alCampos)
+        { 
+        int icampos =0;
+        String[,] sCadena = (String[,])alCampos[0];
+        for (int icontador = 0; icontador < sCadena.GetLength(0); icontador++)
+             {
+            if (string.Compare(sCadena[icontador, 2], "true") == 0)
+                {
+                    icampos++;
+                }
+            }
+            return icampos;
+        }
+
         //esta función maneja la construccion del datagried de la capa presentación
         public DataTable dtNCamposyDatos(ArrayList alCampos, String sTabla)
         {

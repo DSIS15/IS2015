@@ -19,10 +19,22 @@ namespace dll_bitacora.Presentacion
         private String sTabla = string.Empty;
         private String sCampo = string.Empty;
         private String sObtenerDato = string.Empty;
+
+       //Con esto se obtiene el número de campos mostrados
+       public int Icount
+        {
+            get { return csn_obtenercampos.iObtenerCount(alDatosEntrada); }
+        }
+        //Se obtiene los datos enviados en formato arraylist
+        public ArrayList alObtenerCampos 
+        {
+            get { return csn_obtenercampos.alObtenerCampos(alDatosEntrada); }
+        }
+        
         //evento personalizado
         public event DataGridViewCellEventHandler sdgv_CellClick;
-        
 
+        
         public String SObtenerDato
         {
             get { return sObtenerDato; }            
@@ -48,13 +60,13 @@ namespace dll_bitacora.Presentacion
         
         public cuDataGridD()
         {
-            InitializeComponent();
+            InitializeComponent();          
             
         }
 
         private void dgvTabla_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
         private void cuBitacora_Load(object sender, EventArgs e)
@@ -73,6 +85,7 @@ namespace dll_bitacora.Presentacion
                     {   
                         //construcción del datagriedview
                         dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);
+                        
                     }
                     else
                         {
@@ -107,10 +120,17 @@ namespace dll_bitacora.Presentacion
 
         //evento en el cual se obtiene el dato requerido 
        private void dgvTabla_CellClick(object sender, DataGridViewCellEventArgs e)
-        {            
-            sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();           
+        {
+           
+                sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();
+                
+                
+                
            //creacion de un evento personalizado
-           sdgv_CellClick(this,e);            
+            if (sdgv_CellClick != null)
+                sdgv_CellClick(this, e);
+            else
+                MessageBox.Show("Debe de crear el evento sdgv_CellClick","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
     }
 }

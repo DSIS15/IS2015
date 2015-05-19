@@ -15,7 +15,12 @@ namespace dll_bitacora.Presentacion
         private Negocio.cs_NCamposyDatos csn_obtenercampos = new Negocio.cs_NCamposyDatos();
         private ArrayList alDatosEntrada = new ArrayList();
         private ArrayList alDatosNombre = new ArrayList();
-        private String sTabla = string.Empty;
+        private String sTabla = string.Empty;       
+
+        public int iCount
+        {
+            get { return dgvTabla.ColumnCount; }            
+        }
 
         public String STabla
         {
