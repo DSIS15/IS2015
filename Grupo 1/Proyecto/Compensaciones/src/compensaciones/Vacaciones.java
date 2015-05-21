@@ -4,7 +4,18 @@
  * and open the template in the editor.
  */
 package compensaciones;
-
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author Frank
@@ -16,6 +27,7 @@ public class Vacaciones extends javax.swing.JFrame {
      */
     public Vacaciones() {
         initComponents();
+        llenarcombop();
     }
 
     /**
@@ -29,7 +41,6 @@ public class Vacaciones extends javax.swing.JFrame {
 
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
-        jComboBox1 = new javax.swing.JComboBox();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -40,6 +51,7 @@ public class Vacaciones extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        jComboBox3 = new javax.swing.JComboBox();
         jPanel1 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jComboBox2 = new javax.swing.JComboBox();
@@ -49,14 +61,9 @@ public class Vacaciones extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jComboBox1.setEditable(true);
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-
         jLabel1.setText("Codigo de Empleado:");
 
         jLabel2.setText("Fecha de Inicio de Labores:");
-
-        jLabel3.setText("jLabel3");
 
         jLabel4.setText("Dias Ganados:");
 
@@ -72,14 +79,28 @@ public class Vacaciones extends javax.swing.JFrame {
 
         jLabel10.setText("jLabel10");
 
+        jComboBox3.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                jComboBox3ItemStateChanged(evt);
+            }
+        });
+        jComboBox3.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                jComboBox3FocusLost(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(373, Short.MAX_VALUE)
+                .addComponent(jLabel10)
+                .addGap(190, 190, 190))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -92,21 +113,18 @@ public class Vacaciones extends javax.swing.JFrame {
                             .addComponent(jLabel9)
                             .addComponent(jLabel7)
                             .addComponent(jLabel5)
-                            .addComponent(jLabel3))))
+                            .addComponent(jLabel3)))
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 178, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addContainerGap(373, Short.MAX_VALUE)
-                .addComponent(jLabel10)
-                .addGap(190, 190, 190))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(9, 9, 9)
+                .addGap(18, 18, 18)
+                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(2, 2, 2)
                 .addComponent(jLabel10)
                 .addGap(12, 12, 12)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -207,6 +225,27 @@ public class Vacaciones extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void jComboBox3ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_jComboBox3ItemStateChanged
+        // TODO add your handling code here:
+        String fecha1 = "";
+        String[] result2;
+        String si="";
+        fecha1=(String)jComboBox3.getSelectedItem();
+        result2 = fecha1.split("-");
+            si = result2[0];
+        
+        Llenarfecha1(si);
+        
+    
+        
+        
+        //********************************************************************************
+    }//GEN-LAST:event_jComboBox3ItemStateChanged
+
+    private void jComboBox3FocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_jComboBox3FocusLost
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox3FocusLost
+
     /**
      * @param args the command line arguments
      */
@@ -243,10 +282,46 @@ public class Vacaciones extends javax.swing.JFrame {
         });
     }
 
+    public void llenarcombop(){
+         DefaultComboBoxModel modelo = new DefaultComboBoxModel();
+         String []datos = new String[3];
+        try {
+            
+            Statement st= cn.createStatement();
+            ResultSet rs = st.executeQuery("select ID_Empleado, Nombre_Empleado from empleado");
+        while(rs.next()){
+            modelo.addElement(rs.getString(1)+"-"+ rs.getString(2));
+            jComboBox3.setModel(modelo);
+        }
+        } catch (SQLException ex) {
+//            Logger.getLogger(consulta_uno.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+    }
+    
+    public Void Llenarfecha1(String IDemp){
+        String []datos = new String[3];
+        try {
+            
+            Statement st= cn.createStatement();
+            ResultSet rs = st.executeQuery("select Fecha_Contrato from empleado where ID_Empleado = "+IDemp);
+        while(rs.next()){
+           
+            jLabel3.setText(rs.getString(1));
+        }
+        } catch (SQLException ex) {
+//            Logger.getLogger(consulta_uno.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return null;
+        
+        
+         
+    }
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private java.awt.Checkbox checkbox1;
-    private javax.swing.JComboBox jComboBox1;
     private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JComboBox jComboBox3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -264,4 +339,7 @@ public class Vacaciones extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
+conectar co= new conectar();
+Connection cn = co.conexion();
+
 }
