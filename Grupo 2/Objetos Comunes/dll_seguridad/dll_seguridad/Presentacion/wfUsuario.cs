@@ -20,6 +20,13 @@ namespace dll_seguridad.Presentacion
         public wfUsuario()
         {
             InitializeComponent();
+            String[,] Scadena ={{"codigo_perfil","Codigo","true"},
+                                {"nombre_perfil","Nombre","true"},
+                                {"fecha_creacion","Fecha Creación","true",}, 
+                                {"fecha_modificacion","Fecha Modificación","true",},
+                                {"estado","Estado","false"}
+                              };
+            dgvperfil.AlDatosEntrada.Add(Scadena);
         }
 
         private void wfUsuario_Load(object sender, EventArgs e)
@@ -43,13 +50,7 @@ namespace dll_seguridad.Presentacion
 
             //datos del grid Perfil
             //Datos Grid Perfil
-            String[,] Scadena ={{"codigo_perfil","Codigo","true"},
-                                {"nombre_perfil","Nombre","true"},
-                                {"fecha_creacion","Fecha Creación","true",}, 
-                                {"fecha_modificacion","Fecha Modificación","true",},
-                                {"estado","Estado","false"}
-                              };
-            dgvperfil.AlDatosEntrada.Add(Scadena);
+
             dgvperfil.vinicializar();
             ////////////////////////////////////////////////////
 

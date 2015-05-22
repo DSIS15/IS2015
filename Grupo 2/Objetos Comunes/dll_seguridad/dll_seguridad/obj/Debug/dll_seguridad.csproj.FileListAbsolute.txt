@@ -108,12 +108,7 @@ C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfDetMod.resources
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\obj\Debug\dll_seguridad.Presentacion.wfRoll.resources
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\CultureResources.pdb
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.pdb
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.pdb
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-CO\CultureResources.resources.dll
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-US\CultureResources.resources.dll
-C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\CultureResources.resources.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_idioma.dll
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_idioma.pdb
 C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\ES-GT\dll_idioma.resources.dll
@@ -127,3 +122,5 @@ C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ES-GT\dll_idioma.resources.dll
 C:\Users\Angel\Documents\Visual Studio 2013\Projects\dll_seguridad\dll_seguridad\bin\Debug\ODBCconnector.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_bitacora.dll
+C:\Users\orochi\Desktop\dll_seguridad\dll_seguridad\bin\Debug\JA-JP\dll_idioma.resources.dll

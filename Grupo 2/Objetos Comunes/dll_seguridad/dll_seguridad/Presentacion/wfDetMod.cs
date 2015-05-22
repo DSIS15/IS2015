@@ -44,8 +44,8 @@ namespace dll_seguridad.Presentacion
         {
             //Datos navegador
             alDatosEntrada.Add(txtIDDetMod);
-            alDatosEntrada.Add(txtIDModulo);
             alDatosEntrada.Add(txtCodPerf);
+            alDatosEntrada.Add(txtIDModulo);
             alDatosEntrada.Add(txtfecC);
             alDatosEntrada.Add(txtfecm);
             alDatosEntrada.Add(txtestado);

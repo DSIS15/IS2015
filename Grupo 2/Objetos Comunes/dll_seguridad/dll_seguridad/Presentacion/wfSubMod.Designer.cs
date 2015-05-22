@@ -41,11 +41,11 @@
             this.txtEstado = new System.Windows.Forms.TextBox();
             this.navegador1 = new Navegador.Navegador();
             this.cbestado = new System.Windows.Forms.ComboBox();
-            this.dgvmodulo = new dll_bitacora.Presentacion.cuDataGridD();
             this.lblfechcreacion = new System.Windows.Forms.Label();
             this.lblfechmodificacion = new System.Windows.Forms.Label();
             this.txtfecc = new System.Windows.Forms.TextBox();
             this.txtfecm = new System.Windows.Forms.TextBox();
+            this.dgvmodulo = new dll_bitacora.Presentacion.cuDataGridD();
             this.SuspendLayout();
             // 
             // lblcodsubmod
@@ -164,18 +164,6 @@
             this.cbestado.TabIndex = 3;
             this.cbestado.SelectedIndexChanged += new System.EventHandler(this.cbestado_SelectedIndexChanged);
             // 
-            // dgvmodulo
-            // 
-            this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
-            this.dgvmodulo.Location = new System.Drawing.Point(25, 206);
-            this.dgvmodulo.Name = "dgvmodulo";
-            this.dgvmodulo.SCampo = "Código";
-            this.dgvmodulo.Size = new System.Drawing.Size(571, 159);
-            this.dgvmodulo.STabla = "modulo";
-            this.dgvmodulo.TabIndex = 10;
-            this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
-            this.dgvmodulo.Load += new System.EventHandler(this.cuDataGridD1_Load);
-            // 
             // lblfechcreacion
             // 
             this.lblfechcreacion.AutoSize = true;
@@ -210,16 +198,27 @@
             this.txtfecm.TabIndex = 14;
             this.txtfecm.Tag = "fecha_modificacion";
             // 
+            // dgvmodulo
+            // 
+            this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
+            this.dgvmodulo.Location = new System.Drawing.Point(39, 208);
+            this.dgvmodulo.Name = "dgvmodulo";
+            this.dgvmodulo.SCampo = "Codigo";
+            this.dgvmodulo.Size = new System.Drawing.Size(506, 157);
+            this.dgvmodulo.STabla = "modulo";
+            this.dgvmodulo.TabIndex = 15;
+            this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvmodulo_sdgv_CellClick);
+            // 
             // wfSubMod
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(625, 377);
+            this.Controls.Add(this.dgvmodulo);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.txtfecc);
             this.Controls.Add(this.lblfechmodificacion);
             this.Controls.Add(this.lblfechcreacion);
-            this.Controls.Add(this.dgvmodulo);
             this.Controls.Add(this.cbestado);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.txtEstado);
@@ -254,10 +253,10 @@
         private System.Windows.Forms.TextBox txtEstado;
         private Navegador.Navegador navegador1;
         private System.Windows.Forms.ComboBox cbestado;
-        private dll_bitacora.Presentacion.cuDataGridD dgvmodulo;
         private System.Windows.Forms.Label lblfechcreacion;
         private System.Windows.Forms.Label lblfechmodificacion;
         private System.Windows.Forms.TextBox txtfecc;
         private System.Windows.Forms.TextBox txtfecm;
+        private dll_bitacora.Presentacion.cuDataGridD dgvmodulo;
     }
 }

@@ -80,7 +80,6 @@ C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_bitacora.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.pdb
-C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-GT\dll_idioma.resources.dll
@@ -107,3 +106,11 @@ C:\Users\Cristian\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.cspro
 C:\Users\Cristian\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.wfMDI.resources
 C:\Users\Cristian\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Properties.Resources.resources
 C:\Users\Cristian\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
+D:\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe.config
+D:\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
+D:\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_paciente.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_seguridad.resources.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-CO\dll_seguridad.resources.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\JA-JP\dll_seguridad.resources.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_paciente.dll

@@ -20,6 +20,16 @@ namespace dll_seguridad.Presentacion
         public wfSubMod()
         {
             InitializeComponent();
+            String[,] sCadena ={
+                              {"id_modulo","Codigo","true"},
+                              {"nombre_modulo","Nombre","true"},
+                              {"nombre_dll","Nombre_DLL","false"},
+                              {"fecha_creacion","Fecha Creación","true",},
+                              {"fecha_modificacion","Fecha Modificación","true",},
+                              {"estado","Estado","true"},                              
+                              };
+            dgvmodulo.AlDatosEntrada.Add(sCadena);
+            
         }
 
         private void wfSubMod_Load(object sender, EventArgs e)
@@ -37,15 +47,6 @@ namespace dll_seguridad.Presentacion
             /////////////////////////////////////
 
             //Datos del Grid 
-            String[,] sCadena={
-                              {"id_modulo","Codigo","true"},
-                              {"nombre_modulo","Nombre","true"},
-                              {"nombre_dll","Nombre_DLL","false"},
-                              {"fecha_creacion","Fecha Creación","true",},
-                              {"fecha_modificacion","Fecha Modificación","true",},
-                              {"estado","Estado","true"},                              
-                              };
-            dgvmodulo.AlDatosEntrada.Add(sCadena);
             dgvmodulo.vinicializar();
         }
 
@@ -115,6 +116,11 @@ namespace dll_seguridad.Presentacion
         private void navegador1_btnLimpiar_AfterClick(object sender, EventArgs e)
         {
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron registros en submodulo");
+        }
+
+        private void dgvmodulo_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtIDMod.Text = dgvmodulo.SObtenerDato;
         }
 
         
