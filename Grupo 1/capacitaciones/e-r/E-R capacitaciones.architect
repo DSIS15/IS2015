@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.7">
+ <project-name>E-R capacitaciones</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB1" populated="true" UUID="dc813098-32b3-430b-8738-d05c6de2b22b" name="Empleado" objectType="TABLE" physicalName="Empleado" >
+   <remarks></remarks>
+   <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL2" populated="true" UUID="8ada84fb-e62c-4361-a4a1-6248f2d71eec" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_empleado_seq" defaultValue="" name="Id_empleado" nullable="0" physicalName="Id_empleado" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL3" populated="true" UUID="20446d22-d65f-4a8f-89b3-5b56af25f6a2" autoIncrement="false" autoIncrementSequenceName="Empleado_nombre_seq" defaultValue="" name="nombre" nullable="0" physicalName="nombre" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="7e287a53-da1c-4b93-be59-cefb94105c70" autoIncrement="false" autoIncrementSequenceName="Empleado_apellido_seq" defaultValue="" name="apellido" nullable="0" physicalName="apellido" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="e2f20e80-0352-42c7-a6b2-d6d58188b7b3" autoIncrement="false" autoIncrementSequenceName="Empleado_sexo_seq" defaultValue="" name="sexo" nullable="0" physicalName="sexo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="19758a56-7b75-45d6-92d5-813d22523d47" autoIncrement="false" autoIncrementSequenceName="Empleado_direccion_seq" defaultValue="" name="direccion" nullable="0" physicalName="direccion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="bc6dd20e-8633-47cb-b7a9-4f2d8eec36aa" autoIncrement="false" autoIncrementSequenceName="Empleado_e-mail_seq" defaultValue="" name="e-mail" nullable="0" physicalName="e-mail" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="6aa2ac1c-1332-4cad-8070-da53a675a3b8" autoIncrement="false" autoIncrementSequenceName="Empleado_estado civil_seq" defaultValue="" name="estado civil" nullable="0" physicalName="estado civil" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="5acce61e-2a6d-4de8-aa5e-444408ed4586" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_capacitacionRecibida_seq" defaultValue="" name="Id_capacitacionRecibida" nullable="0" physicalName="Id_capacitacionRecibida" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="1345cf18-6e86-4feb-98bc-def22ead7f62" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_nombreCapacitacion_seq" defaultValue="" name="Id_nombreCapacitacion" nullable="0" physicalName="Id_nombreCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="aacc6599-7343-47aa-ad4b-fac26a72aa10" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_costoCapacitacion_seq" defaultValue="" name="Id_costoCapacitacion" nullable="0" physicalName="Id_costoCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="608f88d1-c7a7-481b-b8d1-92af1b09468a" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_nombreCapacitacion_seq" defaultValue="" name="Id_nombreCapacitacion" nullable="0" physicalName="Id_nombreCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB13" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX13" populated="true" UUID="8c23a2ec-586c-4ab0-84c1-07296402135f" clustered="false" name="Empleado_pk" physicalName="Empleado_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC14" populated="true" UUID="85af92e9-4659-43bd-b8c6-ae2e42712e5d" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="Id_empleado" physicalName="Id_empleado" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB15" populated="true" UUID="6a7d0805-aa68-4cd5-8ef4-c6df6adf2759" name="CapacitacionRecibida" objectType="TABLE" physicalName="CapacitacionRecibida" >
+   <remarks></remarks>
+   <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL16" populated="true" UUID="99dccb94-efb2-48a7-a442-0a7e2ff7b6cc" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_capacitacionRecibida_seq" defaultValue="" name="Id_capacitacionRecibida" nullable="0" physicalName="Id_capacitacionRecibida" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL17" populated="true" UUID="4b07322a-f64e-46fa-991f-820fd205a4d8" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_nombreCapacitacion_seq" defaultValue="" name="Id_nombreCapacitacion" nullable="0" physicalName="Id_nombreCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="6731bc47-a870-4370-a1af-8c595de2afb6" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_fechaInicio_seq" defaultValue="" name="fechaInicio" nullable="0" physicalName="fechaInicio" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="6eb44a1c-b4e3-471b-b3f6-d8ee165f1504" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_fechaFin_seq" defaultValue="" name="fechaFin" nullable="0" physicalName="fechaFin" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="ec30a14d-8e2a-4984-bc38-fa8de126fad1" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_nombreInstitucion_seq" defaultValue="" name="Id_nombreInstitucion" nullable="0" physicalName="Id_nombreInstitucion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="a59fe07d-dc5e-4800-ae4d-49c97291d02d" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_costoCapacitacion_seq" defaultValue="" name="Id_costoCapacitacion" nullable="0" physicalName="Id_costoCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="d551f4f6-d12d-4e85-80fb-7ea4c05f15cd" autoIncrement="false" autoIncrementSequenceName="Empleado_Id_empleado_seq" defaultValue="" name="Id_empleado" nullable="0" physicalName="Id_empleado" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB153" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB152" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB154" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX23" populated="true" UUID="aedc5078-1877-41f1-b2f4-84a115f21458" clustered="false" name="CapacitacionRecibida_pk" physicalName="CapacitacionRecibida_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC24" populated="true" UUID="843c2890-3a98-4a8c-a2f3-eda714e29238" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="Id_capacitacionRecibida" physicalName="Id_capacitacionRecibida" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB25" populated="true" UUID="ef62254b-a2ad-45cd-ad23-3d3ab8757da6" name="NombreCapacitacion" objectType="TABLE" physicalName="NombreCapacitacion" >
+   <remarks></remarks>
+   <folder id="FOLTAB251" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL26" populated="true" UUID="fdaba116-173a-4499-b4e2-d3176816e5b3" autoIncrement="false" autoIncrementSequenceName="NombreCapacitacion_Id_nombreCapacitacion_seq" defaultValue="" name="Id_nombreCapacitacion" nullable="0" physicalName="Id_nombreCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL27" populated="true" UUID="6064e6e5-caee-4ec4-8ca0-4045be028f95" autoIncrement="false" autoIncrementSequenceName="NombreCapacitacion_tipoCapacitacion_seq" defaultValue="" name="nombreCapacitacion" nullable="0" physicalName="nombreCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL28" populated="true" UUID="04a18155-ed35-4a12-9584-0351a79fb36f" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_capacitacionRecibida_seq" defaultValue="" name="Id_capacitacionRecibida" nullable="0" physicalName="Id_capacitacionRecibida" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB253" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB252" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB254" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX29" populated="true" UUID="343189b8-2bcb-41be-9467-b4e9ad106975" clustered="false" name="NombreCapacitacion_pk" physicalName="NombreCapacitacion_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB30" populated="true" UUID="beec7262-7dce-46f1-920c-6c45dcab98a2" name="NombreInstitucion" objectType="TABLE" physicalName="NombreInstitucion" >
+   <remarks></remarks>
+   <folder id="FOLTAB301" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL31" populated="true" UUID="dfcc515d-3bc8-45a9-bdcc-ae9fb75afc83" autoIncrement="false" autoIncrementSequenceName="NombreInstitucion_Id_nobreIstitucion_seq" defaultValue="" name="Id_nobreIstitucion" nullable="0" physicalName="Id_nobreIstitucion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL32" populated="true" UUID="810a01da-fd93-458b-bb08-2a3ca16be86d" autoIncrement="false" autoIncrementSequenceName="NombreInstitucion_nombreIstitucion_seq" defaultValue="" name="nombreIstitucion" nullable="0" physicalName="nombreIstitucion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL33" populated="true" UUID="5c52038a-3de2-4f1c-ba8c-2352b85d04e5" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_capacitacionRecibida_seq" defaultValue="" name="Id_capacitacionRecibida" nullable="0" physicalName="Id_capacitacionRecibida" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB303" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB302" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB304" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX34" populated="true" UUID="06d120f8-1779-4761-b73c-5d29d5cb7a73" clustered="false" name="NombreInstitucion_pk" physicalName="NombreInstitucion_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <table id="TAB35" populated="true" UUID="40ba08fe-2011-4097-abe1-05a62107fe5e" name="CostoCapacitacion" objectType="TABLE" physicalName="CostoCapacitacion" >
+   <remarks></remarks>
+   <folder id="FOLTAB351" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL36" populated="true" UUID="3bd6fbb7-5232-4b1a-a585-92c33f2d03d4" autoIncrement="false" autoIncrementSequenceName="CostoCapacitacion_Id_costoCapacitacion_seq" defaultValue="" name="Id_costoCapacitacion" nullable="0" physicalName="Id_costoCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL37" populated="true" UUID="04e13467-a7b5-4528-b2e4-d74ce9626a5a" autoIncrement="false" autoIncrementSequenceName="CostoCapacitacion_costoCapacitacion_seq" defaultValue="" name="costoCapacitacion" nullable="0" physicalName="costoCapacitacion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL38" populated="true" UUID="7d11ed8b-8140-4028-a1cd-4206e40276b2" autoIncrement="false" autoIncrementSequenceName="CapacitacionRecibida_Id_capacitacionRecibida_seq" defaultValue="" name="Id_capacitacionRecibida" nullable="0" physicalName="Id_capacitacionRecibida" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB353" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB352" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB354" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX39" populated="true" UUID="f8873989-7980-4151-8ac0-373cc5cbd9f4" clustered="false" name="CostoCapacitacion_pk" physicalName="CostoCapacitacion_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL40" populated="true" UUID="beab3369-f48d-4069-b55f-255239dc0f1d" deferrability="7" deleteRule="3" fk-table-ref="TAB15" fkCardinality="7" identifying="false" name="Empleado_CapacitacionRecibida_fk" physicalName="Empleado_CapacitacionRecibida_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP41" populated="true" UUID="5af77251-ff15-474e-9bd0-c5676c272017" fk-column-ref="COL22" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL42" populated="true" UUID="44cc9684-57bd-4ee6-be18-f8c0ff2b541f" deferrability="7" deleteRule="3" fk-table-ref="TAB25" fkCardinality="7" identifying="false" name="CapacitacionRecibida_NombreCapacitacion_fk" physicalName="CapacitacionRecibida_NombreCapacitacion_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP43" populated="true" UUID="744dfd96-f1b1-452d-80e2-533e3cc93bbb" fk-column-ref="COL28" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL16" />
+   </relationship>
+   <relationship id="REL44" populated="true" UUID="798d17fc-1444-4dea-abc2-b6ef8907179c" deferrability="7" deleteRule="3" fk-table-ref="TAB35" fkCardinality="7" identifying="false" name="CapacitacionRecibida_CostoCapacitacion_fk" physicalName="CapacitacionRecibida_CostoCapacitacion_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP45" populated="true" UUID="a789eb39-88e1-47fc-8766-1ae126c66b0a" fk-column-ref="COL38" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL16" />
+   </relationship>
+   <relationship id="REL46" populated="true" UUID="323cd7ae-8946-4fc5-8172-babc1c3e31a1" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="7" identifying="false" name="CapacitacionRecibida_NombreInstitucion_fk" physicalName="CapacitacionRecibida_NombreInstitucion_fk" pk-table-ref="TAB15" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP47" populated="true" UUID="bd675442-f1b3-4ad4-aeb0-a52e991d7dc9" fk-column-ref="COL33" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL16" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="40" y="177" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB15" x="372" y="186" bgColor="0xbfd6ff" fgColor="0x5229a3" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB25" x="657" y="207" bgColor="0xbfd6ff" fgColor="0x5229a3" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB30" x="678" y="352" bgColor="0xbfd6ff" fgColor="0x5229a3" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB35" x="393" y="440" bgColor="0xbfd6ff" fgColor="0x5229a3" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL40" pkConnection="0.46994535519125685" fkConnection="0.5433070866141733" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL42" pkConnection="0.47244094488188976" fkConnection="0.5352112676056338" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL44" pkConnection="0.558252427184466" fkConnection="0.46601941747572817" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL46" pkConnection="0.7322834645669292" fkConnection="0.14084507042253522" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
