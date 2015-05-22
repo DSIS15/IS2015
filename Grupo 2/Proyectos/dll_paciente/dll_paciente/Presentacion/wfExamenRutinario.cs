@@ -44,6 +44,7 @@ namespace dll_paciente.Presentacion
             alDatosEntrada.Add(txtid_pacientes);
             alDatosEntrada.Add(txtid_medico);
             alDatosEntrada.Add(txtsangre);
+            alDatosEntrada.Add(txtestado);
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
         
@@ -88,6 +89,35 @@ namespace dll_paciente.Presentacion
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtid_medico.Text = cuDataGridD2.SObtenerDato;
+        }
+
+        private void lbltipodesangre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboestado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboestado.SelectedItem.Equals("Activado"))
+            {
+                txtestado.Text = "1";
+            }
+            else
+            {
+                txtestado.Text = "0";
+            }
+        }
+
+        private void txtestado_TextChanged(object sender, EventArgs e)
+        {
+            if (txtestado.Text.Equals("1"))
+            {
+                cboestado.Text = "Activado";
+            }
+            else
+            {
+                cboestado.Text = "Desactivado";
+            }
         }
         }
     }

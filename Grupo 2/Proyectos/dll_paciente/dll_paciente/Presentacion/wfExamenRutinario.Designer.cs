@@ -58,6 +58,9 @@
             this.tbpmedico = new System.Windows.Forms.TabPage();
             this.cuDataGridD2 = new dll_bitacora.Presentacion.cuDataGridD();
             this.txtsangre = new System.Windows.Forms.TextBox();
+            this.lblestado = new System.Windows.Forms.Label();
+            this.cboestado = new System.Windows.Forms.ComboBox();
+            this.txtestado = new System.Windows.Forms.TextBox();
             this.tbcexamenrutinario.SuspendLayout();
             this.tbppaciente.SuspendLayout();
             this.tbpmedico.SuspendLayout();
@@ -140,7 +143,7 @@
             // lblestadooido
             // 
             this.lblestadooido.AutoSize = true;
-            this.lblestadooido.Location = new System.Drawing.Point(536, 166);
+            this.lblestadooido.Location = new System.Drawing.Point(536, 197);
             this.lblestadooido.Name = "lblestadooido";
             this.lblestadooido.Size = new System.Drawing.Size(70, 13);
             this.lblestadooido.TabIndex = 8;
@@ -172,6 +175,7 @@
             this.lbltipodesangre.Size = new System.Drawing.Size(81, 13);
             this.lbltipodesangre.TabIndex = 11;
             this.lbltipodesangre.Text = "Tipo de sangre:";
+            this.lbltipodesangre.Click += new System.EventHandler(this.lbltipodesangre_Click);
             // 
             // txtid_exrutinario
             // 
@@ -219,7 +223,7 @@
             this.txtestatura.Name = "txtestatura";
             this.txtestatura.Size = new System.Drawing.Size(100, 20);
             this.txtestatura.TabIndex = 17;
-            this.txtestatura.Tag = "estatura";
+            this.txtestatura.Tag = "altura";
             // 
             // txtpeso
             // 
@@ -248,7 +252,7 @@
             // 
             // txtestado_oido
             // 
-            this.txtestado_oido.Location = new System.Drawing.Point(623, 166);
+            this.txtestado_oido.Location = new System.Drawing.Point(623, 197);
             this.txtestado_oido.Multiline = true;
             this.txtestado_oido.Name = "txtestado_oido";
             this.txtestado_oido.Size = new System.Drawing.Size(121, 65);
@@ -337,11 +341,47 @@
             this.txtsangre.Visible = false;
             this.txtsangre.TextChanged += new System.EventHandler(this.txtsangre_TextChanged);
             // 
+            // lblestado
+            // 
+            this.lblestado.AutoSize = true;
+            this.lblestado.Location = new System.Drawing.Point(536, 164);
+            this.lblestado.Name = "lblestado";
+            this.lblestado.Size = new System.Drawing.Size(43, 13);
+            this.lblestado.TabIndex = 25;
+            this.lblestado.Tag = "estado";
+            this.lblestado.Text = "Estado:";
+            // 
+            // cboestado
+            // 
+            this.cboestado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboestado.FormattingEnabled = true;
+            this.cboestado.Items.AddRange(new object[] {
+            "Activado",
+            "Desactivado"});
+            this.cboestado.Location = new System.Drawing.Point(622, 160);
+            this.cboestado.Name = "cboestado";
+            this.cboestado.Size = new System.Drawing.Size(121, 21);
+            this.cboestado.TabIndex = 27;
+            this.cboestado.SelectedIndexChanged += new System.EventHandler(this.cboestado_SelectedIndexChanged);
+            // 
+            // txtestado
+            // 
+            this.txtestado.Location = new System.Drawing.Point(750, 161);
+            this.txtestado.Name = "txtestado";
+            this.txtestado.Size = new System.Drawing.Size(32, 20);
+            this.txtestado.TabIndex = 26;
+            this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
+            this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
+            // 
             // wfExamenRutinario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(793, 440);
+            this.Controls.Add(this.cboestado);
+            this.Controls.Add(this.txtestado);
+            this.Controls.Add(this.lblestado);
             this.Controls.Add(this.txtsangre);
             this.Controls.Add(this.tbcexamenrutinario);
             this.Controls.Add(this.cbosangre);
@@ -409,5 +449,8 @@
         private System.Windows.Forms.TabPage tbpmedico;
         private dll_bitacora.Presentacion.cuDataGridD cuDataGridD2;
         private System.Windows.Forms.TextBox txtsangre;
+        private System.Windows.Forms.Label lblestado;
+        private System.Windows.Forms.ComboBox cboestado;
+        private System.Windows.Forms.TextBox txtestado;
     }
 }
