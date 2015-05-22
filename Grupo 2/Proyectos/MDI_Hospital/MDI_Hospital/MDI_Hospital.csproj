@@ -36,9 +36,13 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
+    <Reference Include="dll_paciente, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll</HintPath>
+    </Reference>
     <Reference Include="dll_seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Desktop\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll</HintPath>
+      <HintPath>..\..\dll_seguridad\dll_seguridad\bin\Debug\dll_seguridad.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
