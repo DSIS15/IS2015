@@ -15,8 +15,8 @@ C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_paciente.pdb
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfEnfermedadesAnt.resources
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfExamenRutinario.resources
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfPaciente.resources
-C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.wfAntecedentesMedicos.resources
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csproj.GenerateResource.Cache
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfRecetaMedica.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesMed.resources
