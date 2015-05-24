@@ -1,0 +1,15 @@
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_medico.dll
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_medico.pdb
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\Navegador.dll
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\Navegador.pdb
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\ODBCconnector.pdb
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfMedico.resources
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.dll
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.pdb
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_bitacora.dll
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_bitacora.pdb
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfCitaMedica.resources
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfDetalleExamen.resources
+C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfTipoExamen.resources
