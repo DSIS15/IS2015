@@ -1,0 +1,11 @@
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\dll_inventario.dll
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\dll_inventario.pdb
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\Navegador.dll
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\ODBCconnector.dll
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\Navegador.pdb
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\bin\Debug\ODBCconnector.pdb
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\obj\Debug\dll_inventario.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\obj\Debug\dll_inventario.Presentacion.wfInventario.resources
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\obj\Debug\dll_inventario.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\obj\Debug\dll_inventario.dll
+C:\Users\Jessy\Desktop\dll_inventario\dll_inventario\dll_inventario\obj\Debug\dll_inventario.pdb
