@@ -9,4 +9,3 @@ C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.dll
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.pdb
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.Presentacion.wfDetalleFactura.resources
-C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.csprojResolveAssemblyReference.cache

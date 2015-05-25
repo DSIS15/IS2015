@@ -155,6 +155,7 @@
             this.txtfecha.Size = new System.Drawing.Size(100, 20);
             this.txtfecha.TabIndex = 11;
             this.txtfecha.Tag = "fecha";
+            this.txtfecha.Visible = false;
             this.txtfecha.TextChanged += new System.EventHandler(this.txtfecha_TextChanged);
             // 
             // tbcfactura
@@ -230,6 +231,7 @@
             this.Controls.Add(this.lblid_usuario);
             this.Controls.Add(this.lblnit_cliente);
             this.Controls.Add(this.lblnumero_factura);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfFactura";
