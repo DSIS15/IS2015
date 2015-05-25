@@ -76,6 +76,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "examen_rutinario";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblid_exrutinario
             // 
@@ -301,6 +302,8 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.SCampo = "Codigo";
@@ -323,6 +326,8 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.SCampo = "Codigo";
@@ -378,7 +383,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 440);
+            this.ClientSize = new System.Drawing.Size(793, 451);
             this.Controls.Add(this.cboestado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
@@ -407,12 +412,18 @@
             this.Controls.Add(this.lblpresion);
             this.Controls.Add(this.lblid_exrutinario);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfExamenRutinario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Examen Rutinario";
             this.Load += new System.EventHandler(this.wfExamenRutinario_Load);
             this.tbcexamenrutinario.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.tbpmedico.ResumeLayout(false);
+            this.tbpmedico.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

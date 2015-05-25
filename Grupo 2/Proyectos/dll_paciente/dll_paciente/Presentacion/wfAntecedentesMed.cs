@@ -66,5 +66,12 @@ namespace dll_paciente.Presentacion
         {
             txtidenfermedad.Text = cuDataGridD2.SObtenerDato;
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtidantecedente.Enabled = false;
+            txtidenfermedad.Enabled = false;
+            txtidpaciente.Enabled = false;
+        }
     }
 }

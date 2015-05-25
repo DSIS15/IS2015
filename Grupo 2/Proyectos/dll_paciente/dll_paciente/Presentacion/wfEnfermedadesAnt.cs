@@ -51,5 +51,10 @@ namespace dll_paciente.Presentacion
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtidenfermedad.Enabled = false;
+        }
     }
 }

@@ -49,6 +49,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "enfermedades_antecedentes";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblidenfermedad
             // 
@@ -129,7 +130,11 @@
             this.Controls.Add(this.lblnomenfer);
             this.Controls.Add(this.lblidenfermedad);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfEnfermedadesAnt";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enfermedades Antecedentes";
             this.Load += new System.EventHandler(this.wfEnfermedadesAnt_Load);
             this.ResumeLayout(false);

@@ -122,5 +122,12 @@ namespace dll_paciente.Presentacion
         {
             cbovia_de_administracion.Text = txtvia_de_administracion.Text;
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtid_medico.Enabled = false;
+            txtid_pacientes.Enabled = false;
+            txtid_recetamedica.Enabled = false;
+        }
     }
 }

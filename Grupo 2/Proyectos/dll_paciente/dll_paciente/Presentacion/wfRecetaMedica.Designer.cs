@@ -155,6 +155,8 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.SCampo = "Codigo";
@@ -177,6 +179,8 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.SCampo = "Codigo";
@@ -195,6 +199,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "receta_medica";
             this.navegador1.TabIndex = 9;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // txtid_recetamedica
             // 
@@ -334,12 +339,18 @@
             this.Controls.Add(this.lblidpaciente);
             this.Controls.Add(this.lblmedico);
             this.Controls.Add(this.lblrecetamedica);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfRecetaMedica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Receta Medica";
             this.Load += new System.EventHandler(this.wfRecetaMedica_Load);
             this.tbcrecetamedica.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.tbcmedico.ResumeLayout(false);
+            this.tbcmedico.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

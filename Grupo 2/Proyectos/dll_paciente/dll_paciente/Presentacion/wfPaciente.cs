@@ -79,5 +79,10 @@ namespace dll_paciente.Presentacion
         {
             dtpfecha.Text = txtFecha.Text;
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtIDP.Enabled = false;
+        }
     }
 }

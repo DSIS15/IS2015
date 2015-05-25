@@ -20,3 +20,6 @@ C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.dll
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.pdb
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfRecetaMedica.resources
 C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.Presentacion.wfAntecedentesMed.resources
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.dll
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.pdb
+C:\Users\Cristian\Desktop\dll_paciente\dll_paciente\obj\Debug\dll_paciente.csprojResolveAssemblyReference.cache

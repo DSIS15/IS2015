@@ -119,6 +119,14 @@ namespace dll_paciente.Presentacion
                 cboestado.Text = "Desactivado";
             }
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtid_exrutinario.Enabled = false;
+            txtid_medico.Enabled = false;
+            txtid_pacientes.Enabled = false;
+
+        }
         }
     }
 

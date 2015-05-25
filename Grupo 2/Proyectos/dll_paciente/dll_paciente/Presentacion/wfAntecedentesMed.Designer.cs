@@ -141,10 +141,12 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(578, 183);
+            this.cuDataGridD1.Size = new System.Drawing.Size(584, 187);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 1;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -163,6 +165,8 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
             this.cuDataGridD2.Location = new System.Drawing.Point(0, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.SCampo = "Codigo";
@@ -181,6 +185,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "antecedentes_medicos";
             this.navegador1.TabIndex = 17;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // wfAntecedentesMed
             // 
@@ -197,12 +202,18 @@
             this.Controls.Add(this.txtidantecedente);
             this.Controls.Add(this.tbcantecedentesmedicos);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfAntecedentesMed";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Antecedentes médicos";
             this.Load += new System.EventHandler(this.wfAntecedentesMed_Load);
             this.tbcantecedentesmedicos.ResumeLayout(false);
             this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.tbpemfermedad.ResumeLayout(false);
+            this.tbpemfermedad.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

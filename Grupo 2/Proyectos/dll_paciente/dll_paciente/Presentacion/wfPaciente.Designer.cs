@@ -241,6 +241,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "paciente";
             this.navegador1.TabIndex = 12;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lbltel
             // 
@@ -309,7 +310,11 @@
             this.Controls.Add(this.lblPrimerAp);
             this.Controls.Add(this.lblNomPac);
             this.Controls.Add(this.lblID);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfPaciente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Formulario Paciente";
             this.Load += new System.EventHandler(this.wfPaciente_Load);
             this.ResumeLayout(false);
