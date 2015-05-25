@@ -349,13 +349,13 @@ INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, 
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (4,1,'Cerrar Sesion','','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (5,1,'Salir','','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (6,2,'Usuario','wfUsuario','15/05/2015','15/05/2015',1);
-INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (7,2,'Modulo','efModulo','15/05/2015','15/05/2015',1);
+INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (7,2,'Modulo','wfModulo','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (8,2,'Sub Modulo','wfSubMod','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (9,2,'Perfil','wfPerfiles','15/05/2015','15/05/2015',1);
-INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (10,2,'Administración de Recursos','wfDetMod','15/05/2015','15/05/2015',1);
+INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (10,2,'Administracion de Recursos','wfDetMod','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (11,3,'Bitacora','wfBitacora','15/05/2015','15/05/2015',1);
 
-INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (12,4,'Administración de Paciente','wfPaciente','15/05/2015','15/05/2015',1);
+INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (12,4,'Administracion de Paciente','wfPaciente','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (13,4,'Antecedentes Medicos','wfAntecedentesMed','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (14,4,'Enfermedades','wfEnfermedadesAnt','15/05/2015','15/05/2015',1);
 INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, fecha_creacion, fecha_modificacion, estado) VALUES (15,4,'Examen Rutinario','wfExamenRutinario','15/05/2015','15/05/2015',1);
@@ -370,3 +370,5 @@ INSERT INTO sub_modulo (id_submodulo, id_modulo, nombre_submodulo, nombre_form, 
 INSERT INTO detalle_modulo (id_detmodulo, id_modulo, codigo_perfil, fecha_creacion, fecha_modificacion, estado) VALUES (1,1,1,'18/05/2015','18/05/2015',1);
 INSERT INTO detalle_modulo (id_detmodulo, id_modulo, codigo_perfil, fecha_creacion, fecha_modificacion, estado) VALUES (2,2,1,'18/05/2015','18/05/2015',1);
 INSERT INTO detalle_modulo (id_detmodulo, id_modulo, codigo_perfil, fecha_creacion, fecha_modificacion, estado) VALUES (3,3,1,'18/05/2015','18/05/2015',1);
+INSERT INTO detalle_modulo (id_detmodulo, id_modulo, codigo_perfil, fecha_creacion, fecha_modificacion, estado) VALUES (4,4,1,'18/05/2015','18/05/2015',1);
+INSERT INTO detalle_modulo (id_detmodulo, id_modulo, codigo_perfil, fecha_creacion, fecha_modificacion, estado) VALUES (5,5,1,'18/05/2015','18/05/2015',1);
