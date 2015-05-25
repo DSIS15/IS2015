@@ -61,43 +61,48 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "det_examen";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // txtIdDetalleExamen
             // 
-            this.txtIdDetalleExamen.Location = new System.Drawing.Point(162, 83);
+            this.txtIdDetalleExamen.Enabled = false;
+            this.txtIdDetalleExamen.Location = new System.Drawing.Point(214, 90);
             this.txtIdDetalleExamen.Name = "txtIdDetalleExamen";
-            this.txtIdDetalleExamen.Size = new System.Drawing.Size(100, 20);
+            this.txtIdDetalleExamen.Size = new System.Drawing.Size(31, 20);
             this.txtIdDetalleExamen.TabIndex = 1;
             this.txtIdDetalleExamen.Tag = "id_det_examen";
             // 
             // txtIdPacientes
             // 
-            this.txtIdPacientes.Location = new System.Drawing.Point(380, 83);
+            this.txtIdPacientes.Enabled = false;
+            this.txtIdPacientes.Location = new System.Drawing.Point(432, 90);
             this.txtIdPacientes.Name = "txtIdPacientes";
-            this.txtIdPacientes.Size = new System.Drawing.Size(100, 20);
+            this.txtIdPacientes.Size = new System.Drawing.Size(31, 20);
             this.txtIdPacientes.TabIndex = 2;
             this.txtIdPacientes.Tag = "id_pacientes";
             // 
             // txtIdTipoExamen
             // 
-            this.txtIdTipoExamen.Location = new System.Drawing.Point(162, 115);
+            this.txtIdTipoExamen.Enabled = false;
+            this.txtIdTipoExamen.Location = new System.Drawing.Point(214, 122);
             this.txtIdTipoExamen.Name = "txtIdTipoExamen";
-            this.txtIdTipoExamen.Size = new System.Drawing.Size(100, 20);
+            this.txtIdTipoExamen.Size = new System.Drawing.Size(31, 20);
             this.txtIdTipoExamen.TabIndex = 3;
             this.txtIdTipoExamen.Tag = "id_tipo_examen";
             // 
             // txtIdMedico
             // 
-            this.txtIdMedico.Location = new System.Drawing.Point(380, 115);
+            this.txtIdMedico.Enabled = false;
+            this.txtIdMedico.Location = new System.Drawing.Point(432, 122);
             this.txtIdMedico.Name = "txtIdMedico";
-            this.txtIdMedico.Size = new System.Drawing.Size(100, 20);
+            this.txtIdMedico.Size = new System.Drawing.Size(31, 20);
             this.txtIdMedico.TabIndex = 4;
             this.txtIdMedico.Tag = "id_medico";
             // 
             // lbldetalleexamen
             // 
             this.lbldetalleexamen.AutoSize = true;
-            this.lbldetalleexamen.Location = new System.Drawing.Point(59, 86);
+            this.lbldetalleexamen.Location = new System.Drawing.Point(111, 93);
             this.lbldetalleexamen.Name = "lbldetalleexamen";
             this.lbldetalleexamen.Size = new System.Drawing.Size(93, 13);
             this.lbldetalleexamen.TabIndex = 5;
@@ -106,7 +111,7 @@
             // lblidpacientes
             // 
             this.lblidpacientes.AutoSize = true;
-            this.lblidpacientes.Location = new System.Drawing.Point(292, 86);
+            this.lblidpacientes.Location = new System.Drawing.Point(344, 93);
             this.lblidpacientes.Name = "lblidpacientes";
             this.lblidpacientes.Size = new System.Drawing.Size(66, 13);
             this.lblidpacientes.TabIndex = 6;
@@ -115,7 +120,7 @@
             // lbltipoexamen
             // 
             this.lbltipoexamen.AutoSize = true;
-            this.lbltipoexamen.Location = new System.Drawing.Point(71, 118);
+            this.lbltipoexamen.Location = new System.Drawing.Point(123, 125);
             this.lbltipoexamen.Name = "lbltipoexamen";
             this.lbltipoexamen.Size = new System.Drawing.Size(81, 13);
             this.lbltipoexamen.TabIndex = 7;
@@ -124,7 +129,7 @@
             // lblidmedico
             // 
             this.lblidmedico.AutoSize = true;
-            this.lblidmedico.Location = new System.Drawing.Point(305, 115);
+            this.lblidmedico.Location = new System.Drawing.Point(357, 122);
             this.lblidmedico.Name = "lblidmedico";
             this.lblidmedico.Size = new System.Drawing.Size(53, 13);
             this.lblidmedico.TabIndex = 8;
@@ -155,10 +160,12 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
-            this.cuDataGridD1.Location = new System.Drawing.Point(3, 3);
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(520, 141);
+            this.cuDataGridD1.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -177,10 +184,12 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
-            this.cuDataGridD2.Location = new System.Drawing.Point(3, 3);
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.SCampo = "Codigo";
-            this.cuDataGridD2.Size = new System.Drawing.Size(520, 141);
+            this.cuDataGridD2.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD2.STabla = "tipo_examen";
             this.cuDataGridD2.TabIndex = 0;
             this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
@@ -199,10 +208,12 @@
             // cuDataGridD3
             // 
             this.cuDataGridD3.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.AlDatosEntrada")));
-            this.cuDataGridD3.Location = new System.Drawing.Point(3, 0);
+            this.cuDataGridD3.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.alObtenerCampos")));
+            this.cuDataGridD3.AutoSize = true;
+            this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD3.Name = "cuDataGridD3";
             this.cuDataGridD3.SCampo = "Codigo";
-            this.cuDataGridD3.Size = new System.Drawing.Size(520, 144);
+            this.cuDataGridD3.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD3.STabla = "medico";
             this.cuDataGridD3.TabIndex = 0;
             this.cuDataGridD3.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD3_sdgv_CellClick);
@@ -229,8 +240,11 @@
             this.Load += new System.EventHandler(this.wfDetalleExamen_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -89,5 +89,13 @@ namespace dll_medico.Presentacion
         {
             txtIdMedico.Text = cuDataGridD3.SObtenerDato;
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtIdDetalleExamen.Enabled = false;
+            txtIdMedico.Enabled = false;
+            txtIdPacientes.Enabled = false;
+            txtIdTipoExamen.Enabled = false;
+        }
     }
 }

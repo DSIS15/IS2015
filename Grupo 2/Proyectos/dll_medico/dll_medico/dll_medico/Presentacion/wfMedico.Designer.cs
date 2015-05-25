@@ -56,6 +56,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "medico";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblmedico
             // 
@@ -113,9 +114,10 @@
             // 
             // txtIdMedico
             // 
+            this.txtIdMedico.Enabled = false;
             this.txtIdMedico.Location = new System.Drawing.Point(168, 98);
             this.txtIdMedico.Name = "txtIdMedico";
-            this.txtIdMedico.Size = new System.Drawing.Size(100, 20);
+            this.txtIdMedico.Size = new System.Drawing.Size(35, 20);
             this.txtIdMedico.TabIndex = 7;
             this.txtIdMedico.Tag = "id_medico";
             // 

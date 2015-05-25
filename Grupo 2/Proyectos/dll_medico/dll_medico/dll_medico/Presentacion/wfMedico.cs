@@ -65,5 +65,10 @@ namespace dll_medico.Presentacion
                 cboEstado.Text = "Desactivado";
             }
         }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtIdMedico.Enabled = false;
+        }
     }
 }

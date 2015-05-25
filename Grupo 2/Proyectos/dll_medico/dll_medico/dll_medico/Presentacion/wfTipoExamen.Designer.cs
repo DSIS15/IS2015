@@ -57,6 +57,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "tipo_examen";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // lblidtipoexamen
             // 
@@ -114,9 +115,10 @@
             // 
             // txtIdTipoExamen
             // 
+            this.txtIdTipoExamen.Enabled = false;
             this.txtIdTipoExamen.Location = new System.Drawing.Point(193, 92);
             this.txtIdTipoExamen.Name = "txtIdTipoExamen";
-            this.txtIdTipoExamen.Size = new System.Drawing.Size(100, 20);
+            this.txtIdTipoExamen.Size = new System.Drawing.Size(35, 20);
             this.txtIdTipoExamen.TabIndex = 7;
             this.txtIdTipoExamen.Tag = "id_tipo_examen";
             // 

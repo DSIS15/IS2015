@@ -71,6 +71,8 @@ namespace dll_medico.Presentacion
             navegador1.alDatosEntrada = alDatosEntrada;
             navegador1.vIniciarNavegador();
 
+            
+
             ///////////////////////////////////
            ////////Datos Grid Usuario
             String[,] Scadena ={
@@ -137,6 +139,30 @@ namespace dll_medico.Presentacion
         private void cuDataGridD3_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtIdPacientes.Text = cuDataGridD3.SObtenerDato;
+        }
+
+        private void navegador1_btnNuevo_BeforeClick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void navegador1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void navegador1_MouseMove(object sender, MouseEventArgs e)
+        {
+            //txtIdCitaMedica.Enabled = false;
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtIdCitaMedica.Enabled = false;
+            txtIdMedico.Enabled = false;
+            txtIdPacientes.Enabled = false;
+            txtIdUsuario.Enabled = false;
+
         }
     }
 }
