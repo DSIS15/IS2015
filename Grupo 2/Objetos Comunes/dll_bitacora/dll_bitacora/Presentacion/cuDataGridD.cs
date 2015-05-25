@@ -28,7 +28,8 @@ namespace dll_bitacora.Presentacion
         //Se obtiene los datos enviados en formato arraylist
         public ArrayList alObtenerCampos 
         {
-            get { return csn_obtenercampos.alObtenerCampos(alDatosEntrada); }
+            get { return alDatosEntrada; }
+            set { alDatosEntrada = value; }
         }
         
         //evento personalizado
@@ -84,7 +85,9 @@ namespace dll_bitacora.Presentacion
                     if (csn_obtenercampos.bCompararCampos(alDatosEntrada, sTabla) == true)
                     {   
                         //construcción del datagriedview
+                        cbCampos.DataSource = csn_obtenercampos.cbllenarcombo(alDatosEntrada).Items;
                         dgvTabla.DataSource = csn_obtenercampos.dtNCamposyDatos(alDatosEntrada, STabla);
+                        
                         
                     }
                     else
@@ -121,9 +124,14 @@ namespace dll_bitacora.Presentacion
         //evento en el cual se obtiene el dato requerido 
        private void dgvTabla_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            try
+            {
                 sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();
-                
+            }
+           catch(Exception)
+            {
+           MessageBox.Show("Debe seleccionar un valor valido","Alerta",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+           }
                 
                 
            //creacion de un evento personalizado
@@ -132,5 +140,13 @@ namespace dll_bitacora.Presentacion
             else
                 MessageBox.Show("Debe de crear el evento sdgv_CellClick","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
+
+       private void txtbusqueda_TextChanged(object sender, EventArgs e)
+       {
+           BindingSource bsBusqueda = new BindingSource();
+           bsBusqueda.DataSource = dgvTabla.DataSource;
+           bsBusqueda.Filter = cbCampos.SelectedItem.ToString() + " LIKE '%" + txtbusqueda.Text + "%'";
+           dgvTabla.DataSource = bsBusqueda;
+       }
     }
 }
