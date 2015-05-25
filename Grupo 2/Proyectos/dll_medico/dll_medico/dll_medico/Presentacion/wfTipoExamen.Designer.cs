@@ -218,7 +218,9 @@
             this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.lblidtipoexamen);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "wfTipoExamen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tipo Examen";
             this.Load += new System.EventHandler(this.wfTipoExamen_Load);
             this.ResumeLayout(false);

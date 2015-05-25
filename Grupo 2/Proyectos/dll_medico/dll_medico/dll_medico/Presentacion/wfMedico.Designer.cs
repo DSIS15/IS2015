@@ -205,7 +205,9 @@
             this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.lblmedico);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "wfMedico";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medico";
             this.Load += new System.EventHandler(this.wfMedico_Load);
             this.ResumeLayout(false);

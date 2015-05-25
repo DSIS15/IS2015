@@ -317,7 +317,9 @@
             this.Controls.Add(this.lblusuario);
             this.Controls.Add(this.lblcitamedica);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "wfCitaMedica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cita Medica";
             this.Load += new System.EventHandler(this.wfCitaMedica_Load);
             this.tabControl1.ResumeLayout(false);

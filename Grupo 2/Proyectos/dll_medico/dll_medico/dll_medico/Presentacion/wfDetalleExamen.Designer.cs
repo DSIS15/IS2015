@@ -222,7 +222,9 @@
             this.Controls.Add(this.txtIdPacientes);
             this.Controls.Add(this.txtIdDetalleExamen);
             this.Controls.Add(this.navegador1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "wfDetalleExamen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle Examen";
             this.Load += new System.EventHandler(this.wfDetalleExamen_Load);
             this.tabControl1.ResumeLayout(false);
