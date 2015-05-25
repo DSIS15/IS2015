@@ -104,7 +104,7 @@
             // 
             this.txtIDP.Location = new System.Drawing.Point(150, 93);
             this.txtIDP.Name = "txtIDP";
-            this.txtIDP.Size = new System.Drawing.Size(65, 20);
+            this.txtIDP.Size = new System.Drawing.Size(39, 20);
             this.txtIDP.TabIndex = 0;
             this.txtIDP.Tag = "id_pacientes";
             // 
@@ -236,7 +236,7 @@
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(12, 12);
+            this.navegador1.Location = new System.Drawing.Point(41, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "paciente";

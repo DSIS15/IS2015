@@ -90,7 +90,7 @@
             // lblpresion
             // 
             this.lblpresion.AutoSize = true;
-            this.lblpresion.Location = new System.Drawing.Point(29, 132);
+            this.lblpresion.Location = new System.Drawing.Point(29, 139);
             this.lblpresion.Name = "lblpresion";
             this.lblpresion.Size = new System.Drawing.Size(45, 13);
             this.lblpresion.TabIndex = 2;
@@ -99,7 +99,7 @@
             // lblcolesterol
             // 
             this.lblcolesterol.AutoSize = true;
-            this.lblcolesterol.Location = new System.Drawing.Point(29, 169);
+            this.lblcolesterol.Location = new System.Drawing.Point(29, 174);
             this.lblcolesterol.Name = "lblcolesterol";
             this.lblcolesterol.Size = new System.Drawing.Size(56, 13);
             this.lblcolesterol.TabIndex = 3;
@@ -108,7 +108,7 @@
             // lblglucosa
             // 
             this.lblglucosa.AutoSize = true;
-            this.lblglucosa.Location = new System.Drawing.Point(29, 200);
+            this.lblglucosa.Location = new System.Drawing.Point(28, 209);
             this.lblglucosa.Name = "lblglucosa";
             this.lblglucosa.Size = new System.Drawing.Size(49, 13);
             this.lblglucosa.TabIndex = 4;
@@ -117,7 +117,7 @@
             // lblestatura
             // 
             this.lblestatura.AutoSize = true;
-            this.lblestatura.Location = new System.Drawing.Point(297, 132);
+            this.lblestatura.Location = new System.Drawing.Point(297, 136);
             this.lblestatura.Name = "lblestatura";
             this.lblestatura.Size = new System.Drawing.Size(49, 13);
             this.lblestatura.TabIndex = 5;
@@ -126,7 +126,7 @@
             // lblpeso
             // 
             this.lblpeso.AutoSize = true;
-            this.lblpeso.Location = new System.Drawing.Point(297, 168);
+            this.lblpeso.Location = new System.Drawing.Point(297, 173);
             this.lblpeso.Name = "lblpeso";
             this.lblpeso.Size = new System.Drawing.Size(34, 13);
             this.lblpeso.TabIndex = 6;
@@ -135,7 +135,7 @@
             // lblestadocavidadbucal
             // 
             this.lblestadocavidadbucal.AutoSize = true;
-            this.lblestadocavidadbucal.Location = new System.Drawing.Point(297, 200);
+            this.lblestadocavidadbucal.Location = new System.Drawing.Point(296, 209);
             this.lblestadocavidadbucal.Name = "lblestadocavidadbucal";
             this.lblestadocavidadbucal.Size = new System.Drawing.Size(113, 13);
             this.lblestadocavidadbucal.TabIndex = 7;
@@ -144,7 +144,7 @@
             // lblestadooido
             // 
             this.lblestadooido.AutoSize = true;
-            this.lblestadooido.Location = new System.Drawing.Point(536, 197);
+            this.lblestadooido.Location = new System.Drawing.Point(535, 206);
             this.lblestadooido.Name = "lblestadooido";
             this.lblestadooido.Size = new System.Drawing.Size(70, 13);
             this.lblestadooido.TabIndex = 8;
@@ -182,13 +182,13 @@
             // 
             this.txtid_exrutinario.Location = new System.Drawing.Point(138, 97);
             this.txtid_exrutinario.Name = "txtid_exrutinario";
-            this.txtid_exrutinario.Size = new System.Drawing.Size(100, 20);
+            this.txtid_exrutinario.Size = new System.Drawing.Size(41, 20);
             this.txtid_exrutinario.TabIndex = 12;
             this.txtid_exrutinario.Tag = "id_exrutinario";
             // 
             // txtpresion
             // 
-            this.txtpresion.Location = new System.Drawing.Point(138, 125);
+            this.txtpresion.Location = new System.Drawing.Point(138, 132);
             this.txtpresion.Name = "txtpresion";
             this.txtpresion.Size = new System.Drawing.Size(100, 20);
             this.txtpresion.TabIndex = 13;
@@ -196,7 +196,7 @@
             // 
             // txtcolesterol
             // 
-            this.txtcolesterol.Location = new System.Drawing.Point(138, 162);
+            this.txtcolesterol.Location = new System.Drawing.Point(138, 167);
             this.txtcolesterol.Name = "txtcolesterol";
             this.txtcolesterol.Size = new System.Drawing.Size(100, 20);
             this.txtcolesterol.TabIndex = 14;
@@ -204,7 +204,7 @@
             // 
             // txtglucosa
             // 
-            this.txtglucosa.Location = new System.Drawing.Point(138, 193);
+            this.txtglucosa.Location = new System.Drawing.Point(137, 202);
             this.txtglucosa.Name = "txtglucosa";
             this.txtglucosa.Size = new System.Drawing.Size(100, 20);
             this.txtglucosa.TabIndex = 15;
@@ -214,13 +214,13 @@
             // 
             this.txtid_pacientes.Location = new System.Drawing.Point(416, 89);
             this.txtid_pacientes.Name = "txtid_pacientes";
-            this.txtid_pacientes.Size = new System.Drawing.Size(100, 20);
+            this.txtid_pacientes.Size = new System.Drawing.Size(33, 20);
             this.txtid_pacientes.TabIndex = 16;
             this.txtid_pacientes.Tag = "id_pacientes";
             // 
             // txtestatura
             // 
-            this.txtestatura.Location = new System.Drawing.Point(416, 124);
+            this.txtestatura.Location = new System.Drawing.Point(416, 132);
             this.txtestatura.Name = "txtestatura";
             this.txtestatura.Size = new System.Drawing.Size(100, 20);
             this.txtestatura.TabIndex = 17;
@@ -228,7 +228,7 @@
             // 
             // txtpeso
             // 
-            this.txtpeso.Location = new System.Drawing.Point(416, 161);
+            this.txtpeso.Location = new System.Drawing.Point(416, 169);
             this.txtpeso.Name = "txtpeso";
             this.txtpeso.Size = new System.Drawing.Size(100, 20);
             this.txtpeso.TabIndex = 18;
@@ -236,7 +236,7 @@
             // 
             // txtestado_cavidad_bucal
             // 
-            this.txtestado_cavidad_bucal.Location = new System.Drawing.Point(416, 193);
+            this.txtestado_cavidad_bucal.Location = new System.Drawing.Point(415, 202);
             this.txtestado_cavidad_bucal.Multiline = true;
             this.txtestado_cavidad_bucal.Name = "txtestado_cavidad_bucal";
             this.txtestado_cavidad_bucal.Size = new System.Drawing.Size(112, 65);
@@ -247,21 +247,22 @@
             // 
             this.txtid_medico.Location = new System.Drawing.Point(622, 89);
             this.txtid_medico.Name = "txtid_medico";
-            this.txtid_medico.Size = new System.Drawing.Size(118, 20);
+            this.txtid_medico.Size = new System.Drawing.Size(36, 20);
             this.txtid_medico.TabIndex = 20;
             this.txtid_medico.Tag = "id_medico";
             // 
             // txtestado_oido
             // 
-            this.txtestado_oido.Location = new System.Drawing.Point(623, 197);
+            this.txtestado_oido.Location = new System.Drawing.Point(622, 206);
             this.txtestado_oido.Multiline = true;
             this.txtestado_oido.Name = "txtestado_oido";
-            this.txtestado_oido.Size = new System.Drawing.Size(121, 65);
+            this.txtestado_oido.Size = new System.Drawing.Size(121, 61);
             this.txtestado_oido.TabIndex = 21;
             this.txtestado_oido.Tag = "estado_oido";
             // 
             // cbosangre
             // 
+            this.cbosangre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbosangre.FormattingEnabled = true;
             this.cbosangre.Items.AddRange(new object[] {
             "A+",
@@ -285,7 +286,7 @@
             this.tbcexamenrutinario.Location = new System.Drawing.Point(32, 277);
             this.tbcexamenrutinario.Name = "tbcexamenrutinario";
             this.tbcexamenrutinario.SelectedIndex = 0;
-            this.tbcexamenrutinario.Size = new System.Drawing.Size(712, 160);
+            this.tbcexamenrutinario.Size = new System.Drawing.Size(749, 259);
             this.tbcexamenrutinario.TabIndex = 23;
             // 
             // tbppaciente
@@ -294,7 +295,7 @@
             this.tbppaciente.Location = new System.Drawing.Point(4, 22);
             this.tbppaciente.Name = "tbppaciente";
             this.tbppaciente.Padding = new System.Windows.Forms.Padding(3);
-            this.tbppaciente.Size = new System.Drawing.Size(704, 134);
+            this.tbppaciente.Size = new System.Drawing.Size(741, 233);
             this.tbppaciente.TabIndex = 0;
             this.tbppaciente.Text = "Paciente";
             this.tbppaciente.UseVisualStyleBackColor = true;
@@ -307,7 +308,7 @@
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(692, 122);
+            this.cuDataGridD1.Size = new System.Drawing.Size(739, 227);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -318,7 +319,7 @@
             this.tbpmedico.Location = new System.Drawing.Point(4, 22);
             this.tbpmedico.Name = "tbpmedico";
             this.tbpmedico.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpmedico.Size = new System.Drawing.Size(704, 134);
+            this.tbpmedico.Size = new System.Drawing.Size(741, 233);
             this.tbpmedico.TabIndex = 1;
             this.tbpmedico.Text = "Médico";
             this.tbpmedico.UseVisualStyleBackColor = true;
@@ -331,7 +332,7 @@
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.SCampo = "Codigo";
-            this.cuDataGridD2.Size = new System.Drawing.Size(692, 122);
+            this.cuDataGridD2.Size = new System.Drawing.Size(739, 230);
             this.cuDataGridD2.STabla = "medico";
             this.cuDataGridD2.TabIndex = 0;
             this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
@@ -349,7 +350,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(536, 164);
+            this.lblestado.Location = new System.Drawing.Point(536, 169);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(43, 13);
             this.lblestado.TabIndex = 25;
@@ -363,7 +364,7 @@
             this.cboestado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboestado.Location = new System.Drawing.Point(622, 160);
+            this.cboestado.Location = new System.Drawing.Point(622, 165);
             this.cboestado.Name = "cboestado";
             this.cboestado.Size = new System.Drawing.Size(121, 21);
             this.cboestado.TabIndex = 27;
@@ -371,7 +372,7 @@
             // 
             // txtestado
             // 
-            this.txtestado.Location = new System.Drawing.Point(750, 161);
+            this.txtestado.Location = new System.Drawing.Point(750, 166);
             this.txtestado.Name = "txtestado";
             this.txtestado.Size = new System.Drawing.Size(32, 20);
             this.txtestado.TabIndex = 26;
@@ -383,7 +384,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(793, 451);
+            this.ClientSize = new System.Drawing.Size(793, 548);
             this.Controls.Add(this.cboestado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestado);
