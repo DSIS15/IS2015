@@ -35,6 +35,8 @@
             this.tllblNombre = new System.Windows.Forms.ToolStripLabel();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tlblCodUsuario = new System.Windows.Forms.ToolStripLabel();
+            this.lblTipo = new System.Windows.Forms.ToolStripLabel();
+            this.tlblMoneda = new System.Windows.Forms.ToolStripLabel();
             this.tlmEstado.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +56,9 @@
             this.tSlblusuario,
             this.tllblNombre,
             this.toolStripSeparator1,
-            this.tlblCodUsuario});
+            this.tlblCodUsuario,
+            this.lblTipo,
+            this.tlblMoneda});
             this.tlmEstado.Location = new System.Drawing.Point(0, 587);
             this.tlmEstado.Name = "tlmEstado";
             this.tlmEstado.Size = new System.Drawing.Size(834, 25);
@@ -91,6 +95,18 @@
             this.tlblCodUsuario.Text = "tlblCodUsuario";
             this.tlblCodUsuario.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
+            // lblTipo
+            // 
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(54, 22);
+            this.lblTipo.Text = "Moneda:";
+            // 
+            // tlblMoneda
+            // 
+            this.tlblMoneda.Name = "tlblMoneda";
+            this.tlblMoneda.Size = new System.Drawing.Size(68, 22);
+            this.tlblMoneda.Text = "tlblMoneda";
+            // 
             // wfMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -122,6 +138,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         public System.Windows.Forms.ToolStripLabel tllblNombre;
         private System.Windows.Forms.ToolStripLabel tlblCodUsuario;
+        private System.Windows.Forms.ToolStripLabel lblTipo;
+        private System.Windows.Forms.ToolStripLabel tlblMoneda;
     }
 }
 

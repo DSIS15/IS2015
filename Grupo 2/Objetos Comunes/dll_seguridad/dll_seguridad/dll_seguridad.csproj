@@ -65,8 +65,15 @@
   <ItemGroup>
     <Compile Include="Datos\csD_CrearMenu.cs" />
     <Compile Include="Datos\csD_InicioSesion.cs" />
+    <Compile Include="Datos\csD_llenarcmbMoneda.cs" />
+    <Compile Include="dsMoneda.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMoneda.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\csN_CrearMenu.cs" />
     <Compile Include="Negocio\csN_InicioSesion.cs" />
+    <Compile Include="Negocio\csN_llenarcmbMoneda.cs" />
     <Compile Include="Presentacion\csP_CrearMenu.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
@@ -118,6 +125,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Presentacion\wfDetMod.resx">
@@ -148,6 +160,22 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsMoneda.xsc">
+      <DependentUpon>dsMoneda.xsd</DependentUpon>
+    </None>
+    <None Include="dsMoneda.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMoneda.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsMoneda.xss">
+      <DependentUpon>dsMoneda.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Resources\hospital.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

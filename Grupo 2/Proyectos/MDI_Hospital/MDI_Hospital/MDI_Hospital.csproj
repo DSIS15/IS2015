@@ -36,6 +36,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
+    <Reference Include="dll_inventario">
+      <HintPath>..\..\..\Documents\GitHub\IS2015\Grupo 2\Proyectos\dll_inventario\dll_inventario\dll_inventario\bin\Debug\dll_inventario.dll</HintPath>
+    </Reference>
     <Reference Include="dll_medico, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_medico\dll_medico\dll_medico\bin\Debug\dll_medico.dll</HintPath>
@@ -43,6 +46,9 @@
     <Reference Include="dll_paciente, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_paciente\dll_paciente\bin\Debug\dll_paciente.dll</HintPath>
+    </Reference>
+    <Reference Include="dll_reporteador">
+      <HintPath>..\..\dll_reporteador\dll_reporteador\dll_reporteador\bin\Debug\dll_reporteador.dll</HintPath>
     </Reference>
     <Reference Include="dll_seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>

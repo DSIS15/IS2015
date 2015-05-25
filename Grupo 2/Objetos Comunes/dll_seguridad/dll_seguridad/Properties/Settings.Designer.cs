@@ -32,5 +32,15 @@ namespace dll_seguridad.Properties {
                 return ((string)(this["ConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Dsn=hospital;database=hospital;option=0;port=3306;uid=root")]
+        public string hospitalConnectionString {
+            get {
+                return ((string)(this["hospitalConnectionString"]));
+            }
+        }
     }
 }

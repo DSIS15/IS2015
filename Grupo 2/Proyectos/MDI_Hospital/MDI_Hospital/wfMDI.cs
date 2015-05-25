@@ -29,7 +29,8 @@ namespace MDI_Hospital
                 tllblNombre.Text = dll_seguridad.Presentacion.wfInicioSesion.SUsuario;
                 tlblCodUsuario.Text = dll_seguridad.Presentacion.wfInicioSesion.SCodigoUsuario;  
                 alDatos = csp_crearmenu.alPconsultaform(tllblNombre.Text);
-                
+                tlblMoneda.Text = dll_seguridad.Presentacion.wfInicioSesion.SMoneda;    
+
                 if (alDatos.Count > 0)
                 {
                     for (int icont = 0; icont < alDatos.Count; icont++)

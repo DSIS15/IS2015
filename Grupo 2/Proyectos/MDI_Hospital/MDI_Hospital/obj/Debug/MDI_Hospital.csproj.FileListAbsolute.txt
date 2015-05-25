@@ -119,8 +119,6 @@ C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.exe
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.exe
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\MDI_Hospital.pdb
-C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_medico.dll
-C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_paciente.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.dll
@@ -131,9 +129,6 @@ C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.pdb
-C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_seguridad.resources.dll
-C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-CO\dll_seguridad.resources.dll
-C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\JA-JP\dll_seguridad.resources.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-GT\dll_idioma.resources.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\JA-JP\dll_idioma.resources.dll
@@ -141,3 +136,8 @@ C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csprojRe
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.wfMDI.resources
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.Properties.Resources.resources
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\obj\Debug\MDI_Hospital.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_inventario.dll
+C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_inventario.pdb
+C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_reporteador.dll
+C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_reporteador.pdb
+C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.dll

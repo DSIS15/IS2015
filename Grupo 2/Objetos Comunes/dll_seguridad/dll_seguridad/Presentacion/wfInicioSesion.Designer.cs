@@ -37,7 +37,7 @@
             this.lblSistema = new System.Windows.Forms.Label();
             this.lblHospital = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbTasaCambio = new System.Windows.Forms.ComboBox();
             this.lblMoneda = new System.Windows.Forms.Label();
             this.cuIdioma1 = new dll_idioma.Presentacion.cuIdioma();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -127,16 +127,14 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
+            // cmbTasaCambio
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Quetzales (Q)",
-            "Dollars($)"});
-            this.comboBox1.Location = new System.Drawing.Point(152, 189);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 21);
-            this.comboBox1.TabIndex = 9;
+            this.cmbTasaCambio.FormattingEnabled = true;
+            this.cmbTasaCambio.Location = new System.Drawing.Point(152, 189);
+            this.cmbTasaCambio.Name = "cmbTasaCambio";
+            this.cmbTasaCambio.Size = new System.Drawing.Size(139, 21);
+            this.cmbTasaCambio.TabIndex = 9;
+            this.cmbTasaCambio.SelectedIndexChanged += new System.EventHandler(this.cmbTasaCambio_SelectedIndexChanged);
             // 
             // lblMoneda
             // 
@@ -161,7 +159,7 @@
             this.ClientSize = new System.Drawing.Size(453, 309);
             this.Controls.Add(this.cuIdioma1);
             this.Controls.Add(this.lblMoneda);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbTasaCambio);
             this.Controls.Add(this.lblHospital);
             this.Controls.Add(this.lblSistema);
             this.Controls.Add(this.pictureBox1);
@@ -194,7 +192,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblSistema;
         private System.Windows.Forms.Label lblHospital;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbTasaCambio;
         private System.Windows.Forms.Label lblMoneda;
         private dll_idioma.Presentacion.cuIdioma cuIdioma1;
     }
