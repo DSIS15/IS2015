@@ -51,16 +51,8 @@ namespace dll_bitacora.Negocio
 
         public int iObtenerCount(ArrayList alCampos)
         { 
-        int icampos =0;
-        String[,] sCadena = (String[,])alCampos[0];
-        for (int icontador = 0; icontador < sCadena.GetLength(0); icontador++)
-             {
-            if (string.Compare(sCadena[icontador, 2], "true") == 0)
-                {
-                    icampos++;
-                }
-            }
-            return icampos;
+        String[,] sCadena2 = (String[,])alCampos[0];        
+        return sCadena2.GetLength(0);
         }
 
         //esta función maneja la construccion del datagried de la capa presentación

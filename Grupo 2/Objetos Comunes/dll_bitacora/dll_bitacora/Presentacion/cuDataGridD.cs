@@ -17,7 +17,7 @@ namespace dll_bitacora.Presentacion
         private ArrayList alDatosEntrada = new ArrayList();
         private ArrayList alDatosNombre = new ArrayList();
         private String sTabla = string.Empty;
-        private String sCampo = string.Empty;
+        private int iCampo = 0;       
         private String sObtenerDato = string.Empty;
 
        //Con esto se obtiene el número de campos mostrados
@@ -31,7 +31,12 @@ namespace dll_bitacora.Presentacion
             get { return alDatosEntrada; }
             set { alDatosEntrada = value; }
         }
-        
+
+        public int ICampo
+        {
+            get { return iCampo; }
+            set { iCampo = value; }
+        }
         //evento personalizado
         public event DataGridViewCellEventHandler sdgv_CellClick;
 
@@ -41,12 +46,7 @@ namespace dll_bitacora.Presentacion
             get { return sObtenerDato; }            
         }
 
-        public String SCampo
-        {
-            get { return sCampo; }
-            set { sCampo = value; }
-        }
-
+        
         public String STabla
         {
             get { return sTabla; }
@@ -126,7 +126,7 @@ namespace dll_bitacora.Presentacion
         {
             try
             {
-                sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[SCampo].Value.ToString();
+                sObtenerDato = dgvTabla.Rows[e.RowIndex].Cells[ICampo].Value.ToString();
             }
            catch(Exception)
             {
