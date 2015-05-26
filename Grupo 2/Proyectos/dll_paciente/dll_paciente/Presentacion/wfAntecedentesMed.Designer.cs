@@ -143,10 +143,10 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(591, 239);
+            this.cuDataGridD1.Size = new System.Drawing.Size(581, 239);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 1;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -157,7 +157,7 @@
             this.tbpemfermedad.Location = new System.Drawing.Point(4, 22);
             this.tbpemfermedad.Name = "tbpemfermedad";
             this.tbpemfermedad.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpemfermedad.Size = new System.Drawing.Size(590, 195);
+            this.tbpemfermedad.Size = new System.Drawing.Size(590, 241);
             this.tbpemfermedad.TabIndex = 1;
             this.tbpemfermedad.Text = "Enfermedad";
             this.tbpemfermedad.UseVisualStyleBackColor = true;
@@ -167,9 +167,9 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(0, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
             this.cuDataGridD2.Size = new System.Drawing.Size(584, 183);
             this.cuDataGridD2.STabla = "enfermedades_antecedentes";
             this.cuDataGridD2.TabIndex = 0;

@@ -17,19 +17,6 @@ namespace dll_paciente.Presentacion
         public wfAntecedentesMed()
         {
             InitializeComponent();
-        }
-
-        private void wfAntecedentesMed_Load(object sender, EventArgs e)
-        {
-            alDatosEntrada.Add(txtidantecedente);
-            alDatosEntrada.Add(txtidpaciente);
-            alDatosEntrada.Add(txtidenfermedad);
-            alDatosEntrada.Add(txtdescripcion);
-            navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();
-
-            ///////////////////////////////////////
-            //Datos Grid Modulo
             String[,] Scaden ={
                               {"id_pacientes","Codigo","true"},
                               {"nombre_paciente","Nombre","true"},
@@ -43,16 +30,31 @@ namespace dll_paciente.Presentacion
                               {"estado","Estado","true",},
                               };
             cuDataGridD1.AlDatosEntrada.Add(Scaden);
-            cuDataGridD1.vinicializar();
-            ///////////////////////////////////
-
-            //Datos Grid Enfermedad
-            //Datos Grid Perfil
             String[,] Scadena ={{"id_enfermedad","Codigo","true"},
                                 {"nombre_enfermedad","Nombre","true"},
                                 {"estado","Estado","true",}, 
                               };
             cuDataGridD2.AlDatosEntrada.Add(Scadena);
+        }
+
+        private void wfAntecedentesMed_Load(object sender, EventArgs e)
+        {
+            alDatosEntrada.Add(txtidantecedente);
+            alDatosEntrada.Add(txtidpaciente);
+            alDatosEntrada.Add(txtidenfermedad);
+            alDatosEntrada.Add(txtdescripcion);
+            navegador1.alDatosEntrada = alDatosEntrada;
+            navegador1.vIniciarNavegador();
+
+            ///////////////////////////////////////
+            //Datos Grid Modulo
+            
+            cuDataGridD1.vinicializar();
+            ///////////////////////////////////
+
+            //Datos Grid Enfermedad
+            //Datos Grid Perfil
+            
             cuDataGridD2.vinicializar();
             ///////////////////////////////////////////
         }

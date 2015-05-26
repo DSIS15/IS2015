@@ -17,6 +17,29 @@ namespace dll_paciente.Presentacion
         public wfRecetaMedica()
         {
             InitializeComponent();
+            String[,] Scaden ={
+                              {"id_pacientes","Codigo","true"},
+                              {"nombre_paciente","Nombre","true"},
+                              {"primer_apellido","Apellido","true"},
+                              {"segundo_apellido","Segundo apellido","false"},
+                              {"direccion_paciente","Direccion","true"},
+                              {"telefono_paciente","Telefono","true"},
+                              {"sexo","Sexo","true"},
+                              {"identificacion_paciente","Identificacion","true"}, 
+                              {"fecha_nacimiento_paciente","Fecha de nacimiento","true",},
+                              {"estado","Estado","true",},
+                              };
+            cuDataGridD1.AlDatosEntrada.Add(Scaden);
+
+            String[,] Scadena ={
+                              {"id_medico","Codigo","true"},
+                              {"nombre_medico","Nombre","true"},
+                              {"priimer_apellido_medico","Apellido","true"},
+                              {"medico_segundo_apellido","Segundo apellido","true"},
+                              {"fecha_ingreso","Fecha de ingreso","true"},
+                              {"estado","Estado","true"},
+                              };
+            cuDataGridD2.AlDatosEntrada.Add(Scadena);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -62,33 +85,13 @@ namespace dll_paciente.Presentacion
             navegador1.vIniciarNavegador();
             ///////////////////////////////////////
             //Datos Grid Paciente
-            String[,] Scaden ={
-                              {"id_pacientes","Codigo","true"},
-                              {"nombre_paciente","Nombre","true"},
-                              {"primer_apellido","Apellido","true"},
-                              {"segundo_apellido","Segundo apellido","false"},
-                              {"direccion_paciente","Direccion","true"},
-                              {"telefono_paciente","Telefono","true"},
-                              {"sexo","Sexo","true"},
-                              {"identificacion_paciente","Identificacion","true"}, 
-                              {"fecha_nacimiento_paciente","Fecha de nacimiento","true",},
-                              {"estado","Estado","true",},
-                              };
-            cuDataGridD1.AlDatosEntrada.Add(Scaden);
+            
             cuDataGridD1.vinicializar();
             ///////////////////////////////////
 
 
             //Datos Grid Medico
-            String[,] Scadena ={
-                              {"id_medico","Codigo","true"},
-                              {"nombre_medico","Nombre","true"},
-                              {"priimer_apellido_medico","Apellido","true"},
-                              {"medico_segundo_apellido","Segundo apellido","true"},
-                              {"fecha_ingreso","Fecha de ingreso","true"},
-                              {"estado","Estado","true"},
-                              };
-            cuDataGridD2.AlDatosEntrada.Add(Scadena);
+            
             cuDataGridD2.vinicializar();
             ///////////////////////////////////
         }

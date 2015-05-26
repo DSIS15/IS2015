@@ -286,7 +286,7 @@
             this.tbcexamenrutinario.Location = new System.Drawing.Point(32, 277);
             this.tbcexamenrutinario.Name = "tbcexamenrutinario";
             this.tbcexamenrutinario.SelectedIndex = 0;
-            this.tbcexamenrutinario.Size = new System.Drawing.Size(749, 259);
+            this.tbcexamenrutinario.Size = new System.Drawing.Size(741, 259);
             this.tbcexamenrutinario.TabIndex = 23;
             // 
             // tbppaciente
@@ -305,10 +305,10 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(6, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
-            this.cuDataGridD1.Size = new System.Drawing.Size(739, 227);
+            this.cuDataGridD1.Size = new System.Drawing.Size(729, 227);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 0;
             this.cuDataGridD1.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -319,7 +319,7 @@
             this.tbpmedico.Location = new System.Drawing.Point(4, 22);
             this.tbpmedico.Name = "tbpmedico";
             this.tbpmedico.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpmedico.Size = new System.Drawing.Size(741, 233);
+            this.tbpmedico.Size = new System.Drawing.Size(733, 233);
             this.tbpmedico.TabIndex = 1;
             this.tbpmedico.Text = "Médico";
             this.tbpmedico.UseVisualStyleBackColor = true;
@@ -329,10 +329,10 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(6, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
-            this.cuDataGridD2.Size = new System.Drawing.Size(739, 230);
+            this.cuDataGridD2.Size = new System.Drawing.Size(724, 230);
             this.cuDataGridD2.STabla = "medico";
             this.cuDataGridD2.TabIndex = 0;
             this.cuDataGridD2.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
