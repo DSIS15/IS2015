@@ -117,10 +117,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tbcantecedente" xml:space="preserve">
-    <value />
+  <data name="Apellido" xml:space="preserve">
+    <value>Last_Name</value>
   </data>
-  <data name="tbcdetmodulo" xml:space="preserve">
-    <value />
+  <data name="Codigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Estatura" xml:space="preserve">
+    <value>Estatura</value>
+  </data>
+  <data name="Fecha_Creación" xml:space="preserve">
+    <value>Fecha_Creación</value>
+  </data>
+  <data name="Fecha_de_nacimiento" xml:space="preserve">
+    <value>Fecha_de_nacimiento</value>
+  </data>
+  <data name="Fecha_Modificación" xml:space="preserve">
+    <value>Date_modification</value>
+  </data>
+  <data name="Identificacion" xml:space="preserve">
+    <value>Identificacion</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Nombre_DLL" xml:space="preserve">
+    <value>DLL_Name</value>
+  </data>
+  <data name="Peso" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="Sangre" xml:space="preserve">
+    <value>Sangre</value>
+  </data>
+  <data name="Segundo_Apellido" xml:space="preserve">
+    <value>Segundo_Apellido</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telefono</value>
   </data>
 </root>

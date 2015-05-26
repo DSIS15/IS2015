@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dll_bitacora, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -46,6 +50,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>cambiobutton.resx</DependentUpon>
     </Compile>
+    <Compile Include="idiomas\cambiodgv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cambiodgv.resx</DependentUpon>
+    </Compile>
+    <Compile Include="idiomas\cambioEncabezados.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cambioEncabezados.resx</DependentUpon>
+    </Compile>
     <Compile Include="idiomas\cambiolabel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -56,7 +70,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>cambiotabcontrol.resx</DependentUpon>
     </Compile>
+    <Compile Include="idiomas\cambiotabPage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cambiotabPage.resx</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\csN_Cambiodeidioma.cs" />
+    <Compile Include="Negocio\Dictionary.cs" />
     <Compile Include="Presentacion\csp_cambiodeidioma.cs" />
     <Compile Include="Presentacion\cuIdioma.cs">
       <SubType>UserControl</SubType>
@@ -73,17 +93,37 @@
     </EmbeddedResource>
     <EmbeddedResource Include="idiomas\cambiobutton.ES-GT.resx" />
     <EmbeddedResource Include="idiomas\cambiobutton.EN-US.resx" />
-    <EmbeddedResource Include="idiomas\cambiobutton.JP-JA.resx" />
+    <EmbeddedResource Include="idiomas\cambiobutton.JA-JP.resx" />
+    <EmbeddedResource Include="idiomas\cambiodgv.EN-US.resx" />
+    <EmbeddedResource Include="idiomas\cambiodgv.ES-GT.resx" />
+    <EmbeddedResource Include="idiomas\cambiodgv.JA-JP.resx" />
+    <EmbeddedResource Include="idiomas\cambiodgv.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>cambiodgv.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idiomas\cambioEncabezados.EN-US.resx" />
+    <EmbeddedResource Include="idiomas\cambioEncabezados.ES-GT.resx" />
+    <EmbeddedResource Include="idiomas\cambioEncabezados.JA-JP.resx" />
+    <EmbeddedResource Include="idiomas\cambioEncabezados.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>cambioEncabezados.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="idiomas\cambiolabel.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>cambiolabel.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="idiomas\cambiolabel.ES-GT.resx" />
     <EmbeddedResource Include="idiomas\cambiolabel.EN-US.resx" />
-    <EmbeddedResource Include="idiomas\cambiolabel.JP-JA.resx" />
+    <EmbeddedResource Include="idiomas\cambiolabel.JA-JP.resx" />
     <EmbeddedResource Include="idiomas\cambiotabcontrol.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>cambiotabcontrol.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="idiomas\cambiotabPage.EN-US.resx" />
+    <EmbeddedResource Include="idiomas\cambiotabPage.JA-JP.resx" />
+    <EmbeddedResource Include="idiomas\cambiotabPage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>cambiotabPage.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\cuIdioma.resx">
       <DependentUpon>cuIdioma.cs</DependentUpon>

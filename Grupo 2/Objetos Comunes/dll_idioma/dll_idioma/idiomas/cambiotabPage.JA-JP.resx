@@ -117,10 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tbcantecedente" xml:space="preserve">
-    <value />
+  <data name="Enfermedad" xml:space="preserve">
+    <value>Enfermedad</value>
   </data>
-  <data name="tbcdetmodulo" xml:space="preserve">
-    <value />
+  <data name="Módulo" xml:space="preserve">
+    <value>Módulo</value>
+  </data>
+  <data name="Paciente" xml:space="preserve">
+    <value>Paciente</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Perfil</value>
   </data>
 </root>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl1apellido" xml:space="preserve">
-    <value>Last name</value>
+    <value>Last_name</value>
   </data>
   <data name="lbl2apellido" xml:space="preserve">
     <value>Second last name</value>
@@ -145,7 +145,7 @@
     <value>Address</value>
   </data>
   <data name="lblestado" xml:space="preserve">
-    <value>status</value>
+    <value>Status</value>
   </data>
   <data name="lblfechcreacion" xml:space="preserve">
     <value>Date creation</value>
@@ -175,7 +175,7 @@
     <value>module name</value>
   </data>
   <data name="lblnomsubmod" xml:space="preserve">
-    <value>Sub module name</value>
+    <value>Sub_module name</value>
   </data>
   <data name="lblusuario" xml:space="preserve">
     <value>User</value>

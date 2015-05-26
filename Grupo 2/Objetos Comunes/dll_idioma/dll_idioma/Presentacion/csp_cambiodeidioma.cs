@@ -13,7 +13,7 @@ namespace dll_idioma.Presentacion
 
         public static void vinicializaridioma(Form frmFormulario)
         {
-         Negocio.csN_Cambiodeidioma csn_cambiodeidioma = new Negocio.csN_Cambiodeidioma();            
+         Negocio.csN_Cambiodeidioma csn_cambiodeidioma = new Negocio.csN_Cambiodeidioma();         
          csn_cambiodeidioma.vObtenerdatosformulario(sobteneridioma, frmFormulario);
         }
 

@@ -22,14 +22,14 @@ namespace dll_idioma.idiomas {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class cambiotabcontrol {
+    internal class cambiotabPage {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal cambiotabcontrol() {
+        internal cambiotabPage() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace dll_idioma.idiomas {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("dll_idioma.idiomas.cambiotabcontrol", typeof(cambiotabcontrol).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("dll_idioma.idiomas.cambiotabPage", typeof(cambiotabPage).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,20 +61,38 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Enfermedad.
         /// </summary>
-        internal static string tbcantecedente {
+        internal static string tbpenfermedad {
             get {
-                return ResourceManager.GetString("tbcantecedente", resourceCulture);
+                return ResourceManager.GetString("tbpenfermedad", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a Módulo.
         /// </summary>
-        internal static string tbcdetmodulo {
+        internal static string tbpmodulo {
             get {
-                return ResourceManager.GetString("tbcdetmodulo", resourceCulture);
+                return ResourceManager.GetString("tbpmodulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Paciente.
+        /// </summary>
+        internal static string tbppaciente {
+            get {
+                return ResourceManager.GetString("tbppaciente", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Perfil.
+        /// </summary>
+        internal static string tbpperfil {
+            get {
+                return ResourceManager.GetString("tbpperfil", resourceCulture);
             }
         }
     }

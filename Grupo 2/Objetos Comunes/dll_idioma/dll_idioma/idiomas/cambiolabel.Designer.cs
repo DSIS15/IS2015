@@ -241,7 +241,7 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a usuario.
+        ///   Busca una cadena traducida similar a Usuario.
         /// </summary>
         internal static string lblusuario {
             get {

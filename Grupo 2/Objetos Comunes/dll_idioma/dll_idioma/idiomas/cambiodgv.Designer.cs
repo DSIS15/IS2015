@@ -22,14 +22,14 @@ namespace dll_idioma.idiomas {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class cambiotabcontrol {
+    internal class cambiodgv {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal cambiotabcontrol() {
+        internal cambiodgv() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace dll_idioma.idiomas {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("dll_idioma.idiomas.cambiotabcontrol", typeof(cambiotabcontrol).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("dll_idioma.idiomas.cambiodgv", typeof(cambiodgv).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,20 +61,38 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a dgvenfermedad.
         /// </summary>
-        internal static string tbcantecedente {
+        internal static string dgvenfermedad {
             get {
-                return ResourceManager.GetString("tbcantecedente", resourceCulture);
+                return ResourceManager.GetString("dgvenfermedad", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a .
+        ///   Busca una cadena traducida similar a dgvmodulo.
         /// </summary>
-        internal static string tbcdetmodulo {
+        internal static string dgvmodulo {
             get {
-                return ResourceManager.GetString("tbcdetmodulo", resourceCulture);
+                return ResourceManager.GetString("dgvmodulo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a dgvpaciente.
+        /// </summary>
+        internal static string dgvpaciente {
+            get {
+                return ResourceManager.GetString("dgvpaciente", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a dgvperfil.
+        /// </summary>
+        internal static string dgvperfil {
+            get {
+                return ResourceManager.GetString("dgvperfil", resourceCulture);
             }
         }
     }

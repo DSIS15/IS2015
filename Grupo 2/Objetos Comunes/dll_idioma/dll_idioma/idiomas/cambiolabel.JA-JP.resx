@@ -117,10 +117,70 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tbcantecedente" xml:space="preserve">
-    <value />
+  <data name="btncrear" xml:space="preserve">
+    <value>作ります</value>
   </data>
-  <data name="tbcdetmodulo" xml:space="preserve">
-    <value />
+  <data name="lbl1apellido" xml:space="preserve">
+    <value>姓</value>
+  </data>
+  <data name="lbl2apellido" xml:space="preserve">
+    <value>第姓</value>
+  </data>
+  <data name="lblalias" xml:space="preserve">
+    <value>ニックネーム</value>
+  </data>
+  <data name="lblcodmod" xml:space="preserve">
+    <value>モジュールコード</value>
+  </data>
+  <data name="lblcodperfil" xml:space="preserve">
+    <value>プロフィールコード</value>
+  </data>
+  <data name="lblcodsubmod" xml:space="preserve">
+    <value>サブコード·モジュール</value>
+  </data>
+  <data name="lblcodusuario" xml:space="preserve">
+    <value>利用者コード</value>
+  </data>
+  <data name="lblcontraseña" xml:space="preserve">
+    <value>利用者パスワード</value>
+  </data>
+  <data name="lbldireccion" xml:space="preserve">
+    <value>アドレス</value>
+  </data>
+  <data name="lblestado" xml:space="preserve">
+    <value>状態</value>
+  </data>
+  <data name="lblfechcreacion" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="lblfechmodificacion" xml:space="preserve">
+    <value>変更日</value>
+  </data>
+  <data name="lbliddetmod" xml:space="preserve">
+    <value>コード</value>
+  </data>
+  <data name="lblmoneda" xml:space="preserve">
+    <value>通貨</value>
+  </data>
+  <data name="lblnombreperfil" xml:space="preserve">
+    <value>名前プロフィール</value>
+  </data>
+  <data name="lblnombreusuario" xml:space="preserve">
+    <value>名</value>
+  </data>
+  <data name="lblnombrewf" xml:space="preserve">
+    <value>フォーム名</value>
+  </data>
+  <data name="lblnomdll" xml:space="preserve">
+    <value>DLL名</value>
+  </data>
+  <data name="lblnommodulo" xml:space="preserve">
+    <value>モジュール名</value>
+  </data>
+  <data name="lblnomsubmod" xml:space="preserve">
+    <value>サブモジュール名</value>
+  </data>
+  <data name="lblusuario" xml:space="preserve">
+    <value>ユーザー</value>
   </data>
 </root>
