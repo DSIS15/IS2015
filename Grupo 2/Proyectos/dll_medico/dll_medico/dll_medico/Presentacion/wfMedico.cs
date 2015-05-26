@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Fecha y lugar de Modificacion: Guatemala, Guatemala, 18-05-2015
+ * Autor: Jessica Marisol Castellanos Martínez 
+ * Descripcion: Este es el formulario de Medico
+ */
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
@@ -68,7 +72,14 @@ namespace dll_medico.Presentacion
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
+            dtpFechaIngreso.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtIdMedico.Enabled = false;
+            dtpFechaIngreso.Enabled = true;
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+            dtpFechaIngreso.Enabled = true;
         }
     }
 }

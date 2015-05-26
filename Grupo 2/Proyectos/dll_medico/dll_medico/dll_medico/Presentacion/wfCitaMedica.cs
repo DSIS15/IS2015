@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Fecha y lugar de Modificacion: Guatemala, Guatemala, 18-05-2015
+ * Autor: Jessica Marisol Castellanos Martínez 
+ * Descripcion: Este es el formulario de Cita Medica
+ */
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
@@ -158,11 +162,18 @@ namespace dll_medico.Presentacion
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
+            txtFechaCita.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            dtpFechaCita.Enabled = true;
             txtIdCitaMedica.Enabled = false;
             txtIdMedico.Enabled = false;
             txtIdPacientes.Enabled = false;
             txtIdUsuario.Enabled = false;
 
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+            dtpFechaCita.Enabled = true;
         }
     }
 }

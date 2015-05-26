@@ -57,6 +57,7 @@
             this.navegador1.sNombreTabla = "medico";
             this.navegador1.TabIndex = 0;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             // 
             // lblmedico
             // 
@@ -170,6 +171,7 @@
             // 
             // dtpFechaIngreso
             // 
+            this.dtpFechaIngreso.Enabled = false;
             this.dtpFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaIngreso.Location = new System.Drawing.Point(413, 183);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";

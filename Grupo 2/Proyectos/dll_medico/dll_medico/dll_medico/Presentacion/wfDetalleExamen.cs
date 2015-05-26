@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Fecha y lugar de Modificacion: Guatemala, Guatemala, 18-05-2015
+ * Autor: Jessica Marisol Castellanos Martínez 
+ * Descripcion: Este es el formulario de Detalle Examen
+ */
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;

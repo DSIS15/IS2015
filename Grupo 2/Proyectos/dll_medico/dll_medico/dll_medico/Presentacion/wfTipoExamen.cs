@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*Fecha y lugar de Modificacion: Guatemala, Guatemala, 18-05-2015
+ * Autor: Jessica Marisol Castellanos Martínez 
+ * Descripcion: Este es el formulario de Tipo Examen
+ */
+using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
@@ -78,7 +82,15 @@ namespace dll_medico.Presentacion
 
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
+            dtpFechaCreacion.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtIdTipoExamen.Enabled = false;
+            dtpFechaModificacion.Enabled = true;
+        }
+
+        private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
+        {
+           dtpFechaModificacion.Text = DateTime.Now.ToString("dd/MM/yyyy");
+           dtpFechaModificacion.Enabled = true;
         }
     }
 }

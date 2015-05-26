@@ -58,6 +58,7 @@
             this.navegador1.sNombreTabla = "tipo_examen";
             this.navegador1.TabIndex = 0;
             this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
+            this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             // 
             // lblidtipoexamen
             // 
@@ -170,6 +171,7 @@
             // 
             // dtpFechaCreacion
             // 
+            this.dtpFechaCreacion.Enabled = false;
             this.dtpFechaCreacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaCreacion.Location = new System.Drawing.Point(194, 187);
             this.dtpFechaCreacion.Name = "dtpFechaCreacion";
@@ -179,6 +181,7 @@
             // 
             // dtpFechaModificacion
             // 
+            this.dtpFechaModificacion.Enabled = false;
             this.dtpFechaModificacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpFechaModificacion.Location = new System.Drawing.Point(192, 218);
             this.dtpFechaModificacion.Name = "dtpFechaModificacion";
