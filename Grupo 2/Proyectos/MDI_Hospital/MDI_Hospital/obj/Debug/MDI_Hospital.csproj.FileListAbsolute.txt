@@ -79,7 +79,6 @@ C:\Users\orochi\Documents\MDI_Hospital\MDI_Hospital\bin\Debug\ES-GT\dll_idioma.r
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_bitacora.pdb
-C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ODBCconnector.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_idioma.pdb
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\ES-GT\dll_idioma.resources.dll
@@ -141,3 +140,10 @@ C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_inventario.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_reporteador.dll
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_reporteador.pdb
 C:\Users\Jessy\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_seguridad.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_factura.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_inventario.dll
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_factura.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_inventario.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_medico.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\Navegador.pdb
+C:\Users\orochi\Desktop\MDI_Hospital\MDI_Hospital\bin\Debug\dll_medico.dll

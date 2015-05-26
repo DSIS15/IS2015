@@ -36,6 +36,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
+    <Reference Include="dll_factura, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll_factura\dll_factura\bin\Debug\dll_factura.dll</HintPath>
+    </Reference>
     <Reference Include="dll_inventario">
       <HintPath>..\..\..\Documents\GitHub\IS2015\Grupo 2\Proyectos\dll_inventario\dll_inventario\dll_inventario\bin\Debug\dll_inventario.dll</HintPath>
     </Reference>
