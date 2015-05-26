@@ -164,7 +164,6 @@
             this.cuDataGridD1.AutoSize = true;
             this.cuDataGridD1.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
             this.cuDataGridD1.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD1.STabla = "paciente";
             this.cuDataGridD1.TabIndex = 0;
@@ -188,7 +187,6 @@
             this.cuDataGridD2.AutoSize = true;
             this.cuDataGridD2.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
             this.cuDataGridD2.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD2.STabla = "tipo_examen";
             this.cuDataGridD2.TabIndex = 0;
@@ -212,7 +210,6 @@
             this.cuDataGridD3.AutoSize = true;
             this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD3.Name = "cuDataGridD3";
-            this.cuDataGridD3.SCampo = "Codigo";
             this.cuDataGridD3.Size = new System.Drawing.Size(534, 151);
             this.cuDataGridD3.STabla = "medico";
             this.cuDataGridD3.TabIndex = 0;

@@ -16,6 +16,41 @@ namespace dll_medico.Presentacion
         public wfDetalleExamen()
         {
             InitializeComponent();
+            String[,] ScadenaPacientes = {
+                                             {"id_pacientes","Codigo","true"},
+                                             {"nombre_paciente","nombre","true"},                                            
+                                             {"primer_apellido","PrimerApellido","true"},
+                                             {"segundo_apellido","SegundoApellido","false"},
+                                             {"direccion_paciente","Direccion","false"},
+                                             {"telefono_paciente","Telefono","false"},
+                                             {"sexo","Sexo","false"},
+                                             {"identificacion_paciente","Identificacion","false"},
+                                             {"fecha_nacimiento_paciente","FechaNac","false"},
+                                             {"estado","Estado","true"},
+
+                                         };
+            cuDataGridD1.AlDatosEntrada.Add(ScadenaPacientes);
+
+            String[,] ScadenaTipoExamen ={
+                                             {"id_tipo_examen","Codigo","true"},
+                                             {"nombre_tipo_examen","Nombre","true"},
+                                             {"descripcion_examen","Descripcion","true"},
+                                             {"fecha_creacion","FechaCreac","true"},
+                                             {"fecha_modificacion","FechaModif","false"},
+                                             {"estado","Estado","false"},
+
+                                           };
+            cuDataGridD2.AlDatosEntrada.Add(ScadenaTipoExamen);
+
+            String[,] ScadenaMedico = {
+                                    {"id_medico","Codigo","true"},
+                                    {"nombre_medico","Nombre","true"},
+                                    {"priimer_apellido_medico","PrimerApellido","true"},
+                                    {"medico_segundo_apellido","SegundoApellido","true"},
+                                    {"fecha_ingreso","Fecha","true"},
+                                    {"estado","Estado","false"},
+                                };
+            cuDataGridD3.AlDatosEntrada.Add(ScadenaMedico);
         }
 
         private void wfDetalleExamen_Load(object sender, EventArgs e)
@@ -31,47 +66,17 @@ namespace dll_medico.Presentacion
             ///////////////////////////////////
             ///////// Datos Grid Pacientes
 
-            String[,] ScadenaPacientes = {
-                                             {"id_pacientes","Codigo","true"},
-                                             {"nombre_paciente","nombre","true"},
-                                             {"primer_apellido","PrimerApellido","true"},
-                                             {"segundo_apellido","SegundoApellido","false"},
-                                             {"direccion_paciente","Direccion","false"},
-                                             {"telefono_paciente","Telefono","false"},
-                                             {"sexo","Sexo","false"},
-                                             {"identificacion_paciente","Identificacion","false"},
-                                             {"fecha_nacimiento_paciente","FechaNac","false"},
-                                             {"estado","Estado","true"},
-
-                                         };
-            cuDataGridD1.AlDatosEntrada.Add(ScadenaPacientes);
+            
             cuDataGridD1.vinicializar();
 
             ////////////////////////////////////
             //////////////Datos Grid Tipo Examen 
-            String[,] ScadenaTipoExamen ={
-                                             {"id_tipo_examen","Codigo","true"},
-                                             {"nombre_tipo_examen","Nombre","true"},
-                                             {"descripcion_examen","Descripcion","true"},
-                                             {"fecha_creacion","FechaCreac","true"},
-                                             {"fecha_modificacion","FechaModif","false"},
-                                             {"estado","Estado","false"},
-
-                                           };
-            cuDataGridD2.AlDatosEntrada.Add(ScadenaTipoExamen);
+            
             cuDataGridD2.vinicializar();
 
             //////////////////////////////////////
             ////////// Datos Grid Medico
-            String[,] ScadenaMedico = {
-                                    {"id_medico","Codigo","true"},
-                                    {"nombre_medico","Nombre","true"},
-                                    {"priimer_apellido_medico","PrimerApellido","true"},
-                                    {"medico_segundo_apellido","SegundoApellido","true"},
-                                    {"fecha_ingreso","Fecha","true"},
-                                    {"estado","Estado","false"},
-                                };
-            cuDataGridD3.AlDatosEntrada.Add(ScadenaMedico);
+            
             cuDataGridD3.vinicializar();
         }
 

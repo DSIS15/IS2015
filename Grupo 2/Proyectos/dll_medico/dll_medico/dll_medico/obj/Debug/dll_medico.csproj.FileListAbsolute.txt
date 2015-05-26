@@ -13,3 +13,17 @@ C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_bitacora.p
 C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfCitaMedica.resources
 C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfDetalleExamen.resources
 C:\Users\Jessy\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfTipoExamen.resources
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_medico.dll
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_medico.pdb
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_bitacora.dll
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\Navegador.dll
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\dll_bitacora.pdb
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\bin\Debug\Navegador.pdb
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.csprojResolveAssemblyReference.cache
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfCitaMedica.resources
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfDetalleExamen.resources
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfMedico.resources
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.Presentacion.wfTipoExamen.resources
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.csproj.GenerateResource.Cache
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.dll
+C:\Users\orochi\Desktop\dll_medico\dll_medico\dll_medico\obj\Debug\dll_medico.pdb
