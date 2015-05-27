@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4A722B2D-A34D-4471-BF3E-5E09E6EBF5CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dll_reporteador</RootNamespace>
+    <AssemblyName>dll_reporteador</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Presentacion\dsExamen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsExamen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\dsFactura.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFactura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\dsMedico.cs">
+      <DependentUpon>dsMedico.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentacion\dsMedico.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMedico.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\dsModulo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsModulo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\dsPaciente.cs">
+      <DependentUpon>dsPaciente.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentacion\dsPaciente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPaciente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\dsReceta.cs">
+      <DependentUpon>dsReceta.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentacion\dsReceta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsReceta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteExamen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteExamen.Designer.cs">
+      <DependentUpon>wfReporteExamen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteFactura.Designer.cs">
+      <DependentUpon>wfReporteFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteMedico.Designer.cs">
+      <DependentUpon>wfReporteMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteModulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteModulo.Designer.cs">
+      <DependentUpon>wfReporteModulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReportePaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReportePaciente.Designer.cs">
+      <DependentUpon>wfReportePaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteReceta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\wfReporteReceta.Designer.cs">
+      <DependentUpon>wfReporteReceta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Presentacion\dsExamen.xsc">
+      <DependentUpon>dsExamen.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsExamen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsExamen.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsExamen.xss">
+      <DependentUpon>dsExamen.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsFactura.xsc">
+      <DependentUpon>dsFactura.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsFactura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFactura.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsFactura.xss">
+      <DependentUpon>dsFactura.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsMedico.xsc">
+      <DependentUpon>dsMedico.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsMedico.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMedico.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsMedico.xss">
+      <DependentUpon>dsMedico.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsModulo.xsc">
+      <DependentUpon>dsModulo.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsModulo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsModulo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsModulo.xss">
+      <DependentUpon>dsModulo.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsPaciente.xsc">
+      <DependentUpon>dsPaciente.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsPaciente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPaciente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsPaciente.xss">
+      <DependentUpon>dsPaciente.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsReceta.xsc">
+      <DependentUpon>dsReceta.xsd</DependentUpon>
+    </None>
+    <None Include="Presentacion\dsReceta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsReceta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Presentacion\dsReceta.xss">
+      <DependentUpon>dsReceta.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Presentacion\rpExamen.rdlc" />
+    <EmbeddedResource Include="Presentacion\rpFactura.rdlc" />
+    <EmbeddedResource Include="Presentacion\rpMedico.rdlc" />
+    <EmbeddedResource Include="Presentacion\rpModulo.rdlc" />
+    <EmbeddedResource Include="Presentacion\rpPaciente.rdlc" />
+    <EmbeddedResource Include="Presentacion\rpReceta.rdlc" />
+    <EmbeddedResource Include="Presentacion\wfReporteExamen.resx">
+      <DependentUpon>wfReporteExamen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfReporteFactura.resx">
+      <DependentUpon>wfReporteFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfReporteMedico.resx">
+      <DependentUpon>wfReporteMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfReporteModulo.resx">
+      <DependentUpon>wfReporteModulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfReportePaciente.resx">
+      <DependentUpon>wfReportePaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\wfReporteReceta.resx">
+      <DependentUpon>wfReporteReceta.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

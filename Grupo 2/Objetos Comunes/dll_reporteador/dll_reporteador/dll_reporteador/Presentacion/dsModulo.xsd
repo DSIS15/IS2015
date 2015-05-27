@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsModulo" targetNamespace="http://tempuri.org/dsModulo.xsd" xmlns:mstns="http://tempuri.org/dsModulo.xsd" xmlns="http://tempuri.org/dsModulo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hospitalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hospitalConnectionString (Settings)" PropertyReference="ApplicationSettings.dll_reporteador.Properties.Settings.GlobalReference.Default.hospitalConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtModuloTA" GeneratorDataComponentClassName="dtModuloTA" Name="dtModulo" UserDataComponentName="dtModuloTA">
+            <MainSource>
+              <DbSource ConnectionRef="hospitalConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `modulo`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_modulo" DataSetColumn="id_modulo" />
+              <Mapping SourceColumn="nombre_modulo" DataSetColumn="nombre_modulo" />
+              <Mapping SourceColumn="nombre_dll" DataSetColumn="nombre_dll" />
+              <Mapping SourceColumn="fecha_creacion" DataSetColumn="fecha_creacion" />
+              <Mapping SourceColumn="fecha_modificacion" DataSetColumn="fecha_modificacion" />
+              <Mapping SourceColumn="estado" DataSetColumn="estado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsModulo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsModulo" msprop:Generator_UserDSName="dsModulo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtModulo" msprop:Generator_TableClassName="dtModuloDataTable" msprop:Generator_TableVarName="tabledtModulo" msprop:Generator_TablePropName="dtModulo" msprop:Generator_RowDeletingName="dtModuloRowDeleting" msprop:Generator_RowChangingName="dtModuloRowChanging" msprop:Generator_RowEvHandlerName="dtModuloRowChangeEventHandler" msprop:Generator_RowDeletedName="dtModuloRowDeleted" msprop:Generator_UserTableName="dtModulo" msprop:Generator_RowChangedName="dtModuloRowChanged" msprop:Generator_RowEvArgName="dtModuloRowChangeEvent" msprop:Generator_RowClassName="dtModuloRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_modulo" msprop:Generator_ColumnVarNameInTable="columnid_modulo" msprop:Generator_ColumnPropNameInRow="id_modulo" msprop:Generator_ColumnPropNameInTable="id_moduloColumn" msprop:Generator_UserColumnName="id_modulo" type="xs:decimal" />
+              <xs:element name="nombre_modulo" msprop:Generator_ColumnVarNameInTable="columnnombre_modulo" msprop:Generator_ColumnPropNameInRow="nombre_modulo" msprop:Generator_ColumnPropNameInTable="nombre_moduloColumn" msprop:Generator_UserColumnName="nombre_modulo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nombre_dll" msprop:Generator_ColumnVarNameInTable="columnnombre_dll" msprop:Generator_ColumnPropNameInRow="nombre_dll" msprop:Generator_ColumnPropNameInTable="nombre_dllColumn" msprop:Generator_UserColumnName="nombre_dll">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_creacion" msprop:Generator_ColumnVarNameInTable="columnfecha_creacion" msprop:Generator_ColumnPropNameInRow="fecha_creacion" msprop:Generator_ColumnPropNameInTable="fecha_creacionColumn" msprop:Generator_UserColumnName="fecha_creacion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_modificacion" msprop:Generator_ColumnVarNameInTable="columnfecha_modificacion" msprop:Generator_ColumnPropNameInRow="fecha_modificacion" msprop:Generator_ColumnPropNameInTable="fecha_modificacionColumn" msprop:Generator_UserColumnName="fecha_modificacion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtModulo" />
+      <xs:field xpath="mstns:id_modulo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

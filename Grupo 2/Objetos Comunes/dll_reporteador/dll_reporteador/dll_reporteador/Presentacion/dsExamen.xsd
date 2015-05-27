@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsExamen" targetNamespace="http://tempuri.org/dsExamen.xsd" xmlns:mstns="http://tempuri.org/dsExamen.xsd" xmlns="http://tempuri.org/dsExamen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hospitalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hospitalConnectionString (Settings)" PropertyReference="ApplicationSettings.dll_reporteador.Properties.Settings.GlobalReference.Default.hospitalConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtExamenTA" GeneratorDataComponentClassName="dtExamenTA" Name="dtExamen" UserDataComponentName="dtExamenTA">
+            <MainSource>
+              <DbSource ConnectionRef="hospitalConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `examen_rutinario`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_exrutinario" DataSetColumn="id_exrutinario" />
+              <Mapping SourceColumn="presion" DataSetColumn="presion" />
+              <Mapping SourceColumn="colesterol" DataSetColumn="colesterol" />
+              <Mapping SourceColumn="glucosa" DataSetColumn="glucosa" />
+              <Mapping SourceColumn="altura" DataSetColumn="altura" />
+              <Mapping SourceColumn="peso" DataSetColumn="peso" />
+              <Mapping SourceColumn="estado_cavidad_bucal" DataSetColumn="estado_cavidad_bucal" />
+              <Mapping SourceColumn="estado_oido" DataSetColumn="estado_oido" />
+              <Mapping SourceColumn="id_pacientes" DataSetColumn="id_pacientes" />
+              <Mapping SourceColumn="id_medico" DataSetColumn="id_medico" />
+              <Mapping SourceColumn="sangre" DataSetColumn="sangre" />
+              <Mapping SourceColumn="estado" DataSetColumn="estado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsExamen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsExamen" msprop:Generator_UserDSName="dsExamen">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtExamen" msprop:Generator_TableClassName="dtExamenDataTable" msprop:Generator_TableVarName="tabledtExamen" msprop:Generator_TablePropName="dtExamen" msprop:Generator_RowDeletingName="dtExamenRowDeleting" msprop:Generator_RowChangingName="dtExamenRowChanging" msprop:Generator_RowEvHandlerName="dtExamenRowChangeEventHandler" msprop:Generator_RowDeletedName="dtExamenRowDeleted" msprop:Generator_UserTableName="dtExamen" msprop:Generator_RowChangedName="dtExamenRowChanged" msprop:Generator_RowEvArgName="dtExamenRowChangeEvent" msprop:Generator_RowClassName="dtExamenRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_exrutinario" msprop:Generator_ColumnVarNameInTable="columnid_exrutinario" msprop:Generator_ColumnPropNameInRow="id_exrutinario" msprop:Generator_ColumnPropNameInTable="id_exrutinarioColumn" msprop:Generator_UserColumnName="id_exrutinario" type="xs:decimal" />
+              <xs:element name="presion" msprop:Generator_ColumnVarNameInTable="columnpresion" msprop:Generator_ColumnPropNameInRow="presion" msprop:Generator_ColumnPropNameInTable="presionColumn" msprop:Generator_UserColumnName="presion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="colesterol" msprop:Generator_ColumnVarNameInTable="columncolesterol" msprop:Generator_ColumnPropNameInRow="colesterol" msprop:Generator_ColumnPropNameInTable="colesterolColumn" msprop:Generator_UserColumnName="colesterol">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="glucosa" msprop:Generator_ColumnVarNameInTable="columnglucosa" msprop:Generator_ColumnPropNameInRow="glucosa" msprop:Generator_ColumnPropNameInTable="glucosaColumn" msprop:Generator_UserColumnName="glucosa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="altura" msprop:Generator_ColumnVarNameInTable="columnaltura" msprop:Generator_ColumnPropNameInRow="altura" msprop:Generator_ColumnPropNameInTable="alturaColumn" msprop:Generator_UserColumnName="altura" type="xs:float" />
+              <xs:element name="peso" msprop:Generator_ColumnVarNameInTable="columnpeso" msprop:Generator_ColumnPropNameInRow="peso" msprop:Generator_ColumnPropNameInTable="pesoColumn" msprop:Generator_UserColumnName="peso">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_cavidad_bucal" msprop:Generator_ColumnVarNameInTable="columnestado_cavidad_bucal" msprop:Generator_ColumnPropNameInRow="estado_cavidad_bucal" msprop:Generator_ColumnPropNameInTable="estado_cavidad_bucalColumn" msprop:Generator_UserColumnName="estado_cavidad_bucal">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_oido" msprop:Generator_ColumnVarNameInTable="columnestado_oido" msprop:Generator_ColumnPropNameInRow="estado_oido" msprop:Generator_ColumnPropNameInTable="estado_oidoColumn" msprop:Generator_UserColumnName="estado_oido">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_pacientes" msprop:Generator_ColumnVarNameInTable="columnid_pacientes" msprop:Generator_ColumnPropNameInRow="id_pacientes" msprop:Generator_ColumnPropNameInTable="id_pacientesColumn" msprop:Generator_UserColumnName="id_pacientes" type="xs:decimal" />
+              <xs:element name="id_medico" msprop:Generator_ColumnVarNameInTable="columnid_medico" msprop:Generator_ColumnPropNameInRow="id_medico" msprop:Generator_ColumnPropNameInTable="id_medicoColumn" msprop:Generator_UserColumnName="id_medico" type="xs:decimal" />
+              <xs:element name="sangre" msprop:Generator_ColumnVarNameInTable="columnsangre" msprop:Generator_ColumnPropNameInRow="sangre" msprop:Generator_ColumnPropNameInTable="sangreColumn" msprop:Generator_UserColumnName="sangre">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtExamen" />
+      <xs:field xpath="mstns:id_exrutinario" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

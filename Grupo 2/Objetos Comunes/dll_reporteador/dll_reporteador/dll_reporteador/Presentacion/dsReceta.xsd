@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsReceta" targetNamespace="http://tempuri.org/dsReceta.xsd" xmlns:mstns="http://tempuri.org/dsReceta.xsd" xmlns="http://tempuri.org/dsReceta.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hospitalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hospitalConnectionString (Settings)" PropertyReference="ApplicationSettings.dll_reporteador.Properties.Settings.GlobalReference.Default.hospitalConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtRecetaTA" GeneratorDataComponentClassName="dtRecetaTA" Name="dtReceta" UserDataComponentName="dtRecetaTA">
+            <MainSource>
+              <DbSource ConnectionRef="hospitalConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `receta_medica`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_recetamedica" DataSetColumn="id_recetamedica" />
+              <Mapping SourceColumn="id_medico" DataSetColumn="id_medico" />
+              <Mapping SourceColumn="id_pacientes" DataSetColumn="id_pacientes" />
+              <Mapping SourceColumn="nom_med" DataSetColumn="nom_med" />
+              <Mapping SourceColumn="categoria_med" DataSetColumn="categoria_med" />
+              <Mapping SourceColumn="via_de_administracion" DataSetColumn="via_de_administracion" />
+              <Mapping SourceColumn="dosis" DataSetColumn="dosis" />
+              <Mapping SourceColumn="estado" DataSetColumn="estado" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsReceta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsReceta" msprop:Generator_UserDSName="dsReceta">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtReceta" msprop:Generator_TableClassName="dtRecetaDataTable" msprop:Generator_TableVarName="tabledtReceta" msprop:Generator_TablePropName="dtReceta" msprop:Generator_RowDeletingName="dtRecetaRowDeleting" msprop:Generator_RowChangingName="dtRecetaRowChanging" msprop:Generator_RowEvHandlerName="dtRecetaRowChangeEventHandler" msprop:Generator_RowDeletedName="dtRecetaRowDeleted" msprop:Generator_UserTableName="dtReceta" msprop:Generator_RowChangedName="dtRecetaRowChanged" msprop:Generator_RowEvArgName="dtRecetaRowChangeEvent" msprop:Generator_RowClassName="dtRecetaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_recetamedica" msprop:Generator_ColumnVarNameInTable="columnid_recetamedica" msprop:Generator_ColumnPropNameInRow="id_recetamedica" msprop:Generator_ColumnPropNameInTable="id_recetamedicaColumn" msprop:Generator_UserColumnName="id_recetamedica" type="xs:decimal" />
+              <xs:element name="id_medico" msprop:Generator_ColumnVarNameInTable="columnid_medico" msprop:Generator_ColumnPropNameInRow="id_medico" msprop:Generator_ColumnPropNameInTable="id_medicoColumn" msprop:Generator_UserColumnName="id_medico" type="xs:decimal" />
+              <xs:element name="id_pacientes" msprop:Generator_ColumnVarNameInTable="columnid_pacientes" msprop:Generator_ColumnPropNameInRow="id_pacientes" msprop:Generator_ColumnPropNameInTable="id_pacientesColumn" msprop:Generator_UserColumnName="id_pacientes" type="xs:decimal" />
+              <xs:element name="nom_med" msprop:Generator_ColumnVarNameInTable="columnnom_med" msprop:Generator_ColumnPropNameInRow="nom_med" msprop:Generator_ColumnPropNameInTable="nom_medColumn" msprop:Generator_UserColumnName="nom_med">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="categoria_med" msprop:Generator_ColumnVarNameInTable="columncategoria_med" msprop:Generator_ColumnPropNameInRow="categoria_med" msprop:Generator_ColumnPropNameInTable="categoria_medColumn" msprop:Generator_UserColumnName="categoria_med">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="via_de_administracion" msprop:Generator_ColumnVarNameInTable="columnvia_de_administracion" msprop:Generator_ColumnPropNameInRow="via_de_administracion" msprop:Generator_ColumnPropNameInTable="via_de_administracionColumn" msprop:Generator_UserColumnName="via_de_administracion">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dosis" msprop:Generator_ColumnVarNameInTable="columndosis" msprop:Generator_ColumnPropNameInRow="dosis" msprop:Generator_ColumnPropNameInTable="dosisColumn" msprop:Generator_UserColumnName="dosis">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtReceta" />
+      <xs:field xpath="mstns:id_recetamedica" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

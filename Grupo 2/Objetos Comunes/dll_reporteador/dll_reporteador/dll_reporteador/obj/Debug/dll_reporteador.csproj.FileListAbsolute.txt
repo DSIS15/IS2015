@@ -1,0 +1,15 @@
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\bin\Debug\dll_reporteador.dll
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\bin\Debug\dll_reporteador.pdb
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.csprojResolveAssemblyReference.cache
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.dll
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.pdb
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\bin\Debug\dll_reporteador.dll.config
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReportePaciente.resources
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.csproj.GenerateResource.Cache
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\RdlCompile.cache
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\RdlCompile.compiled
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReporteModulo.resources
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReporteMedico.resources
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReporteExamen.resources
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReporteReceta.resources
+C:\Users\Jessy\Desktop\dll_reporteador v2.0\dll_reporteador\dll_reporteador\obj\Debug\dll_reporteador.Presentacion.wfReporteFactura.resources
