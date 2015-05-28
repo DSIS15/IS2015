@@ -66,3 +66,4 @@ C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\ES-GT\dll_idioma.resourc
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\JA-JP\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\dll_idioma.pdb
+C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\dll_idioma.csprojResolveAssemblyReference.cache

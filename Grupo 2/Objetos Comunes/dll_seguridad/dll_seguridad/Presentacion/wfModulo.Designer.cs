@@ -112,6 +112,7 @@
             this.txtestado.Size = new System.Drawing.Size(19, 20);
             this.txtestado.TabIndex = 6;
             this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
             // navegador1
@@ -119,7 +120,7 @@
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(61, 12);
+            this.navegador1.Location = new System.Drawing.Point(32, 12);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "modulo";
@@ -130,6 +131,7 @@
             this.navegador1.btnModificar_AfterClick += new System.EventHandler(this.navegador1_btnModificar_AfterClick);
             this.navegador1.btnEliminar_AfterClick += new System.EventHandler(this.navegador1_btnEliminar_AfterClick);
             this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
+            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
             // 
             // cbEstado
             // 
@@ -197,7 +199,10 @@
             this.Controls.Add(this.txtIDModulo);
             this.Controls.Add(this.lblnommodulo);
             this.Controls.Add(this.lblcodmod);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfModulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Modulo";
             this.Load += new System.EventHandler(this.wfModulo_Load);
             this.ResumeLayout(false);

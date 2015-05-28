@@ -120,6 +120,7 @@
             this.txtestado.Size = new System.Drawing.Size(27, 20);
             this.txtestado.TabIndex = 7;
             this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
             // navegador1
@@ -156,10 +157,10 @@
             // 
             this.tbcdetmodulo.Controls.Add(this.tbpmodulo);
             this.tbcdetmodulo.Controls.Add(this.tbpperfil);
-            this.tbcdetmodulo.Location = new System.Drawing.Point(48, 164);
+            this.tbcdetmodulo.Location = new System.Drawing.Point(28, 164);
             this.tbcdetmodulo.Name = "tbcdetmodulo";
             this.tbcdetmodulo.SelectedIndex = 0;
-            this.tbcdetmodulo.Size = new System.Drawing.Size(560, 172);
+            this.tbcdetmodulo.Size = new System.Drawing.Size(612, 180);
             this.tbcdetmodulo.TabIndex = 10;
             // 
             // tbpmodulo
@@ -168,7 +169,7 @@
             this.tbpmodulo.Location = new System.Drawing.Point(4, 22);
             this.tbpmodulo.Name = "tbpmodulo";
             this.tbpmodulo.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpmodulo.Size = new System.Drawing.Size(552, 146);
+            this.tbpmodulo.Size = new System.Drawing.Size(604, 154);
             this.tbpmodulo.TabIndex = 0;
             this.tbpmodulo.Text = "Modulo";
             this.tbpmodulo.UseVisualStyleBackColor = true;
@@ -176,10 +177,12 @@
             // dgvmodulo
             // 
             this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
-            this.dgvmodulo.Location = new System.Drawing.Point(3, 7);
+            this.dgvmodulo.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.alObtenerCampos")));
+            this.dgvmodulo.AutoSize = true;
+            this.dgvmodulo.ICampo = 0;
+            this.dgvmodulo.Location = new System.Drawing.Point(3, 3);
             this.dgvmodulo.Name = "dgvmodulo";
-            this.dgvmodulo.SCampo = "Codigo";
-            this.dgvmodulo.Size = new System.Drawing.Size(543, 133);
+            this.dgvmodulo.Size = new System.Drawing.Size(598, 151);
             this.dgvmodulo.STabla = "modulo";
             this.dgvmodulo.TabIndex = 0;
             this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick);
@@ -190,7 +193,7 @@
             this.tbpperfil.Location = new System.Drawing.Point(4, 22);
             this.tbpperfil.Name = "tbpperfil";
             this.tbpperfil.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpperfil.Size = new System.Drawing.Size(552, 146);
+            this.tbpperfil.Size = new System.Drawing.Size(604, 154);
             this.tbpperfil.TabIndex = 1;
             this.tbpperfil.Text = "Perfil";
             this.tbpperfil.UseVisualStyleBackColor = true;
@@ -198,10 +201,12 @@
             // dgvperfil
             // 
             this.dgvperfil.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvperfil.AlDatosEntrada")));
+            this.dgvperfil.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvperfil.alObtenerCampos")));
+            this.dgvperfil.AutoSize = true;
+            this.dgvperfil.ICampo = 0;
             this.dgvperfil.Location = new System.Drawing.Point(0, 4);
             this.dgvperfil.Name = "dgvperfil";
-            this.dgvperfil.SCampo = "Codigo";
-            this.dgvperfil.Size = new System.Drawing.Size(546, 136);
+            this.dgvperfil.Size = new System.Drawing.Size(598, 147);
             this.dgvperfil.STabla = "perfil";
             this.dgvperfil.TabIndex = 0;
             this.dgvperfil.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD2_sdgv_CellClick);
@@ -245,7 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(642, 359);
+            this.ClientSize = new System.Drawing.Size(672, 369);
             this.Controls.Add(this.txtfecm);
             this.Controls.Add(this.lblfechmodificacion);
             this.Controls.Add(this.txtfecC);
@@ -261,12 +266,18 @@
             this.Controls.Add(this.lblcodmod);
             this.Controls.Add(this.txtIDDetMod);
             this.Controls.Add(this.lbliddetmod);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfDetMod";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detalle de Modulo";
             this.Load += new System.EventHandler(this.wfDetMod_Load);
             this.tbcdetmodulo.ResumeLayout(false);
             this.tbpmodulo.ResumeLayout(false);
+            this.tbpmodulo.PerformLayout();
             this.tbpperfil.ResumeLayout(false);
+            this.tbpperfil.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

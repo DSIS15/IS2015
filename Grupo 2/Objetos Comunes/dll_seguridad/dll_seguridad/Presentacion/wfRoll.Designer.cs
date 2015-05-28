@@ -158,11 +158,12 @@
             // 
             // txtestado
             // 
-            this.txtestado.Location = new System.Drawing.Point(628, 83);
+            this.txtestado.Location = new System.Drawing.Point(636, 83);
             this.txtestado.Name = "txtestado";
             this.txtestado.Size = new System.Drawing.Size(23, 20);
             this.txtestado.TabIndex = 21;
             this.txtestado.Tag = "estado";
+            this.txtestado.Visible = false;
             this.txtestado.TextChanged += new System.EventHandler(this.txtestado_TextChanged);
             // 
             // cbestado
@@ -172,7 +173,7 @@
             this.cbestado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cbestado.Location = new System.Drawing.Point(528, 82);
+            this.cbestado.Location = new System.Drawing.Point(536, 82);
             this.cbestado.Name = "cbestado";
             this.cbestado.Size = new System.Drawing.Size(94, 21);
             this.cbestado.TabIndex = 22;
@@ -182,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(735, 238);
+            this.ClientSize = new System.Drawing.Size(735, 178);
             this.Controls.Add(this.cbestado);
             this.Controls.Add(this.txtestado);
             this.Controls.Add(this.lblestadoRoll);

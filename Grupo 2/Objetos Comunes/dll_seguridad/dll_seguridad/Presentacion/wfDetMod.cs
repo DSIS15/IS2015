@@ -18,6 +18,23 @@ namespace dll_seguridad.Presentacion
         public wfDetMod()
         {
             InitializeComponent();
+            String[,] Scaden ={
+                              {"id_modulo","Codigo","true"},
+                              {"nombre_modulo","Nombre","true"},
+                              {"nombre_dll","Nombre_DLL","false"},
+                              {"fecha_creacion","Fecha Creación","true",},
+                              {"fecha_modificacion","Fecha Modificación","true",},
+                              {"estado","Estado","true"},                              
+                              };
+            dgvmodulo.AlDatosEntrada.Add(Scaden);
+
+            String[,] Scadena ={{"codigo_perfil","Codigo","true"},
+                                {"nombre_perfil","Nombre","true"},
+                                {"fecha_creacion","Fecha Creación","true",}, 
+                                {"fecha_modificacion","Fecha Modificación","true",},
+                                {"estado","Estado","false"}
+                              };
+            dgvperfil.AlDatosEntrada.Add(Scadena);
         }
 
         private void cbEstado_SelectedIndexChanged(object sender, EventArgs e)
@@ -54,26 +71,12 @@ namespace dll_seguridad.Presentacion
             ///////////////////////////////////////
 
             //Datos Grid Modulo
-            String[,] Scaden ={
-                              {"id_modulo","Codigo","true"},
-                              {"nombre_modulo","Nombre","true"},
-                              {"nombre_dll","Nombre_DLL","false"},
-                              {"fecha_creacion","Fecha Creación","true",},
-                              {"fecha_modificacion","Fecha Modificación","true",},
-                              {"estado","Estado","true"},                              
-                              };
-            dgvmodulo.AlDatosEntrada.Add(Scaden);
+            
             dgvmodulo.vinicializar();
             ///////////////////////////////////
 
             //Datos Grid Perfil
-            String[,] Scadena ={{"codigo_perfil","Codigo","true"},
-                                {"nombre_perfil","Nombre","true"},
-                                {"fecha_creacion","Fecha Creación","true",}, 
-                                {"fecha_modificacion","Fecha Modificación","true",},
-                                {"estado","Estado","false"}
-                              };
-            dgvperfil.AlDatosEntrada.Add(Scadena);
+            
             dgvperfil.vinicializar();
            ///////////////////////////////////////////
 

@@ -151,10 +151,10 @@
     <value>Estado</value>
   </data>
   <data name="lblfechcreacion" xml:space="preserve">
-    <value>Date creation</value>
+    <value>Fecha de creación</value>
   </data>
   <data name="lblfechmodificacion" xml:space="preserve">
-    <value>Date modification</value>
+    <value>Fecha modificación</value>
   </data>
   <data name="lbliddetmod" xml:space="preserve">
     <value>Códido </value>

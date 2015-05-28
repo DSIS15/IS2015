@@ -69,7 +69,7 @@
             // lblcodperfil
             // 
             this.lblcodperfil.AutoSize = true;
-            this.lblcodperfil.Location = new System.Drawing.Point(227, 90);
+            this.lblcodperfil.Location = new System.Drawing.Point(253, 91);
             this.lblcodperfil.Name = "lblcodperfil";
             this.lblcodperfil.Size = new System.Drawing.Size(65, 13);
             this.lblcodperfil.TabIndex = 1;
@@ -96,7 +96,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(375, 90);
+            this.lblestado.Location = new System.Drawing.Point(425, 90);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 4;
@@ -104,7 +104,7 @@
             // 
             // txtIDUsuario
             // 
-            this.txtIDUsuario.Location = new System.Drawing.Point(139, 84);
+            this.txtIDUsuario.Location = new System.Drawing.Point(139, 85);
             this.txtIDUsuario.Name = "txtIDUsuario";
             this.txtIDUsuario.Size = new System.Drawing.Size(30, 20);
             this.txtIDUsuario.TabIndex = 1;
@@ -112,7 +112,7 @@
             // 
             // txtCodPerfil
             // 
-            this.txtCodPerfil.Location = new System.Drawing.Point(314, 83);
+            this.txtCodPerfil.Location = new System.Drawing.Point(340, 86);
             this.txtCodPerfil.Name = "txtCodPerfil";
             this.txtCodPerfil.Size = new System.Drawing.Size(30, 20);
             this.txtCodPerfil.TabIndex = 2;
@@ -137,11 +137,12 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(609, 81);
+            this.txtEstado.Location = new System.Drawing.Point(622, 84);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(26, 20);
             this.txtEstado.TabIndex = 22;
             this.txtEstado.Tag = "estado";
+            this.txtEstado.Visible = false;
             this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // navegador1
@@ -219,7 +220,7 @@
             this.cbEstado.Items.AddRange(new object[] {
             "Activado",
             "Descativado"});
-            this.cbEstado.Location = new System.Drawing.Point(478, 80);
+            this.cbEstado.Location = new System.Drawing.Point(495, 85);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(121, 21);
             this.cbEstado.TabIndex = 3;
@@ -288,10 +289,12 @@
             // dgvperfil
             // 
             this.dgvperfil.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvperfil.AlDatosEntrada")));
-            this.dgvperfil.Location = new System.Drawing.Point(44, 303);
+            this.dgvperfil.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvperfil.alObtenerCampos")));
+            this.dgvperfil.AutoSize = true;
+            this.dgvperfil.ICampo = 0;
+            this.dgvperfil.Location = new System.Drawing.Point(32, 285);
             this.dgvperfil.Name = "dgvperfil";
-            this.dgvperfil.SCampo = "Codigo";
-            this.dgvperfil.Size = new System.Drawing.Size(591, 132);
+            this.dgvperfil.Size = new System.Drawing.Size(670, 178);
             this.dgvperfil.STabla = "perfil";
             this.dgvperfil.TabIndex = 0;
             this.dgvperfil.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.cuDataGridD1_sdgv_CellClick_1);
@@ -327,7 +330,10 @@
             this.Controls.Add(this.lblnombreusuario);
             this.Controls.Add(this.lblcodperfil);
             this.Controls.Add(this.lblcodusuario);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfUsuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Crear Usuario";
             this.Load += new System.EventHandler(this.wfUsuario_Load);
             this.ResumeLayout(false);

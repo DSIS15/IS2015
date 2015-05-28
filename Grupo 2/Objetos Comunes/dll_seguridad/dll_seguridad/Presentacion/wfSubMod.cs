@@ -84,17 +84,17 @@ namespace dll_seguridad.Presentacion
         {
 
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se agrego un registro en submodulo");
-            
-            txtfecc.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+
+            txtfecc.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            txtfecm.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtfecc.Enabled = txtfecm.Enabled = false;
         }
 
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
         {
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en submodulo");
-            
-            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+
+            txtfecm.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtfecc.Enabled = txtfecm.Enabled = false;
         }
 

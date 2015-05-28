@@ -49,7 +49,7 @@ namespace dll_idioma.Negocio
                 //si es un label se agrea al arraylist lbl
                 else if (cont is Label) { alDatoslbl.Add(cont); }
                 //si es un tabcontrol se agrea al arraylist tbc
-                else if (cont is TabControl) { alDatostbc.Add(cont); }
+                else if (cont is TabControl) { alDatostbc.Add(cont); vAgregarDGV((TabControl)cont); }
                 //si es un datagrid se agrea al arraylist dgv
                 else if (cont is dll_bitacora.Presentacion.cuDataGridD) { alDatosdgv.Add(cont);}                
 
@@ -73,7 +73,16 @@ namespace dll_idioma.Negocio
             }
         }
 
-
+        private void vAgregarDGV(TabControl tbcvirtual)
+        { 
+        foreach (TabPage tbpvirtual in tbcvirtual.TabPages )
+            {
+                foreach (Control cont in tbpvirtual.Controls)
+                {
+                    if (cont is dll_bitacora.Presentacion.cuDataGridD) { alDatosdgv.Add(cont); }
+                }
+            }
+        }
         private void AplicarIdiomabtn(ResourceSet resourceSet, ArrayList alDatos)
         {
             //MessageBox.Show("btn");
@@ -156,7 +165,6 @@ namespace dll_idioma.Negocio
                     
                     dll_bitacora.Presentacion.cuDataGridD dgvvirtual = (dll_bitacora.Presentacion.cuDataGridD)alDatosdgv[icontador];                    
                     String[,] Scadena = (String[,])dgvvirtual.alObtenerCampos[0];
-                   
                     for (int icontador2 = 0; icontador2 < dgvvirtual.Icount; icontador2++)
                     {
                         

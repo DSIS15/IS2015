@@ -22,8 +22,8 @@ namespace dll_seguridad.Presentacion
             InitializeComponent();
             String[,] Scadena ={{"codigo_perfil","Codigo","true"},
                                 {"nombre_perfil","Nombre","true"},
-                                {"fecha_creacion","Fecha Creación","true",}, 
-                                {"fecha_modificacion","Fecha Modificación","true",},
+                                {"fecha_creacion","Fecha_Creación","true",}, 
+                                {"fecha_modificacion","Fecha_Modificación","true",},
                                 {"estado","Estado","false"}
                               };
             dgvperfil.AlDatosEntrada.Add(Scadena);
@@ -105,9 +105,9 @@ namespace dll_seguridad.Presentacion
         private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
         {
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se agrego un registro en usuario");
-            
-            txtfechcrea.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
+
+            txtfechcrea.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            txtfechmod.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtIDUsuario.Enabled = false;
             txtCodPerfil.Enabled = false;
             
@@ -118,8 +118,8 @@ namespace dll_seguridad.Presentacion
         private void navegador1_btnModificar_AfterClick(object sender, EventArgs e)
         {
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se modifico un registro en usuario");
-            
-            txtfechmod.Text = DateTime.Now.ToString("yyyy/MM/dd");
+
+            txtfechmod.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtIDUsuario.Enabled = false;
             txtCodPerfil.Enabled = false;
             

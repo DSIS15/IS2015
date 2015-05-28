@@ -39,7 +39,7 @@
     </Reference>
     <Reference Include="dll_idioma, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Documents\Visual Studio 2013\Projects\dll_idioma\dll_idioma\bin\Debug\dll_idioma.dll</HintPath>
+      <HintPath>..\..\dll_idioma\dll_idioma\bin\Debug\dll_idioma.dll</HintPath>
     </Reference>
     <Reference Include="Navegador">
       <HintPath>..\..\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>

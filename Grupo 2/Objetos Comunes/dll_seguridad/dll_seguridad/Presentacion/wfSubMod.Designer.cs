@@ -132,6 +132,7 @@
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 8;
             this.txtEstado.Tag = "estado";
+            this.txtEstado.Visible = false;
             this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // navegador1
@@ -201,10 +202,12 @@
             // dgvmodulo
             // 
             this.dgvmodulo.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.AlDatosEntrada")));
-            this.dgvmodulo.Location = new System.Drawing.Point(39, 208);
+            this.dgvmodulo.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("dgvmodulo.alObtenerCampos")));
+            this.dgvmodulo.AutoSize = true;
+            this.dgvmodulo.ICampo = 0;
+            this.dgvmodulo.Location = new System.Drawing.Point(12, 208);
             this.dgvmodulo.Name = "dgvmodulo";
-            this.dgvmodulo.SCampo = "Codigo";
-            this.dgvmodulo.Size = new System.Drawing.Size(506, 157);
+            this.dgvmodulo.Size = new System.Drawing.Size(598, 157);
             this.dgvmodulo.STabla = "modulo";
             this.dgvmodulo.TabIndex = 15;
             this.dgvmodulo.sdgv_CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvmodulo_sdgv_CellClick);
@@ -231,7 +234,10 @@
             this.Controls.Add(this.lblnomsubmod);
             this.Controls.Add(this.lblcodmod);
             this.Controls.Add(this.lblcodsubmod);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfSubMod";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sub Modulo";
             this.Load += new System.EventHandler(this.wfSubMod_Load);
             this.ResumeLayout(false);

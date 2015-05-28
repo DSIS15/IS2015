@@ -86,6 +86,7 @@
             this.txtEstado.Size = new System.Drawing.Size(21, 20);
             this.txtEstado.TabIndex = 4;
             this.txtEstado.Tag = "estado";
+            this.txtEstado.Visible = false;
             this.txtEstado.TextChanged += new System.EventHandler(this.txtEstado_TextChanged);
             // 
             // txtNombre
@@ -177,6 +178,8 @@
             this.Controls.Add(this.lblestado);
             this.Controls.Add(this.lblnombreperfil);
             this.Controls.Add(this.lblcodperfil);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "wfPerfiles";
             this.Text = "Crear Perfil";
             this.Load += new System.EventHandler(this.wfPerfil_Load);

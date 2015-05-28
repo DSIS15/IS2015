@@ -58,8 +58,8 @@ namespace dll_seguridad.Presentacion
 
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se agrego un registro en modulo");
             
-            txtfecc.Text = DateTime.Now.ToString("yyyy/MM/dd");
-            txtfecm.Text = DateTime.Now.ToString("yyyy/MM/dd");
+            txtfecc.Text = DateTime.Now.ToString("dd/MM/yyyy");
+            txtfecm.Text = DateTime.Now.ToString("dd/MM/yyyy");
             txtIDModulo.Enabled = false;
             txtfecc.Enabled = txtfecm.Enabled = false;
             
@@ -93,6 +93,11 @@ namespace dll_seguridad.Presentacion
         {
 
             dll_bitacora.Presentacion.cs_PInsercionBitacora.vinsertar("Se limpiaron registros en modulo");
+        }
+
+        private void navegador1_Load(object sender, EventArgs e)
+        {
+
         }
                 
                 
