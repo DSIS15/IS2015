@@ -62,7 +62,7 @@
             // lblmedico
             // 
             this.lblmedico.AutoSize = true;
-            this.lblmedico.Location = new System.Drawing.Point(86, 101);
+            this.lblmedico.Location = new System.Drawing.Point(69, 99);
             this.lblmedico.Name = "lblmedico";
             this.lblmedico.Size = new System.Drawing.Size(53, 13);
             this.lblmedico.TabIndex = 1;
@@ -71,7 +71,7 @@
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(95, 144);
+            this.lblnombre.Location = new System.Drawing.Point(69, 142);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(44, 13);
             this.lblnombre.TabIndex = 2;
@@ -80,7 +80,7 @@
             // lblprimerapellido
             // 
             this.lblprimerapellido.AutoSize = true;
-            this.lblprimerapellido.Location = new System.Drawing.Point(313, 141);
+            this.lblprimerapellido.Location = new System.Drawing.Point(333, 139);
             this.lblprimerapellido.Name = "lblprimerapellido";
             this.lblprimerapellido.Size = new System.Drawing.Size(76, 13);
             this.lblprimerapellido.TabIndex = 3;
@@ -89,7 +89,7 @@
             // lblsegundoapellido
             // 
             this.lblsegundoapellido.AutoSize = true;
-            this.lblsegundoapellido.Location = new System.Drawing.Point(49, 183);
+            this.lblsegundoapellido.Location = new System.Drawing.Point(69, 181);
             this.lblsegundoapellido.Name = "lblsegundoapellido";
             this.lblsegundoapellido.Size = new System.Drawing.Size(90, 13);
             this.lblsegundoapellido.TabIndex = 4;
@@ -98,7 +98,7 @@
             // lblfechaingreso
             // 
             this.lblfechaingreso.AutoSize = true;
-            this.lblfechaingreso.Location = new System.Drawing.Point(314, 183);
+            this.lblfechaingreso.Location = new System.Drawing.Point(334, 181);
             this.lblfechaingreso.Name = "lblfechaingreso";
             this.lblfechaingreso.Size = new System.Drawing.Size(75, 13);
             this.lblfechaingreso.TabIndex = 5;
@@ -107,7 +107,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(349, 104);
+            this.lblestado.Location = new System.Drawing.Point(334, 102);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 6;
@@ -116,7 +116,7 @@
             // txtIdMedico
             // 
             this.txtIdMedico.Enabled = false;
-            this.txtIdMedico.Location = new System.Drawing.Point(168, 98);
+            this.txtIdMedico.Location = new System.Drawing.Point(188, 96);
             this.txtIdMedico.Name = "txtIdMedico";
             this.txtIdMedico.Size = new System.Drawing.Size(35, 20);
             this.txtIdMedico.TabIndex = 7;
@@ -124,7 +124,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(168, 141);
+            this.txtNombre.Location = new System.Drawing.Point(188, 139);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 8;
@@ -132,7 +132,7 @@
             // 
             // txtPrimerApellido
             // 
-            this.txtPrimerApellido.Location = new System.Drawing.Point(413, 141);
+            this.txtPrimerApellido.Location = new System.Drawing.Point(433, 139);
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
             this.txtPrimerApellido.TabIndex = 9;
@@ -140,7 +140,7 @@
             // 
             // txtSegundoApellido
             // 
-            this.txtSegundoApellido.Location = new System.Drawing.Point(168, 183);
+            this.txtSegundoApellido.Location = new System.Drawing.Point(188, 181);
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoApellido.TabIndex = 10;
@@ -153,7 +153,7 @@
             this.cboEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboEstado.Location = new System.Drawing.Point(413, 96);
+            this.cboEstado.Location = new System.Drawing.Point(433, 94);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(101, 21);
             this.cboEstado.TabIndex = 14;
@@ -161,7 +161,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(520, 96);
+            this.txtEstado.Location = new System.Drawing.Point(540, 94);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(24, 20);
             this.txtEstado.TabIndex = 13;
@@ -173,7 +173,7 @@
             // 
             this.dtpFechaIngreso.Enabled = false;
             this.dtpFechaIngreso.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaIngreso.Location = new System.Drawing.Point(413, 183);
+            this.dtpFechaIngreso.Location = new System.Drawing.Point(433, 181);
             this.dtpFechaIngreso.Name = "dtpFechaIngreso";
             this.dtpFechaIngreso.Size = new System.Drawing.Size(100, 20);
             this.dtpFechaIngreso.TabIndex = 12;
@@ -181,7 +181,7 @@
             // 
             // txtFechaIngreso
             // 
-            this.txtFechaIngreso.Location = new System.Drawing.Point(519, 183);
+            this.txtFechaIngreso.Location = new System.Drawing.Point(539, 181);
             this.txtFechaIngreso.Name = "txtFechaIngreso";
             this.txtFechaIngreso.Size = new System.Drawing.Size(25, 20);
             this.txtFechaIngreso.TabIndex = 15;

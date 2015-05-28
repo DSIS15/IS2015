@@ -79,7 +79,7 @@
             // lblcitamedica
             // 
             this.lblcitamedica.AutoSize = true;
-            this.lblcitamedica.Location = new System.Drawing.Point(52, 95);
+            this.lblcitamedica.Location = new System.Drawing.Point(70, 98);
             this.lblcitamedica.Name = "lblcitamedica";
             this.lblcitamedica.Size = new System.Drawing.Size(75, 13);
             this.lblcitamedica.TabIndex = 1;
@@ -89,7 +89,7 @@
             // lblusuario
             // 
             this.lblusuario.AutoSize = true;
-            this.lblusuario.Location = new System.Drawing.Point(221, 95);
+            this.lblusuario.Location = new System.Drawing.Point(239, 98);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(55, 13);
             this.lblusuario.TabIndex = 2;
@@ -98,7 +98,7 @@
             // lblmedico
             // 
             this.lblmedico.AutoSize = true;
-            this.lblmedico.Location = new System.Drawing.Point(225, 131);
+            this.lblmedico.Location = new System.Drawing.Point(243, 134);
             this.lblmedico.Name = "lblmedico";
             this.lblmedico.Size = new System.Drawing.Size(54, 13);
             this.lblmedico.TabIndex = 3;
@@ -107,7 +107,7 @@
             // lblpacientes
             // 
             this.lblpacientes.AutoSize = true;
-            this.lblpacientes.Location = new System.Drawing.Point(52, 135);
+            this.lblpacientes.Location = new System.Drawing.Point(70, 138);
             this.lblpacientes.Name = "lblpacientes";
             this.lblpacientes.Size = new System.Drawing.Size(66, 13);
             this.lblpacientes.TabIndex = 4;
@@ -116,7 +116,7 @@
             // lblfechacita
             // 
             this.lblfechacita.AutoSize = true;
-            this.lblfechacita.Location = new System.Drawing.Point(372, 165);
+            this.lblfechacita.Location = new System.Drawing.Point(390, 168);
             this.lblfechacita.Name = "lblfechacita";
             this.lblfechacita.Size = new System.Drawing.Size(57, 13);
             this.lblfechacita.TabIndex = 5;
@@ -125,7 +125,7 @@
             // lbltipocita
             // 
             this.lbltipocita.AutoSize = true;
-            this.lbltipocita.Location = new System.Drawing.Point(378, 129);
+            this.lbltipocita.Location = new System.Drawing.Point(396, 132);
             this.lbltipocita.Name = "lbltipocita";
             this.lbltipocita.Size = new System.Drawing.Size(48, 13);
             this.lbltipocita.TabIndex = 6;
@@ -134,7 +134,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(389, 95);
+            this.lblestado.Location = new System.Drawing.Point(407, 98);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 7;
@@ -143,7 +143,7 @@
             // txtIdCitaMedica
             // 
             this.txtIdCitaMedica.Enabled = false;
-            this.txtIdCitaMedica.Location = new System.Drawing.Point(161, 92);
+            this.txtIdCitaMedica.Location = new System.Drawing.Point(179, 95);
             this.txtIdCitaMedica.Name = "txtIdCitaMedica";
             this.txtIdCitaMedica.Size = new System.Drawing.Size(30, 20);
             this.txtIdCitaMedica.TabIndex = 8;
@@ -152,7 +152,7 @@
             // txtIdUsuario
             // 
             this.txtIdUsuario.Enabled = false;
-            this.txtIdUsuario.Location = new System.Drawing.Point(290, 92);
+            this.txtIdUsuario.Location = new System.Drawing.Point(308, 95);
             this.txtIdUsuario.Name = "txtIdUsuario";
             this.txtIdUsuario.Size = new System.Drawing.Size(30, 20);
             this.txtIdUsuario.TabIndex = 9;
@@ -161,7 +161,7 @@
             // txtIdMedico
             // 
             this.txtIdMedico.Enabled = false;
-            this.txtIdMedico.Location = new System.Drawing.Point(290, 126);
+            this.txtIdMedico.Location = new System.Drawing.Point(308, 129);
             this.txtIdMedico.Name = "txtIdMedico";
             this.txtIdMedico.Size = new System.Drawing.Size(30, 20);
             this.txtIdMedico.TabIndex = 10;
@@ -170,7 +170,7 @@
             // txtIdPacientes
             // 
             this.txtIdPacientes.Enabled = false;
-            this.txtIdPacientes.Location = new System.Drawing.Point(161, 129);
+            this.txtIdPacientes.Location = new System.Drawing.Point(179, 132);
             this.txtIdPacientes.Name = "txtIdPacientes";
             this.txtIdPacientes.Size = new System.Drawing.Size(30, 20);
             this.txtIdPacientes.TabIndex = 11;
@@ -178,7 +178,7 @@
             // 
             // txtFechaCita
             // 
-            this.txtFechaCita.Location = new System.Drawing.Point(546, 165);
+            this.txtFechaCita.Location = new System.Drawing.Point(564, 168);
             this.txtFechaCita.Name = "txtFechaCita";
             this.txtFechaCita.Size = new System.Drawing.Size(24, 20);
             this.txtFechaCita.TabIndex = 12;
@@ -188,7 +188,7 @@
             // 
             // txtTipoCita
             // 
-            this.txtTipoCita.Location = new System.Drawing.Point(440, 126);
+            this.txtTipoCita.Location = new System.Drawing.Point(458, 129);
             this.txtTipoCita.Name = "txtTipoCita";
             this.txtTipoCita.Size = new System.Drawing.Size(100, 20);
             this.txtTipoCita.TabIndex = 13;
@@ -196,7 +196,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(546, 92);
+            this.txtEstado.Location = new System.Drawing.Point(564, 95);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(24, 20);
             this.txtEstado.TabIndex = 14;
@@ -211,7 +211,7 @@
             this.cboEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboEstado.Location = new System.Drawing.Point(440, 92);
+            this.cboEstado.Location = new System.Drawing.Point(458, 95);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(100, 21);
             this.cboEstado.TabIndex = 15;
@@ -221,7 +221,7 @@
             // 
             this.dtpFechaCita.Enabled = false;
             this.dtpFechaCita.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaCita.Location = new System.Drawing.Point(440, 165);
+            this.dtpFechaCita.Location = new System.Drawing.Point(458, 168);
             this.dtpFechaCita.Name = "dtpFechaCita";
             this.dtpFechaCita.Size = new System.Drawing.Size(100, 20);
             this.dtpFechaCita.TabIndex = 16;

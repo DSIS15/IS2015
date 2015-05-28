@@ -63,7 +63,7 @@
             // lblidtipoexamen
             // 
             this.lblidtipoexamen.AutoSize = true;
-            this.lblidtipoexamen.Location = new System.Drawing.Point(70, 92);
+            this.lblidtipoexamen.Location = new System.Drawing.Point(65, 112);
             this.lblidtipoexamen.Name = "lblidtipoexamen";
             this.lblidtipoexamen.Size = new System.Drawing.Size(81, 13);
             this.lblidtipoexamen.TabIndex = 1;
@@ -72,7 +72,7 @@
             // lblnombre
             // 
             this.lblnombre.AutoSize = true;
-            this.lblnombre.Location = new System.Drawing.Point(107, 121);
+            this.lblnombre.Location = new System.Drawing.Point(65, 155);
             this.lblnombre.Name = "lblnombre";
             this.lblnombre.Size = new System.Drawing.Size(44, 13);
             this.lblnombre.TabIndex = 2;
@@ -81,7 +81,7 @@
             // lbldescripcion
             // 
             this.lbldescripcion.AutoSize = true;
-            this.lbldescripcion.Location = new System.Drawing.Point(88, 154);
+            this.lbldescripcion.Location = new System.Drawing.Point(65, 196);
             this.lbldescripcion.Name = "lbldescripcion";
             this.lbldescripcion.Size = new System.Drawing.Size(63, 13);
             this.lbldescripcion.TabIndex = 3;
@@ -90,7 +90,7 @@
             // lblfechacreacion
             // 
             this.lblfechacreacion.AutoSize = true;
-            this.lblfechacreacion.Location = new System.Drawing.Point(69, 190);
+            this.lblfechacreacion.Location = new System.Drawing.Point(312, 148);
             this.lblfechacreacion.Name = "lblfechacreacion";
             this.lblfechacreacion.Size = new System.Drawing.Size(82, 13);
             this.lblfechacreacion.TabIndex = 4;
@@ -99,7 +99,7 @@
             // lblfechamodificacion
             // 
             this.lblfechamodificacion.AutoSize = true;
-            this.lblfechamodificacion.Location = new System.Drawing.Point(51, 224);
+            this.lblfechamodificacion.Location = new System.Drawing.Point(312, 192);
             this.lblfechamodificacion.Name = "lblfechamodificacion";
             this.lblfechamodificacion.Size = new System.Drawing.Size(100, 13);
             this.lblfechamodificacion.TabIndex = 5;
@@ -108,7 +108,7 @@
             // lblestado
             // 
             this.lblestado.AutoSize = true;
-            this.lblestado.Location = new System.Drawing.Point(340, 96);
+            this.lblestado.Location = new System.Drawing.Point(312, 109);
             this.lblestado.Name = "lblestado";
             this.lblestado.Size = new System.Drawing.Size(40, 13);
             this.lblestado.TabIndex = 6;
@@ -117,7 +117,7 @@
             // txtIdTipoExamen
             // 
             this.txtIdTipoExamen.Enabled = false;
-            this.txtIdTipoExamen.Location = new System.Drawing.Point(193, 92);
+            this.txtIdTipoExamen.Location = new System.Drawing.Point(176, 105);
             this.txtIdTipoExamen.Name = "txtIdTipoExamen";
             this.txtIdTipoExamen.Size = new System.Drawing.Size(35, 20);
             this.txtIdTipoExamen.TabIndex = 7;
@@ -125,7 +125,7 @@
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(193, 121);
+            this.txtNombre.Location = new System.Drawing.Point(176, 145);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 8;
@@ -133,7 +133,7 @@
             // 
             // txtDescripcion
             // 
-            this.txtDescripcion.Location = new System.Drawing.Point(193, 154);
+            this.txtDescripcion.Location = new System.Drawing.Point(176, 191);
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(100, 20);
             this.txtDescripcion.TabIndex = 9;
@@ -141,7 +141,7 @@
             // 
             // txtFechaCreacion
             // 
-            this.txtFechaCreacion.Location = new System.Drawing.Point(315, 190);
+            this.txtFechaCreacion.Location = new System.Drawing.Point(577, 148);
             this.txtFechaCreacion.Name = "txtFechaCreacion";
             this.txtFechaCreacion.Size = new System.Drawing.Size(30, 20);
             this.txtFechaCreacion.TabIndex = 10;
@@ -151,7 +151,7 @@
             // 
             // txtFechaModificacion
             // 
-            this.txtFechaModificacion.Location = new System.Drawing.Point(314, 221);
+            this.txtFechaModificacion.Location = new System.Drawing.Point(580, 189);
             this.txtFechaModificacion.Name = "txtFechaModificacion";
             this.txtFechaModificacion.Size = new System.Drawing.Size(30, 20);
             this.txtFechaModificacion.TabIndex = 11;
@@ -161,7 +161,7 @@
             // 
             // txtEstado
             // 
-            this.txtEstado.Location = new System.Drawing.Point(523, 94);
+            this.txtEstado.Location = new System.Drawing.Point(576, 106);
             this.txtEstado.Name = "txtEstado";
             this.txtEstado.Size = new System.Drawing.Size(30, 20);
             this.txtEstado.TabIndex = 12;
@@ -173,7 +173,7 @@
             // 
             this.dtpFechaCreacion.Enabled = false;
             this.dtpFechaCreacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaCreacion.Location = new System.Drawing.Point(194, 187);
+            this.dtpFechaCreacion.Location = new System.Drawing.Point(436, 145);
             this.dtpFechaCreacion.Name = "dtpFechaCreacion";
             this.dtpFechaCreacion.Size = new System.Drawing.Size(100, 20);
             this.dtpFechaCreacion.TabIndex = 13;
@@ -183,7 +183,7 @@
             // 
             this.dtpFechaModificacion.Enabled = false;
             this.dtpFechaModificacion.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaModificacion.Location = new System.Drawing.Point(192, 218);
+            this.dtpFechaModificacion.Location = new System.Drawing.Point(435, 187);
             this.dtpFechaModificacion.Name = "dtpFechaModificacion";
             this.dtpFechaModificacion.Size = new System.Drawing.Size(101, 20);
             this.dtpFechaModificacion.TabIndex = 14;
@@ -196,7 +196,7 @@
             this.cboEstado.Items.AddRange(new object[] {
             "Activado",
             "Desactivado"});
-            this.cboEstado.Location = new System.Drawing.Point(416, 93);
+            this.cboEstado.Location = new System.Drawing.Point(435, 105);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(101, 21);
             this.cboEstado.TabIndex = 15;

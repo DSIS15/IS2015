@@ -120,7 +120,7 @@
             // lbltipoexamen
             // 
             this.lbltipoexamen.AutoSize = true;
-            this.lbltipoexamen.Location = new System.Drawing.Point(123, 125);
+            this.lbltipoexamen.Location = new System.Drawing.Point(111, 125);
             this.lbltipoexamen.Name = "lbltipoexamen";
             this.lbltipoexamen.Size = new System.Drawing.Size(81, 13);
             this.lbltipoexamen.TabIndex = 7;
@@ -129,7 +129,7 @@
             // lblidmedico
             // 
             this.lblidmedico.AutoSize = true;
-            this.lblidmedico.Location = new System.Drawing.Point(357, 122);
+            this.lblidmedico.Location = new System.Drawing.Point(344, 122);
             this.lblidmedico.Name = "lblidmedico";
             this.lblidmedico.Size = new System.Drawing.Size(53, 13);
             this.lblidmedico.TabIndex = 8;
@@ -162,6 +162,7 @@
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
             this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
             this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD1.Name = "cuDataGridD1";
             this.cuDataGridD1.Size = new System.Drawing.Size(534, 151);
@@ -185,6 +186,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD2.Name = "cuDataGridD2";
             this.cuDataGridD2.Size = new System.Drawing.Size(534, 151);
@@ -208,6 +210,7 @@
             this.cuDataGridD3.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.AlDatosEntrada")));
             this.cuDataGridD3.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD3.alObtenerCampos")));
             this.cuDataGridD3.AutoSize = true;
+            this.cuDataGridD3.ICampo = 0;
             this.cuDataGridD3.Location = new System.Drawing.Point(-4, 0);
             this.cuDataGridD3.Name = "cuDataGridD3";
             this.cuDataGridD3.Size = new System.Drawing.Size(534, 151);

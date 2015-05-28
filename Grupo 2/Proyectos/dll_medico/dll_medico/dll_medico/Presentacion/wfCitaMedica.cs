@@ -16,10 +16,64 @@ namespace dll_medico.Presentacion
 {
     public partial class wfCitaMedica : Form
     {
+
         private ArrayList alDatosEntrada = new ArrayList();
         public wfCitaMedica()
         {
+
             InitializeComponent();
+
+
+            ///////////////////////////////////
+            ////////Datos Grid Usuario
+            String[,] Scadena ={
+                                {"id_usuario","Codigo","true"},
+                                {"codigo_perfil","Codigoperfil","false"},
+                                {"alias_usuario","Alias","true"},
+                                {"contrasena_usuario","contra","false"},
+                                {"nombre_usuario","Nombre","true"},
+                                {"primer_apellido","Primerapellido","false"},
+                                {"segundo_apellido", "SegundoApellido","false"},
+                                {"direccion","Direccion","false"},
+                                {"fecha_de_creacion","Fechacreacion","true"},
+                                {"fecha_de_modificacion","Fechamodificacion","false"},
+                                {"estado","Estado","true"},
+                                };
+            cuDataGridD1.AlDatosEntrada.Add(Scadena);
+            cuDataGridD1.vinicializar();
+
+            //////////////////////////////////////
+            ////////// Datos Grid Medico
+            String[,] ScadenaMedico = {
+                                    {"id_medico","Codigo","true"},
+                                    {"nombre_medico","Nombre","true"},
+                                    {"priimer_apellido_medico","PrimerApellido","true"},
+                                    {"medico_segundo_apellido","SegundoApellido","true"},
+                                    {"fecha_ingreso","Fecha","true"},
+                                    {"estado","Estado","false"},
+                                };
+            cuDataGridD2.AlDatosEntrada.Add(ScadenaMedico);
+            cuDataGridD2.vinicializar();
+
+            ///////////////////////////////////
+            ///////// Datos Grid Pacientes
+
+            String[,] ScadenaPacientes = {
+                                             {"id_pacientes","Codigo","true"},
+                                             {"nombre_paciente","nombre","true"},
+                                             {"primer_apellido","PrimerApellido","true"},
+                                             {"segundo_apellido","SegundoApellido","false"},
+                                             {"direccion_paciente","Direccion","false"},
+                                             {"telefono_paciente","Telefono","false"},
+                                             {"sexo","Sexo","false"},
+                                             {"identificacion_paciente","Identificacion","false"},
+                                             {"fecha_nacimiento_paciente","FechaNac","false"},
+                                             {"estado","Estado","true"},
+
+                                         };
+            cuDataGridD3.AlDatosEntrada.Add(ScadenaPacientes);
+            cuDataGridD3.vinicializar();
+
         }
 
         private void lblcitamedico_Click(object sender, EventArgs e)
@@ -76,57 +130,6 @@ namespace dll_medico.Presentacion
             navegador1.vIniciarNavegador();
 
             
-
-            ///////////////////////////////////
-           ////////Datos Grid Usuario
-            String[,] Scadena ={
-                                {"id_usuario","Codigo","true"},
-                                {"codigo_perfil","Codigoperfil","false"},
-                                {"alias_usuario","Alias","true"},
-                                {"contrasena_usuario","contra","false"},
-                                {"nombre_usuario","Nombre","true"},
-                                {"primer_apellido","Primerapellido","false"},
-                                {"segundo_apellido", "SegundoApellido","false"},
-                                {"direccion","Direccion","false"},
-                                {"fecha_de_creacion","Fechacreacion","true"},
-                                {"fecha_de_modificacion","Fechamodificacion","false"},
-                                {"estado","Estado","true"},
-                                };
-            cuDataGridD1.AlDatosEntrada.Add(Scadena);
-            cuDataGridD1.vinicializar();
-
-            //////////////////////////////////////
-            ////////// Datos Grid Medico
-            String[,] ScadenaMedico = {
-                                    {"id_medico","Codigo","true"},
-                                    {"nombre_medico","Nombre","true"},
-                                    {"priimer_apellido_medico","PrimerApellido","true"},
-                                    {"medico_segundo_apellido","SegundoApellido","true"},
-                                    {"fecha_ingreso","Fecha","true"},
-                                    {"estado","Estado","false"},
-                                };
-            cuDataGridD2.AlDatosEntrada.Add(ScadenaMedico);
-            cuDataGridD2.vinicializar();
-
-            ///////////////////////////////////
-            ///////// Datos Grid Pacientes
-
-            String[,] ScadenaPacientes = {
-                                             {"id_pacientes","Codigo","true"},
-                                             {"nombre_paciente","nombre","true"},
-                                             {"primer_apellido","PrimerApellido","true"},
-                                             {"segundo_apellido","SegundoApellido","false"},
-                                             {"direccion_paciente","Direccion","false"},
-                                             {"telefono_paciente","Telefono","false"},
-                                             {"sexo","Sexo","false"},
-                                             {"identificacion_paciente","Identificacion","false"},
-                                             {"fecha_nacimiento_paciente","FechaNac","false"},
-                                             {"estado","Estado","true"},
-
-                                         };
-            cuDataGridD3.AlDatosEntrada.Add(ScadenaPacientes);
-            cuDataGridD3.vinicializar();
-
 
         }
 
