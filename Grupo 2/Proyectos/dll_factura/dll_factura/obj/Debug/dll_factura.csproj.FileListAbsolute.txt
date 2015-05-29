@@ -9,3 +9,15 @@ C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.dll
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.pdb
 C:\Users\Cristian\Documents\Visual Studio 2013\Projects\dll_factura\dll_factura\obj\Debug\dll_factura.Presentacion.wfDetalleFactura.resources
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\dll_factura.dll
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\dll_factura.pdb
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\dll_bitacora.dll
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\ODBCconnector.dll
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\dll_bitacora.pdb
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\bin\Debug\ODBCconnector.pdb
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.Presentacion.wfDetalleFactura.resources
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.Presentacion.wfFactura.resources
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.csproj.GenerateResource.Cache
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.dll
+C:\Users\Cristian\Desktop\dll_factura\dll_factura\obj\Debug\dll_factura.pdb

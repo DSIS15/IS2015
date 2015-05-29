@@ -60,5 +60,11 @@ namespace dll_factura.Presentacion
         {
 
         }
+
+        private void navegador1_btnPrimero_AfterClick(object sender, EventArgs e)
+        {
+            txtdescripcion.Enabled = false;
+            txtnumero_factura.Enabled = false;
+        }
     }
 }

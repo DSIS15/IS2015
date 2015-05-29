@@ -48,11 +48,12 @@
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(44, 45);
+            this.navegador1.Location = new System.Drawing.Point(44, 35);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "det_fact";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnPrimero_AfterClick += new System.EventHandler(this.navegador1_btnPrimero_AfterClick);
             // 
             // txtid_detfact
             // 
@@ -142,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(719, 514);
+            this.ClientSize = new System.Drawing.Size(727, 535);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblnumero_factura);
             this.Controls.Add(this.lblid_detfact);

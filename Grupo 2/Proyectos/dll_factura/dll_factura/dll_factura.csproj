@@ -30,8 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dll_bitacora">
-      <HintPath>..\..\..\..\..\Desktop\dll_paciente\dll_paciente\bin\Debug\dll_bitacora.dll</HintPath>
+    <Reference Include="dll_bitacora, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll_bitacora\dll_bitacora\bin\Debug\dll_bitacora.dll</HintPath>
     </Reference>
     <Reference Include="Navegador">
       <HintPath>..\..\..\..\..\Desktop\dll_seguridad\dll_seguridad\bin\Debug\Navegador.dll</HintPath>
