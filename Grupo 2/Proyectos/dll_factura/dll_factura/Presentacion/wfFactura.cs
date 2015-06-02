@@ -26,6 +26,7 @@ namespace dll_factura.Presentacion
 
         private void wfFactura_Load(object sender, EventArgs e)
         {
+            txtfecha.Text = DateTime.Now.ToString("MM/dd/yyyy");
             alDatosEntrada.Add(txtnumero_factura);
             alDatosEntrada.Add(txtnit_cliente);
             alDatosEntrada.Add(txtid_usuario);
@@ -91,6 +92,13 @@ namespace dll_factura.Presentacion
         private void cuDataGridD2_sdgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             txtid_pacientes.Text = cuDataGridD2.SObtenerDato;
+        }
+
+        private void navegador1_btnNuevo_AfterClick(object sender, EventArgs e)
+        {
+            txtnumero_factura.Enabled = false;
+            txtid_usuario.Enabled = false;
+            txtid_pacientes.Enabled = false;
         }
     }
 }

@@ -53,6 +53,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "det_fact";
             this.navegador1.TabIndex = 0;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             this.navegador1.btnPrimero_AfterClick += new System.EventHandler(this.navegador1_btnPrimero_AfterClick);
             // 
             // txtid_detfact
@@ -84,6 +85,7 @@
             // lblid_detfact
             // 
             this.lblid_detfact.AutoSize = true;
+            this.lblid_detfact.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblid_detfact.Location = new System.Drawing.Point(44, 136);
             this.lblid_detfact.Name = "lblid_detfact";
             this.lblid_detfact.Size = new System.Drawing.Size(91, 13);
@@ -93,6 +95,7 @@
             // lblnumero_factura
             // 
             this.lblnumero_factura.AutoSize = true;
+            this.lblnumero_factura.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblnumero_factura.Location = new System.Drawing.Point(288, 132);
             this.lblnumero_factura.Name = "lblnumero_factura";
             this.lblnumero_factura.Size = new System.Drawing.Size(83, 13);
@@ -102,6 +105,7 @@
             // lbldescripcion
             // 
             this.lbldescripcion.AutoSize = true;
+            this.lbldescripcion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lbldescripcion.Location = new System.Drawing.Point(47, 178);
             this.lbldescripcion.Name = "lbldescripcion";
             this.lbldescripcion.Size = new System.Drawing.Size(66, 13);
@@ -122,9 +126,11 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(3, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
             this.cuDataGridD2.Size = new System.Drawing.Size(630, 228);
             this.cuDataGridD2.STabla = "factura";
             this.cuDataGridD2.TabIndex = 0;
@@ -143,6 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(727, 535);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblnumero_factura);
@@ -160,6 +167,7 @@
             this.Text = "Detalle factura";
             this.Load += new System.EventHandler(this.wfDetalleFactura_Load);
             this.tbpfactura.ResumeLayout(false);
+            this.tbpfactura.PerformLayout();
             this.tbcdet_fact.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

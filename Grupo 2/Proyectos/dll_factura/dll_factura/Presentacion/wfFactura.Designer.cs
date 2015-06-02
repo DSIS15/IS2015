@@ -54,6 +54,7 @@
             // lblnumero_factura
             // 
             this.lblnumero_factura.AutoSize = true;
+            this.lblnumero_factura.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblnumero_factura.Location = new System.Drawing.Point(54, 81);
             this.lblnumero_factura.Name = "lblnumero_factura";
             this.lblnumero_factura.Size = new System.Drawing.Size(98, 13);
@@ -63,6 +64,7 @@
             // lblnit_cliente
             // 
             this.lblnit_cliente.AutoSize = true;
+            this.lblnit_cliente.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblnit_cliente.Location = new System.Drawing.Point(54, 142);
             this.lblnit_cliente.Name = "lblnit_cliente";
             this.lblnit_cliente.Size = new System.Drawing.Size(57, 13);
@@ -72,6 +74,7 @@
             // lblid_usuario
             // 
             this.lblid_usuario.AutoSize = true;
+            this.lblid_usuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblid_usuario.Location = new System.Drawing.Point(292, 81);
             this.lblid_usuario.Name = "lblid_usuario";
             this.lblid_usuario.Size = new System.Drawing.Size(58, 13);
@@ -81,6 +84,7 @@
             // lblid_pacientes
             // 
             this.lblid_pacientes.AutoSize = true;
+            this.lblid_pacientes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblid_pacientes.Location = new System.Drawing.Point(475, 81);
             this.lblid_pacientes.Name = "lblid_pacientes";
             this.lblid_pacientes.Size = new System.Drawing.Size(67, 13);
@@ -90,6 +94,7 @@
             // lblfecha
             // 
             this.lblfecha.AutoSize = true;
+            this.lblfecha.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblfecha.Location = new System.Drawing.Point(292, 143);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(40, 13);
@@ -106,6 +111,7 @@
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "factura";
             this.navegador1.TabIndex = 5;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick);
             // 
             // txtnumero_factura
             // 
@@ -182,9 +188,11 @@
             // cuDataGridD1
             // 
             this.cuDataGridD1.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.AlDatosEntrada")));
+            this.cuDataGridD1.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD1.alObtenerCampos")));
+            this.cuDataGridD1.AutoSize = true;
+            this.cuDataGridD1.ICampo = 0;
             this.cuDataGridD1.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD1.Name = "cuDataGridD1";
-            this.cuDataGridD1.SCampo = "Codigo";
             this.cuDataGridD1.Size = new System.Drawing.Size(628, 237);
             this.cuDataGridD1.STabla = "usuario";
             this.cuDataGridD1.TabIndex = 13;
@@ -205,9 +213,11 @@
             // cuDataGridD2
             // 
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
+            this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
+            this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(3, 6);
             this.cuDataGridD2.Name = "cuDataGridD2";
-            this.cuDataGridD2.SCampo = "Codigo";
             this.cuDataGridD2.Size = new System.Drawing.Size(625, 237);
             this.cuDataGridD2.STabla = "paciente";
             this.cuDataGridD2.TabIndex = 0;
@@ -217,6 +227,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(742, 496);
             this.Controls.Add(this.tbcfactura);
             this.Controls.Add(this.txtfecha);
@@ -240,7 +251,9 @@
             this.Load += new System.EventHandler(this.wfFactura_Load);
             this.tbcfactura.ResumeLayout(false);
             this.tbpusuario.ResumeLayout(false);
+            this.tbpusuario.PerformLayout();
             this.tbppaciente.ResumeLayout(false);
+            this.tbppaciente.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
