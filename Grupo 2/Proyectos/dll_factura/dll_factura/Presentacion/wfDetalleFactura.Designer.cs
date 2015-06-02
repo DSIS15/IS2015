@@ -46,9 +46,10 @@
             // navegador1
             // 
             this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.BackColor = System.Drawing.Color.Transparent;
             this.navegador1.bEjecutarEvento = true;
             this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.navegador1.Location = new System.Drawing.Point(44, 35);
+            this.navegador1.Location = new System.Drawing.Point(66, 26);
             this.navegador1.Name = "navegador1";
             this.navegador1.Size = new System.Drawing.Size(598, 54);
             this.navegador1.sNombreTabla = "det_fact";
@@ -58,7 +59,7 @@
             // 
             // txtid_detfact
             // 
-            this.txtid_detfact.Location = new System.Drawing.Point(141, 130);
+            this.txtid_detfact.Location = new System.Drawing.Point(208, 120);
             this.txtid_detfact.Name = "txtid_detfact";
             this.txtid_detfact.Size = new System.Drawing.Size(100, 20);
             this.txtid_detfact.TabIndex = 2;
@@ -66,7 +67,7 @@
             // 
             // txtdescripcion
             // 
-            this.txtdescripcion.Location = new System.Drawing.Point(141, 178);
+            this.txtdescripcion.Location = new System.Drawing.Point(208, 177);
             this.txtdescripcion.Multiline = true;
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(341, 51);
@@ -75,7 +76,7 @@
             // 
             // txtnumero_factura
             // 
-            this.txtnumero_factura.Location = new System.Drawing.Point(382, 129);
+            this.txtnumero_factura.Location = new System.Drawing.Point(499, 120);
             this.txtnumero_factura.Name = "txtnumero_factura";
             this.txtnumero_factura.Size = new System.Drawing.Size(100, 20);
             this.txtnumero_factura.TabIndex = 4;
@@ -85,30 +86,33 @@
             // lblid_detfact
             // 
             this.lblid_detfact.AutoSize = true;
+            this.lblid_detfact.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblid_detfact.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblid_detfact.Location = new System.Drawing.Point(44, 136);
+            this.lblid_detfact.Location = new System.Drawing.Point(63, 123);
             this.lblid_detfact.Name = "lblid_detfact";
-            this.lblid_detfact.Size = new System.Drawing.Size(91, 13);
+            this.lblid_detfact.Size = new System.Drawing.Size(125, 17);
             this.lblid_detfact.TabIndex = 5;
             this.lblid_detfact.Text = "ID detalle factura:";
             // 
             // lblnumero_factura
             // 
             this.lblnumero_factura.AutoSize = true;
+            this.lblnumero_factura.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblnumero_factura.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblnumero_factura.Location = new System.Drawing.Point(288, 132);
+            this.lblnumero_factura.Location = new System.Drawing.Point(331, 122);
             this.lblnumero_factura.Name = "lblnumero_factura";
-            this.lblnumero_factura.Size = new System.Drawing.Size(83, 13);
+            this.lblnumero_factura.Size = new System.Drawing.Size(115, 17);
             this.lblnumero_factura.TabIndex = 6;
             this.lblnumero_factura.Text = "Numero factura:";
             // 
             // lbldescripcion
             // 
             this.lbldescripcion.AutoSize = true;
+            this.lbldescripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldescripcion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lbldescripcion.Location = new System.Drawing.Point(47, 178);
+            this.lbldescripcion.Location = new System.Drawing.Point(63, 177);
             this.lbldescripcion.Name = "lbldescripcion";
-            this.lbldescripcion.Size = new System.Drawing.Size(66, 13);
+            this.lbldescripcion.Size = new System.Drawing.Size(87, 17);
             this.lbldescripcion.TabIndex = 7;
             this.lbldescripcion.Text = "Descripción:";
             // 
@@ -128,6 +132,7 @@
             this.cuDataGridD2.AlDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.AlDatosEntrada")));
             this.cuDataGridD2.alObtenerCampos = ((System.Collections.ArrayList)(resources.GetObject("cuDataGridD2.alObtenerCampos")));
             this.cuDataGridD2.AutoSize = true;
+            this.cuDataGridD2.BackColor = System.Drawing.Color.DarkGray;
             this.cuDataGridD2.ICampo = 0;
             this.cuDataGridD2.Location = new System.Drawing.Point(3, 7);
             this.cuDataGridD2.Name = "cuDataGridD2";
@@ -139,7 +144,7 @@
             // tbcdet_fact
             // 
             this.tbcdet_fact.Controls.Add(this.tbpfactura);
-            this.tbcdet_fact.Location = new System.Drawing.Point(44, 235);
+            this.tbcdet_fact.Location = new System.Drawing.Point(66, 234);
             this.tbcdet_fact.Name = "tbcdet_fact";
             this.tbcdet_fact.SelectedIndex = 0;
             this.tbcdet_fact.Size = new System.Drawing.Size(647, 267);
@@ -150,7 +155,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.ClientSize = new System.Drawing.Size(727, 535);
+            this.ClientSize = new System.Drawing.Size(756, 535);
             this.Controls.Add(this.lbldescripcion);
             this.Controls.Add(this.lblnumero_factura);
             this.Controls.Add(this.lblid_detfact);
@@ -159,7 +164,8 @@
             this.Controls.Add(this.txtid_detfact);
             this.Controls.Add(this.tbcdet_fact);
             this.Controls.Add(this.navegador1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "wfDetalleFactura";

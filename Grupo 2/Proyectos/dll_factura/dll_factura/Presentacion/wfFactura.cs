@@ -17,25 +17,6 @@ namespace dll_factura.Presentacion
         public wfFactura()
         {
             InitializeComponent();
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-            txtfecha.Text = dtpfecha.Text;
-        }
-
-        private void wfFactura_Load(object sender, EventArgs e)
-        {
-            txtfecha.Text = DateTime.Now.ToString("MM/dd/yyyy");
-            alDatosEntrada.Add(txtnumero_factura);
-            alDatosEntrada.Add(txtnit_cliente);
-            alDatosEntrada.Add(txtid_usuario);
-            alDatosEntrada.Add(txtid_pacientes);
-            alDatosEntrada.Add(txtfecha);
-            navegador1.alDatosEntrada = alDatosEntrada;
-            navegador1.vIniciarNavegador();
-            
-            
             ///////////////////////////////////////
             //Datos Grid Paciente
             String[,] Scaden ={
@@ -72,6 +53,26 @@ namespace dll_factura.Presentacion
             cuDataGridD1.AlDatosEntrada.Add(Scadena);
             cuDataGridD1.vinicializar();
             ///////////////////////////////////
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            txtfecha.Text = dtpfecha.Text;
+        }
+
+        private void wfFactura_Load(object sender, EventArgs e)
+        {
+            txtfecha.Text = DateTime.Now.ToString("MM/dd/yyyy");
+            alDatosEntrada.Add(txtnumero_factura);
+            alDatosEntrada.Add(txtnit_cliente);
+            alDatosEntrada.Add(txtid_usuario);
+            alDatosEntrada.Add(txtid_pacientes);
+            alDatosEntrada.Add(txtfecha);
+            navegador1.alDatosEntrada = alDatosEntrada;
+            navegador1.vIniciarNavegador();
+            
+            
+            
         }
 
         private void cuDataGridD1_Load(object sender, EventArgs e)
