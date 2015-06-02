@@ -117,16 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Enfermedad" xml:space="preserve">
-    <value>Enfermedad</value>
+  <data name="tbpenfermedad" xml:space="preserve">
+    <value>病気</value>
   </data>
-  <data name="Módulo" xml:space="preserve">
-    <value>Módulo</value>
+  <data name="tbpmedico" xml:space="preserve">
+    <value>ドクター</value>
   </data>
-  <data name="Paciente" xml:space="preserve">
-    <value>Paciente</value>
+  <data name="tbpmodulo" xml:space="preserve">
+    <value>モジュール</value>
   </data>
-  <data name="Perfil" xml:space="preserve">
-    <value>Perfil</value>
+  <data name="tbppaciente" xml:space="preserve">
+    <value>患者</value>
+  </data>
+  <data name="tbpperfil" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="tbptipoexamen" xml:space="preserve">
+    <value>型検査</value>
+  </data>
+  <data name="tbpusuario" xml:space="preserve">
+    <value>ユーザー</value>
   </data>
 </root>

@@ -79,11 +79,29 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ID pacientes.
+        /// </summary>
+        internal static string lblacientes {
+            get {
+                return ResourceManager.GetString("lblacientes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Alias.
         /// </summary>
         internal static string lblalias {
             get {
                 return ResourceManager.GetString("lblalias", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID Cita Medica.
+        /// </summary>
+        internal static string lblcitamedica {
+            get {
+                return ResourceManager.GetString("lblcitamedica", resourceCulture);
             }
         }
         
@@ -133,6 +151,24 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Descripcion.
+        /// </summary>
+        internal static string lbldescripcion {
+            get {
+                return ResourceManager.GetString("lbldescripcion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID detalle examen.
+        /// </summary>
+        internal static string lbldetalleexamen {
+            get {
+                return ResourceManager.GetString("lbldetalleexamen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Dirección.
         /// </summary>
         internal static string lbldireccion {
@@ -147,6 +183,42 @@ namespace dll_idioma.idiomas {
         internal static string lblestado {
             get {
                 return ResourceManager.GetString("lblestado", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha cita.
+        /// </summary>
+        internal static string lblfechacita {
+            get {
+                return ResourceManager.GetString("lblfechacita", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha creación.
+        /// </summary>
+        internal static string lblfechacreacion {
+            get {
+                return ResourceManager.GetString("lblfechacreacion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha.
+        /// </summary>
+        internal static string lblfechaingreso {
+            get {
+                return ResourceManager.GetString("lblfechaingreso", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Fecha Modificacion.
+        /// </summary>
+        internal static string lblfechamodificacio {
+            get {
+                return ResourceManager.GetString("lblfechamodificacio", resourceCulture);
             }
         }
         
@@ -178,11 +250,74 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a ID medico.
+        /// </summary>
+        internal static string lblidmedico {
+            get {
+                return ResourceManager.GetString("lblidmedico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID pacientes.
+        /// </summary>
+        internal static string lblidpacientes {
+            get {
+                return ResourceManager.GetString("lblidpacientes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID tipo examen.
+        /// </summary>
+        internal static string lblidtipoexamen {
+            get {
+                return ResourceManager.GetString("lblidtipoexamen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID Medico.
+        /// </summary>
+        internal static string lblImedico {
+            get {
+                return ResourceManager.GetString("lblImedico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID Usuario.
+        /// </summary>
+        internal static string lblIusuario {
+            get {
+                return ResourceManager.GetString("lblIusuario", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID médico.
+        /// </summary>
+        internal static string lblmedico {
+            get {
+                return ResourceManager.GetString("lblmedico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Moneda.
         /// </summary>
-        internal static string lblmoneda {
+        internal static string lblMoneda {
             get {
-                return ResourceManager.GetString("lblmoneda", resourceCulture);
+                return ResourceManager.GetString("lblMoneda", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Nombre.
+        /// </summary>
+        internal static string lblnombre {
+            get {
+                return ResourceManager.GetString("lblnombre", resourceCulture);
             }
         }
         
@@ -237,6 +372,51 @@ namespace dll_idioma.idiomas {
         internal static string lblnomsubmod {
             get {
                 return ResourceManager.GetString("lblnomsubmod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID Pacientes.
+        /// </summary>
+        internal static string lblpacientes {
+            get {
+                return ResourceManager.GetString("lblpacientes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Primer apellido.
+        /// </summary>
+        internal static string lblprimerapellido {
+            get {
+                return ResourceManager.GetString("lblprimerapellido", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Segundo Apellido.
+        /// </summary>
+        internal static string lblsegundoapellido {
+            get {
+                return ResourceManager.GetString("lblsegundoapellido", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Tipo Cita.
+        /// </summary>
+        internal static string lbltipocita {
+            get {
+                return ResourceManager.GetString("lbltipocita", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a ID tipo examen.
+        /// </summary>
+        internal static string lbltipoexamen {
+            get {
+                return ResourceManager.GetString("lbltipoexamen", resourceCulture);
             }
         }
         

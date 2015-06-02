@@ -120,6 +120,12 @@
   <data name="tbcantecedente" xml:space="preserve">
     <value />
   </data>
+  <data name="tbccitamedica" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbcdetalleexamen" xml:space="preserve">
+    <value />
+  </data>
   <data name="tbcdetmodulo" xml:space="preserve">
     <value />
   </data>

@@ -66,4 +66,36 @@ C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\ES-GT\dll_idioma.resourc
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\EN-US\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\JA-JP\dll_idioma.resources.dll
 C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\dll_idioma.pdb
-C:\Users\orochi\Desktop\dll_idioma\dll_idioma\obj\Debug\dll_idioma.csprojResolveAssemblyReference.cache
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\bin\Debug\dll_idioma.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\bin\Debug\dll_idioma.pdb
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\bin\Debug\ES-GT\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\bin\Debug\EN-US\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\bin\Debug\JA-JP\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.csprojResolveAssemblyReference.cache
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiobutton.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiodgv.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambioEncabezados.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiolabel.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiotabcontrol.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiotabPage.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.Presentacion.cuIdioma.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiobutton.ES-GT.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiobutton.EN-US.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiobutton.JA-JP.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiodgv.EN-US.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiodgv.ES-GT.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiodgv.JA-JP.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambioEncabezados.EN-US.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambioEncabezados.ES-GT.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambioEncabezados.JA-JP.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiolabel.ES-GT.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiolabel.EN-US.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiolabel.JA-JP.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiotabPage.EN-US.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.idiomas.cambiotabPage.JA-JP.resources
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.csproj.GenerateResource.Cache
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\ES-GT\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\EN-US\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\JA-JP\dll_idioma.resources.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.dll
+C:\Users\orochi\Desktop\Prueba git\dll_idioma\dll_idioma\obj\Debug\dll_idioma.pdb

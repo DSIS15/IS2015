@@ -126,6 +126,9 @@
   <data name="lblalias" xml:space="preserve">
     <value>Nickname</value>
   </data>
+  <data name="lblcitamedica" xml:space="preserve">
+    <value>Appointment code</value>
+  </data>
   <data name="lblcodmod" xml:space="preserve">
     <value>Module code</value>
   </data>
@@ -147,6 +150,9 @@
   <data name="lblestado" xml:space="preserve">
     <value>Status</value>
   </data>
+  <data name="lblfechacita" xml:space="preserve">
+    <value>date</value>
+  </data>
   <data name="lblfechcreacion" xml:space="preserve">
     <value>Date creation</value>
   </data>
@@ -156,7 +162,13 @@
   <data name="lbliddetmod" xml:space="preserve">
     <value>Code</value>
   </data>
-  <data name="lblmoneda" xml:space="preserve">
+  <data name="lblIusuario" xml:space="preserve">
+    <value>user code</value>
+  </data>
+  <data name="lblmedico" xml:space="preserve">
+    <value>Medical Code</value>
+  </data>
+  <data name="lblMoneda" xml:space="preserve">
     <value>Currency</value>
   </data>
   <data name="lblnombreperfil" xml:space="preserve">
@@ -177,7 +189,40 @@
   <data name="lblnomsubmod" xml:space="preserve">
     <value>Sub_module name</value>
   </data>
+  <data name="lblpacientes" xml:space="preserve">
+    <value>patient code</value>
+  </data>
+  <data name="lbltipocita" xml:space="preserve">
+    <value>Type of Appointment</value>
+  </data>
   <data name="lblusuario" xml:space="preserve">
     <value>User</value>
+  </data>
+  <data name="lbldetalleexamen" xml:space="preserve">
+    <value>Detailed code review</value>
+  </data>
+  <data name="lblidmedico" xml:space="preserve">
+    <value>Medical code</value>
+  </data>
+  <data name="lblidpacientes" xml:space="preserve">
+    <value>patient code</value>
+  </data>
+  <data name="lbltipoexamen" xml:space="preserve">
+    <value>type examination code</value>
+  </data>
+  <data name="lbldescripcion" xml:space="preserve">
+    <value>description</value>
+  </data>
+  <data name="lblfechacreacion" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="lblfechamodificacio" xml:space="preserve">
+    <value>Modification date</value>
+  </data>
+  <data name="lblidtipoexamen" xml:space="preserve">
+    <value>type examination code</value>
+  </data>
+  <data name="lblprimerapellido" xml:space="preserve">
+    <value>Last_name</value>
   </data>
 </root>

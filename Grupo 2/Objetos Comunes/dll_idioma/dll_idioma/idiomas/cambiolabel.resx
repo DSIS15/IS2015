@@ -126,6 +126,9 @@
   <data name="lblalias" xml:space="preserve">
     <value>Alias</value>
   </data>
+  <data name="lblcitamedica" xml:space="preserve">
+    <value>ID Cita Medica</value>
+  </data>
   <data name="lblcodmod" xml:space="preserve">
     <value>Código Módulo</value>
   </data>
@@ -147,6 +150,9 @@
   <data name="lblestado" xml:space="preserve">
     <value>Estado</value>
   </data>
+  <data name="lblfechacita" xml:space="preserve">
+    <value>Fecha cita</value>
+  </data>
   <data name="lblfechcreacion" xml:space="preserve">
     <value>Fecha creación</value>
   </data>
@@ -156,7 +162,13 @@
   <data name="lbliddetmod" xml:space="preserve">
     <value>Código</value>
   </data>
-  <data name="lblmoneda" xml:space="preserve">
+  <data name="lblIusuario" xml:space="preserve">
+    <value>ID Usuario</value>
+  </data>
+  <data name="lblmedico" xml:space="preserve">
+    <value>ID médico</value>
+  </data>
+  <data name="lblMoneda" xml:space="preserve">
     <value>Moneda</value>
   </data>
   <data name="lblnombreperfil" xml:space="preserve">
@@ -177,7 +189,55 @@
   <data name="lblnomsubmod" xml:space="preserve">
     <value>Nombre sub módulo</value>
   </data>
+  <data name="lblpacientes" xml:space="preserve">
+    <value>ID Pacientes</value>
+  </data>
+  <data name="lbltipocita" xml:space="preserve">
+    <value>Tipo Cita</value>
+  </data>
   <data name="lblusuario" xml:space="preserve">
     <value>Usuario</value>
+  </data>
+  <data name="lblfechaingreso" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="lblnombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="lblsegundoapellido" xml:space="preserve">
+    <value>Segundo Apellido</value>
+  </data>
+  <data name="lblacientes" xml:space="preserve">
+    <value>ID pacientes</value>
+  </data>
+  <data name="lblImedico" xml:space="preserve">
+    <value>ID Medico</value>
+  </data>
+  <data name="lbldetalleexamen" xml:space="preserve">
+    <value>ID detalle examen</value>
+  </data>
+  <data name="lblidmedico" xml:space="preserve">
+    <value>ID medico</value>
+  </data>
+  <data name="lblidpacientes" xml:space="preserve">
+    <value>ID pacientes</value>
+  </data>
+  <data name="lbltipoexamen" xml:space="preserve">
+    <value>ID tipo examen</value>
+  </data>
+  <data name="lbldescripcion" xml:space="preserve">
+    <value>Descripcion</value>
+  </data>
+  <data name="lblfechacreacion" xml:space="preserve">
+    <value>Fecha creación</value>
+  </data>
+  <data name="lblfechamodificacio" xml:space="preserve">
+    <value>Fecha Modificacion</value>
+  </data>
+  <data name="lblidtipoexamen" xml:space="preserve">
+    <value>ID tipo examen</value>
+  </data>
+  <data name="lblprimerapellido" xml:space="preserve">
+    <value>Primer apellido</value>
   </data>
 </root>

@@ -70,6 +70,15 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a dgvmedico.
+        /// </summary>
+        internal static string dgvmedico {
+            get {
+                return ResourceManager.GetString("dgvmedico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a dgvmodulo.
         /// </summary>
         internal static string dgvmodulo {
@@ -93,6 +102,24 @@ namespace dll_idioma.idiomas {
         internal static string dgvperfil {
             get {
                 return ResourceManager.GetString("dgvperfil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a dgvtipoexamen.
+        /// </summary>
+        internal static string dgvtipoexamen {
+            get {
+                return ResourceManager.GetString("dgvtipoexamen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a dgvusuario.
+        /// </summary>
+        internal static string dgvusuario {
+            get {
+                return ResourceManager.GetString("dgvusuario", resourceCulture);
             }
         }
     }

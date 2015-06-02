@@ -162,4 +162,10 @@
   <data name="Telefono" xml:space="preserve">
     <value>Telefono</value>
   </data>
+  <data name="Fecha Creación" xml:space="preserve">
+    <value>Fecha Creación</value>
+  </data>
+  <data name="Fecha Modificación" xml:space="preserve">
+    <value>Fecha Modificacion</value>
+  </data>
 </root>

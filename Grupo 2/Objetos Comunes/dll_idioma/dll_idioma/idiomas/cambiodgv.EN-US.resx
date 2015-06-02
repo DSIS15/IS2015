@@ -120,6 +120,9 @@
   <data name="dgvenfermedad" xml:space="preserve">
     <value>dgvenfermedad</value>
   </data>
+  <data name="dgvmedico" xml:space="preserve">
+    <value>dgvmedico</value>
+  </data>
   <data name="dgvmodulo" xml:space="preserve">
     <value>dgvmodulo</value>
   </data>
@@ -128,5 +131,11 @@
   </data>
   <data name="dgvperfil" xml:space="preserve">
     <value>dgvperfil</value>
+  </data>
+  <data name="dgvtipoexamen" xml:space="preserve">
+    <value>dgvtipoexamen</value>
+  </data>
+  <data name="dgvusuario" xml:space="preserve">
+    <value>dgvusuario</value>
   </data>
 </root>

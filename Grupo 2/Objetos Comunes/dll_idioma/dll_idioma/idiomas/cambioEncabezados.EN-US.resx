@@ -130,19 +130,19 @@
     <value>Status</value>
   </data>
   <data name="Estatura" xml:space="preserve">
-    <value>Estatura</value>
+    <value>height</value>
   </data>
   <data name="Fecha_Creación" xml:space="preserve">
-    <value>Fecha_Creación</value>
+    <value>Creation_Date</value>
   </data>
   <data name="Fecha_de_nacimiento" xml:space="preserve">
-    <value>Fecha_de_nacimiento</value>
+    <value>Date_of_birth</value>
   </data>
   <data name="Fecha_Modificación" xml:space="preserve">
     <value>Date_modification</value>
   </data>
   <data name="Identificacion" xml:space="preserve">
-    <value>Identificacion</value>
+    <value>ID</value>
   </data>
   <data name="Nombre" xml:space="preserve">
     <value>Name</value>
@@ -151,15 +151,21 @@
     <value>DLL_Name</value>
   </data>
   <data name="Peso" xml:space="preserve">
-    <value>Peso</value>
+    <value>Weight</value>
   </data>
   <data name="Sangre" xml:space="preserve">
-    <value>Sangre</value>
+    <value>blood</value>
   </data>
   <data name="Segundo_Apellido" xml:space="preserve">
-    <value>Segundo_Apellido</value>
+    <value>Second_Last_Name</value>
   </data>
   <data name="Telefono" xml:space="preserve">
-    <value>Telefono</value>
+    <value>phone</value>
+  </data>
+  <data name="Fecha Creación" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Fecha Modificación" xml:space="preserve">
+    <value>Date modification</value>
   </data>
 </root>

@@ -120,6 +120,9 @@
   <data name="tbpenfermedad" xml:space="preserve">
     <value>Enfermedad</value>
   </data>
+  <data name="tbpmedico" xml:space="preserve">
+    <value>Médico</value>
+  </data>
   <data name="tbpmodulo" xml:space="preserve">
     <value>Módulo</value>
   </data>
@@ -128,5 +131,8 @@
   </data>
   <data name="tbpperfil" xml:space="preserve">
     <value>Perfil</value>
+  </data>
+  <data name="tbpusuario" xml:space="preserve">
+    <value>Usuario</value>
   </data>
 </root>

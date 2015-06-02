@@ -70,6 +70,15 @@ namespace dll_idioma.idiomas {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Médico.
+        /// </summary>
+        internal static string tbpmedico {
+            get {
+                return ResourceManager.GetString("tbpmedico", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Módulo.
         /// </summary>
         internal static string tbpmodulo {
@@ -93,6 +102,15 @@ namespace dll_idioma.idiomas {
         internal static string tbpperfil {
             get {
                 return ResourceManager.GetString("tbpperfil", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Usuario.
+        /// </summary>
+        internal static string tbpusuario {
+            get {
+                return ResourceManager.GetString("tbpusuario", resourceCulture);
             }
         }
     }

@@ -72,6 +72,24 @@ namespace dll_idioma.idiomas {
         /// <summary>
         ///   Busca una cadena traducida similar a .
         /// </summary>
+        internal static string tbccitamedica {
+            get {
+                return ResourceManager.GetString("tbccitamedica", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        internal static string tbcdetalleexamen {
+            get {
+                return ResourceManager.GetString("tbcdetalleexamen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
         internal static string tbcdetmodulo {
             get {
                 return ResourceManager.GetString("tbcdetmodulo", resourceCulture);

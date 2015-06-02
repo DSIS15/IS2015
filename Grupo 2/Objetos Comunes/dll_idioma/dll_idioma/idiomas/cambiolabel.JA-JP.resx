@@ -129,6 +129,9 @@
   <data name="lblalias" xml:space="preserve">
     <value>ニックネーム</value>
   </data>
+  <data name="lblcitamedica" xml:space="preserve">
+    <value>医療任命コード</value>
+  </data>
   <data name="lblcodmod" xml:space="preserve">
     <value>モジュールコード</value>
   </data>
@@ -150,6 +153,9 @@
   <data name="lblestado" xml:space="preserve">
     <value>状態</value>
   </data>
+  <data name="lblfechacita" xml:space="preserve">
+    <value>日付</value>
+  </data>
   <data name="lblfechcreacion" xml:space="preserve">
     <value>作成日</value>
   </data>
@@ -159,7 +165,13 @@
   <data name="lbliddetmod" xml:space="preserve">
     <value>コード</value>
   </data>
-  <data name="lblmoneda" xml:space="preserve">
+  <data name="lblIusuario" xml:space="preserve">
+    <value>任意のコードを授け</value>
+  </data>
+  <data name="lblmedico" xml:space="preserve">
+    <value>メディカルコード</value>
+  </data>
+  <data name="lblMoneda" xml:space="preserve">
     <value>通貨</value>
   </data>
   <data name="lblnombreperfil" xml:space="preserve">
@@ -180,7 +192,31 @@
   <data name="lblnomsubmod" xml:space="preserve">
     <value>サブモジュール名</value>
   </data>
+  <data name="lblpacientes" xml:space="preserve">
+    <value>患者コード</value>
+  </data>
+  <data name="lbltipocita" xml:space="preserve">
+    <value>予定の種類</value>
+  </data>
   <data name="lblusuario" xml:space="preserve">
     <value>ユーザー</value>
+  </data>
+  <data name="lbldetalleexamen" xml:space="preserve">
+    <value>詳細なコードレビュー</value>
+  </data>
+  <data name="lbldescripcion" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="lblfechacreacion" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="lblfechamodificacio" xml:space="preserve">
+    <value>日付変更</value>
+  </data>
+  <data name="lblidtipoexamen" xml:space="preserve">
+    <value>型検査コード</value>
+  </data>
+  <data name="lblprimerapellido" xml:space="preserve">
+    <value>姓</value>
   </data>
 </root>
