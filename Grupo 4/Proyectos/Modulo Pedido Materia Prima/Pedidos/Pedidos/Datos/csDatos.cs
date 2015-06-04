@@ -1,4 +1,8 @@
-﻿using System;
+﻿/* Autor: Rodrigo Miranda
+ * Fecha: 26/05/2015 
+ * Comentario: Programación de detalle de pedido, en las tablas tabm_pedido y tabt_detalle_pedido 
+ */
+using System;
 using System.Collections;
 using System.Linq;
 using System.Text;
@@ -10,6 +14,7 @@ namespace Pedidos.Datos
     class csDatos
     {
         ArrayList cbollenado = new ArrayList();
+       
 
         public ArrayList obtDatosProductosMP()
         {
@@ -28,13 +33,13 @@ namespace Pedidos.Datos
         //{
         //    try
         //    {
-        //        cbollenado = ODBCconnector.csFunciones.alConsultar("SELECT cod_mp, unimedida_mp FROM tabm_materiaprima ORDER BY unimedida_mp ASC");
+        //        cbollenadoU = ODBCconnector.csFunciones.alConsultar("SELECT cod_mp, unimedida_mp FROM tabm_materiaprima ORDER BY unimedida_mp ASC");
         //    }
         //    catch (Exception e)
         //    {
         //        MessageBox.Show(e.Message);
         //    }
-        //    return cbollenado;
+        //    return cbollenadoU;
         //}
     }
 }

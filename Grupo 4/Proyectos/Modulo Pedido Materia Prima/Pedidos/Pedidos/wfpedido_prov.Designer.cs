@@ -30,58 +30,56 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wfpedido_prov));
             this.dgvDetallePedProv = new System.Windows.Forms.DataGridView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbdetallepedido = new System.Windows.Forms.GroupBox();
             this.txtUMedida = new System.Windows.Forms.TextBox();
             this.txtProducto = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.cboUMedida = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtTotal = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cboProducto = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtCantidad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtPed = new System.Windows.Forms.TextBox();
+            this.txtCod_ped = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.dtpFecha_Ped = new System.Windows.Forms.DateTimePicker();
-            this.txtFecha_Ped = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtprov = new System.Windows.Forms.TextBox();
-            this.btnGuardar = new System.Windows.Forms.Button();
+            this.txtProv = new System.Windows.Forms.TextBox();
+            this.navegador1 = new Navegador.Navegador();
+            this.dtpFechaPed = new System.Windows.Forms.DateTimePicker();
+            this.txtFechaPed = new System.Windows.Forms.TextBox();
+            this.txtCodAux = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetallePedProv)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.gbdetallepedido.SuspendLayout();
             this.SuspendLayout();
             // 
             // dgvDetallePedProv
             // 
+            this.dgvDetallePedProv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDetallePedProv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDetallePedProv.Location = new System.Drawing.Point(22, 142);
             this.dgvDetallePedProv.Name = "dgvDetallePedProv";
             this.dgvDetallePedProv.Size = new System.Drawing.Size(445, 162);
             this.dgvDetallePedProv.TabIndex = 0;
             // 
-            // groupBox1
+            // gbdetallepedido
             // 
-            this.groupBox1.Controls.Add(this.txtUMedida);
-            this.groupBox1.Controls.Add(this.txtProducto);
-            this.groupBox1.Controls.Add(this.btnAgregar);
-            this.groupBox1.Controls.Add(this.cboUMedida);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtTotal);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.cboProducto);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtCantidad);
-            this.groupBox1.Controls.Add(this.dgvDetallePedProv);
-            this.groupBox1.Location = new System.Drawing.Point(25, 157);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(492, 325);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detalle Pedido";
+            this.gbdetallepedido.Controls.Add(this.txtUMedida);
+            this.gbdetallepedido.Controls.Add(this.txtProducto);
+            this.gbdetallepedido.Controls.Add(this.btnAgregar);
+            this.gbdetallepedido.Controls.Add(this.cboUMedida);
+            this.gbdetallepedido.Controls.Add(this.label3);
+            this.gbdetallepedido.Controls.Add(this.label2);
+            this.gbdetallepedido.Controls.Add(this.cboProducto);
+            this.gbdetallepedido.Controls.Add(this.label1);
+            this.gbdetallepedido.Controls.Add(this.txtCantidad);
+            this.gbdetallepedido.Controls.Add(this.dgvDetallePedProv);
+            this.gbdetallepedido.Location = new System.Drawing.Point(75, 167);
+            this.gbdetallepedido.Name = "gbdetallepedido";
+            this.gbdetallepedido.Size = new System.Drawing.Size(492, 325);
+            this.gbdetallepedido.TabIndex = 1;
+            this.gbdetallepedido.TabStop = false;
+            this.gbdetallepedido.Text = "Detalle Pedido";
             // 
             // txtUMedida
             // 
@@ -89,6 +87,7 @@
             this.txtUMedida.Name = "txtUMedida";
             this.txtUMedida.Size = new System.Drawing.Size(22, 20);
             this.txtUMedida.TabIndex = 11;
+            this.txtUMedida.Visible = false;
             // 
             // txtProducto
             // 
@@ -96,6 +95,7 @@
             this.txtProducto.Name = "txtProducto";
             this.txtProducto.Size = new System.Drawing.Size(30, 20);
             this.txtProducto.TabIndex = 10;
+            this.txtProducto.Visible = false;
             // 
             // btnAgregar
             // 
@@ -116,22 +116,6 @@
             this.cboUMedida.Size = new System.Drawing.Size(132, 21);
             this.cboUMedida.TabIndex = 5;
             this.cboUMedida.SelectedIndexChanged += new System.EventHandler(this.cboUMedida_SelectedIndexChanged_1);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(171, 115);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Total";
-            // 
-            // txtTotal
-            // 
-            this.txtTotal.Location = new System.Drawing.Point(247, 112);
-            this.txtTotal.Name = "txtTotal";
-            this.txtTotal.Size = new System.Drawing.Size(132, 20);
-            this.txtTotal.TabIndex = 6;
             // 
             // label3
             // 
@@ -176,96 +160,120 @@
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(60, 20);
             this.txtCantidad.TabIndex = 4;
+            this.txtCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCantidad_KeyPress);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 75);
+            this.label5.Location = new System.Drawing.Point(67, 85);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(91, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Código de Pedido";
             // 
-            // txtPed
+            // txtCod_ped
             // 
-            this.txtPed.Location = new System.Drawing.Point(129, 68);
-            this.txtPed.Name = "txtPed";
-            this.txtPed.Size = new System.Drawing.Size(91, 20);
-            this.txtPed.TabIndex = 5;
+            this.txtCod_ped.Enabled = false;
+            this.txtCod_ped.Location = new System.Drawing.Point(174, 78);
+            this.txtCod_ped.Name = "txtCod_ped";
+            this.txtCod_ped.Size = new System.Drawing.Size(91, 20);
+            this.txtCod_ped.TabIndex = 5;
+            this.txtCod_ped.Tag = "cod_ped";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(309, 77);
+            this.label6.Location = new System.Drawing.Point(356, 81);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(37, 13);
             this.label6.TabIndex = 7;
             this.label6.Text = "Fecha";
             // 
-            // dtpFecha_Ped
-            // 
-            this.dtpFecha_Ped.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha_Ped.Location = new System.Drawing.Point(354, 68);
-            this.dtpFecha_Ped.Name = "dtpFecha_Ped";
-            this.dtpFecha_Ped.Size = new System.Drawing.Size(138, 20);
-            this.dtpFecha_Ped.TabIndex = 1;
-            this.dtpFecha_Ped.ValueChanged += new System.EventHandler(this.dtpFecha_Ped_ValueChanged);
-            // 
-            // txtFecha_Ped
-            // 
-            this.txtFecha_Ped.Location = new System.Drawing.Point(507, 68);
-            this.txtFecha_Ped.Name = "txtFecha_Ped";
-            this.txtFecha_Ped.Size = new System.Drawing.Size(28, 20);
-            this.txtFecha_Ped.TabIndex = 9;
-            this.txtFecha_Ped.TextChanged += new System.EventHandler(this.txtFecha_Ped_TextChanged);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(22, 101);
+            this.label7.Location = new System.Drawing.Point(67, 111);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(107, 13);
             this.label7.TabIndex = 11;
             this.label7.Text = "Código de Proveedor";
             // 
-            // txtprov
+            // txtProv
             // 
-            this.txtprov.Location = new System.Drawing.Point(129, 94);
-            this.txtprov.Name = "txtprov";
-            this.txtprov.Size = new System.Drawing.Size(91, 20);
-            this.txtprov.TabIndex = 2;
+            this.txtProv.Location = new System.Drawing.Point(174, 104);
+            this.txtProv.Name = "txtProv";
+            this.txtProv.Size = new System.Drawing.Size(91, 20);
+            this.txtProv.TabIndex = 2;
+            this.txtProv.Enter += new System.EventHandler(this.txtProv_Enter);
+            this.txtProv.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtProv_KeyPress);
             // 
-            // btnGuardar
+            // navegador1
             // 
-            this.btnGuardar.Image = global::Pedidos.Properties.Resources.Aceptar;
-            this.btnGuardar.Location = new System.Drawing.Point(467, 107);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(44, 44);
-            this.btnGuardar.TabIndex = 12;
-            this.btnGuardar.UseVisualStyleBackColor = true;
-            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            this.navegador1.alDatosEntrada = ((System.Collections.ArrayList)(resources.GetObject("navegador1.alDatosEntrada")));
+            this.navegador1.bEjecutarEvento = true;
+            this.navegador1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navegador1.Location = new System.Drawing.Point(23, 12);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Size = new System.Drawing.Size(598, 54);
+            this.navegador1.sNombreTabla = "tabm_pedido";
+            this.navegador1.TabIndex = 14;
+            this.navegador1.btnNuevo_AfterClick += new System.EventHandler(this.navegador1_btnNuevo_AfterClick_1);
+            this.navegador1.btnGuardar_AfterClick += new System.EventHandler(this.navegador1_btnGuardar_AfterClick);
+            this.navegador1.btnLimpiar_AfterClick += new System.EventHandler(this.navegador1_btnLimpiar_AfterClick);
+            // 
+            // dtpFechaPed
+            // 
+            this.dtpFechaPed.CustomFormat = "yyyy-MM-dd";
+            this.dtpFechaPed.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpFechaPed.Location = new System.Drawing.Point(399, 79);
+            this.dtpFechaPed.Name = "dtpFechaPed";
+            this.dtpFechaPed.Size = new System.Drawing.Size(109, 20);
+            this.dtpFechaPed.TabIndex = 1;
+            this.dtpFechaPed.Tag = "";
+            this.dtpFechaPed.ValueChanged += new System.EventHandler(this.dtpFechaPed_ValueChanged);
+            // 
+            // txtFechaPed
+            // 
+            this.txtFechaPed.Location = new System.Drawing.Point(514, 79);
+            this.txtFechaPed.Name = "txtFechaPed";
+            this.txtFechaPed.Size = new System.Drawing.Size(55, 20);
+            this.txtFechaPed.TabIndex = 16;
+            this.txtFechaPed.Tag = "fecha_ped";
+            this.txtFechaPed.Visible = false;
+            this.txtFechaPed.TextChanged += new System.EventHandler(this.txtFechaPed_TextChanged);
+            // 
+            // txtCodAux
+            // 
+            this.txtCodAux.Location = new System.Drawing.Point(271, 78);
+            this.txtCodAux.Name = "txtCodAux";
+            this.txtCodAux.Size = new System.Drawing.Size(33, 20);
+            this.txtCodAux.TabIndex = 17;
+            this.txtCodAux.Visible = false;
             // 
             // wfpedido_prov
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(547, 494);
-            this.Controls.Add(this.btnGuardar);
+            this.ClientSize = new System.Drawing.Size(643, 509);
+            this.Controls.Add(this.txtCodAux);
+            this.Controls.Add(this.txtFechaPed);
+            this.Controls.Add(this.dtpFechaPed);
+            this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.txtProv);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.txtprov);
-            this.Controls.Add(this.txtFecha_Ped);
-            this.Controls.Add(this.dtpFecha_Ped);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.txtPed);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.txtCod_ped);
+            this.Controls.Add(this.gbdetallepedido);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "wfpedido_prov";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pedido a Proveedores";
             this.Load += new System.EventHandler(this.pedido_prov_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetallePedProv)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.gbdetallepedido.ResumeLayout(false);
+            this.gbdetallepedido.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,25 +282,24 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvDetallePedProv;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbdetallepedido;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.ComboBox cboUMedida;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cboProducto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtPed;
+        private System.Windows.Forms.TextBox txtCod_ped;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker dtpFecha_Ped;
-        private System.Windows.Forms.TextBox txtFecha_Ped;
         private System.Windows.Forms.TextBox txtProducto;
         private System.Windows.Forms.TextBox txtUMedida;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtprov;
-        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.TextBox txtProv;
+        private Navegador.Navegador navegador1;
+        private System.Windows.Forms.DateTimePicker dtpFechaPed;
+        private System.Windows.Forms.TextBox txtFechaPed;
+        private System.Windows.Forms.TextBox txtCodAux;
     }
 }

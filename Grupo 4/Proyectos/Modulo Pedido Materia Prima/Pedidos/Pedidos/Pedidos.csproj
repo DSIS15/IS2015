@@ -30,9 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ConexionBD">
+      <HintPath>..\..\..\..\..\Documents\Visual Studio 2013\Projects\ConexionBD\ConexionBD\bin\Debug\ConexionBD.dll</HintPath>
+    </Reference>
     <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Navegador">
+      <HintPath>..\..\..\VAIO 17 ABRIL ultima\Proyectos\Navegador\Navegador\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
     <Reference Include="ODBCconnector">
       <HintPath>..\..\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="SIP_Administrativo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Nueva carpeta\prueba\G4-Proveedores V-1.0\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\csDatos.cs" />
+    <Compile Include="Datos\csLimpiar.cs" />
     <Compile Include="Negocio\csNegocio.cs" />
     <Compile Include="wfpedido_prov.cs">
       <SubType>Form</SubType>

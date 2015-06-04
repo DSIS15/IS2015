@@ -1,4 +1,7 @@
-﻿
+﻿/* Autor: Rodrigo Miranda
+ * Fecha: 26/05/2015 
+ * Comentario: Programación de detalle de pedido, en las tablas tabm_pedido y tabt_detalle_pedido 
+ */
 using System;
 using System.Collections;
 using System.Linq;
