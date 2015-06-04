@@ -1,0 +1,22 @@
+C:\Users\jose\Desktop\pdFormula\pdFormula\bin\Debug\pdFormula.dll
+C:\Users\jose\Desktop\pdFormula\pdFormula\bin\Debug\pdFormula.pdb
+C:\Users\jose\Desktop\pdFormula\pdFormula\obj\Debug\pdFormula.csprojResolveAssemblyReference.cache
+C:\Users\jose\Desktop\pdFormula\pdFormula\obj\Debug\pdFormula.wf_Formula.resources
+C:\Users\jose\Desktop\pdFormula\pdFormula\obj\Debug\pdFormula.csproj.GenerateResource.Cache
+C:\Users\jose\Desktop\pdFormula\pdFormula\obj\Debug\pdFormula.dll
+C:\Users\jose\Desktop\pdFormula\pdFormula\obj\Debug\pdFormula.pdb
+C:\Users\jose\Desktop\pdFormula\pdFormula\bin\Debug\ODBCconnector.dll
+C:\Users\jose\Desktop\pdFormula\pdFormula\bin\Debug\ODBCconnector.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\pdFormula.dll
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\pdFormula.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\conexcioBD.dll
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\conexcioBD.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\ODBCconnector.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.csprojResolveAssemblyReference.cache
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.wf_Formula.resources
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.csproj.GenerateResource.Cache
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.dll
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\Navegador.dll
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\bin\Debug\Navegador.pdb
+C:\Users\jose\Desktop\proyectos software\pdFormula\pdFormula\obj\Debug\pdFormula.Properties.Resources.resources
