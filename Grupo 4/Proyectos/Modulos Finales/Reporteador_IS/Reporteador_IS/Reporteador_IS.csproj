@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44FFECD3-DCF7-40F8-8DD8-0AC78811A789}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Reporteador_IS</RootNamespace>
+    <AssemblyName>Reporteador_IS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="MySql.Data, Version=6.8.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DT_CodigoBarras.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_CodigoBarras.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Empleado.cs">
+      <DependentUpon>DT_Empleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Empleado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_Empleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Formula.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_Formula.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_MateriaPrima.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_MateriaPrima.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Pedido.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_Pedido.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Produccion.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_Produccion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DT_Proveedor.cs">
+      <DependentUpon>DT_Proveedor.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DT_Proveedor.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DT_Proveedor.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Rep_Cliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Rep_Cliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="wf_ProductoTerminado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_ProductoTerminado.Designer.cs">
+      <DependentUpon>wf_ProductoTerminado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoCliente.Designer.cs">
+      <DependentUpon>wf_RepoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoCodigoBarras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoCodigoBarras.Designer.cs">
+      <DependentUpon>wf_RepoCodigoBarras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoEmpleado.Designer.cs">
+      <DependentUpon>wf_RepoEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoFormula.Designer.cs">
+      <DependentUpon>wf_RepoFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoMateriaPrima.Designer.cs">
+      <DependentUpon>wf_RepoMateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoPedido.Designer.cs">
+      <DependentUpon>wf_RepoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoProduccion.Designer.cs">
+      <DependentUpon>wf_RepoProduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_RepoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_RepoProveedor.Designer.cs">
+      <DependentUpon>wf_RepoProveedor.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Rep_CodigoBarras.rdlc" />
+    <EmbeddedResource Include="Rep_Formula.rdlc" />
+    <EmbeddedResource Include="Rep_MateriaPrima.rdlc" />
+    <EmbeddedResource Include="Rep_Pedido.rdlc" />
+    <EmbeddedResource Include="Rep_Produccion.rdlc" />
+    <EmbeddedResource Include="Rep_ProductoTerminado.rdlc" />
+    <EmbeddedResource Include="wf_ProductoTerminado.resx">
+      <DependentUpon>wf_ProductoTerminado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoCliente.resx">
+      <DependentUpon>wf_RepoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rep_Empleado.rdlc" />
+    <EmbeddedResource Include="Rep_Proveedor.rdlc" />
+    <EmbeddedResource Include="wf_RepoCodigoBarras.resx">
+      <DependentUpon>wf_RepoCodigoBarras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoEmpleado.resx">
+      <DependentUpon>wf_RepoEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoFormula.resx">
+      <DependentUpon>wf_RepoFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoMateriaPrima.resx">
+      <DependentUpon>wf_RepoMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoPedido.resx">
+      <DependentUpon>wf_RepoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoProduccion.resx">
+      <DependentUpon>wf_RepoProduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_RepoProveedor.resx">
+      <DependentUpon>wf_RepoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DT_CodigoBarras.xsc">
+      <DependentUpon>DT_CodigoBarras.xsd</DependentUpon>
+    </None>
+    <None Include="DT_CodigoBarras.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_CodigoBarras.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_CodigoBarras.xss">
+      <DependentUpon>DT_CodigoBarras.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Empleado.xsc">
+      <DependentUpon>DT_Empleado.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Empleado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_Empleado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_Empleado.xss">
+      <DependentUpon>DT_Empleado.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Formula.xsc">
+      <DependentUpon>DT_Formula.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Formula.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_Formula.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_Formula.xss">
+      <DependentUpon>DT_Formula.xsd</DependentUpon>
+    </None>
+    <None Include="DT_MateriaPrima.xsc">
+      <DependentUpon>DT_MateriaPrima.xsd</DependentUpon>
+    </None>
+    <None Include="DT_MateriaPrima.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_MateriaPrima.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_MateriaPrima.xss">
+      <DependentUpon>DT_MateriaPrima.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Pedido.xsc">
+      <DependentUpon>DT_Pedido.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Pedido.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_Pedido.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_Pedido.xss">
+      <DependentUpon>DT_Pedido.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Produccion.xsc">
+      <DependentUpon>DT_Produccion.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Produccion.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_Produccion.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_Produccion.xss">
+      <DependentUpon>DT_Produccion.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Proveedor.xsc">
+      <DependentUpon>DT_Proveedor.xsd</DependentUpon>
+    </None>
+    <None Include="DT_Proveedor.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DT_Proveedor.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DT_Proveedor.xss">
+      <DependentUpon>DT_Proveedor.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rep_Cliente.xsc">
+      <DependentUpon>Rep_Cliente.xsd</DependentUpon>
+    </None>
+    <None Include="Rep_Cliente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Rep_Cliente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Rep_Cliente.xss">
+      <DependentUpon>Rep_Cliente.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

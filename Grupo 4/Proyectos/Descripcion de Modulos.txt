@@ -1,0 +1,19 @@
+Modulo de Seguridad: Rodrigo Miranda y Roberto Grave
+
+Modulo SIP_Administrativo:
+	Proveedores:	Jose Alejandro Ambrosio
+	Empleado y Cliente:	Cesar Flores
+
+Modulo Formula (pdFormula): Jose Ambrosio
+
+Modulo Materia Prima (Materia_Prima): Abner Rodas
+
+Modulo Produccion (Produccion): Roberto Grave
+
+Modulo Pedido (Pedidos): Rodrigo Miranda
+
+Modulo Codigo de Barras(cod_bar): Cesar Flores
+
+Modulo Reporteador (Reporteador_IS): Cesar Flores, Abner Rodas
+
+MDI (Produccion_IS): Todos.
