@@ -39,7 +39,6 @@
             this.spcContenedor = new System.Windows.Forms.SplitContainer();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovimientos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.VisorPDF)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.spcContenedor)).BeginInit();
             this.spcContenedor.Panel1.SuspendLayout();
             this.spcContenedor.Panel2.SuspendLayout();
             this.spcContenedor.SuspendLayout();
@@ -137,7 +136,7 @@
             // spcContenedor.Panel2
             // 
             this.spcContenedor.Panel2.Controls.Add(this.dgvMovimientos);
-            this.spcContenedor.Panel2MinSize = 475;
+            this.spcContenedor.Panel2MinSize = 146;
             this.spcContenedor.Size = new System.Drawing.Size(955, 300);
             this.spcContenedor.SplitterDistance = 475;
             this.spcContenedor.SplitterWidth = 5;
@@ -163,13 +162,13 @@
             this.Name = "wfProcesoConciBancaria";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Conciliar Movimientos Bancarios";
             this.Load += new System.EventHandler(this.wfProcesoConciBancaria_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMovimientos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.VisorPDF)).EndInit();
             this.spcContenedor.Panel1.ResumeLayout(false);
             this.spcContenedor.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.spcContenedor)).EndInit();
             this.spcContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

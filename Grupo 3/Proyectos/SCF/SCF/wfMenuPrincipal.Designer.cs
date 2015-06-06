@@ -32,11 +32,7 @@
             this.msBarraMenu = new System.Windows.Forms.MenuStrip();
             this.tsmiArchivo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiSalir = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiContable = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiFinanciero = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiParametros = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiAmortizaciones = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiDepreciaciones = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiEmpresas = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiImpuestos = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiMonedas = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,11 +59,21 @@
             this.tsslEmpresa = new System.Windows.Forms.ToolStripStatusLabel();
             this.tssllMoneda = new System.Windows.Forms.ToolStripStatusLabel();
             this.tsslMoneda = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btnCuentas = new System.Windows.Forms.Button();
-            this.btnC1_1 = new System.Windows.Forms.Button();
-            this.btnC1_2 = new System.Windows.Forms.Button();
-            this.pnlPanelContable = new System.Windows.Forms.Panel();
-            this.pboLogoEC1 = new System.Windows.Forms.PictureBox();
+            this.pnlPanelPrincipal = new System.Windows.Forms.Panel();
+            this.btnF3_3 = new System.Windows.Forms.Button();
+            this.btnF3_2 = new System.Windows.Forms.Button();
+            this.btnF3_1 = new System.Windows.Forms.Button();
+            this.btnOperacionesFinancieras = new System.Windows.Forms.Button();
+            this.btnF2_2 = new System.Windows.Forms.Button();
+            this.btnF2_1 = new System.Windows.Forms.Button();
+            this.btnMovimientosBancarios = new System.Windows.Forms.Button();
+            this.btnF1_1 = new System.Windows.Forms.Button();
+            this.btnInformesFinancieros = new System.Windows.Forms.Button();
+            this.pboEbriCenter = new System.Windows.Forms.PictureBox();
+            this.btnFinanciero = new System.Windows.Forms.Button();
+            this.btnC4_4 = new System.Windows.Forms.Button();
+            this.btnC4_3 = new System.Windows.Forms.Button();
+            this.btnC4_2 = new System.Windows.Forms.Button();
             this.btnC4_1 = new System.Windows.Forms.Button();
             this.btnOperacionesContables = new System.Windows.Forms.Button();
             this.btnC3_2 = new System.Windows.Forms.Button();
@@ -78,26 +84,11 @@
             this.btnC2_2 = new System.Windows.Forms.Button();
             this.btnC2_1 = new System.Windows.Forms.Button();
             this.btnInformesContables = new System.Windows.Forms.Button();
-            this.pnlPanelFinanciero = new System.Windows.Forms.Panel();
-            this.btnF3_3 = new System.Windows.Forms.Button();
-            this.btnF3_2 = new System.Windows.Forms.Button();
-            this.pboLogoEC2 = new System.Windows.Forms.PictureBox();
-            this.btnF3_1 = new System.Windows.Forms.Button();
-            this.btnOperacionesFinancieras = new System.Windows.Forms.Button();
-            this.btnF2_2 = new System.Windows.Forms.Button();
-            this.btnF2_1 = new System.Windows.Forms.Button();
-            this.btnMovimientosBancarios = new System.Windows.Forms.Button();
-            this.btnF1_2 = new System.Windows.Forms.Button();
-            this.btnF1_1 = new System.Windows.Forms.Button();
-            this.btnInformesFinancieros = new System.Windows.Forms.Button();
-            this.pnlPanelPrincipal = new System.Windows.Forms.Panel();
+            this.btnContable = new System.Windows.Forms.Button();
             this.msBarraMenu.SuspendLayout();
             this.ssBarraEstado.SuspendLayout();
-            this.pnlPanelContable.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogoEC1)).BeginInit();
-            this.pnlPanelFinanciero.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogoEC2)).BeginInit();
             this.pnlPanelPrincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboEbriCenter)).BeginInit();
             this.SuspendLayout();
             // 
             // msBarraMenu
@@ -107,8 +98,6 @@
             this.msBarraMenu.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msBarraMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmiArchivo,
-            this.tsmiContable,
-            this.tsmiFinanciero,
             this.tsmiParametros,
             this.tsmiSeguridad,
             this.tsmiVentanas,
@@ -139,27 +128,9 @@
             this.tsmiSalir.Text = "&Salir";
             this.tsmiSalir.Click += new System.EventHandler(this.tsmiSalir_Click);
             // 
-            // tsmiContable
-            // 
-            this.tsmiContable.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsmiContable.Name = "tsmiContable";
-            this.tsmiContable.Size = new System.Drawing.Size(81, 21);
-            this.tsmiContable.Text = "&CONTABLE";
-            this.tsmiContable.Click += new System.EventHandler(this.tsmiContable_Click);
-            // 
-            // tsmiFinanciero
-            // 
-            this.tsmiFinanciero.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tsmiFinanciero.Name = "tsmiFinanciero";
-            this.tsmiFinanciero.Size = new System.Drawing.Size(91, 21);
-            this.tsmiFinanciero.Text = "&FINANCIERO";
-            this.tsmiFinanciero.Click += new System.EventHandler(this.tsmiFinanciero_Click);
-            // 
             // tsmiParametros
             // 
             this.tsmiParametros.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiAmortizaciones,
-            this.tsmiDepreciaciones,
             this.tsmiEmpresas,
             this.tsmiImpuestos,
             this.tsmiMonedas});
@@ -167,38 +138,24 @@
             this.tsmiParametros.Size = new System.Drawing.Size(98, 21);
             this.tsmiParametros.Text = "&PARAMETROS";
             // 
-            // tsmiAmortizaciones
-            // 
-            this.tsmiAmortizaciones.Name = "tsmiAmortizaciones";
-            this.tsmiAmortizaciones.Size = new System.Drawing.Size(171, 22);
-            this.tsmiAmortizaciones.Text = "&Amortizaciones";
-            this.tsmiAmortizaciones.Click += new System.EventHandler(this.tsmiAmortizaciones_Click);
-            // 
-            // tsmiDepreciaciones
-            // 
-            this.tsmiDepreciaciones.Name = "tsmiDepreciaciones";
-            this.tsmiDepreciaciones.Size = new System.Drawing.Size(171, 22);
-            this.tsmiDepreciaciones.Text = "&Depreciaciones";
-            this.tsmiDepreciaciones.Click += new System.EventHandler(this.tsmiDepreciaciones_Click);
-            // 
             // tsmiEmpresas
             // 
             this.tsmiEmpresas.Name = "tsmiEmpresas";
-            this.tsmiEmpresas.Size = new System.Drawing.Size(171, 22);
+            this.tsmiEmpresas.Size = new System.Drawing.Size(136, 22);
             this.tsmiEmpresas.Text = "&Empresas";
             this.tsmiEmpresas.Click += new System.EventHandler(this.tsmiEmpresas_Click);
             // 
             // tsmiImpuestos
             // 
             this.tsmiImpuestos.Name = "tsmiImpuestos";
-            this.tsmiImpuestos.Size = new System.Drawing.Size(171, 22);
+            this.tsmiImpuestos.Size = new System.Drawing.Size(136, 22);
             this.tsmiImpuestos.Text = "&Impuestos";
             this.tsmiImpuestos.Click += new System.EventHandler(this.tsmiImpuestos_Click);
             // 
             // tsmiMonedas
             // 
             this.tsmiMonedas.Name = "tsmiMonedas";
-            this.tsmiMonedas.Size = new System.Drawing.Size(171, 22);
+            this.tsmiMonedas.Size = new System.Drawing.Size(136, 22);
             this.tsmiMonedas.Text = "&Monedas";
             this.tsmiMonedas.Click += new System.EventHandler(this.tsmiMonedas_Click);
             // 
@@ -295,18 +252,19 @@
             this.tsmiIndice.Image = ((System.Drawing.Image)(resources.GetObject("tsmiIndice.Image")));
             this.tsmiIndice.ImageTransparentColor = System.Drawing.Color.Black;
             this.tsmiIndice.Name = "tsmiIndice";
-            this.tsmiIndice.Size = new System.Drawing.Size(165, 22);
-            this.tsmiIndice.Text = "&Índice";
+            this.tsmiIndice.Size = new System.Drawing.Size(185, 22);
+            this.tsmiIndice.Text = "&Manual de Usuario";
+            this.tsmiIndice.Click += new System.EventHandler(this.tsmiIndice_Click);
             // 
             // tssSeparador3
             // 
             this.tssSeparador3.Name = "tssSeparador3";
-            this.tssSeparador3.Size = new System.Drawing.Size(162, 6);
+            this.tssSeparador3.Size = new System.Drawing.Size(182, 6);
             // 
             // tsmiAcercaDe
             // 
             this.tsmiAcercaDe.Name = "tsmiAcercaDe";
-            this.tsmiAcercaDe.Size = new System.Drawing.Size(165, 22);
+            this.tsmiAcercaDe.Size = new System.Drawing.Size(185, 22);
             this.tsmiAcercaDe.Text = "&Acerca de SCF";
             this.tsmiAcercaDe.Click += new System.EventHandler(this.tsmiAcercaDe_Click);
             // 
@@ -324,7 +282,7 @@
             this.tsslEmpresa,
             this.tssllMoneda,
             this.tsslMoneda});
-            this.ssBarraEstado.Location = new System.Drawing.Point(0, 741);
+            this.ssBarraEstado.Location = new System.Drawing.Point(0, 1021);
             this.ssBarraEstado.Name = "ssBarraEstado";
             this.ssBarraEstado.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
             this.ssBarraEstado.Size = new System.Drawing.Size(1008, 24);
@@ -399,275 +357,48 @@
             this.tsslMoneda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tsslMoneda.Click += new System.EventHandler(this.tsslMoneda_Click);
             // 
-            // btnCuentas
+            // pnlPanelPrincipal
             // 
-            this.btnCuentas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCuentas.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCuentas.Image = ((System.Drawing.Image)(resources.GetObject("btnCuentas.Image")));
-            this.btnCuentas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCuentas.Location = new System.Drawing.Point(0, 0);
-            this.btnCuentas.Name = "btnCuentas";
-            this.btnCuentas.Size = new System.Drawing.Size(200, 45);
-            this.btnCuentas.TabIndex = 0;
-            this.btnCuentas.Text = "          Cuentas";
-            this.btnCuentas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCuentas.UseVisualStyleBackColor = true;
-            this.btnCuentas.Click += new System.EventHandler(this.btnCuentas_Click);
-            // 
-            // btnC1_1
-            // 
-            this.btnC1_1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC1_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC1_1.Location = new System.Drawing.Point(0, 45);
-            this.btnC1_1.Name = "btnC1_1";
-            this.btnC1_1.Size = new System.Drawing.Size(200, 35);
-            this.btnC1_1.TabIndex = 1;
-            this.btnC1_1.Tag = "1";
-            this.btnC1_1.Text = "          Catálogo de cuentas";
-            this.btnC1_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC1_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC1_1.UseVisualStyleBackColor = true;
-            this.btnC1_1.Visible = false;
-            this.btnC1_1.Click += new System.EventHandler(this.btnC1_1_Click);
-            // 
-            // btnC1_2
-            // 
-            this.btnC1_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC1_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC1_2.Location = new System.Drawing.Point(0, 80);
-            this.btnC1_2.Name = "btnC1_2";
-            this.btnC1_2.Size = new System.Drawing.Size(200, 35);
-            this.btnC1_2.TabIndex = 2;
-            this.btnC1_2.Tag = "1";
-            this.btnC1_2.Text = "          Tipos de cuentas";
-            this.btnC1_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC1_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC1_2.UseVisualStyleBackColor = true;
-            this.btnC1_2.Visible = false;
-            this.btnC1_2.Click += new System.EventHandler(this.btnC1_2_Click);
-            // 
-            // pnlPanelContable
-            // 
-            this.pnlPanelContable.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pnlPanelContable.Controls.Add(this.pboLogoEC1);
-            this.pnlPanelContable.Controls.Add(this.btnC4_1);
-            this.pnlPanelContable.Controls.Add(this.btnOperacionesContables);
-            this.pnlPanelContable.Controls.Add(this.btnC3_2);
-            this.pnlPanelContable.Controls.Add(this.btnC3_1);
-            this.pnlPanelContable.Controls.Add(this.btnLibrosFiscales);
-            this.pnlPanelContable.Controls.Add(this.btnC2_4);
-            this.pnlPanelContable.Controls.Add(this.btnC2_3);
-            this.pnlPanelContable.Controls.Add(this.btnC2_2);
-            this.pnlPanelContable.Controls.Add(this.btnC2_1);
-            this.pnlPanelContable.Controls.Add(this.btnInformesContables);
-            this.pnlPanelContable.Controls.Add(this.btnC1_2);
-            this.pnlPanelContable.Controls.Add(this.btnC1_1);
-            this.pnlPanelContable.Controls.Add(this.btnCuentas);
-            this.pnlPanelContable.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlPanelContable.Location = new System.Drawing.Point(0, 0);
-            this.pnlPanelContable.Name = "pnlPanelContable";
-            this.pnlPanelContable.Size = new System.Drawing.Size(200, 330);
-            this.pnlPanelContable.TabIndex = 6;
-            this.pnlPanelContable.Visible = false;
-            // 
-            // pboLogoEC1
-            // 
-            this.pboLogoEC1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pboLogoEC1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pboLogoEC1.Image = ((System.Drawing.Image)(resources.GetObject("pboLogoEC1.Image")));
-            this.pboLogoEC1.Location = new System.Drawing.Point(0, 280);
-            this.pboLogoEC1.Name = "pboLogoEC1";
-            this.pboLogoEC1.Size = new System.Drawing.Size(200, 50);
-            this.pboLogoEC1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pboLogoEC1.TabIndex = 13;
-            this.pboLogoEC1.TabStop = false;
-            // 
-            // btnC4_1
-            // 
-            this.btnC4_1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC4_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC4_1.Location = new System.Drawing.Point(0, 460);
-            this.btnC4_1.Name = "btnC4_1";
-            this.btnC4_1.Size = new System.Drawing.Size(200, 35);
-            this.btnC4_1.TabIndex = 12;
-            this.btnC4_1.Tag = "4";
-            this.btnC4_1.Text = "          Polizas";
-            this.btnC4_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC4_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC4_1.UseVisualStyleBackColor = true;
-            this.btnC4_1.Visible = false;
-            this.btnC4_1.Click += new System.EventHandler(this.btnC4_1_Click);
-            // 
-            // btnOperacionesContables
-            // 
-            this.btnOperacionesContables.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOperacionesContables.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOperacionesContables.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacionesContables.Image")));
-            this.btnOperacionesContables.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOperacionesContables.Location = new System.Drawing.Point(0, 415);
-            this.btnOperacionesContables.Name = "btnOperacionesContables";
-            this.btnOperacionesContables.Size = new System.Drawing.Size(200, 45);
-            this.btnOperacionesContables.TabIndex = 11;
-            this.btnOperacionesContables.Text = "          Operaciones";
-            this.btnOperacionesContables.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOperacionesContables.UseVisualStyleBackColor = true;
-            this.btnOperacionesContables.Click += new System.EventHandler(this.btnOperacionesContables_Click);
-            // 
-            // btnC3_2
-            // 
-            this.btnC3_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC3_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC3_2.Location = new System.Drawing.Point(0, 380);
-            this.btnC3_2.Name = "btnC3_2";
-            this.btnC3_2.Size = new System.Drawing.Size(200, 35);
-            this.btnC3_2.TabIndex = 10;
-            this.btnC3_2.Tag = "3";
-            this.btnC3_2.Text = "          Ventas";
-            this.btnC3_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC3_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC3_2.UseVisualStyleBackColor = true;
-            this.btnC3_2.Visible = false;
-            this.btnC3_2.Click += new System.EventHandler(this.btnC3_2_Click);
-            // 
-            // btnC3_1
-            // 
-            this.btnC3_1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC3_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC3_1.Location = new System.Drawing.Point(0, 345);
-            this.btnC3_1.Name = "btnC3_1";
-            this.btnC3_1.Size = new System.Drawing.Size(200, 35);
-            this.btnC3_1.TabIndex = 9;
-            this.btnC3_1.Tag = "3";
-            this.btnC3_1.Text = "          Compras";
-            this.btnC3_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC3_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC3_1.UseVisualStyleBackColor = true;
-            this.btnC3_1.Visible = false;
-            this.btnC3_1.Click += new System.EventHandler(this.btnC3_1_Click);
-            // 
-            // btnLibrosFiscales
-            // 
-            this.btnLibrosFiscales.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLibrosFiscales.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLibrosFiscales.Image = ((System.Drawing.Image)(resources.GetObject("btnLibrosFiscales.Image")));
-            this.btnLibrosFiscales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLibrosFiscales.Location = new System.Drawing.Point(0, 300);
-            this.btnLibrosFiscales.Name = "btnLibrosFiscales";
-            this.btnLibrosFiscales.Size = new System.Drawing.Size(200, 45);
-            this.btnLibrosFiscales.TabIndex = 8;
-            this.btnLibrosFiscales.Text = "          Libros Fiscales";
-            this.btnLibrosFiscales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLibrosFiscales.UseVisualStyleBackColor = true;
-            this.btnLibrosFiscales.Click += new System.EventHandler(this.btnLibrosFiscales_Click);
-            // 
-            // btnC2_4
-            // 
-            this.btnC2_4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC2_4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC2_4.Location = new System.Drawing.Point(0, 265);
-            this.btnC2_4.Name = "btnC2_4";
-            this.btnC2_4.Size = new System.Drawing.Size(200, 35);
-            this.btnC2_4.TabIndex = 7;
-            this.btnC2_4.Tag = "2";
-            this.btnC2_4.Text = "          Flujo de efectivo";
-            this.btnC2_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC2_4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC2_4.UseVisualStyleBackColor = true;
-            this.btnC2_4.Visible = false;
-            this.btnC2_4.Click += new System.EventHandler(this.btnC2_4_Click);
-            // 
-            // btnC2_3
-            // 
-            this.btnC2_3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC2_3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC2_3.Location = new System.Drawing.Point(0, 230);
-            this.btnC2_3.Name = "btnC2_3";
-            this.btnC2_3.Size = new System.Drawing.Size(200, 35);
-            this.btnC2_3.TabIndex = 6;
-            this.btnC2_3.Tag = "2";
-            this.btnC2_3.Text = "          Estado de resultados";
-            this.btnC2_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC2_3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC2_3.UseVisualStyleBackColor = true;
-            this.btnC2_3.Visible = false;
-            this.btnC2_3.Click += new System.EventHandler(this.btnC2_3_Click);
-            // 
-            // btnC2_2
-            // 
-            this.btnC2_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC2_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC2_2.Location = new System.Drawing.Point(0, 195);
-            this.btnC2_2.Name = "btnC2_2";
-            this.btnC2_2.Size = new System.Drawing.Size(200, 35);
-            this.btnC2_2.TabIndex = 5;
-            this.btnC2_2.Tag = "2";
-            this.btnC2_2.Text = "          Balance general";
-            this.btnC2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC2_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC2_2.UseVisualStyleBackColor = true;
-            this.btnC2_2.Visible = false;
-            this.btnC2_2.Click += new System.EventHandler(this.btnC2_2_Click);
-            // 
-            // btnC2_1
-            // 
-            this.btnC2_1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnC2_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnC2_1.Location = new System.Drawing.Point(0, 160);
-            this.btnC2_1.Name = "btnC2_1";
-            this.btnC2_1.Size = new System.Drawing.Size(200, 35);
-            this.btnC2_1.TabIndex = 4;
-            this.btnC2_1.Tag = "2";
-            this.btnC2_1.Text = "          Balance de saldos";
-            this.btnC2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnC2_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnC2_1.UseVisualStyleBackColor = true;
-            this.btnC2_1.Visible = false;
-            this.btnC2_1.Click += new System.EventHandler(this.btnC2_1_Click);
-            // 
-            // btnInformesContables
-            // 
-            this.btnInformesContables.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnInformesContables.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInformesContables.Image = ((System.Drawing.Image)(resources.GetObject("btnInformesContables.Image")));
-            this.btnInformesContables.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInformesContables.Location = new System.Drawing.Point(0, 115);
-            this.btnInformesContables.Name = "btnInformesContables";
-            this.btnInformesContables.Size = new System.Drawing.Size(200, 45);
-            this.btnInformesContables.TabIndex = 3;
-            this.btnInformesContables.Text = "          Informes Contables";
-            this.btnInformesContables.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInformesContables.UseVisualStyleBackColor = true;
-            this.btnInformesContables.Click += new System.EventHandler(this.btnInformesContables_Click);
-            // 
-            // pnlPanelFinanciero
-            // 
-            this.pnlPanelFinanciero.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.pnlPanelFinanciero.Controls.Add(this.btnF3_3);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF3_2);
-            this.pnlPanelFinanciero.Controls.Add(this.pboLogoEC2);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF3_1);
-            this.pnlPanelFinanciero.Controls.Add(this.btnOperacionesFinancieras);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF2_2);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF2_1);
-            this.pnlPanelFinanciero.Controls.Add(this.btnMovimientosBancarios);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF1_2);
-            this.pnlPanelFinanciero.Controls.Add(this.btnF1_1);
-            this.pnlPanelFinanciero.Controls.Add(this.btnInformesFinancieros);
-            this.pnlPanelFinanciero.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlPanelFinanciero.Location = new System.Drawing.Point(0, 336);
-            this.pnlPanelFinanciero.Name = "pnlPanelFinanciero";
-            this.pnlPanelFinanciero.Size = new System.Drawing.Size(200, 380);
-            this.pnlPanelFinanciero.TabIndex = 8;
-            this.pnlPanelFinanciero.Visible = false;
+            this.pnlPanelPrincipal.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pnlPanelPrincipal.Controls.Add(this.btnF3_3);
+            this.pnlPanelPrincipal.Controls.Add(this.btnF3_2);
+            this.pnlPanelPrincipal.Controls.Add(this.btnF3_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnOperacionesFinancieras);
+            this.pnlPanelPrincipal.Controls.Add(this.btnF2_2);
+            this.pnlPanelPrincipal.Controls.Add(this.btnF2_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnMovimientosBancarios);
+            this.pnlPanelPrincipal.Controls.Add(this.btnF1_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnInformesFinancieros);
+            this.pnlPanelPrincipal.Controls.Add(this.pboEbriCenter);
+            this.pnlPanelPrincipal.Controls.Add(this.btnFinanciero);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC4_4);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC4_3);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC4_2);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC4_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnOperacionesContables);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC3_2);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC3_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnLibrosFiscales);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC2_4);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC2_3);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC2_2);
+            this.pnlPanelPrincipal.Controls.Add(this.btnC2_1);
+            this.pnlPanelPrincipal.Controls.Add(this.btnInformesContables);
+            this.pnlPanelPrincipal.Controls.Add(this.btnContable);
+            this.pnlPanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlPanelPrincipal.Location = new System.Drawing.Point(0, 25);
+            this.pnlPanelPrincipal.Name = "pnlPanelPrincipal";
+            this.pnlPanelPrincipal.Size = new System.Drawing.Size(200, 996);
+            this.pnlPanelPrincipal.TabIndex = 15;
             // 
             // btnF3_3
             // 
             this.btnF3_3.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF3_3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF3_3.Location = new System.Drawing.Point(0, 345);
+            this.btnF3_3.Location = new System.Drawing.Point(0, 935);
             this.btnF3_3.Name = "btnF3_3";
             this.btnF3_3.Size = new System.Drawing.Size(200, 35);
-            this.btnF3_3.TabIndex = 27;
+            this.btnF3_3.TabIndex = 39;
             this.btnF3_3.Tag = "3";
             this.btnF3_3.Text = "          Estados de Cuenta";
             this.btnF3_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -680,10 +411,10 @@
             // 
             this.btnF3_2.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF3_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF3_2.Location = new System.Drawing.Point(0, 310);
+            this.btnF3_2.Location = new System.Drawing.Point(0, 900);
             this.btnF3_2.Name = "btnF3_2";
             this.btnF3_2.Size = new System.Drawing.Size(200, 35);
-            this.btnF3_2.TabIndex = 26;
+            this.btnF3_2.TabIndex = 38;
             this.btnF3_2.Tag = "3";
             this.btnF3_2.Text = "          Cuentas Bancarias";
             this.btnF3_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -692,25 +423,14 @@
             this.btnF3_2.Visible = false;
             this.btnF3_2.Click += new System.EventHandler(this.btnF3_2_Click);
             // 
-            // pboLogoEC2
-            // 
-            this.pboLogoEC2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pboLogoEC2.Image = ((System.Drawing.Image)(resources.GetObject("pboLogoEC2.Image")));
-            this.pboLogoEC2.Location = new System.Drawing.Point(0, 330);
-            this.pboLogoEC2.Name = "pboLogoEC2";
-            this.pboLogoEC2.Size = new System.Drawing.Size(200, 50);
-            this.pboLogoEC2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pboLogoEC2.TabIndex = 25;
-            this.pboLogoEC2.TabStop = false;
-            // 
             // btnF3_1
             // 
             this.btnF3_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF3_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF3_1.Location = new System.Drawing.Point(0, 275);
+            this.btnF3_1.Location = new System.Drawing.Point(0, 865);
             this.btnF3_1.Name = "btnF3_1";
             this.btnF3_1.Size = new System.Drawing.Size(200, 35);
-            this.btnF3_1.TabIndex = 24;
+            this.btnF3_1.TabIndex = 37;
             this.btnF3_1.Tag = "3";
             this.btnF3_1.Text = "          Conciliación Bancaria";
             this.btnF3_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -725,10 +445,10 @@
             this.btnOperacionesFinancieras.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOperacionesFinancieras.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacionesFinancieras.Image")));
             this.btnOperacionesFinancieras.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOperacionesFinancieras.Location = new System.Drawing.Point(0, 230);
+            this.btnOperacionesFinancieras.Location = new System.Drawing.Point(0, 820);
             this.btnOperacionesFinancieras.Name = "btnOperacionesFinancieras";
             this.btnOperacionesFinancieras.Size = new System.Drawing.Size(200, 45);
-            this.btnOperacionesFinancieras.TabIndex = 23;
+            this.btnOperacionesFinancieras.TabIndex = 36;
             this.btnOperacionesFinancieras.Text = "          Operaciones";
             this.btnOperacionesFinancieras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOperacionesFinancieras.UseVisualStyleBackColor = true;
@@ -738,10 +458,10 @@
             // 
             this.btnF2_2.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF2_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF2_2.Location = new System.Drawing.Point(0, 195);
+            this.btnF2_2.Location = new System.Drawing.Point(0, 785);
             this.btnF2_2.Name = "btnF2_2";
             this.btnF2_2.Size = new System.Drawing.Size(200, 35);
-            this.btnF2_2.TabIndex = 19;
+            this.btnF2_2.TabIndex = 35;
             this.btnF2_2.Tag = "2";
             this.btnF2_2.Text = "          Tipo de Movimiento";
             this.btnF2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -754,10 +474,10 @@
             // 
             this.btnF2_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF2_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF2_1.Location = new System.Drawing.Point(0, 160);
+            this.btnF2_1.Location = new System.Drawing.Point(0, 750);
             this.btnF2_1.Name = "btnF2_1";
             this.btnF2_1.Size = new System.Drawing.Size(200, 35);
-            this.btnF2_1.TabIndex = 18;
+            this.btnF2_1.TabIndex = 34;
             this.btnF2_1.Tag = "2";
             this.btnF2_1.Text = "          Movimientos";
             this.btnF2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -772,41 +492,25 @@
             this.btnMovimientosBancarios.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMovimientosBancarios.Image = ((System.Drawing.Image)(resources.GetObject("btnMovimientosBancarios.Image")));
             this.btnMovimientosBancarios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnMovimientosBancarios.Location = new System.Drawing.Point(0, 115);
+            this.btnMovimientosBancarios.Location = new System.Drawing.Point(0, 705);
             this.btnMovimientosBancarios.Name = "btnMovimientosBancarios";
             this.btnMovimientosBancarios.Size = new System.Drawing.Size(200, 45);
-            this.btnMovimientosBancarios.TabIndex = 17;
+            this.btnMovimientosBancarios.TabIndex = 33;
             this.btnMovimientosBancarios.Text = "          Movimientos Bancarios";
             this.btnMovimientosBancarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMovimientosBancarios.UseVisualStyleBackColor = true;
             this.btnMovimientosBancarios.Click += new System.EventHandler(this.btnMovimientosBancarios_Click);
             // 
-            // btnF1_2
-            // 
-            this.btnF1_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnF1_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF1_2.Location = new System.Drawing.Point(0, 80);
-            this.btnF1_2.Name = "btnF1_2";
-            this.btnF1_2.Size = new System.Drawing.Size(200, 35);
-            this.btnF1_2.TabIndex = 15;
-            this.btnF1_2.Tag = "1";
-            this.btnF1_2.Text = "          Movimientos Bancarios";
-            this.btnF1_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnF1_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnF1_2.UseVisualStyleBackColor = true;
-            this.btnF1_2.Visible = false;
-            this.btnF1_2.Click += new System.EventHandler(this.btnF1_2_Click);
-            // 
             // btnF1_1
             // 
             this.btnF1_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnF1_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnF1_1.Location = new System.Drawing.Point(0, 45);
+            this.btnF1_1.Location = new System.Drawing.Point(0, 670);
             this.btnF1_1.Name = "btnF1_1";
             this.btnF1_1.Size = new System.Drawing.Size(200, 35);
-            this.btnF1_1.TabIndex = 14;
+            this.btnF1_1.TabIndex = 32;
             this.btnF1_1.Tag = "1";
-            this.btnF1_1.Text = "          Conciliación Bancaria";
+            this.btnF1_1.Text = "          Conciliaciones Bancarias";
             this.btnF1_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnF1_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnF1_1.UseVisualStyleBackColor = true;
@@ -819,31 +523,266 @@
             this.btnInformesFinancieros.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInformesFinancieros.Image = ((System.Drawing.Image)(resources.GetObject("btnInformesFinancieros.Image")));
             this.btnInformesFinancieros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInformesFinancieros.Location = new System.Drawing.Point(0, 0);
+            this.btnInformesFinancieros.Location = new System.Drawing.Point(0, 625);
             this.btnInformesFinancieros.Name = "btnInformesFinancieros";
             this.btnInformesFinancieros.Size = new System.Drawing.Size(200, 45);
-            this.btnInformesFinancieros.TabIndex = 13;
+            this.btnInformesFinancieros.TabIndex = 31;
             this.btnInformesFinancieros.Text = "          Informes Financieros";
             this.btnInformesFinancieros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInformesFinancieros.UseVisualStyleBackColor = true;
             this.btnInformesFinancieros.Click += new System.EventHandler(this.btnInformesFinancieros_Click);
             // 
-            // pnlPanelPrincipal
+            // pboEbriCenter
             // 
-            this.pnlPanelPrincipal.Controls.Add(this.pnlPanelContable);
-            this.pnlPanelPrincipal.Controls.Add(this.pnlPanelFinanciero);
-            this.pnlPanelPrincipal.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlPanelPrincipal.Location = new System.Drawing.Point(0, 25);
-            this.pnlPanelPrincipal.Name = "pnlPanelPrincipal";
-            this.pnlPanelPrincipal.Size = new System.Drawing.Size(200, 716);
-            this.pnlPanelPrincipal.TabIndex = 10;
+            this.pboEbriCenter.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pboEbriCenter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pboEbriCenter.Image = ((System.Drawing.Image)(resources.GetObject("pboEbriCenter.Image")));
+            this.pboEbriCenter.Location = new System.Drawing.Point(0, 946);
+            this.pboEbriCenter.Name = "pboEbriCenter";
+            this.pboEbriCenter.Size = new System.Drawing.Size(200, 50);
+            this.pboEbriCenter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboEbriCenter.TabIndex = 30;
+            this.pboEbriCenter.TabStop = false;
+            // 
+            // btnFinanciero
+            // 
+            this.btnFinanciero.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnFinanciero.Enabled = false;
+            this.btnFinanciero.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnFinanciero.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFinanciero.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFinanciero.Location = new System.Drawing.Point(0, 555);
+            this.btnFinanciero.Name = "btnFinanciero";
+            this.btnFinanciero.Size = new System.Drawing.Size(200, 70);
+            this.btnFinanciero.TabIndex = 29;
+            this.btnFinanciero.Text = "FINANCIERO";
+            this.btnFinanciero.UseVisualStyleBackColor = true;
+            // 
+            // btnC4_4
+            // 
+            this.btnC4_4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC4_4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC4_4.Location = new System.Drawing.Point(0, 520);
+            this.btnC4_4.Name = "btnC4_4";
+            this.btnC4_4.Size = new System.Drawing.Size(200, 35);
+            this.btnC4_4.TabIndex = 28;
+            this.btnC4_4.Tag = "4";
+            this.btnC4_4.Text = "          Polizas";
+            this.btnC4_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC4_4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC4_4.UseVisualStyleBackColor = true;
+            this.btnC4_4.Visible = false;
+            this.btnC4_4.Click += new System.EventHandler(this.btnC4_4_Click);
+            // 
+            // btnC4_3
+            // 
+            this.btnC4_3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC4_3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC4_3.Location = new System.Drawing.Point(0, 485);
+            this.btnC4_3.Name = "btnC4_3";
+            this.btnC4_3.Size = new System.Drawing.Size(200, 35);
+            this.btnC4_3.TabIndex = 27;
+            this.btnC4_3.Tag = "4";
+            this.btnC4_3.Text = "          Depreciaciones";
+            this.btnC4_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC4_3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC4_3.UseVisualStyleBackColor = true;
+            this.btnC4_3.Visible = false;
+            this.btnC4_3.Click += new System.EventHandler(this.btnC4_3_Click);
+            // 
+            // btnC4_2
+            // 
+            this.btnC4_2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC4_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC4_2.Location = new System.Drawing.Point(0, 450);
+            this.btnC4_2.Name = "btnC4_2";
+            this.btnC4_2.Size = new System.Drawing.Size(200, 35);
+            this.btnC4_2.TabIndex = 26;
+            this.btnC4_2.Tag = "4";
+            this.btnC4_2.Text = "          Cuentas";
+            this.btnC4_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC4_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC4_2.UseVisualStyleBackColor = true;
+            this.btnC4_2.Visible = false;
+            this.btnC4_2.Click += new System.EventHandler(this.btnC4_2_Click);
+            // 
+            // btnC4_1
+            // 
+            this.btnC4_1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC4_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC4_1.Location = new System.Drawing.Point(0, 415);
+            this.btnC4_1.Name = "btnC4_1";
+            this.btnC4_1.Size = new System.Drawing.Size(200, 35);
+            this.btnC4_1.TabIndex = 25;
+            this.btnC4_1.Tag = "4";
+            this.btnC4_1.Text = "          Amortizaciones";
+            this.btnC4_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC4_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC4_1.UseVisualStyleBackColor = true;
+            this.btnC4_1.Visible = false;
+            this.btnC4_1.Click += new System.EventHandler(this.btnC4_1_Click);
+            // 
+            // btnOperacionesContables
+            // 
+            this.btnOperacionesContables.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnOperacionesContables.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOperacionesContables.Image = ((System.Drawing.Image)(resources.GetObject("btnOperacionesContables.Image")));
+            this.btnOperacionesContables.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOperacionesContables.Location = new System.Drawing.Point(0, 370);
+            this.btnOperacionesContables.Name = "btnOperacionesContables";
+            this.btnOperacionesContables.Size = new System.Drawing.Size(200, 45);
+            this.btnOperacionesContables.TabIndex = 24;
+            this.btnOperacionesContables.Text = "          Operaciones Contables";
+            this.btnOperacionesContables.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOperacionesContables.UseVisualStyleBackColor = true;
+            this.btnOperacionesContables.Click += new System.EventHandler(this.btnOperacionesContables_Click);
+            // 
+            // btnC3_2
+            // 
+            this.btnC3_2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC3_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC3_2.Location = new System.Drawing.Point(0, 335);
+            this.btnC3_2.Name = "btnC3_2";
+            this.btnC3_2.Size = new System.Drawing.Size(200, 35);
+            this.btnC3_2.TabIndex = 23;
+            this.btnC3_2.Tag = "3";
+            this.btnC3_2.Text = "          Ventas";
+            this.btnC3_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC3_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC3_2.UseVisualStyleBackColor = true;
+            this.btnC3_2.Visible = false;
+            this.btnC3_2.Click += new System.EventHandler(this.btnC3_2_Click);
+            // 
+            // btnC3_1
+            // 
+            this.btnC3_1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC3_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC3_1.Location = new System.Drawing.Point(0, 300);
+            this.btnC3_1.Name = "btnC3_1";
+            this.btnC3_1.Size = new System.Drawing.Size(200, 35);
+            this.btnC3_1.TabIndex = 22;
+            this.btnC3_1.Tag = "3";
+            this.btnC3_1.Text = "          Compras";
+            this.btnC3_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC3_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC3_1.UseVisualStyleBackColor = true;
+            this.btnC3_1.Visible = false;
+            this.btnC3_1.Click += new System.EventHandler(this.btnC3_1_Click);
+            // 
+            // btnLibrosFiscales
+            // 
+            this.btnLibrosFiscales.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLibrosFiscales.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLibrosFiscales.Image = ((System.Drawing.Image)(resources.GetObject("btnLibrosFiscales.Image")));
+            this.btnLibrosFiscales.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLibrosFiscales.Location = new System.Drawing.Point(0, 255);
+            this.btnLibrosFiscales.Name = "btnLibrosFiscales";
+            this.btnLibrosFiscales.Size = new System.Drawing.Size(200, 45);
+            this.btnLibrosFiscales.TabIndex = 21;
+            this.btnLibrosFiscales.Text = "          Libros Fiscales";
+            this.btnLibrosFiscales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLibrosFiscales.UseVisualStyleBackColor = true;
+            this.btnLibrosFiscales.Click += new System.EventHandler(this.btnLibrosFiscales_Click);
+            // 
+            // btnC2_4
+            // 
+            this.btnC2_4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC2_4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC2_4.Location = new System.Drawing.Point(0, 220);
+            this.btnC2_4.Name = "btnC2_4";
+            this.btnC2_4.Size = new System.Drawing.Size(200, 35);
+            this.btnC2_4.TabIndex = 20;
+            this.btnC2_4.Tag = "2";
+            this.btnC2_4.Text = "          Flujo de efectivo";
+            this.btnC2_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC2_4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC2_4.UseVisualStyleBackColor = true;
+            this.btnC2_4.Visible = false;
+            this.btnC2_4.Click += new System.EventHandler(this.btnC2_4_Click);
+            // 
+            // btnC2_3
+            // 
+            this.btnC2_3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC2_3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC2_3.Location = new System.Drawing.Point(0, 185);
+            this.btnC2_3.Name = "btnC2_3";
+            this.btnC2_3.Size = new System.Drawing.Size(200, 35);
+            this.btnC2_3.TabIndex = 19;
+            this.btnC2_3.Tag = "2";
+            this.btnC2_3.Text = "          Estado de resultados";
+            this.btnC2_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC2_3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC2_3.UseVisualStyleBackColor = true;
+            this.btnC2_3.Visible = false;
+            this.btnC2_3.Click += new System.EventHandler(this.btnC2_3_Click);
+            // 
+            // btnC2_2
+            // 
+            this.btnC2_2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC2_2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC2_2.Location = new System.Drawing.Point(0, 150);
+            this.btnC2_2.Name = "btnC2_2";
+            this.btnC2_2.Size = new System.Drawing.Size(200, 35);
+            this.btnC2_2.TabIndex = 18;
+            this.btnC2_2.Tag = "2";
+            this.btnC2_2.Text = "          Balance general";
+            this.btnC2_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC2_2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC2_2.UseVisualStyleBackColor = true;
+            this.btnC2_2.Visible = false;
+            this.btnC2_2.Click += new System.EventHandler(this.btnC2_2_Click);
+            // 
+            // btnC2_1
+            // 
+            this.btnC2_1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnC2_1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnC2_1.Location = new System.Drawing.Point(0, 115);
+            this.btnC2_1.Name = "btnC2_1";
+            this.btnC2_1.Size = new System.Drawing.Size(200, 35);
+            this.btnC2_1.TabIndex = 17;
+            this.btnC2_1.Tag = "2";
+            this.btnC2_1.Text = "          Balance de saldos";
+            this.btnC2_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnC2_1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnC2_1.UseVisualStyleBackColor = true;
+            this.btnC2_1.Visible = false;
+            this.btnC2_1.Click += new System.EventHandler(this.btnC2_1_Click);
+            // 
+            // btnInformesContables
+            // 
+            this.btnInformesContables.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnInformesContables.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInformesContables.Image = ((System.Drawing.Image)(resources.GetObject("btnInformesContables.Image")));
+            this.btnInformesContables.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInformesContables.Location = new System.Drawing.Point(0, 70);
+            this.btnInformesContables.Name = "btnInformesContables";
+            this.btnInformesContables.Size = new System.Drawing.Size(200, 45);
+            this.btnInformesContables.TabIndex = 16;
+            this.btnInformesContables.Text = "          Informes Contables";
+            this.btnInformesContables.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnInformesContables.UseVisualStyleBackColor = true;
+            this.btnInformesContables.Click += new System.EventHandler(this.btnInformesContables_Click);
+            // 
+            // btnContable
+            // 
+            this.btnContable.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnContable.Enabled = false;
+            this.btnContable.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnContable.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContable.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnContable.Location = new System.Drawing.Point(0, 0);
+            this.btnContable.Name = "btnContable";
+            this.btnContable.Size = new System.Drawing.Size(200, 70);
+            this.btnContable.TabIndex = 15;
+            this.btnContable.Text = "CONTABLE";
+            this.btnContable.UseVisualStyleBackColor = true;
             // 
             // wfMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1008, 765);
+            this.ClientSize = new System.Drawing.Size(1008, 1045);
             this.Controls.Add(this.pnlPanelPrincipal);
             this.Controls.Add(this.ssBarraEstado);
             this.Controls.Add(this.msBarraMenu);
@@ -862,11 +801,8 @@
             this.msBarraMenu.PerformLayout();
             this.ssBarraEstado.ResumeLayout(false);
             this.ssBarraEstado.PerformLayout();
-            this.pnlPanelContable.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogoEC1)).EndInit();
-            this.pnlPanelFinanciero.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pboLogoEC2)).EndInit();
             this.pnlPanelPrincipal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pboEbriCenter)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -887,11 +823,27 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiArchivo;
         private System.Windows.Forms.ToolStripMenuItem tsmiSalir;
         private System.Windows.Forms.ToolStripSeparator tssSeparador2;
-        private System.Windows.Forms.Button btnCuentas;
-        private System.Windows.Forms.Button btnC1_1;
-        private System.Windows.Forms.Button btnC1_2;
-        private System.Windows.Forms.Panel pnlPanelContable;
         private System.Windows.Forms.ToolStripStatusLabel tsslUsuario;
+        private System.Windows.Forms.ToolStripStatusLabel tsslEmpresa;
+        private System.Windows.Forms.ToolStripStatusLabel tsslPerfil;
+        private System.Windows.Forms.ToolStripStatusLabel tsslMoneda;
+        private System.Windows.Forms.ToolStripStatusLabel tssllPerfil;
+        private System.Windows.Forms.ToolStripStatusLabel tssllUsuario;
+        private System.Windows.Forms.ToolStripStatusLabel tssllEmpresa;
+        private System.Windows.Forms.ToolStripStatusLabel tssllMoneda;
+        private System.Windows.Forms.ToolStripMenuItem tsmiSeguridad;
+        private System.Windows.Forms.ToolStripMenuItem tsmiBitacora;
+        private System.Windows.Forms.ToolStripMenuItem tsmiUsuarios;
+        private System.Windows.Forms.ToolStripMenuItem tsmiPerfiles;
+        private System.Windows.Forms.ToolStripMenuItem tsmiParametros;
+        private System.Windows.Forms.ToolStripMenuItem tsmiEmpresas;
+        private System.Windows.Forms.ToolStripMenuItem tsmiImpuestos;
+        private System.Windows.Forms.ToolStripMenuItem tsmiMonedas;
+        private System.Windows.Forms.Panel pnlPanelPrincipal;
+        private System.Windows.Forms.Button btnFinanciero;
+        private System.Windows.Forms.Button btnC4_4;
+        private System.Windows.Forms.Button btnC4_3;
+        private System.Windows.Forms.Button btnC4_2;
         private System.Windows.Forms.Button btnC4_1;
         private System.Windows.Forms.Button btnOperacionesContables;
         private System.Windows.Forms.Button btnC3_2;
@@ -902,39 +854,17 @@
         private System.Windows.Forms.Button btnC2_2;
         private System.Windows.Forms.Button btnC2_1;
         private System.Windows.Forms.Button btnInformesContables;
-        private System.Windows.Forms.ToolStripMenuItem tsmiFinanciero;
-        private System.Windows.Forms.ToolStripMenuItem tsmiContable;
-        private System.Windows.Forms.ToolStripStatusLabel tsslEmpresa;
-        private System.Windows.Forms.ToolStripStatusLabel tsslPerfil;
-        private System.Windows.Forms.ToolStripStatusLabel tsslMoneda;
-        private System.Windows.Forms.ToolStripStatusLabel tssllPerfil;
-        private System.Windows.Forms.ToolStripStatusLabel tssllUsuario;
-        private System.Windows.Forms.ToolStripStatusLabel tssllEmpresa;
-        private System.Windows.Forms.ToolStripStatusLabel tssllMoneda;
-        private System.Windows.Forms.Panel pnlPanelFinanciero;
-        private System.Windows.Forms.ToolStripMenuItem tsmiSeguridad;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBitacora;
-        private System.Windows.Forms.ToolStripMenuItem tsmiUsuarios;
-        private System.Windows.Forms.ToolStripMenuItem tsmiPerfiles;
-        private System.Windows.Forms.ToolStripMenuItem tsmiParametros;
-        private System.Windows.Forms.ToolStripMenuItem tsmiAmortizaciones;
-        private System.Windows.Forms.ToolStripMenuItem tsmiDepreciaciones;
-        private System.Windows.Forms.ToolStripMenuItem tsmiEmpresas;
-        private System.Windows.Forms.ToolStripMenuItem tsmiImpuestos;
-        private System.Windows.Forms.ToolStripMenuItem tsmiMonedas;
-        private System.Windows.Forms.Button btnF1_1;
-        private System.Windows.Forms.Button btnInformesFinancieros;
-        private System.Windows.Forms.Button btnMovimientosBancarios;
-        private System.Windows.Forms.Button btnF2_1;
+        private System.Windows.Forms.Button btnContable;
+        private System.Windows.Forms.PictureBox pboEbriCenter;
+        private System.Windows.Forms.Button btnF3_3;
+        private System.Windows.Forms.Button btnF3_2;
         private System.Windows.Forms.Button btnF3_1;
         private System.Windows.Forms.Button btnOperacionesFinancieras;
         private System.Windows.Forms.Button btnF2_2;
-        private System.Windows.Forms.PictureBox pboLogoEC1;
-        private System.Windows.Forms.PictureBox pboLogoEC2;
-        private System.Windows.Forms.Panel pnlPanelPrincipal;
-        private System.Windows.Forms.Button btnF1_2;
-        private System.Windows.Forms.Button btnF3_2;
-        private System.Windows.Forms.Button btnF3_3;
+        private System.Windows.Forms.Button btnF2_1;
+        private System.Windows.Forms.Button btnMovimientosBancarios;
+        private System.Windows.Forms.Button btnF1_1;
+        private System.Windows.Forms.Button btnInformesFinancieros;
     }
 }
 

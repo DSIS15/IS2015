@@ -1,0 +1,34 @@
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.dll.config
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.dll
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.pdb
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.csprojResolveAssemblyReference.cache
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.dll
+c:\users\anthony\documents\visual studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.pdb
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.dll.config
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.dll
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\bin\SCFWS.pdb
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.csprojResolveAssemblyReference.cache
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.dll
+C:\Users\DANY\Documents\Visual Studio 2013\Projects\SCFWS\SCFWS\obj\Debug\SCFWS.pdb
+E:\SCFWS(ASPX)\SCFWS\SCFWS\bin\SCFWS.dll.config
+E:\SCFWS(ASPX)\SCFWS\SCFWS\bin\SCFWS.dll
+E:\SCFWS(ASPX)\SCFWS\SCFWS\bin\SCFWS.pdb
+E:\SCFWS(ASPX)\SCFWS\SCFWS\obj\Debug\SCFWS.csprojResolveAssemblyReference.cache
+E:\SCFWS(ASPX)\SCFWS\SCFWS\obj\Debug\SCFWS.dll
+E:\SCFWS(ASPX)\SCFWS\SCFWS\obj\Debug\SCFWS.pdb
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\bin\SCFWS.dll.config
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\bin\SCFWS.dll
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\bin\SCFWS.pdb
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\obj\Debug\SCFWS.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\obj\Debug\SCFWS.dll
+C:\Users\Anthony\Desktop\SCFWS\SCFWS\obj\Debug\SCFWS.pdb
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\SCFWS.dll.config
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\SCFWS.dll
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\SCFWS.pdb
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\Capas.dll
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\ODBCconnector.dll
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\Capas.pdb
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\bin\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\obj\Debug\SCFWS.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\obj\Debug\SCFWS.dll
+C:\Users\Anthony\Desktop\WebService\SCFWS\SCFWS\obj\Debug\SCFWS.pdb

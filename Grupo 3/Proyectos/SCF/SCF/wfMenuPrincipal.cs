@@ -2,10 +2,10 @@
 using System.Collections;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace SCF
@@ -25,16 +25,17 @@ namespace SCF
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            alPestanasContables.Add(btnC1_2);
-            alPestanasContables.Add(btnC1_1);
+            this.Height = 780;
             alPestanasContables.Add(btnC2_4);
             alPestanasContables.Add(btnC2_3);
             alPestanasContables.Add(btnC2_2);
             alPestanasContables.Add(btnC2_1);
             alPestanasContables.Add(btnC3_2);
             alPestanasContables.Add(btnC3_1);
+            alPestanasContables.Add(btnC4_4);
+            alPestanasContables.Add(btnC4_3);
+            alPestanasContables.Add(btnC4_2);
             alPestanasContables.Add(btnC4_1);
-            alPestanasFinancieras.Add(btnF1_2);
             alPestanasFinancieras.Add(btnF1_1);
             alPestanasFinancieras.Add(btnF2_2);
             alPestanasFinancieras.Add(btnF2_1);
@@ -46,7 +47,8 @@ namespace SCF
             Logotipo.Show();
             tsslUsuario.Text = Capas.csParametros.AlUsuario[2].ToString();
             tsslPerfil.Text = Capas.csParametros.AlUsuario[3].ToString();
-            tsmiContable_Click(this, e);
+            vAbrirTabs(0, alPestanasContables);
+            vAbrirTabs(0, alPestanasFinancieras);
             tssllEmpresa_Click(this, e);
             tssllMoneda_Click(this, e);
             ODBCconnector.csBitacora.vRegistarEnBitacora("Inicio de sesión");
@@ -59,6 +61,7 @@ namespace SCF
             if (frmValidacion == null)
             {
                 frmFormulario.MdiParent = this;
+                frmFormulario.StartPosition = FormStartPosition.CenterScreen;
                 frmFormulario.Show();
             }
         }
@@ -142,22 +145,6 @@ namespace SCF
             wfAcercaDe AcercaDe = new wfAcercaDe();
             AcercaDe.ShowDialog();
         }
-                
-        private void tsmiContable_Click(object sender, EventArgs e)
-        {
-            pnlPanelContable.Dock = DockStyle.Fill;
-            pnlPanelContable.Visible = true;
-            pnlPanelFinanciero.Visible = false;
-            vAbrirTabs(0, alPestanasContables);            
-        }
-
-        private void tsmiFinanciero_Click(object sender, EventArgs e)
-        {
-            pnlPanelFinanciero.Dock = DockStyle.Fill;
-            pnlPanelFinanciero.Visible = true;
-            pnlPanelContable.Visible = false;
-            vAbrirTabs(0, alPestanasFinancieras);
-        }
 
         private void tsmiBitacora_Click(object sender, EventArgs e)
         {
@@ -175,16 +162,6 @@ namespace SCF
         {
             Seguridad.wfUsuarios Usuarios = new Seguridad.wfUsuarios();
             vValidacionFormulario("wfUsuarios", Usuarios);
-        }
-
-        private void tsmiAmortizaciones_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void tsmiDepreciaciones_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void tsmiEmpresas_Click(object sender, EventArgs e)
@@ -234,11 +211,6 @@ namespace SCF
             tssllMoneda_Click(this, e);
         }
 
-        private void btnCuentas_Click(object sender, EventArgs e)
-        {
-            vValidarPestanaActiva(1, alPestanasContables);
-        }
-
         private void btnInformesContables_Click(object sender, EventArgs e)
         {
             vValidarPestanaActiva(2, alPestanasContables);
@@ -253,45 +225,34 @@ namespace SCF
         {
             vValidarPestanaActiva(4, alPestanasContables);
         }
-                
-        private void btnC1_1_Click(object sender, EventArgs e)
-        {
-            Operaciones.wfCuentas CatCuentas = new Operaciones.wfCuentas();
-            vValidacionFormulario("wfCuentas", CatCuentas);
-        }
 
-        private void btnC1_2_Click(object sender, EventArgs e)
-        {
-            //Operaciones.wfTipoCuenta TipoCuentas = new Operaciones.wfTipoCuenta();
-            //vValidacionFormulario("wfTipoCuenta", TipoCuentas);
-        }
-        
         private void btnC2_1_Click(object sender, EventArgs e)
         {
-            EstadosFinancieros.wfEstadoFinanciero BalanceSaldos = new EstadosFinancieros.wfEstadoFinanciero();
-            BalanceSaldos.sEstadoFinanciero = "Balance de Saldos";
-            vValidacionFormulario("wfEstadoFinanciero", BalanceSaldos);
+            Reporteador.wfReportes BalanceSaldos = new Reporteador.wfReportes();
+            BalanceSaldos.sNombreReporte = "Balance de Saldos";
+            BalanceSaldos.sSubReporte = "BalanceSaldos";
+            BalanceSaldos.ShowDialog();
         }
 
         private void btnC2_2_Click(object sender, EventArgs e)
         {
-            EstadosFinancieros.wfEstadoFinanciero BalanceGeneral = new EstadosFinancieros.wfEstadoFinanciero();
-            BalanceGeneral.sEstadoFinanciero = "Balance General";
-            vValidacionFormulario("wfEstadoFinanciero", BalanceGeneral);
+            Reporteador.wfReportes BalanceGeneral = new Reporteador.wfReportes();
+            BalanceGeneral.sNombreReporte = "Balance General";
+            BalanceGeneral.sSubReporte = "BalanceGeneral";
+            BalanceGeneral.ShowDialog();
         }
 
         private void btnC2_3_Click(object sender, EventArgs e)
         {
-            EstadosFinancieros.wfEstadoFinanciero EstadoResultados = new EstadosFinancieros.wfEstadoFinanciero();
-            EstadoResultados.sEstadoFinanciero = "Estado de Resultados";
-            vValidacionFormulario("wfEstadoFinanciero", EstadoResultados);
+            Reporteador.wfReportes EstadoResultados = new Reporteador.wfReportes();
+            EstadoResultados.sNombreReporte = "Estado de Resultados";
+            EstadoResultados.sSubReporte = "EstadoResultados";
+            EstadoResultados.ShowDialog();
         }
 
         private void btnC2_4_Click(object sender, EventArgs e)
         {
-            EstadosFinancieros.wfEstadoFinanciero FlujoEfectivo = new EstadosFinancieros.wfEstadoFinanciero();
-            FlujoEfectivo.sEstadoFinanciero = "Flujo de Efectivo";
-            vValidacionFormulario("wfEstadoFinanciero", FlujoEfectivo);
+
         }
 
         private void btnC3_1_Click(object sender, EventArgs e)
@@ -308,9 +269,29 @@ namespace SCF
 
         private void btnC4_1_Click(object sender, EventArgs e)
         {
-            //Contable.wfPolizas Polizas = new Contable.wfPolizas();
-            //vValidacionFormulario("wfPolizas", Polizas);
+            Operaciones.wfAmortDep Amortizaciones = new Operaciones.wfAmortDep();
+            vValidacionFormulario("wfAmortDep", Amortizaciones);
+            Amortizaciones.Text = "Amortizacones";
         }
+
+        private void btnC4_2_Click(object sender, EventArgs e)
+        {
+            Operaciones.wfCuentas CatCuentas = new Operaciones.wfCuentas();
+            vValidacionFormulario("wfCuentas", CatCuentas);            
+        }
+
+        private void btnC4_3_Click(object sender, EventArgs e)
+        {
+            Operaciones.wfAmortDep Depreciaciones = new Operaciones.wfAmortDep();
+            vValidacionFormulario("wfAmortDep", Depreciaciones);
+            Depreciaciones.Text = "Depreciaciones";
+        }
+
+        private void btnC4_4_Click(object sender, EventArgs e)
+        {
+            Operaciones.wfPolizas Polizas = new Operaciones.wfPolizas();
+            vValidacionFormulario("wfPolizas", Polizas);
+        }     
 
         private void btnInformesFinancieros_Click(object sender, EventArgs e)
         {
@@ -331,12 +312,6 @@ namespace SCF
         {
             ConciliacionBancaria.wfConciliacionesBancarias ConciliacionBancaria = new ConciliacionBancaria.wfConciliacionesBancarias();
             vValidacionFormulario("wfConciliacionesBancarias", ConciliacionBancaria);
-        }
-
-        private void btnF1_2_Click(object sender, EventArgs e)
-        {
-            Movimientos.wfMovimientos MovimientosBancarios = new Movimientos.wfMovimientos();
-            vValidacionFormulario("wfMovimientos", MovimientosBancarios);
         }
 
         private void btnF2_1_Click(object sender, EventArgs e)
@@ -368,5 +343,10 @@ namespace SCF
             ConciliacionBancaria.wfEstadosCuenta EstadosCuenta = new ConciliacionBancaria.wfEstadosCuenta();
             vValidacionFormulario("wfEstadoCuentaBanco", EstadosCuenta);
         }
+
+        private void tsmiIndice_Click(object sender, EventArgs e)
+        {
+            Process.Start("Manual de Usuario.pdf");
+        }   
     }
 }

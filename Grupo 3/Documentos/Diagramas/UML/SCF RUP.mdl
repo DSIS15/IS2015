@@ -459,7 +459,7 @@
 				    location   	(160, 1120)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	343
+				    max_width  	325
 				    justify    	0
 				    label      	"SCF")
 				icon       	"Actor"
@@ -493,7 +493,7 @@
 					supplier   	@1
 					vertices   	(list Points
 					    (319, 871)
-					    (421, 817))
+					    (420, 817))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$28" @8
 					Parent_View 	@6
@@ -532,7 +532,7 @@
 					supplier   	@2
 					vertices   	(list Points
 					    (405, 1068)
-					    (594, 1151))
+					    (593, 1149))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$31" @11
 					Parent_View 	@9
@@ -544,7 +544,7 @@
 					supplier   	@5
 					vertices   	(list Points
 					    (405, 1068)
-					    (217, 985))
+					    (217, 984))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$32" @12
 				location   	(408, 592)
@@ -571,7 +571,7 @@
 					supplier   	@3
 					vertices   	(list Points
 					    (408, 592)
-					    (607, 305))
+					    (605, 305))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$34" @14
 					Parent_View 	@12
@@ -583,7 +583,7 @@
 					supplier   	@5
 					vertices   	(list Points
 					    (408, 592)
-					    (210, 880))
+					    (210, 879))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$35" @15
 				location   	(446, 1377)
@@ -610,7 +610,7 @@
 					supplier   	@4
 					vertices   	(list Points
 					    (446, 1377)
-					    (647, 1670))
+					    (646, 1669))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$37" @17
 					Parent_View 	@15
@@ -715,7 +715,7 @@
 				    location   	(2064, 816)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	351
+				    max_width  	325
 				    justify    	0
 				    label      	"Usuario")
 				icon       	"Actor"
@@ -761,7 +761,7 @@
 					supplier   	@21
 					vertices   	(list Points
 					    (1824, 656)
-					    (2005, 656))
+					    (2004, 656))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$38" @25
 				location   	(1852, 452)
@@ -788,7 +788,7 @@
 					supplier   	@19
 					vertices   	(list Points
 					    (1852, 452)
-					    (1700, 305))
+					    (1701, 305))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$40" @27
 					Parent_View 	@25
@@ -800,7 +800,7 @@
 					supplier   	@21
 					vertices   	(list Points
 					    (1852, 452)
-					    (2005, 599))
+					    (2004, 598))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$41" @28
 				location   	(1795, 927)
@@ -839,7 +839,7 @@
 					supplier   	@21
 					vertices   	(list Points
 					    (1795, 927)
-					    (2005, 713))
+					    (1977, 745))
 					line_style 	0)))
 			    (object DependencyView "" @31
 				font       	(object Font
@@ -1175,7 +1175,7 @@
 				    location   	(144, 864)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	347
+				    max_width  	325
 				    justify    	0
 				    label      	"Usuario")
 				icon       	"Actor"
@@ -1209,7 +1209,7 @@
 					supplier   	@43
 					vertices   	(list Points
 					    (316, 487)
-					    (432, 345))
+					    (463, 305))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$4" @49
 					Parent_View 	@47
@@ -1221,7 +1221,7 @@
 					supplier   	@46
 					vertices   	(list Points
 					    (316, 487)
-					    (201, 630))
+					    (201, 628))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$5" @50
 				location   	(333, 704)
@@ -1287,7 +1287,7 @@
 					supplier   	@45
 					vertices   	(list Points
 					    (372, 993)
-					    (528, 1190))
+					    (529, 1190))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$10" @55
 					Parent_View 	@53
@@ -1299,7 +1299,7 @@
 					supplier   	@46
 					vertices   	(list Points
 					    (372, 993)
-					    (217, 797))
+					    (230, 814))
 					line_style 	0)))
 			    (object UseCaseView "Use Case View::ConciliacionBancaria::Creación cuenta bancaria" @56
 				location   	(1376, 704)
@@ -1424,7 +1424,7 @@
 				client     	@56
 				supplier   	@59
 				vertices   	(list Points
-				    (1376, 905)
+				    (1376, 865)
 				    (1376, 1190))
 				line_style 	0)
 			    (object DependencyView "" @62
@@ -1565,7 +1565,7 @@
 				client     	@64
 				supplier   	@44
 				vertices   	(list Points
-				    (1171, 295)
+				    (1156, 305)
 				    (656, 645))
 				line_style 	0)
 			    (object UseCaseView "Use Case View::ConciliacionBancaria::Crea estado de cuenta" @69
@@ -1628,7 +1628,7 @@
 				client     	@45
 				supplier   	@69
 				vertices   	(list Points
-				    (807, 1389)
+				    (837, 1409)
 				    (1280, 1685))
 				line_style 	0)
 			    (object ClassView "Class" "Use Case View::Actores::SCF" @72
@@ -1650,7 +1650,7 @@
 				    location   	(1936, 1120)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	339
+				    max_width  	325
 				    justify    	0
 				    label      	"SCF")
 				icon       	"Actor"
@@ -1684,7 +1684,7 @@
 					supplier   	@56
 					vertices   	(list Points
 					    (1739, 867)
-					    (1601, 804))
+					    (1376, 704))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$13" @75
 					Parent_View 	@73
@@ -1723,7 +1723,7 @@
 					supplier   	@59
 					vertices   	(list Points
 					    (1679, 1088)
-					    (1481, 1190))
+					    (1478, 1190))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$16" @78
 					Parent_View 	@76
@@ -1735,7 +1735,7 @@
 					supplier   	@72
 					vertices   	(list Points
 					    (1679, 1088)
-					    (1877, 987))
+					    (1875, 986))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$17" @79
 				location   	(1703, 612)
@@ -1762,7 +1762,7 @@
 					supplier   	@64
 					vertices   	(list Points
 					    (1703, 612)
-					    (1525, 345))
+					    (1498, 305))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$19" @81
 					Parent_View 	@79
@@ -1774,7 +1774,7 @@
 					supplier   	@72
 					vertices   	(list Points
 					    (1703, 612)
-					    (1881, 880))
+					    (1881, 879))
 					line_style 	0)))
 			    (object AssociationViewNew "$UNNAMED$20" @82
 				location   	(1645, 1361)
@@ -1801,7 +1801,7 @@
 					supplier   	@69
 					vertices   	(list Points
 					    (1645, 1361)
-					    (1413, 1685))
+					    (1413, 1686))
 					line_style 	0)
 				    (object RoleView "$UNNAMED$22" @84
 					Parent_View 	@82
@@ -1813,7 +1813,7 @@
 					supplier   	@72
 					vertices   	(list Points
 					    (1645, 1361)
-					    (1877, 1037))
+					    (1849, 1081))
 					line_style 	0)))))))
 	    (object Class_Category "Actores"
 		quid       	"3518CBC9026C"
@@ -3517,55 +3517,7 @@
 				origin_x   	0
 				origin_y   	0
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfProcesoConciBancaria" @143
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(352, 432)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@143
-					    location   	(118, 318)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	468
-					    justify    	0
-					    label      	"wfProcesoConciBancaria")
-					icon_style 	"Icon"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"5538453B0072"
-					compartment 	(object Compartment
-					    Parent_View 	@143
-					    location   	(118, 376)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	13434879
-					    anchor     	2
-					    nlines     	4
-					    max_width  	381
-					    justify    	1)
-					width      	486
-					height     	250
-					annotation 	8
-					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfConciliacionBancaria" @144
+				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfConciliacionBancaria" @143
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -3580,11 +3532,11 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@144
-					    location   	(815, 150)
+					    Parent_View 	@143
+					    location   	(786, 121)
 					    fill_color 	13434879
 					    nlines     	1
-					    max_width  	482
+					    max_width  	540
 					    justify    	0
 					    label      	"wfConciliacionBancaria")
 					icon_style 	"Icon"
@@ -3592,8 +3544,8 @@
 					fill_color 	13434879
 					quidu      	"55384C3903AC"
 					compartment 	(object Compartment
-					    Parent_View 	@144
-					    location   	(815, 208)
+					    Parent_View 	@143
+					    location   	(786, 179)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -3604,17 +3556,65 @@
 						color      	0
 						default_color 	TRUE)
 					    icon_style 	"Icon"
-					    fill_color 	13434879
+					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	12
-					    max_width  	479
+					    max_width  	538
 					    justify    	1)
-					width      	500
-					height     	586
+					width      	558
+					height     	644
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfProcesoConciBancaria" @144
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(352, 432)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@144
+					    location   	(118, 309)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	468
+					    justify    	0
+					    label      	"wfProcesoConciBancaria")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5538453B0072"
+					compartment 	(object Compartment
+					    Parent_View 	@144
+					    location   	(118, 367)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	4
+					    max_width  	441
+					    justify    	1)
+					width      	486
+					height     	268
 					annotation 	8
 					autoResize 	TRUE)
 				    (object AssociationViewNew "$UNNAMED$54" @145
-					location   	(700, 432)
+					location   	(685, 432)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -3630,26 +3630,26 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$55" @146
 						Parent_View 	@145
-						location   	(348, 192)
+						location   	(333, 192)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"553855250132"
 						client     	@145
-						supplier   	@144
+						supplier   	@143
 						vertices   	(list Points
-						    (700, 432)
-						    (805, 432))
+						    (685, 432)
+						    (776, 432))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$56" @147
 						Parent_View 	@145
-						location   	(348, 192)
+						location   	(333, 192)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"553855250134"
 						client     	@145
-						supplier   	@143
+						supplier   	@144
 						vertices   	(list Points
-						    (700, 432)
+						    (685, 432)
 						    (595, 432))
 						line_style 	0)))))
 			    (object ClassDiagram "Cuentas Bancarias"
@@ -3661,55 +3661,7 @@
 				origin_x   	0
 				origin_y   	0
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfCuentasBancarias" @148
-					ShowCompartmentStereotypes 	TRUE
-					IncludeAttribute 	TRUE
-					IncludeOperation 	TRUE
-					location   	(384, 512)
-					font       	(object Font
-					    size       	9
-					    face       	"Arial"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					label      	(object ItemLabel
-					    Parent_View 	@148
-					    location   	(170, 167)
-					    fill_color 	13434879
-					    nlines     	1
-					    max_width  	428
-					    justify    	0
-					    label      	"wfCuentasBancarias")
-					icon_style 	"Icon"
-					line_color 	3342489
-					fill_color 	13434879
-					quidu      	"5538440001F0"
-					compartment 	(object Compartment
-					    Parent_View 	@148
-					    location   	(170, 225)
-					    font       	(object Font
-						size       	9
-						face       	"Arial"
-						bold       	FALSE
-						italics    	FALSE
-						underline  	FALSE
-						strike     	FALSE
-						color      	0
-						default_color 	TRUE)
-					    icon_style 	"Icon"
-					    fill_color 	13434879
-					    anchor     	2
-					    nlines     	15
-					    max_width  	424
-					    justify    	1)
-					width      	446
-					height     	712
-					annotation 	8
-					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfEstadosCuenta" @149
+				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfEstadosCuenta" @148
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
@@ -3724,11 +3676,11 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@149
-					    location   	(977, 167)
+					    Parent_View 	@148
+					    location   	(951, 130)
 					    fill_color 	13434879
 					    nlines     	1
-					    max_width  	414
+					    max_width  	466
 					    justify    	0
 					    label      	"wfEstadosCuenta")
 					icon_style 	"Icon"
@@ -3736,8 +3688,8 @@
 					fill_color 	13434879
 					quidu      	"5538415B0285"
 					compartment 	(object Compartment
-					    Parent_View 	@149
-					    location   	(977, 225)
+					    Parent_View 	@148
+					    location   	(951, 188)
 					    font       	(object Font
 						size       	9
 						face       	"Arial"
@@ -3748,17 +3700,65 @@
 						color      	0
 						default_color 	TRUE)
 					    icon_style 	"Icon"
-					    fill_color 	13434879
+					    fill_color 	16777215
 					    anchor     	2
 					    nlines     	15
-					    max_width  	411
+					    max_width  	463
 					    justify    	1)
-					width      	432
-					height     	712
+					width      	484
+					height     	786
+					annotation 	8
+					autoResize 	TRUE)
+				    (object ClassView "Class" "Logical View::Class View::ConciliacionBancaria::wfCuentasBancarias" @149
+					ShowCompartmentStereotypes 	TRUE
+					IncludeAttribute 	TRUE
+					IncludeOperation 	TRUE
+					location   	(384, 512)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@149
+					    location   	(145, 130)
+					    fill_color 	13434879
+					    nlines     	1
+					    max_width  	478
+					    justify    	0
+					    label      	"wfCuentasBancarias")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5538440001F0"
+					compartment 	(object Compartment
+					    Parent_View 	@149
+					    location   	(145, 188)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    icon_style 	"Icon"
+					    fill_color 	16777215
+					    anchor     	2
+					    nlines     	15
+					    max_width  	475
+					    justify    	1)
+					width      	496
+					height     	786
 					annotation 	8
 					autoResize 	TRUE)
 				    (object AssociationViewNew "$UNNAMED$51" @150
-					location   	(787, 512)
+					location   	(786, 512)
 					font       	(object Font
 					    size       	9
 					    face       	"Arial"
@@ -3774,27 +3774,27 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$52" @151
 						Parent_View 	@150
-						location   	(419, 32)
+						location   	(418, 32)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"553844FC02CD"
 						client     	@150
-						supplier   	@149
+						supplier   	@148
 						vertices   	(list Points
-						    (787, 512)
-						    (967, 512))
+						    (786, 512)
+						    (941, 512))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$53" @152
 						Parent_View 	@150
-						location   	(419, 32)
+						location   	(418, 32)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"553844FC02D2"
 						client     	@150
-						supplier   	@148
+						supplier   	@149
 						vertices   	(list Points
-						    (787, 512)
-						    (607, 512))
+						    (786, 512)
+						    (632, 512))
 						line_style 	0))))))))
 		logical_presentations 	(list unit_reference_list))
 	    (object Class_Category "Sequence View"
@@ -3810,7 +3810,1370 @@
 |Classes represent abstractions of classes in the system's implementation. They define the objects, which in turn are abstractions of the objects in the system's implementation. The use cases are realized by the objects, and this is represented by use-case realizations in the Design Model.  Each use-case realization has a realize dependency to a use case in the Use-Case Model. 
 		
 		exportControl 	"Public"
-		logical_models 	(list unit_reference_list)
+		logical_models 	(list unit_reference_list
+		    (object Class_Category "ConciliacionBancaria"
+			quid       	"5560F00902BA"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list
+			    (object Mechanism @153
+				logical_models 	(list unit_reference_list
+				    (object Object "Interfaz gráfica"
+					quid       	"5560F0440345"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F0910025"
+						supplier   	"Reglas del negocio"
+						quidu      	"5560F07701BA"
+						messages   	(list Messages
+						    (object Message "Registrar datos cuenta bancaria"
+							quid       	"5560F0910026"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1"
+							ordinal    	0
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Registrar datos estado de cuenta"
+							quid       	"5560F2F602E1"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1"
+							ordinal    	4
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "Reglas del negocio"
+					quid       	"5560F07701BA"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F0A200A8"
+						supplier   	"¿Datos Correctos?"
+						quidu      	"5560F07A02D5"
+						messages   	(list Messages
+						    (object Message "Sistema verifica datos"
+							quid       	"5560F0A200A9"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1"
+							ordinal    	1
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Sistema verifica datos"
+							quid       	"5560F30701E9"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1"
+							ordinal    	5
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "¿Datos Correctos?"
+					quid       	"5560F07A02D5"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F0B902BF"
+						supplier   	"¿Datos Correctos?"
+						quidu      	"5560F07A02D5"
+						messages   	(list Messages
+						    (object Message "¿Datos Correctos?"
+							quid       	"5560F0B902C0"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1"
+							ordinal    	2
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "¿Datos Correctos?"
+							quid       	"5560F355025F"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1"
+							ordinal    	6
+							quidu      	"000000000000"
+							creation   	FALSE)))
+					    (object Link
+						quid       	"5560F155034B"
+						supplier   	"Interfaz gráfica"
+						quidu      	"5560F0440345"
+						messages   	(list Messages
+						    (object Message "Creación cuenta bancaria"
+							quid       	"5560F2EB008E"
+							frequency  	"Aperiodic"
+							synchronization 	"Return"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1"
+							ordinal    	3
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Creación estado de cuenta"
+							quid       	"5560F386023C"
+							frequency  	"Aperiodic"
+							synchronization 	"Return"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1.1"
+							ordinal    	7
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)))
+			    (object Mechanism @154
+				logical_models 	(list unit_reference_list
+				    (object Object "Interfaz gráfica"
+					quid       	"5560F3EE021B"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F3F60356"
+						supplier   	"Reglas del negocio"
+						quidu      	"5560F3EE021E"
+						messages   	(list Messages
+						    (object Message "Selección cuenta a conciliar"
+							quid       	"5560F3F60357"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1"
+							ordinal    	0
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Selección estado de cuenta"
+							quid       	"5560F450025C"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1"
+							ordinal    	4
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Selección movimientos a conciliar"
+							quid       	"5560F48900FE"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1.1.1"
+							ordinal    	8
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "Reglas del negocio"
+					quid       	"5560F3EE021E"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F40400C8"
+						supplier   	"¿Datos Correctos?"
+						quidu      	"5560F3EE0221"
+						messages   	(list Messages
+						    (object Message "Sistema verifica cuenta"
+							quid       	"5560F40400C9"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1"
+							ordinal    	1
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Sistema verifica estado de cuenta"
+							quid       	"5560F456034D"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1"
+							ordinal    	5
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Sistema concilia movimientos"
+							quid       	"5560F48D0097"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1.1.1.1"
+							ordinal    	9
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE)
+				    (object Object "¿Datos Correctos?"
+					quid       	"5560F3EE0221"
+					collaborators 	(list link_list
+					    (object Link
+						quid       	"5560F40703DB"
+						supplier   	"¿Datos Correctos?"
+						quidu      	"5560F3EE0221"
+						messages   	(list Messages
+						    (object Message "¿Cuenta correcta?"
+							quid       	"5560F40703DC"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1"
+							ordinal    	2
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "¿Estado de cuenta correcto?"
+							quid       	"5560F45A0082"
+							frequency  	"Aperiodic"
+							synchronization 	"Simple"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1"
+							ordinal    	6
+							quidu      	"000000000000"
+							creation   	FALSE)))
+					    (object Link
+						quid       	"5560F40F0002"
+						supplier   	"Interfaz gráfica"
+						quidu      	"5560F3EE021B"
+						messages   	(list Messages
+						    (object Message "Despliegue de estados de cuenta"
+							quid       	"5560F40F0003"
+							frequency  	"Aperiodic"
+							synchronization 	"Return"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1"
+							ordinal    	3
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Despligue de movimientos no conciliados"
+							quid       	"5560F45E005A"
+							frequency  	"Aperiodic"
+							synchronization 	"Return"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1.1"
+							ordinal    	7
+							quidu      	"000000000000"
+							creation   	FALSE)
+						    (object Message "Realización conciliación bancaria"
+							quid       	"5560F499030A"
+							frequency  	"Aperiodic"
+							synchronization 	"Return"
+							dir        	"FromClientToSupplier"
+							sequence   	"1.1.1.1.1.1.1.1.1.1.1"
+							ordinal    	10
+							quidu      	"000000000000"
+							creation   	FALSE))))
+					persistence 	"Transient"
+					creationObj 	FALSE
+					multi      	FALSE))))
+			logical_presentations 	(list unit_reference_list
+			    (object InteractionDiagram "Cuentas Bancarias"
+				mechanism_ref 	@153
+				quid       	"5560F02D0050"
+				title      	"Cuentas Bancarias"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object InterObjView "Interfaz gráfica" @155
+					location   	(304, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@155
+					    location   	(304, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"Interfaz gráfica")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F0440345"
+					width      	300
+					height     	1108
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @156
+					    location   	(304, 368)
+					    line_color 	3342489
+					    InterObjView 	@155
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @157
+					    location   	(304, 704)
+					    line_color 	3342489
+					    InterObjView 	@155
+					    height     	199
+					    y_coord    	109
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @158
+					    location   	(304, 1152)
+					    line_color 	3342489
+					    InterObjView 	@155
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "Reglas del negocio" @159
+					location   	(1104, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@159
+					    location   	(1104, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"Reglas del negocio")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F07701BA"
+					width      	300
+					height     	1108
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @160
+					    location   	(1104, 368)
+					    line_color 	3342489
+					    InterObjView 	@159
+					    height     	195
+					    y_coord    	105
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @161
+					    location   	(1104, 816)
+					    line_color 	3342489
+					    InterObjView 	@159
+					    height     	192
+					    y_coord    	102
+					    Nested     	FALSE))
+				    (object InterObjView "¿Datos Correctos?" @162
+					location   	(1936, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@162
+					    location   	(1936, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"¿Datos Correctos?")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F07A02D5"
+					width      	300
+					height     	1108
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @163
+					    location   	(1936, 480)
+					    line_color 	3342489
+					    InterObjView 	@162
+					    height     	188
+					    y_coord    	98
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @164
+					    location   	(1936, 608)
+					    line_color 	3342489
+					    InterObjView 	@162
+					    height     	100
+					    y_coord    	10
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @165
+					    location   	(1936, 912)
+					    line_color 	3342489
+					    InterObjView 	@162
+					    height     	204
+					    y_coord    	114
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @166
+					    location   	(1936, 1056)
+					    line_color 	3342489
+					    InterObjView 	@162
+					    height     	97
+					    y_coord    	7
+					    Nested     	TRUE))
+				    (object InterMessView "Registrar datos cuenta bancaria" @167
+					location   	(16, 368)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @168
+					    Parent_View 	@167
+					    location   	(703, 324)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F0910026"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	562
+					    justify    	0
+					    label      	"Registrar datos cuenta bancaria"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@155
+					supplier   	@159
+					Focus_Src  	@156
+					Focus_Entry 	@160
+					origin     	(319, 368)
+					terminus   	(1088, 368)
+					ordinal    	0)
+				    (object InterMessView "Sistema verifica datos" @169
+					location   	(16, 473)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @170
+					    Parent_View 	@169
+					    location   	(1519, 429)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F0A200A9"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	388
+					    justify    	0
+					    label      	"Sistema verifica datos"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@159
+					supplier   	@162
+					Focus_Src  	@160
+					Focus_Entry 	@163
+					origin     	(1119, 473)
+					terminus   	(1920, 473)
+					ordinal    	1)
+				    (object SelfMessView "¿Datos Correctos?" @171
+					location   	(16, 578)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @172
+					    Parent_View 	@171
+					    location   	(2284, 600)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F0B902C0"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	335
+					    justify    	0
+					    label      	"¿Datos Correctos?"
+					    pctDist    	2.213333
+					    height     	22
+					    orientation 	1)
+					line_color 	3342489
+					client     	@162
+					supplier   	@162
+					Focus_Src  	@163
+					Focus_Entry 	@164
+					origin     	(1952, 578)
+					terminus   	(2102, 578)
+					ordinal    	2)
+				    (object InterMessView "Creación cuenta bancaria" @173
+					location   	(16, 708)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @174
+					    Parent_View 	@173
+					    location   	(1120, 664)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F2EB008E"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	451
+					    justify    	0
+					    label      	"Creación cuenta bancaria"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@162
+					supplier   	@155
+					Focus_Src  	@164
+					Focus_Entry 	@157
+					origin     	(1920, 708)
+					terminus   	(320, 708)
+					ordinal    	3)
+				    (object InterMessView "Registrar datos estado de cuenta" @175
+					location   	(16, 813)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @176
+					    Parent_View 	@175
+					    location   	(703, 769)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F2F602E1"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	582
+					    justify    	0
+					    label      	"Registrar datos estado de cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@155
+					supplier   	@159
+					Focus_Src  	@157
+					Focus_Entry 	@161
+					origin     	(319, 813)
+					terminus   	(1088, 813)
+					ordinal    	4)
+				    (object InterMessView "Sistema verifica datos" @177
+					location   	(16, 918)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @178
+					    Parent_View 	@177
+					    location   	(1519, 874)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F30701E9"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	388
+					    justify    	0
+					    label      	"Sistema verifica datos"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@159
+					supplier   	@162
+					Focus_Src  	@161
+					Focus_Entry 	@165
+					origin     	(1119, 918)
+					terminus   	(1920, 918)
+					ordinal    	5)
+				    (object SelfMessView "¿Datos Correctos?" @179
+					location   	(16, 1023)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @180
+					    Parent_View 	@179
+					    location   	(2283, 1042)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F355025F"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	335
+					    justify    	0
+					    label      	"¿Datos Correctos?"
+					    pctDist    	2.206667
+					    height     	19
+					    orientation 	1)
+					line_color 	3342489
+					client     	@162
+					supplier   	@162
+					Focus_Src  	@165
+					Focus_Entry 	@166
+					origin     	(1952, 1023)
+					terminus   	(2102, 1023)
+					ordinal    	6)
+				    (object InterMessView "Creación estado de cuenta" @181
+					location   	(16, 1153)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @182
+					    Parent_View 	@181
+					    location   	(1120, 1109)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F386023C"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	473
+					    justify    	0
+					    label      	"Creación estado de cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@162
+					supplier   	@155
+					Focus_Src  	@166
+					Focus_Entry 	@158
+					origin     	(1920, 1153)
+					terminus   	(320, 1153)
+					ordinal    	7)))
+			    (object InteractionDiagram "Conciliación Bancaria"
+				mechanism_ref 	@154
+				quid       	"5560F3AD00FC"
+				title      	"Conciliación Bancaria"
+				zoom       	100
+				max_height 	28350
+				max_width  	21600
+				origin_x   	0
+				origin_y   	0
+				items      	(list diagram_item_list
+				    (object InterObjView "Interfaz gráfica" @183
+					location   	(304, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@183
+					    location   	(304, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"Interfaz gráfica")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F3EE021B"
+					width      	300
+					height     	1476
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @184
+					    location   	(304, 352)
+					    line_color 	3342489
+					    InterObjView 	@183
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @185
+					    location   	(304, 688)
+					    line_color 	3342489
+					    InterObjView 	@183
+					    height     	199
+					    y_coord    	109
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @186
+					    location   	(304, 1136)
+					    line_color 	3342489
+					    InterObjView 	@183
+					    height     	197
+					    y_coord    	107
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @187
+					    location   	(304, 1520)
+					    line_color 	3342489
+					    InterObjView 	@183
+					    height     	90
+					    y_coord    	0
+					    Nested     	FALSE))
+				    (object InterObjView "Reglas del negocio" @188
+					location   	(1104, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@188
+					    location   	(1104, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"Reglas del negocio")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F3EE021E"
+					width      	300
+					height     	1476
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @189
+					    location   	(1104, 352)
+					    line_color 	3342489
+					    InterObjView 	@188
+					    height     	195
+					    y_coord    	105
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @190
+					    location   	(1104, 800)
+					    line_color 	3342489
+					    InterObjView 	@188
+					    height     	192
+					    y_coord    	102
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @191
+					    location   	(1104, 1248)
+					    line_color 	3342489
+					    InterObjView 	@188
+					    height     	191
+					    y_coord    	101
+					    Nested     	FALSE))
+				    (object InterObjView "¿Datos Correctos?" @192
+					location   	(1936, 224)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	TRUE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object ItemLabel
+					    Parent_View 	@192
+					    location   	(1936, 224)
+					    fill_color 	13434879
+					    anchor_loc 	1
+					    nlines     	2
+					    max_width  	282
+					    justify    	0
+					    label      	"¿Datos Correctos?")
+					icon_style 	"Icon"
+					line_color 	3342489
+					fill_color 	13434879
+					quidu      	"5560F3EE0221"
+					width      	300
+					height     	1476
+					icon_height 	0
+					icon_width 	0
+					icon_y_offset 	0
+					annotation 	1
+					Focus_Of_Control 	(object Focus_Of_Control "" @193
+					    location   	(1936, 464)
+					    line_color 	3342489
+					    InterObjView 	@192
+					    height     	188
+					    y_coord    	98
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @194
+					    location   	(1936, 592)
+					    line_color 	3342489
+					    InterObjView 	@192
+					    height     	100
+					    y_coord    	10
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @195
+					    location   	(1936, 896)
+					    line_color 	3342489
+					    InterObjView 	@192
+					    height     	204
+					    y_coord    	114
+					    Nested     	FALSE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @196
+					    location   	(1936, 1040)
+					    line_color 	3342489
+					    InterObjView 	@192
+					    height     	98
+					    y_coord    	8
+					    Nested     	TRUE)
+					Focus_Of_Control 	(object Focus_Of_Control "" @197
+					    location   	(1936, 1344)
+					    line_color 	3342489
+					    InterObjView 	@192
+					    height     	176
+					    y_coord    	86
+					    Nested     	FALSE))
+				    (object InterMessView "Selección cuenta a conciliar" @198
+					location   	(16, 352)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @199
+					    Parent_View 	@198
+					    location   	(703, 308)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F3F60357"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	490
+					    justify    	0
+					    label      	"Selección cuenta a conciliar"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@183
+					supplier   	@188
+					Focus_Src  	@184
+					Focus_Entry 	@189
+					origin     	(319, 352)
+					terminus   	(1088, 352)
+					ordinal    	0)
+				    (object InterMessView "Sistema verifica cuenta" @200
+					location   	(16, 457)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @201
+					    Parent_View 	@200
+					    location   	(1519, 413)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F40400C9"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	407
+					    justify    	0
+					    label      	"Sistema verifica cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@188
+					supplier   	@192
+					Focus_Src  	@189
+					Focus_Entry 	@193
+					origin     	(1119, 457)
+					terminus   	(1920, 457)
+					ordinal    	1)
+				    (object SelfMessView "¿Cuenta correcta?" @202
+					location   	(16, 562)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @203
+					    Parent_View 	@202
+					    location   	(2298, 582)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F40703DC"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	326
+					    justify    	0
+					    label      	"¿Cuenta correcta?"
+					    pctDist    	2.313333
+					    height     	20
+					    orientation 	1)
+					line_color 	3342489
+					client     	@192
+					supplier   	@192
+					Focus_Src  	@193
+					Focus_Entry 	@194
+					origin     	(1952, 562)
+					terminus   	(2102, 562)
+					ordinal    	2)
+				    (object InterMessView "Despliegue de estados de cuenta" @204
+					location   	(16, 692)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @205
+					    Parent_View 	@204
+					    location   	(1120, 648)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F40F0003"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	591
+					    justify    	0
+					    label      	"Despliegue de estados de cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@192
+					supplier   	@183
+					Focus_Src  	@194
+					Focus_Entry 	@185
+					origin     	(1920, 692)
+					terminus   	(320, 692)
+					ordinal    	3)
+				    (object InterMessView "Selección estado de cuenta" @206
+					location   	(16, 797)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @207
+					    Parent_View 	@206
+					    location   	(703, 753)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F450025C"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	485
+					    justify    	0
+					    label      	"Selección estado de cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@183
+					supplier   	@188
+					Focus_Src  	@185
+					Focus_Entry 	@190
+					origin     	(319, 797)
+					terminus   	(1088, 797)
+					ordinal    	4)
+				    (object InterMessView "Sistema verifica estado de cuenta" @208
+					location   	(16, 902)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @209
+					    Parent_View 	@208
+					    location   	(1519, 858)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F456034D"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	585
+					    justify    	0
+					    label      	"Sistema verifica estado de cuenta"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@188
+					supplier   	@192
+					Focus_Src  	@190
+					Focus_Entry 	@195
+					origin     	(1119, 902)
+					terminus   	(1920, 902)
+					ordinal    	5)
+				    (object SelfMessView "¿Estado de cuenta correcto?" @210
+					location   	(16, 1008)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @211
+					    Parent_View 	@210
+					    location   	(2376, 1030)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F45A0082"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	500
+					    justify    	0
+					    label      	"¿Estado de cuenta correcto?"
+					    pctDist    	2.833333
+					    height     	22
+					    orientation 	1)
+					line_color 	3342489
+					client     	@192
+					supplier   	@192
+					Focus_Src  	@195
+					Focus_Entry 	@196
+					origin     	(1952, 1008)
+					terminus   	(2102, 1008)
+					ordinal    	6)
+				    (object InterMessView "Despligue de movimientos no conciliados" @212
+					location   	(16, 1138)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @213
+					    Parent_View 	@212
+					    location   	(1120, 1094)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F45E005A"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	729
+					    justify    	0
+					    label      	"Despligue de movimientos no conciliados"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@192
+					supplier   	@183
+					Focus_Src  	@196
+					Focus_Entry 	@186
+					origin     	(1920, 1138)
+					terminus   	(320, 1138)
+					ordinal    	7)
+				    (object InterMessView "Selección movimientos a conciliar" @214
+					location   	(16, 1243)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @215
+					    Parent_View 	@214
+					    location   	(703, 1199)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F48900FE"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	595
+					    justify    	0
+					    label      	"Selección movimientos a conciliar"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@183
+					supplier   	@188
+					Focus_Src  	@186
+					Focus_Entry 	@191
+					origin     	(319, 1243)
+					terminus   	(1088, 1243)
+					ordinal    	8)
+				    (object InterMessView "Sistema concilia movimientos" @216
+					location   	(16, 1348)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @217
+					    Parent_View 	@216
+					    location   	(1519, 1304)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F48D0097"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	523
+					    justify    	0
+					    label      	"Sistema concilia movimientos"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	0)
+					line_color 	3342489
+					client     	@188
+					supplier   	@192
+					Focus_Src  	@191
+					Focus_Entry 	@197
+					origin     	(1119, 1348)
+					terminus   	(1920, 1348)
+					ordinal    	9)
+				    (object InterMessView "Realización conciliación bancaria" @218
+					location   	(16, 1520)
+					font       	(object Font
+					    size       	9
+					    face       	"Arial"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					label      	(object SegLabel @219
+					    Parent_View 	@218
+					    location   	(1120, 1476)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    quidu      	"5560F499030A"
+					    anchor_loc 	1
+					    nlines     	1
+					    max_width  	582
+					    justify    	0
+					    label      	"Realización conciliación bancaria"
+					    pctDist    	0.500000
+					    height     	45
+					    orientation 	1)
+					line_color 	3342489
+					client     	@192
+					supplier   	@183
+					Focus_Src  	@197
+					Focus_Entry 	@187
+					origin     	(1920, 1520)
+					terminus   	(320, 1520)
+					ordinal    	10))))))
 		logical_presentations 	(list unit_reference_list))
 	    (object Class_Category "Collaboration View"
 		quid       	"5538563C0087"
@@ -3820,7 +5183,944 @@
 	    (object Class_Category "Statechart View"
 		quid       	"5538567602B9"
 		exportControl 	"Public"
-		logical_models 	(list unit_reference_list)
+		logical_models 	(list unit_reference_list
+		    (object Class_Category "Conciliación Bancaria"
+			quid       	"5551261003CB"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			statemachine 	(object State_Machine "State/Activity Model3"
+			    quid       	"5551262D00AB"
+			    states     	(list States
+				(object State "$UNNAMED$57"
+				    quid       	"55528EE300A1"
+				    type       	"StartState")
+				(object State "Formulario conciliación bancaria"
+				    quid       	"55528EE502B4"
+				    type       	"Normal")
+				(object State "Selección cuenta a conciliar"
+				    quid       	"55528EFD01AB"
+				    type       	"Normal")
+				(object State "Despliegue listado estados de cuenta"
+				    quid       	"55528F1F0369"
+				    type       	"Normal")
+				(object State "Selección estado de cuenta"
+				    quid       	"55528F95008A"
+				    type       	"Normal")
+				(object State "Verificación estado de cuenta"
+				    quid       	"55528FA3010C"
+				    type       	"Normal")
+				(object State "Despliegue listado movimientos no conciliados"
+				    quid       	"55528FB700A3"
+				    type       	"Normal")
+				(object State "Selección movimientos a conciliar"
+				    quid       	"55529020011F"
+				    type       	"Normal")
+				(object State "Realización conciliación bancaria"
+				    quid       	"5552902B02A2"
+				    type       	"Normal")
+				(object State "$UNNAMED$58"
+				    quid       	"5552903C02EC"
+				    type       	"EndState"))
+			    partitions 	(list Partitions)
+			    objects    	(list Objects)
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"55528F4901C5"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Formulario conciliación bancaria"
+				    supplier_quidu 	"55528EE502B4"
+				    client     	"$UNNAMED$57"
+				    client_quidu 	"55528EE300A1"
+				    sendEvent  	(object sendEvent
+					quid       	"55528F4901C8"))
+				(object State_Transition
+				    quid       	"55528F4B039D"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección cuenta a conciliar"
+				    supplier_quidu 	"55528EFD01AB"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Formulario conciliación bancaria"
+				    client_quidu 	"55528EE502B4"
+				    sendEvent  	(object sendEvent
+					quid       	"55528F4B03A0"))
+				(object State_Transition
+				    quid       	"55528F4D037E"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Despliegue listado estados de cuenta"
+				    supplier_quidu 	"55528F1F0369"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección cuenta a conciliar"
+				    client_quidu 	"55528EFD01AB"
+				    sendEvent  	(object sendEvent
+					quid       	"55528F4D0381"))
+				(object State_Transition
+				    quid       	"55528FC9009F"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Despliegue listado movimientos no conciliados"
+				    supplier_quidu 	"55528FB700A3"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Verificación estado de cuenta"
+				    client_quidu 	"55528FA3010C"
+				    sendEvent  	(object sendEvent
+					quid       	"55528FC900A2"))
+				(object State_Transition
+				    quid       	"55528FDC0305"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección cuenta a conciliar"
+				    supplier_quidu 	"55528EFD01AB"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Verificación estado de cuenta"
+				    client_quidu 	"55528FA3010C"
+				    sendEvent  	(object sendEvent
+					quid       	"55528FDC0308"))
+				(object State_Transition
+				    quid       	"555290000141"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección estado de cuenta"
+				    supplier_quidu 	"55528F95008A"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Despliegue listado estados de cuenta"
+				    client_quidu 	"55528F1F0369"
+				    sendEvent  	(object sendEvent
+					quid       	"555290000144"))
+				(object State_Transition
+				    quid       	"555290030008"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Verificación estado de cuenta"
+				    supplier_quidu 	"55528FA3010C"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección estado de cuenta"
+				    client_quidu 	"55528F95008A"
+				    sendEvent  	(object sendEvent
+					quid       	"55529003000B"))
+				(object State_Transition
+				    quid       	"555290380100"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección movimientos a conciliar"
+				    supplier_quidu 	"55529020011F"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Despliegue listado movimientos no conciliados"
+				    client_quidu 	"55528FB700A3"
+				    sendEvent  	(object sendEvent
+					quid       	"555290380103"))
+				(object State_Transition
+				    quid       	"5552903A02A2"
+				    supplier   	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Realización conciliación bancaria"
+				    supplier_quidu 	"5552902B02A2"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Selección movimientos a conciliar"
+				    client_quidu 	"55529020011F"
+				    sendEvent  	(object sendEvent
+					quid       	"5552903A02A5"))
+				(object State_Transition
+				    quid       	"555290450110"
+				    supplier   	"$UNNAMED$58"
+				    supplier_quidu 	"5552903C02EC"
+				    client     	"Logical View::Statechart View::Conciliación Bancaria::State/Activity Model3::Realización conciliación bancaria"
+				    client_quidu 	"5552902B02A2"
+				    sendEvent  	(object sendEvent
+					quid       	"555290450113")))
+			    objectflows 	(list objectflow_list)
+			    statediagrams 	(list StateDiagrams
+				(object State_Diagram "Conciliación Bancaria"
+				    quid       	"5551262D00B3"
+				    title      	"Conciliación Bancaria"
+				    zoom       	100
+				    max_height 	28350
+				    max_width  	21600
+				    origin_x   	0
+				    origin_y   	0
+				    items      	(list diagram_item_list
+					(object StateView "StartState" "$UNNAMED$57" @220
+					    location   	(576, 64)
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    quidu      	"55528EE300A1"
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Formulario conciliación bancaria" @221
+					    location   	(576, 256)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@221
+						location   	(576, 242)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	404
+						justify    	0
+						label      	"Formulario conciliación bancaria")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528EE502B4"
+					    width      	500
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Selección cuenta a conciliar" @222
+					    location   	(576, 495)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@222
+						location   	(576, 481)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	334
+						justify    	0
+						label      	"Selección cuenta a conciliar")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528EFD01AB"
+					    width      	430
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Despliegue listado estados de cuenta" @223
+					    location   	(576, 736)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@223
+						location   	(576, 722)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	364
+						justify    	0
+						label      	"Despliegue listado estados de cuenta")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528F1F0369"
+					    width      	460
+					    height     	134
+					    autoResize 	TRUE)
+					(object TransView "" @224
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528F4901C5"
+					    client     	@220
+					    supplier   	@221
+					    vertices   	(list Points
+						(576, 94)
+						(576, 189))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @225
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528F4B039D"
+					    client     	@221
+					    supplier   	@222
+					    vertices   	(list Points
+						(576, 323)
+						(576, 428))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @226
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528F4D037E"
+					    client     	@222
+					    supplier   	@223
+					    vertices   	(list Points
+						(576, 562)
+						(576, 669))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object StateView "Normal" "Selección estado de cuenta" @227
+					    location   	(576, 992)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@227
+						location   	(576, 978)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	310
+						justify    	0
+						label      	"Selección estado de cuenta")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528F95008A"
+					    width      	406
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Verificación estado de cuenta" @228
+					    location   	(576, 1248)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@228
+						location   	(576, 1234)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	310
+						justify    	0
+						label      	"Verificación estado de cuenta")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528FA3010C"
+					    width      	406
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Despliegue listado movimientos no conciliados" @229
+					    location   	(1280, 1248)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@229
+						location   	(1280, 1234)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	494
+						justify    	0
+						label      	"Despliegue listado movimientos no conciliados")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528FB700A3"
+					    width      	590
+					    height     	134
+					    autoResize 	TRUE)
+					(object TransView "" @230
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528FC9009F"
+					    client     	@228
+					    supplier   	@229
+					    vertices   	(list Points
+						(779, 1248)
+						(985, 1248))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @231
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528FDC0305"
+					    client     	@228
+					    supplier   	@222
+					    vertices   	(list Points
+						(373, 1247)
+						(222, 1247)
+						(222, 491)
+						(361, 492))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @232
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"555290000141"
+					    client     	@223
+					    supplier   	@227
+					    vertices   	(list Points
+						(576, 803)
+						(576, 925))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @233
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"555290030008"
+					    client     	@227
+					    supplier   	@228
+					    vertices   	(list Points
+						(576, 1059)
+						(576, 1181))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object StateView "Normal" "Selección movimientos a conciliar" @234
+					    location   	(1280, 1504)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@234
+						location   	(1280, 1490)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	426
+						justify    	0
+						label      	"Selección movimientos a conciliar")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55529020011F"
+					    width      	522
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Realización conciliación bancaria" @235
+					    location   	(1280, 1760)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@235
+						location   	(1280, 1746)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	404
+						justify    	0
+						label      	"Realización conciliación bancaria")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"5552902B02A2"
+					    width      	500
+					    height     	134
+					    autoResize 	TRUE)
+					(object TransView "" @236
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"555290380100"
+					    client     	@229
+					    supplier   	@234
+					    vertices   	(list Points
+						(1280, 1315)
+						(1280, 1437))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @237
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"5552903A02A2"
+					    client     	@234
+					    supplier   	@235
+					    vertices   	(list Points
+						(1280, 1571)
+						(1280, 1693))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object StateView "EndState" "$UNNAMED$58" @238
+					    location   	(1280, 1968)
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    quidu      	"5552903C02EC"
+					    autoResize 	TRUE)
+					(object TransView "" @239
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"555290450110"
+					    client     	@235
+					    supplier   	@238
+					    vertices   	(list Points
+						(1280, 1827)
+						(1280, 1926))
+					    line_style 	0
+					    x_offset   	FALSE)))))
+			logical_presentations 	(list unit_reference_list))
+		    (object Class_Category "Cuentas Bancarias"
+			quid       	"555126200118"
+			exportControl 	"Public"
+			logical_models 	(list unit_reference_list)
+			statemachine 	(object State_Machine "State/Activity Model4"
+			    quid       	"5551264803CD"
+			    states     	(list States
+				(object State "$UNNAMED$59"
+				    quid       	"55528D490253"
+				    type       	"StartState")
+				(object State "Formulario cuenta bancaria"
+				    quid       	"55528D750365"
+				    type       	"Normal")
+				(object State "Registro de datos"
+				    quid       	"55528DB201E8"
+				    type       	"Normal")
+				(object State "Verificación de datos"
+				    quid       	"55528DBA0348"
+				    type       	"Normal")
+				(object State "Creación cuenta bancaria"
+				    quid       	"55528DC20173"
+				    type       	"Normal")
+				(object State "Formulario estado de cuenta"
+				    quid       	"55528DF7031B"
+				    type       	"Normal")
+				(object State "$UNNAMED$60"
+				    quid       	"55528E320111"
+				    type       	"EndState")
+				(object State "$UNNAMED$61"
+				    quid       	"55528E3401CD"
+				    type       	"EndState")
+				(object State "Creación estado de cuenta"
+				    quid       	"55528E870211"
+				    type       	"Normal"))
+			    partitions 	(list Partitions)
+			    objects    	(list Objects)
+			    transitions 	(list transition_list
+				(object State_Transition
+				    quid       	"55528DD303B2"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Formulario cuenta bancaria"
+				    supplier_quidu 	"55528D750365"
+				    client     	"$UNNAMED$59"
+				    client_quidu 	"55528D490253"
+				    sendEvent  	(object sendEvent
+					quid       	"55528DD303B5"))
+				(object State_Transition
+				    quid       	"55528DE8036D"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Registro de datos"
+				    supplier_quidu 	"55528DB201E8"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Formulario cuenta bancaria"
+				    client_quidu 	"55528D750365"
+				    sendEvent  	(object sendEvent
+					quid       	"55528DE80370"))
+				(object State_Transition
+				    quid       	"55528DEB02BD"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Verificación de datos"
+				    supplier_quidu 	"55528DBA0348"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Registro de datos"
+				    client_quidu 	"55528DB201E8"
+				    sendEvent  	(object sendEvent
+					quid       	"55528DEB02C0"))
+				(object State_Transition
+				    quid       	"55528DEE00DC"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Creación cuenta bancaria"
+				    supplier_quidu 	"55528DC20173"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Verificación de datos"
+				    client_quidu 	"55528DBA0348"
+				    sendEvent  	(object sendEvent
+					quid       	"55528DEE00DF"))
+				(object State_Transition
+				    quid       	"55528E3D00DB"
+				    supplier   	"$UNNAMED$60"
+				    supplier_quidu 	"55528E320111"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Creación cuenta bancaria"
+				    client_quidu 	"55528DC20173"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E3D00DE"))
+				(object State_Transition
+				    quid       	"55528E4100E3"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Formulario estado de cuenta"
+				    supplier_quidu 	"55528DF7031B"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Creación cuenta bancaria"
+				    client_quidu 	"55528DC20173"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E4100E6"))
+				(object State_Transition
+				    quid       	"55528E9302E9"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Registro de datos"
+				    supplier_quidu 	"55528DB201E8"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Formulario estado de cuenta"
+				    client_quidu 	"55528DF7031B"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E9302EC"))
+				(object State_Transition
+				    quid       	"55528E950398"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Verificación de datos"
+				    supplier_quidu 	"55528DBA0348"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Registro de datos"
+				    client_quidu 	"55528DB201E8"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E95039B"))
+				(object State_Transition
+				    quid       	"55528E98001A"
+				    supplier   	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Creación estado de cuenta"
+				    supplier_quidu 	"55528E870211"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Verificación de datos"
+				    client_quidu 	"55528DBA0348"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E98001D"))
+				(object State_Transition
+				    quid       	"55528E9D0049"
+				    supplier   	"$UNNAMED$60"
+				    supplier_quidu 	"55528E320111"
+				    client     	"Logical View::Statechart View::Cuentas Bancarias::State/Activity Model4::Creación estado de cuenta"
+				    client_quidu 	"55528E870211"
+				    sendEvent  	(object sendEvent
+					quid       	"55528E9D004C")))
+			    objectflows 	(list objectflow_list)
+			    statediagrams 	(list StateDiagrams
+				(object State_Diagram "Cuentas Bancarias"
+				    quid       	"5551264803D4"
+				    title      	"Cuentas Bancarias"
+				    zoom       	100
+				    max_height 	28350
+				    max_width  	21600
+				    origin_x   	0
+				    origin_y   	0
+				    items      	(list diagram_item_list
+					(object StateView "StartState" "$UNNAMED$59" @240
+					    location   	(336, 112)
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    quidu      	"55528D490253"
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Formulario cuenta bancaria" @241
+					    location   	(336, 288)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@241
+						location   	(336, 274)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	332
+						justify    	0
+						label      	"Formulario cuenta bancaria")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528D750365"
+					    width      	428
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Registro de datos" @242
+					    location   	(336, 528)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@242
+						location   	(336, 514)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	206
+						justify    	0
+						label      	"Registro de datos")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DB201E8"
+					    width      	302
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Verificación de datos" @243
+					    location   	(336, 768)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@243
+						location   	(336, 754)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	204
+						justify    	0
+						label      	"Verificación de datos")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DBA0348"
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Creación cuenta bancaria" @244
+					    location   	(336, 1008)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@244
+						location   	(336, 994)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	332
+						justify    	0
+						label      	"Creación cuenta bancaria")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DC20173"
+					    width      	428
+					    height     	134
+					    autoResize 	TRUE)
+					(object TransView "" @245
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528DD303B2"
+					    client     	@240
+					    supplier   	@241
+					    vertices   	(list Points
+						(336, 142)
+						(336, 221))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @246
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528DE8036D"
+					    client     	@241
+					    supplier   	@242
+					    vertices   	(list Points
+						(336, 355)
+						(336, 461))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @247
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528DEB02BD"
+					    client     	@242
+					    supplier   	@243
+					    vertices   	(list Points
+						(336, 595)
+						(336, 701))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @248
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528DEE00DC"
+					    client     	@243
+					    supplier   	@244
+					    vertices   	(list Points
+						(336, 835)
+						(336, 941))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object StateView "Normal" "Formulario estado de cuenta" @249
+					    location   	(864, 1008)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@249
+						location   	(864, 994)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	308
+						justify    	0
+						label      	"Formulario estado de cuenta")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DF7031B"
+					    width      	404
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "EndState" "$UNNAMED$60" @250
+					    location   	(336, 1730)
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    quidu      	"55528E320111"
+					    autoResize 	TRUE)
+					(object TransView "" @251
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E3D00DB"
+					    client     	@244
+					    supplier   	@250
+					    vertices   	(list Points
+						(336, 1075)
+						(336, 1688))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @252
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E4100E3"
+					    client     	@244
+					    supplier   	@249
+					    vertices   	(list Points
+						(550, 1008)
+						(662, 1008))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object StateView "Normal" "Registro de datos" @253
+					    location   	(864, 1248)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@253
+						location   	(864, 1234)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	206
+						justify    	0
+						label      	"Registro de datos")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DB201E8"
+					    width      	302
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Verificación de datos" @254
+					    location   	(864, 1488)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@254
+						location   	(864, 1474)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	204
+						justify    	0
+						label      	"Verificación de datos")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528DBA0348"
+					    height     	134
+					    autoResize 	TRUE)
+					(object StateView "Normal" "Creación estado de cuenta" @255
+					    location   	(861, 1728)
+					    font       	(object Font
+						size       	9
+						face       	"Arial"
+						bold       	FALSE
+						italics    	FALSE
+						underline  	FALSE
+						strike     	FALSE
+						color      	0
+						default_color 	TRUE)
+					    label      	(object ItemLabel
+						Parent_View 	@255
+						location   	(861, 1714)
+						fill_color 	13434879
+						anchor_loc 	1
+						nlines     	2
+						max_width  	310
+						justify    	0
+						label      	"Creación estado de cuenta")
+					    icon_style 	"Icon"
+					    line_color 	3342489
+					    fill_color 	13434879
+					    quidu      	"55528E870211"
+					    width      	406
+					    height     	134
+					    autoResize 	TRUE)
+					(object TransView "" @256
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E9302E9"
+					    client     	@249
+					    supplier   	@253
+					    vertices   	(list Points
+						(864, 1075)
+						(864, 1181))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @257
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E950398"
+					    client     	@253
+					    supplier   	@254
+					    vertices   	(list Points
+						(864, 1315)
+						(864, 1421))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @258
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E98001A"
+					    client     	@254
+					    supplier   	@255
+					    vertices   	(list Points
+						(863, 1555)
+						(861, 1660))
+					    line_style 	0
+					    x_offset   	FALSE)
+					(object TransView "" @259
+					    stereotype 	TRUE
+					    line_color 	3342489
+					    quidu      	"55528E9D0049"
+					    client     	@255
+					    supplier   	@250
+					    vertices   	(list Points
+						(658, 1728)
+						(378, 1729))
+					    line_style 	0
+					    x_offset   	FALSE)))))
+			logical_presentations 	(list unit_reference_list)))
 		logical_presentations 	(list unit_reference_list)))
 	logical_presentations 	(list unit_reference_list
 	    (object ClassDiagram "Welcome"
@@ -3842,39 +6142,7 @@
 		max_width  	21600
 		origin_x   	0
 		origin_y   	0
-		items      	(list diagram_item_list
-		    (object NoteView @153
-			location   	(768, 384)
-			font       	(object Font
-			    size       	9
-			    face       	"Arial"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
-			    Parent_View 	@153
-			    location   	(121, 96)
-			    fill_color 	13434879
-			    nlines     	14
-			    max_width  	1259
-			    justify    	1
-			    label      	
-|Welcome to the Rational Unified Process Rose Model Framework
-|
-|Purpose of the Framework:
-|a) provide a good structure for a Rose model
-|b) provide a style guide with naming conventions/suggestions
-|c) identify a minimal set of diagrams to produce
-|d) relate activities in RUP to Rose diagrams
-|e) provide a basis for sophisticated SoDA reports. For instance based on this structure most of the Rose parts of the "Software Architecture Document" are generated from SoDA.
-			    )
-			line_color 	3342489
-			fill_color 	13434879
-			width      	1319
-			height     	588)))))
+		items      	(list diagram_item_list))))
     root_subsystem 	(object SubSystem "Component View"
 	quid       	"34DBB4830143"
 	documentation 	
@@ -3949,7 +6217,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object ModView "Component View::ConciliacionBancaria::ConciliacionBancaria.dll" "NotAModuleType" "NotAModulePart" @154
+			    (object ModView "Component View::ConciliacionBancaria::ConciliacionBancaria.dll" "NotAModuleType" "NotAModulePart" @260
 				location   	(1216, 272)
 				font       	(object Font
 				    size       	9
@@ -3961,7 +6229,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@154
+				    Parent_View 	@260
 				    location   	(1156, 247)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -3977,7 +6245,7 @@
 				autoResize 	TRUE
 				width      	402
 				height     	162)
-			    (object ModView "Component View::ConciliacionBancaria::wfConciliacionesBancarias" "NotAModuleType" "NotAModulePart" @155
+			    (object ModView "Component View::ConciliacionBancaria::wfConciliacionesBancarias" "NotAModuleType" "NotAModulePart" @261
 				location   	(432, 576)
 				font       	(object Font
 				    size       	9
@@ -3989,7 +6257,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@155
+				    Parent_View 	@261
 				    location   	(364, 551)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4005,7 +6273,7 @@
 				autoResize 	TRUE
 				width      	460
 				height     	162)
-			    (object ModView "Component View::ConciliacionBancaria::wfCuentasBancarias" "NotAModuleType" "NotAModulePart" @156
+			    (object ModView "Component View::ConciliacionBancaria::wfCuentasBancarias" "NotAModuleType" "NotAModulePart" @262
 				location   	(976, 576)
 				font       	(object Font
 				    size       	9
@@ -4017,7 +6285,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@156
+				    Parent_View 	@262
 				    location   	(922, 551)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4033,7 +6301,7 @@
 				autoResize 	TRUE
 				width      	366
 				height     	162)
-			    (object ModView "Component View::ConciliacionBancaria::wfEstadosCuenta" "NotAModuleType" "NotAModulePart" @157
+			    (object ModView "Component View::ConciliacionBancaria::wfEstadosCuenta" "NotAModuleType" "NotAModulePart" @263
 				location   	(1456, 576)
 				font       	(object Font
 				    size       	9
@@ -4045,7 +6313,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@157
+				    Parent_View 	@263
 				    location   	(1411, 551)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4061,7 +6329,7 @@
 				autoResize 	TRUE
 				width      	298
 				height     	162)
-			    (object ModView "Component View::ConciliacionBancaria::wfProcesoConciBancaria" "NotAModuleType" "NotAModulePart" @158
+			    (object ModView "Component View::ConciliacionBancaria::wfProcesoConciBancaria" "NotAModuleType" "NotAModulePart" @264
 				location   	(1968, 576)
 				font       	(object Font
 				    size       	9
@@ -4073,7 +6341,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@158
+				    Parent_View 	@264
 				    location   	(1903, 551)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4089,42 +6357,42 @@
 				autoResize 	TRUE
 				width      	442
 				height     	162)
-			    (object ModVisView "" @159
+			    (object ModVisView "" @265
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5538526A009C"
-				client     	@154
-				supplier   	@155
+				client     	@260
+				supplier   	@261
 				vertices   	(list Points
 				    (1020, 345)
 				    (634, 495))
 				line_style 	0)
-			    (object ModVisView "" @160
+			    (object ModVisView "" @266
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"553852760054"
-				client     	@154
-				supplier   	@156
+				client     	@260
+				supplier   	@262
 				vertices   	(list Points
 				    (1147, 350)
 				    (1036, 495))
 				line_style 	0)
-			    (object ModVisView "" @161
+			    (object ModVisView "" @267
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"553852790382"
-				client     	@154
-				supplier   	@157
+				client     	@260
+				supplier   	@263
 				vertices   	(list Points
 				    (1275, 350)
 				    (1388, 495))
 				line_style 	0)
-			    (object ModVisView "" @162
+			    (object ModVisView "" @268
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5538527D0260"
-				client     	@154
-				supplier   	@158
+				client     	@260
+				supplier   	@264
 				vertices   	(list Points
 				    (1409, 348)
 				    (1765, 495))
@@ -4165,7 +6433,7 @@
 			origin_x   	0
 			origin_y   	0
 			items      	(list diagram_item_list
-			    (object ModView "Component View::Capas::Capa de negocio" "NotAModuleType" "NotAModulePart" @163
+			    (object ModView "Component View::Capas::Capa de negocio" "NotAModuleType" "NotAModulePart" @269
 				location   	(336, 464)
 				font       	(object Font
 				    size       	9
@@ -4177,7 +6445,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@163
+				    Parent_View 	@269
 				    location   	(291, 439)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4193,7 +6461,7 @@
 				autoResize 	TRUE
 				width      	298
 				height     	162)
-			    (object ModView "Component View::Capas::Capa de datos" "NotAModuleType" "NotAModulePart" @164
+			    (object ModView "Component View::Capas::Capa de datos" "NotAModuleType" "NotAModulePart" @270
 				location   	(336, 720)
 				font       	(object Font
 				    size       	9
@@ -4205,7 +6473,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@164
+				    Parent_View 	@270
 				    location   	(291, 695)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4221,7 +6489,7 @@
 				autoResize 	TRUE
 				width      	298
 				height     	162)
-			    (object ModView "Component View::ConciliacionBancaria::Capa de Presentación" "NotAModuleType" "NotAModulePart" @165
+			    (object ModView "Component View::ConciliacionBancaria::Capa de Presentación" "NotAModuleType" "NotAModulePart" @271
 				location   	(336, 192)
 				font       	(object Font
 				    size       	9
@@ -4233,7 +6501,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@165
+				    Parent_View 	@271
 				    location   	(270, 167)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4249,7 +6517,7 @@
 				autoResize 	TRUE
 				width      	446
 				height     	162)
-			    (object ModView "Component View::Capas::Capa de entidades" "NotAModuleType" "NotAModulePart" @166
+			    (object ModView "Component View::Capas::Capa de entidades" "NotAModuleType" "NotAModulePart" @272
 				location   	(848, 464)
 				font       	(object Font
 				    size       	9
@@ -4261,7 +6529,7 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@166
+				    Parent_View 	@272
 				    location   	(798, 439)
 				    fill_color 	13434879
 				    anchor_loc 	3
@@ -4277,32 +6545,32 @@
 				autoResize 	TRUE
 				width      	334
 				height     	162)
-			    (object ModVisView "" @167
+			    (object ModVisView "" @273
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"55383FD40390"
-				client     	@163
-				supplier   	@164
+				client     	@269
+				supplier   	@270
 				vertices   	(list Points
 				    (336, 542)
 				    (336, 640))
 				line_style 	0)
-			    (object ModVisView "" @168
+			    (object ModVisView "" @274
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"55383FC602B2"
-				client     	@165
-				supplier   	@163
+				client     	@271
+				supplier   	@269
 				vertices   	(list Points
 				    (336, 270)
 				    (336, 384))
 				line_style 	0)
-			    (object ModVisView "" @169
+			    (object ModVisView "" @275
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"55383FE0006E"
-				client     	@163
-				supplier   	@166
+				client     	@269
+				supplier   	@272
 				vertices   	(list Points
 				    (480, 464)
 				    (681, 464))
@@ -4318,7 +6586,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ModView "Component View::Capas::Capa de negocio" "NotAModuleType" "NotAModulePart" @170
+		    (object ModView "Component View::Capas::Capa de negocio" "NotAModuleType" "NotAModulePart" @276
 			location   	(304, 176)
 			font       	(object Font
 			    size       	9
@@ -4330,7 +6598,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@170
+			    Parent_View 	@276
 			    location   	(255, 151)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -4396,7 +6664,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ProcessorView "<processor name>" @171
+		    (object ProcessorView "<processor name>" @277
 			location   	(512, 1056)
 			font       	(object Font
 			    size       	9
@@ -4408,7 +6676,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@171
+			    Parent_View 	@277
 			    location   	(276, 900)
 			    nlines     	2
 			    max_width  	400
@@ -4419,7 +6687,7 @@
 			width      	475
 			height     	381
 			annotation 	3)
-		    (object DeviceView "<device name>" @172
+		    (object DeviceView "<device name>" @278
 			location   	(1040, 1056)
 			font       	(object Font
 			    size       	9
@@ -4431,7 +6699,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@172
+			    Parent_View 	@278
 			    location   	(867, 950)
 			    nlines     	2
 			    max_width  	275
@@ -4442,16 +6710,16 @@
 			width      	350
 			height     	282
 			annotation 	0)
-		    (object ConnectionView "" @173
+		    (object ConnectionView "" @279
 			stereotype 	TRUE
 			quidu      	"34DBBD4B008C"
-			client     	@171
-			supplier   	@172
+			client     	@277
+			supplier   	@278
 			vertices   	(list Points
 			    (718, 1056)
 			    (865, 1056))
 			line_style 	0)
-		    (object NoteView @174
+		    (object NoteView @280
 			location   	(816, 304)
 			font       	(object Font
 			    size       	9
@@ -4463,7 +6731,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@174
+			    Parent_View 	@280
 			    location   	(38, 29)
 			    fill_color 	13434879
 			    nlines     	11

@@ -8,3 +8,43 @@ c:\users\anthony\documents\visual studio 2013\Projects\Reporteador\Reporteador\b
 c:\users\anthony\documents\visual studio 2013\Projects\Reporteador\Reporteador\obj\Debug\Reporteador.dll
 c:\users\anthony\documents\visual studio 2013\Projects\Reporteador\Reporteador\obj\Debug\Reporteador.pdb
 c:\users\anthony\documents\visual studio 2013\Projects\Reporteador\Reporteador\bin\Debug\Reporteador.dll.config
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csprojResolveAssemblyReference.cache
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportes.resources
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportesH.resources
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csproj.GenerateResource.Cache
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.cache
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.compiled
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.dll
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.dll.config
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.pdb
+C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.dll.config
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.pdb
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csprojResolveAssemblyReference.cache
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportes.resources
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportesH.resources
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csproj.GenerateResource.Cache
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.cache
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.compiled
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.dll
+C:\Users\DANY\Desktop\SCF\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.dll.config
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportes.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportesH.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csproj.GenerateResource.Cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.compiled
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.pdb
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.dll.config
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\bin\Debug\Reporteador.pdb
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportes.resources
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.wfReportesH.resources
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.csproj.GenerateResource.Cache
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.cache
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\RdlCompile.compiled
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.dll
+C:\Users\Anthony\Desktop\Proyectos\Reporteador\Reporteador\obj\Debug\Reporteador.pdb

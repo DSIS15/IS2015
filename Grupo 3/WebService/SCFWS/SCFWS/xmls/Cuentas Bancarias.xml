@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista_cuentasbancarias>
+  <cuentabancaria>
+    <numcuenta>12345</numcuenta>
+    <nombre>Cuenta1</nombre>
+    <banco>Banco Industrial</banco>
+    <saldo>1000</saldo>
+  </cuentabancaria>
+  <cuentabancaria>
+    <numcuenta>67890</numcuenta>
+    <nombre>Cuenta2</nombre>
+    <banco>Banco GYT</banco>
+    <saldo>2000</saldo>
+  </cuentabancaria>
+  </lista_cuentasbancarias>

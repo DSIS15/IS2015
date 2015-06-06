@@ -102,6 +102,7 @@
             this.txtCodTmov.Size = new System.Drawing.Size(150, 22);
             this.txtCodTmov.TabIndex = 14;
             this.txtCodTmov.Tag = "codigo_tmov";
+            this.txtCodTmov.EnabledChanged += new System.EventHandler(this.txtCodTmov_EnabledChanged);
             this.txtCodTmov.TextChanged += new System.EventHandler(this.txtCodTmov_TextChanged);
             // 
             // txtNombreTmov
@@ -173,6 +174,7 @@
             this.Name = "wfTipoDeMovimiento";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tipos de Movimientos";
             this.Load += new System.EventHandler(this.wfTipoDeMovimiento_Load);
             this.ResumeLayout(false);

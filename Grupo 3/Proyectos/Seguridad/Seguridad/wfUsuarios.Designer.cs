@@ -187,6 +187,7 @@
             this.navegador1.btnAfterGuardar += new System.EventHandler(this.navegador1_btnAfterGuardar);
             this.navegador1.btnBeforeLimpiar += new System.EventHandler(this.navegador1_btnBeforeLimpiar);
             this.navegador1.btnAfterLimpiar += new System.EventHandler(this.navegador1_btnAfterLimpiar);
+            this.navegador1.btnAfterImprimir += new System.EventHandler(this.navegador1_btnAfterImprimir);
             // 
             // dgvPermisosEspeciales
             // 
@@ -249,6 +250,7 @@
             this.Name = "wfUsuarios";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.wfUsuarios_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPermisosEspeciales)).EndInit();

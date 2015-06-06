@@ -31,9 +31,9 @@
             this.dgvBitacora = new System.Windows.Forms.DataGridView();
             this.tlpPanel = new System.Windows.Forms.TableLayoutPanel();
             this.pnlPanel = new System.Windows.Forms.Panel();
-            this.lblFiltro = new System.Windows.Forms.Label();
-            this.txtClave = new System.Windows.Forms.TextBox();
             this.btnRecargar = new System.Windows.Forms.Button();
+            this.txtClave = new System.Windows.Forms.TextBox();
+            this.lblFiltro = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBitacora)).BeginInit();
             this.tlpPanel.SuspendLayout();
             this.pnlPanel.SuspendLayout();
@@ -89,22 +89,6 @@
             this.pnlPanel.Size = new System.Drawing.Size(760, 36);
             this.pnlPanel.TabIndex = 1;
             // 
-            // lblFiltro
-            // 
-            this.lblFiltro.AutoSize = true;
-            this.lblFiltro.Location = new System.Drawing.Point(9, 9);
-            this.lblFiltro.Name = "lblFiltro";
-            this.lblFiltro.Size = new System.Drawing.Size(37, 17);
-            this.lblFiltro.TabIndex = 0;
-            this.lblFiltro.Text = "Filtro";
-            // 
-            // txtClave
-            // 
-            this.txtClave.Location = new System.Drawing.Point(52, 6);
-            this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(150, 22);
-            this.txtClave.TabIndex = 2;
-            // 
             // btnRecargar
             // 
             this.btnRecargar.Location = new System.Drawing.Point(208, 6);
@@ -114,6 +98,22 @@
             this.btnRecargar.Text = "Recargar";
             this.btnRecargar.UseVisualStyleBackColor = true;
             this.btnRecargar.Click += new System.EventHandler(this.btnRecargar_Click);
+            // 
+            // txtClave
+            // 
+            this.txtClave.Location = new System.Drawing.Point(52, 6);
+            this.txtClave.Name = "txtClave";
+            this.txtClave.Size = new System.Drawing.Size(150, 22);
+            this.txtClave.TabIndex = 2;
+            // 
+            // lblFiltro
+            // 
+            this.lblFiltro.AutoSize = true;
+            this.lblFiltro.Location = new System.Drawing.Point(9, 9);
+            this.lblFiltro.Name = "lblFiltro";
+            this.lblFiltro.Size = new System.Drawing.Size(37, 17);
+            this.lblFiltro.TabIndex = 0;
+            this.lblFiltro.Text = "Filtro";
             // 
             // wfBitacora
             // 
@@ -129,6 +129,7 @@
             this.Name = "wfBitacora";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bitácora";
             this.Load += new System.EventHandler(this.wfBitacora_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBitacora)).EndInit();

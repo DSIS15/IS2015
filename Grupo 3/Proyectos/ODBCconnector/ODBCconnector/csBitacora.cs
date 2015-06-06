@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Data.Odbc;
 using System.Net;
 
@@ -30,8 +29,8 @@ namespace ODBCconnector
 
         private static string sMaquina(string localIP)
         {
-            IPHostEntry ipHost = Dns.GetHostEntry(localIP);
-            return ipHost.HostName;
+            IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
+            return ipHost.HostName.ToString();
         }
 
         public static void vRegistarEnBitacora(string sAccion)

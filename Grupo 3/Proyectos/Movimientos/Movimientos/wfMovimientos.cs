@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Movimientos
@@ -23,6 +22,8 @@ namespace Movimientos
         private void wfMovimientos_Load(object sender, EventArgs e)
         {
             alDatosEnviados.Add(txtCodMov);
+            alDatosEnviados.Add(txtCod_Emp);
+            alDatosEnviados.Add(txtCod_Mon);
             alDatosEnviados.Add(txtCodTmov);
             alDatosEnviados.Add(txtCodCtabco);
             alDatosEnviados.Add(txtFechmovMov);
@@ -98,7 +99,7 @@ namespace Movimientos
 
         private void navegador1_btnAfterNuevo(object sender, EventArgs e)
         {
-            cboEstadoMov.SelectedIndex = 0;
+            cboEstadoMov.SelectedIndex = 0;                  
         }
 
         private void txtEstadoMov_EnabledChanged(object sender, EventArgs e)
@@ -108,13 +109,9 @@ namespace Movimientos
 
         private void txtFechmovMov_TextChanged(object sender, EventArgs e)
         {
-            dtpFechmovMov.Text = txtFechmovMov.Text;
+            dtpFechMov.Text = txtFechmovMov.Text;
         }
-
-        private void dtpFechmovMov_ValueChanged(object sender, EventArgs e)
-        {
-            txtFechmovMov.Text = dtpFechmovMov.Text;
-        }
+           
 
         private void txtCodTmov_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -150,5 +147,49 @@ namespace Movimientos
         {
             Capas.csNegocio.vValidarTexto(e, ".0123456789");
         }
+
+        private void navegador1_btnAfterGuardar(object sender, EventArgs e)
+        {
+            //POLIZAS
+        }
+
+        private void dtpFechMov_ValueChanged(object sender, EventArgs e)
+        {
+            txtFechmovMov.Text = dtpFechMov.Text;
+        }      
+
+        private void txtFechmovMov_EnabledChanged(object sender, EventArgs e)
+        {
+            dtpFechMov.Enabled = txtFechmovMov.Enabled;
+        }
+
+        private void txtCod_Emp_Enter(object sender, EventArgs e)
+        {
+            Seguridad.wfEmpresas Empresa = new Seguridad.wfEmpresas();
+            Empresa.ShowDialog();
+            txtCod_Emp.Text = Empresa.sCodigo;
+
+        }
+
+        private void txtCod_Mon_Enter(object sender, EventArgs e)
+        {
+            Seguridad.wfEmpresas Moneda = new Seguridad.wfEmpresas();
+            Moneda.ShowDialog();
+            txtCod_Mon.Text = Moneda.sCodigo;
+        }
+
+        private void txtCodTmov_Enter(object sender, EventArgs e)
+        {
+            wfTipoDeMovimiento TipoMov = new wfTipoDeMovimiento();
+            TipoMov.ShowDialog();
+            txtCodTmov.Text = TipoMov.sCodigo;
+        }
+
+        private void txtCodCtabco_Enter(object sender, EventArgs e)
+        {
+            ConciliacionBancaria.wfCuentasBancarias Cuenta = new ConciliacionBancaria.wfCuentasBancarias();
+            Cuenta.ShowDialog();
+            txtCodCtabco.Text = Cuenta.sCodigo;
+        }       
     }
 }

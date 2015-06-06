@@ -46,8 +46,15 @@ C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Cap
 C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb
 C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
 C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
-C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.dll
-C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb
 C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
 C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
 C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.dll
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb

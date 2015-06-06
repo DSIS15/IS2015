@@ -4,6 +4,7 @@
     <ReportItems>
       <Subreport Name="Subreport1">
         <ReportName>Perfiles</ReportName>
+        <Left>0in</Left>
         <Height>0.62877cm</Height>
         <Width>16.50998cm</Width>
         <Visibility>
@@ -18,11 +19,76 @@
       <Subreport Name="Subreport2">
         <ReportName>Usuarios</ReportName>
         <Top>0.62877cm</Top>
+        <Left>0in</Left>
         <Height>0.62877cm</Height>
         <Width>16.50998cm</Width>
         <ZIndex>1</ZIndex>
         <Visibility>
           <Hidden>=Parameters!rpSubReporte.Value&lt;&gt;"Usuarios"</Hidden>
+        </Visibility>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport3">
+        <ReportName>Conciliaciones</ReportName>
+        <Top>1.25754cm</Top>
+        <Left>0.00002cm</Left>
+        <Height>0.62877cm</Height>
+        <Width>16.50998cm</Width>
+        <ZIndex>2</ZIndex>
+        <Visibility>
+          <Hidden>=Parameters!rpSubReporte.Value &lt;&gt; "Conciliaciones"</Hidden>
+        </Visibility>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport4">
+        <ReportName>EstadoResultados</ReportName>
+        <Top>1.88631cm</Top>
+        <Left>0in</Left>
+        <Height>0.62877cm</Height>
+        <Width>16.50998cm</Width>
+        <ZIndex>3</ZIndex>
+        <Visibility>
+          <Hidden>=Parameters!rpSubReporte.Value &lt;&gt; "EstadoResultados"</Hidden>
+        </Visibility>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport5">
+        <ReportName>BalanceGeneral</ReportName>
+        <Top>2.51508cm</Top>
+        <Left>0in</Left>
+        <Height>0.62877cm</Height>
+        <Width>16.50998cm</Width>
+        <ZIndex>4</ZIndex>
+        <Visibility>
+          <Hidden>=Parameters!rpSubReporte.Value &lt;&gt; "BalanceGeneral"</Hidden>
+        </Visibility>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Subreport>
+      <Subreport Name="Subreport6">
+        <ReportName>BalanceSaldos</ReportName>
+        <Top>3.14385cm</Top>
+        <Left>0cm</Left>
+        <Height>0.62877cm</Height>
+        <Width>16.50998cm</Width>
+        <ZIndex>5</ZIndex>
+        <Visibility>
+          <Hidden>=Parameters!rpSubReporte.Value &lt;&gt; "BalanceSaldos"</Hidden>
         </Visibility>
         <Style>
           <Border>
@@ -145,7 +211,7 @@
             </Paragraph>
           </Paragraphs>
           <Top>2.39931cm</Top>
-          <Left>0cm</Left>
+          <Left>0in</Left>
           <Height>0.86458cm</Height>
           <Width>16.50998cm</Width>
           <ZIndex>3</ZIndex>
@@ -195,7 +261,7 @@
             </Paragraph>
           </Paragraphs>
           <Top>0.03528cm</Top>
-          <Left>0cm</Left>
+          <Left>0in</Left>
           <Height>0.70583cm</Height>
           <Width>16.51cm</Width>
           <Style>
@@ -236,6 +302,36 @@
       <rd:DataSourceID>d79b18af-fb18-485c-8c8e-6da025d4b05e</rd:DataSourceID>
     </DataSource>
   </DataSources>
+  <DataSets>
+    <DataSet Name="dsEstadoResultados">
+      <Query>
+        <DataSourceName>dsBaseDatosSCF</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="cuenta_cta">
+          <DataField>cuenta_cta</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="sactual_cta">
+          <DataField>sactual_cta</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Expr1">
+          <DataField>Expr1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>dsBaseDatosSCF</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\marlon\Desktop\Proyectos\Reporteador\Reporteador\dsBaseDatosSCF.xsd</rd:SchemaPath>
+        <rd:TableName>dtEstadoResultados</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>dtEstadoResultadosTA</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
   <ReportParameters>
     <ReportParameter Name="rpNombreReporte">
       <DataType>String</DataType>

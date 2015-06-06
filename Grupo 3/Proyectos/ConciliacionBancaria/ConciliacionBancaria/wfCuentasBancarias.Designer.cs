@@ -266,6 +266,7 @@
             this.Name = "wfCuentasBancarias";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cuentas Bancarias";
             this.Load += new System.EventHandler(this.wfCuentasBancarias_Load);
             this.ResumeLayout(false);

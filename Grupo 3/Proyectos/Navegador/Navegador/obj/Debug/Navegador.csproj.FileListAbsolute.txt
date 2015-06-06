@@ -114,3 +114,16 @@ C:\Users\Anthony\Desktop\Proyectos\Navegador\Navegador\obj\Debug\Navegador.wfBus
 C:\Users\Anthony\Desktop\Proyectos\Navegador\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
 C:\Users\Anthony\Desktop\Proyectos\Navegador\Navegador\obj\Debug\Navegador.dll
 C:\Users\Anthony\Desktop\Proyectos\Navegador\Navegador\obj\Debug\Navegador.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\Navegador.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\Navegador.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\Capas.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\ODBCconnector.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\Capas.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\bin\Debug\ODBCconnector.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.Navegador.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.wfBuscar.resources
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Navegador\Navegador\obj\Debug\Navegador.pdb

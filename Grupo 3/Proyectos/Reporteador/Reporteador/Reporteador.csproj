@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Reporteador</RootNamespace>
     <AssemblyName>Reporteador</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -38,6 +39,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
     </Reference>
+    <Reference Include="Reporteador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Reporteador.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Deployment" />
@@ -46,11 +51,14 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dsBaseDatosSCF.cs">
+      <DependentUpon>dsBaseDatosSCF.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="dsBaseDatosSCF.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -68,13 +76,29 @@
     <Compile Include="wfReportes.Designer.cs">
       <DependentUpon>wfReportes.cs</DependentUpon>
     </Compile>
+    <Compile Include="wfReportesH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfReportesH.Designer.cs">
+      <DependentUpon>wfReportesH.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Conciliaciones.rdlc" />
     <EmbeddedResource Include="Perfiles.rdlc" />
+    <EmbeddedResource Include="ReportePrincipalH.rdlc" />
     <EmbeddedResource Include="ReportePrincipal.rdlc" />
+    <EmbeddedResource Include="EstadoResultados.rdlc" />
+    <EmbeddedResource Include="BalanceGeneral.rdlc" />
+    <EmbeddedResource Include="BalanceSaldos.rdlc" />
+    <EmbeddedResource Include="CompraVenta.rdlc" />
+    <EmbeddedResource Include="UsuariosH.rdlc" />
     <EmbeddedResource Include="Usuarios.rdlc" />
     <EmbeddedResource Include="wfReportes.resx">
       <DependentUpon>wfReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfReportesH.resx">
+      <DependentUpon>wfReportesH.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

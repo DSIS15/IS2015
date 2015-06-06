@@ -1,0 +1,53 @@
+c:\users\adavi\documents\visual studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+c:\users\adavi\documents\visual studio 2013\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+c:\users\adavi\documents\visual studio 2013\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+c:\users\adavi\documents\visual studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+c:\users\adavi\documents\visual studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Adavi\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Adavi\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Adavi\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Adavi\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Adavi\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector v2.0\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector v2.0\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector v2.0\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector v2.0\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\miniKiraPortatil\Desktop\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Documents\DS\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Documents\DS\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Documents\DS\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\DS\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Anthony\Documents\DS\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\IDS\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\IDS\Projects\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\IDS\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\IDS\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\IDS\Projects\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\FamGutierrez\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\FamGutierrez\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\FamGutierrez\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb
+C:\Users\FamGutierrez\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\FamGutierrez\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.dll
+C:\Users\Anthony\Desktop\SCF\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\ODBCconnector.pdb
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.dll
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\bin\Debug\Capas.pdb
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.dll
+C:\Users\Anthony\Desktop\Proyectos\ODBCconnector\ODBCconnector\obj\Debug\ODBCconnector.pdb

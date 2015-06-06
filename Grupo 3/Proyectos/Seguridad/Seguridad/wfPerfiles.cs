@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Seguridad
@@ -230,6 +229,14 @@ namespace Seguridad
                     default: break;
                 }
             }
+        }
+
+        private void navegador1_btnAfterImprimir(object sender, EventArgs e)
+        {
+            Reporteador.wfReportes Perfiles = new Reporteador.wfReportes();
+            Perfiles.sNombreReporte = "Reporte de Perfiles";
+            Perfiles.sSubReporte = "Perfiles";
+            Perfiles.ShowDialog();
         }
     }
 }

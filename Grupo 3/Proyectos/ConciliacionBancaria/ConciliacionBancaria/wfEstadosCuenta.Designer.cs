@@ -281,6 +281,7 @@
             this.Name = "wfEstadosCuenta";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Estados de Cuenta";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.wfEstadosCuenta_FormClosing);
             this.Load += new System.EventHandler(this.wfEstadosCuenta_Load);

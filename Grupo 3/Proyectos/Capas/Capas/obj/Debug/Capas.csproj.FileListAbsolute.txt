@@ -19,3 +19,16 @@ C:\Users\Anthony\Desktop\IS\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.pdb
 C:\Users\Anthony\Desktop\IS\Proyectos\Capas\Capas\obj\Debug\Capas.csprojResolveAssemblyReference.cache
 C:\Users\Anthony\Desktop\IS\Proyectos\Capas\Capas\obj\Debug\Capas.dll
 C:\Users\Anthony\Desktop\IS\Proyectos\Capas\Capas\obj\Debug\Capas.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\obj\Debug\Capas.csprojResolveAssemblyReference.cache
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\obj\Debug\Capas.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\obj\Debug\Capas.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\bin\Debug\Capas.dll
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\bin\Debug\Capas.pdb
+C:\Users\Anthony\Documents\Visual Studio 2013\Projects\Capas\Capas\bin\Debug\ODBCconnector.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\bin\Debug\Capas.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\bin\Debug\Capas.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\bin\Debug\ODBCconnector.pdb
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\obj\Debug\Capas.csprojResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\obj\Debug\Capas.dll
+C:\Users\Andrea\Documents\U\9ciclo\IngenieríaDeSoftware\Proyectos\Capas\Capas\obj\Debug\Capas.pdb

@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Seguridad
@@ -205,6 +204,14 @@ namespace Seguridad
             {
                 MessageBox.Show("Guardar permisos especiales");
             }
+        }
+
+        private void navegador1_btnAfterImprimir(object sender, EventArgs e)
+        {
+            Reporteador.wfReportes Usuarios = new Reporteador.wfReportes();
+            Usuarios.sNombreReporte = "Reporte de Usuarios";
+            Usuarios.sSubReporte = "Usuarios";
+            Usuarios.ShowDialog();
         }        
     }
 }

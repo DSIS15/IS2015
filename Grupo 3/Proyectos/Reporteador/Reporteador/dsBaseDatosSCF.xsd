@@ -47,6 +47,124 @@ WHERE        a.cod_pfl = b.cod_pfl</CommandText>
             </Mappings>
             <Sources />
           </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtConciliacionesTA" GeneratorDataComponentClassName="dtConciliacionesTA" Name="dtConciliaciones" UserDataComponentName="dtConciliacionesTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CONCAT(a.anio_estcta, '-', a.nombre_estcta) AS Expr1, b.correlativo_mov, c.fechconci_conci, c.conciliado_conci, c.estado_conci
+FROM            tabm_estadocuenta a, tabm_conciliacion c, tabm_movimiento b
+WHERE        a.cod_estcta = c.cod_estcta AND c.cod_mov = b.cod_mov</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="correlativo_mov" DataSetColumn="correlativo_mov" />
+              <Mapping SourceColumn="fechconci_conci" DataSetColumn="fechconci_conci" />
+              <Mapping SourceColumn="conciliado_conci" DataSetColumn="conciliado_conci" />
+              <Mapping SourceColumn="estado_conci" DataSetColumn="estado_conci" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtEstadoResultadosTA" GeneratorDataComponentClassName="dtEstadoResultadosTA" Name="dtEstadoResultados" UserDataComponentName="dtEstadoResultadosTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cuenta_cta, sactual_cta, '0' AS Expr1
+FROM            tabm_cuenta
+WHERE        (perdida_cta = 1) AND (estado_cta = 1)
+UNION
+SELECT        cuenta_cta, '0' AS Expr1, sactual_cta
+FROM            tabm_cuenta tabm_cuenta_1
+WHERE        (ganancia_cta = 1) AND (estado_cta = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cuenta_cta" DataSetColumn="cuenta_cta" />
+              <Mapping SourceColumn="sactual_cta" DataSetColumn="sactual_cta" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtBalanceGeneralTA" GeneratorDataComponentClassName="dtBalanceGeneralTA" Name="dtBalanceGeneral" UserDataComponentName="dtBalanceGeneralTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cuenta_cta, sactual_cta, '0' AS Expr1
+FROM            tabm_cuenta
+WHERE        (activo_cta = 1) AND (estado_cta = 1)
+UNION
+SELECT        cuenta_cta, '0' AS Expr1, sactual_cta
+FROM            tabm_cuenta tabm_cuenta_1
+WHERE        (pasivo_cta = 1) AND (estado_cta = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cuenta_cta" DataSetColumn="cuenta_cta" />
+              <Mapping SourceColumn="sactual_cta" DataSetColumn="sactual_cta" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtBalanceSaldosTA" GeneratorDataComponentClassName="dtBalanceSaldosTA" Name="dtBalanceSaldos" UserDataComponentName="dtBalanceSaldosTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cuenta_cta, sactual_cta, '0' AS Expr1
+FROM            tabm_cuenta
+WHERE        (debe_cta = 1) AND (estado_cta = 1)
+UNION
+SELECT        cuenta_cta, '0' AS Expr1, sactual_cta
+FROM            tabm_cuenta tabm_cuenta_1
+WHERE        (haber_cta = 1) AND (estado_cta = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cuenta_cta" DataSetColumn="cuenta_cta" />
+              <Mapping SourceColumn="sactual_cta" DataSetColumn="sactual_cta" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtCompraVentaTA" GeneratorDataComponentClassName="dtCompraVentaTA" Name="dtCompraVenta" UserDataComponentName="dtCompraVentaTA">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select * from CompraVenta</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_fact" DataSetColumn="cod_fact" />
+              <Mapping SourceColumn="tipo_docto" DataSetColumn="tipo_docto" />
+              <Mapping SourceColumn="num_docto" DataSetColumn="num_docto" />
+              <Mapping SourceColumn="fecha_fact" DataSetColumn="fecha_fact" />
+              <Mapping SourceColumn="CompraVenta" DataSetColumn="CompraVenta" />
+              <Mapping SourceColumn="precio_neto" DataSetColumn="precio_neto" />
+              <Mapping SourceColumn="imp_fact" DataSetColumn="imp_fact" />
+              <Mapping SourceColumn="CreditoDebito" DataSetColumn="CreditoDebito" />
+              <Mapping SourceColumn="total_fact" DataSetColumn="total_fact" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
         </Tables>
         <Sources />
       </DataSource>
@@ -99,6 +217,143 @@ WHERE        a.cod_pfl = b.cod_pfl</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="dtConciliaciones" msprop:Generator_TableClassName="dtConciliacionesDataTable" msprop:Generator_TableVarName="tabledtConciliaciones" msprop:Generator_RowChangedName="dtConciliacionesRowChanged" msprop:Generator_TablePropName="dtConciliaciones" msprop:Generator_RowDeletingName="dtConciliacionesRowDeleting" msprop:Generator_RowChangingName="dtConciliacionesRowChanging" msprop:Generator_RowEvHandlerName="dtConciliacionesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtConciliacionesRowDeleted" msprop:Generator_RowClassName="dtConciliacionesRow" msprop:Generator_UserTableName="dtConciliaciones" msprop:Generator_RowEvArgName="dtConciliacionesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Expr1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="168" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="correlativo_mov" msprop:Generator_ColumnVarNameInTable="columncorrelativo_mov" msprop:Generator_ColumnPropNameInRow="correlativo_mov" msprop:Generator_ColumnPropNameInTable="correlativo_movColumn" msprop:Generator_UserColumnName="correlativo_mov" type="xs:decimal" />
+              <xs:element name="fechconci_conci" msprop:Generator_ColumnVarNameInTable="columnfechconci_conci" msprop:Generator_ColumnPropNameInRow="fechconci_conci" msprop:Generator_ColumnPropNameInTable="fechconci_conciColumn" msprop:Generator_UserColumnName="fechconci_conci" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="conciliado_conci" msprop:Generator_ColumnVarNameInTable="columnconciliado_conci" msprop:Generator_ColumnPropNameInRow="conciliado_conci" msprop:Generator_ColumnPropNameInTable="conciliado_conciColumn" msprop:Generator_UserColumnName="conciliado_conci" type="xs:decimal" />
+              <xs:element name="estado_conci" msprop:Generator_ColumnVarNameInTable="columnestado_conci" msprop:Generator_ColumnPropNameInRow="estado_conci" msprop:Generator_ColumnPropNameInTable="estado_conciColumn" msprop:Generator_UserColumnName="estado_conci" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtEstadoResultados" msprop:Generator_TableClassName="dtEstadoResultadosDataTable" msprop:Generator_TableVarName="tabledtEstadoResultados" msprop:Generator_TablePropName="dtEstadoResultados" msprop:Generator_RowDeletingName="dtEstadoResultadosRowDeleting" msprop:Generator_RowChangingName="dtEstadoResultadosRowChanging" msprop:Generator_RowEvHandlerName="dtEstadoResultadosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtEstadoResultadosRowDeleted" msprop:Generator_UserTableName="dtEstadoResultados" msprop:Generator_RowChangedName="dtEstadoResultadosRowChanged" msprop:Generator_RowEvArgName="dtEstadoResultadosRowChangeEvent" msprop:Generator_RowClassName="dtEstadoResultadosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cuenta_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncuenta_cta" msprop:Generator_ColumnPropNameInRow="cuenta_cta" msprop:Generator_ColumnPropNameInTable="cuenta_ctaColumn" msprop:Generator_UserColumnName="cuenta_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sactual_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsactual_cta" msprop:Generator_ColumnPropNameInRow="sactual_cta" msprop:Generator_ColumnPropNameInTable="sactual_ctaColumn" msprop:Generator_UserColumnName="sactual_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtBalanceGeneral" msprop:Generator_TableClassName="dtBalanceGeneralDataTable" msprop:Generator_TableVarName="tabledtBalanceGeneral" msprop:Generator_TablePropName="dtBalanceGeneral" msprop:Generator_RowDeletingName="dtBalanceGeneralRowDeleting" msprop:Generator_RowChangingName="dtBalanceGeneralRowChanging" msprop:Generator_RowEvHandlerName="dtBalanceGeneralRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBalanceGeneralRowDeleted" msprop:Generator_UserTableName="dtBalanceGeneral" msprop:Generator_RowChangedName="dtBalanceGeneralRowChanged" msprop:Generator_RowEvArgName="dtBalanceGeneralRowChangeEvent" msprop:Generator_RowClassName="dtBalanceGeneralRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cuenta_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncuenta_cta" msprop:Generator_ColumnPropNameInRow="cuenta_cta" msprop:Generator_ColumnPropNameInTable="cuenta_ctaColumn" msprop:Generator_UserColumnName="cuenta_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sactual_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsactual_cta" msprop:Generator_ColumnPropNameInRow="sactual_cta" msprop:Generator_ColumnPropNameInTable="sactual_ctaColumn" msprop:Generator_UserColumnName="sactual_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtBalanceSaldos" msprop:Generator_TableClassName="dtBalanceSaldosDataTable" msprop:Generator_TableVarName="tabledtBalanceSaldos" msprop:Generator_TablePropName="dtBalanceSaldos" msprop:Generator_RowDeletingName="dtBalanceSaldosRowDeleting" msprop:Generator_RowChangingName="dtBalanceSaldosRowChanging" msprop:Generator_RowEvHandlerName="dtBalanceSaldosRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBalanceSaldosRowDeleted" msprop:Generator_UserTableName="dtBalanceSaldos" msprop:Generator_RowChangedName="dtBalanceSaldosRowChanged" msprop:Generator_RowEvArgName="dtBalanceSaldosRowChangeEvent" msprop:Generator_RowClassName="dtBalanceSaldosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cuenta_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncuenta_cta" msprop:Generator_ColumnPropNameInRow="cuenta_cta" msprop:Generator_ColumnPropNameInTable="cuenta_ctaColumn" msprop:Generator_UserColumnName="cuenta_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="sactual_cta" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnsactual_cta" msprop:Generator_ColumnPropNameInRow="sactual_cta" msprop:Generator_ColumnPropNameInTable="sactual_ctaColumn" msprop:Generator_UserColumnName="sactual_cta" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Expr1" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtCompraVenta" msprop:Generator_TableClassName="dtCompraVentaDataTable" msprop:Generator_TableVarName="tabledtCompraVenta" msprop:Generator_TablePropName="dtCompraVenta" msprop:Generator_RowDeletingName="dtCompraVentaRowDeleting" msprop:Generator_RowChangingName="dtCompraVentaRowChanging" msprop:Generator_RowEvHandlerName="dtCompraVentaRowChangeEventHandler" msprop:Generator_RowDeletedName="dtCompraVentaRowDeleted" msprop:Generator_UserTableName="dtCompraVenta" msprop:Generator_RowChangedName="dtCompraVentaRowChanged" msprop:Generator_RowEvArgName="dtCompraVentaRowChangeEvent" msprop:Generator_RowClassName="dtCompraVentaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_fact" msprop:Generator_ColumnVarNameInTable="columncod_fact" msprop:Generator_ColumnPropNameInRow="cod_fact" msprop:Generator_ColumnPropNameInTable="cod_factColumn" msprop:Generator_UserColumnName="cod_fact" type="xs:decimal" />
+              <xs:element name="tipo_docto" msprop:Generator_ColumnVarNameInTable="columntipo_docto" msprop:Generator_ColumnPropNameInRow="tipo_docto" msprop:Generator_ColumnPropNameInTable="tipo_doctoColumn" msprop:Generator_UserColumnName="tipo_docto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="75" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="num_docto" msprop:Generator_ColumnVarNameInTable="columnnum_docto" msprop:Generator_ColumnPropNameInRow="num_docto" msprop:Generator_ColumnPropNameInTable="num_doctoColumn" msprop:Generator_UserColumnName="num_docto">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_fact" msprop:Generator_ColumnVarNameInTable="columnfecha_fact" msprop:Generator_ColumnPropNameInRow="fecha_fact" msprop:Generator_ColumnPropNameInTable="fecha_factColumn" msprop:Generator_UserColumnName="fecha_fact" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CompraVenta" msprop:Generator_ColumnVarNameInTable="columnCompraVenta" msprop:Generator_ColumnPropNameInRow="CompraVenta" msprop:Generator_ColumnPropNameInTable="CompraVentaColumn" msprop:Generator_UserColumnName="CompraVenta">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="24" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="precio_neto" msprop:Generator_ColumnVarNameInTable="columnprecio_neto" msprop:Generator_ColumnPropNameInRow="precio_neto" msprop:Generator_ColumnPropNameInTable="precio_netoColumn" msprop:Generator_UserColumnName="precio_neto" type="xs:float" />
+              <xs:element name="imp_fact" msprop:Generator_ColumnVarNameInTable="columnimp_fact" msprop:Generator_ColumnPropNameInRow="imp_fact" msprop:Generator_ColumnPropNameInTable="imp_factColumn" msprop:Generator_UserColumnName="imp_fact" type="xs:float" />
+              <xs:element name="CreditoDebito" msprop:Generator_ColumnVarNameInTable="columnCreditoDebito" msprop:Generator_ColumnPropNameInRow="CreditoDebito" msprop:Generator_ColumnPropNameInTable="CreditoDebitoColumn" msprop:Generator_UserColumnName="CreditoDebito">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="56" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="total_fact" msprop:Generator_ColumnVarNameInTable="columntotal_fact" msprop:Generator_ColumnPropNameInRow="total_fact" msprop:Generator_ColumnPropNameInTable="total_factColumn" msprop:Generator_UserColumnName="total_fact" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="Constraint1" msdata:PrimaryKey="true">
@@ -108,6 +363,10 @@ WHERE        a.cod_pfl = b.cod_pfl</CommandText>
     <xs:unique name="dtPerfiles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
       <xs:selector xpath=".//mstns:dtPerfiles" />
       <xs:field xpath="mstns:cod_pfl" />
+    </xs:unique>
+    <xs:unique name="dtCompraVenta_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtCompraVenta" />
+      <xs:field xpath="mstns:cod_fact" />
     </xs:unique>
   </xs:element>
 </xs:schema>

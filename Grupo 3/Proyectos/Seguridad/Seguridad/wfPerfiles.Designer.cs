@@ -178,6 +178,7 @@
             this.navegador1.btnBeforeLimpiar += new System.EventHandler(this.navegador1_btnBeforeLimpiar);
             this.navegador1.btnAfterLimpiar += new System.EventHandler(this.navegador1_btnAfterLimpiar);
             this.navegador1.btnAfterRecargar += new System.EventHandler(this.navegador1_btnAfterRecargar);
+            this.navegador1.btnAfterImprimir += new System.EventHandler(this.navegador1_btnAfterImprimir);
             // 
             // wfPerfiles
             // 
@@ -204,6 +205,7 @@
             this.Name = "wfPerfiles";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perfiles";
             this.Load += new System.EventHandler(this.wfPerfiles_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDPerfil)).EndInit();

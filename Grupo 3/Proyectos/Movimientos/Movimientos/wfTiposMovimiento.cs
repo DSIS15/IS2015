@@ -6,7 +6,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Movimientos
@@ -37,11 +36,13 @@ namespace Movimientos
         private void navegador1_btnAfterLimpiar(object sender, EventArgs e)
         {
             txtCodTmov.Text = sCodigo;
+            cboEstadoTmov.SelectedIndex = 0;
             txtNombreTmov.Focus();
         }
 
         private void navegador1_btnAfterNuevo(object sender, EventArgs e)
         {
+            cboEstadoTmov.SelectedIndex = 0;
             txtNombreTmov.Focus();
         }
 
@@ -111,5 +112,10 @@ namespace Movimientos
             navegador1.alDatosEntrada = alDatosEnviados;
             navegador1.vIniciarNavegador();
         }
+
+        private void txtCodTmov_EnabledChanged(object sender, EventArgs e)
+        {
+            txtCodTmov.Enabled = false;
+        }      
     }
 }

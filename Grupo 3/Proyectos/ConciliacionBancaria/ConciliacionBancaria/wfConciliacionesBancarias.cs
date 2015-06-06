@@ -5,7 +5,6 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConciliacionBancaria
@@ -21,13 +20,13 @@ namespace ConciliacionBancaria
             InitializeComponent();
         }
 
-        private void vLlenarDgvProductosAmbiente()
+        private void vLlenarDgvConciliacionesBancarias()
         {
-            sQuery = "select cod_estcta, cod_mov, fechconci_conci, conciliado_conci, estado_conci from tabm_conciliacion where cod_estcta like '" + txtClave.Text + "%' or cod_mov like '" + txtClave.Text + "%' or fechconci_conci like '" + txtClave.Text + "%' or conciliado_conci like '" + txtClave.Text + "%' or estado_conci like '" + txtClave.Text + "%'";
+            sQuery = "select concat(a.anio_estcta, '-', a.nombre_estcta) AS Expr1, b.correlativo_mov, c.fechconci_conci, c.conciliado_conci, c.estado_conci from tabm_estadocuenta a, tabm_conciliacion c, tabm_movimiento b where a.cod_estcta = c.cod_estcta and c.cod_mov = b.cod_mov and (a.cod_estcta like '" + txtClave.Text + "%' or b.cod_mov like '" + txtClave.Text + "%' or c.fechconci_conci like '" + txtClave.Text + "%' or c.conciliado_conci like '" + txtClave.Text + "%' or c.estado_conci like '" + txtClave.Text + "%')";
             dtConciliaciones = Capas.csNegocio.dtConsultarRegistros(sQuery);
             if (dtConciliaciones.Rows.Count != 0)
             {
-                dtConciliaciones.Columns[0].ColumnName = "Código";
+                dtConciliaciones.Columns[0].ColumnName = "Estado cuenta";
                 dtConciliaciones.Columns[1].ColumnName = "Movimiento";
                 dtConciliaciones.Columns[2].ColumnName = "Fecha";
                 dtConciliaciones.Columns[3].ColumnName = "Conciliado";
@@ -35,33 +34,33 @@ namespace ConciliacionBancaria
             }
             else
             {
-                dtConciliaciones.Columns.Add("Código");
+                dtConciliaciones.Columns.Add("Estado cuenta");
                 dtConciliaciones.Columns.Add("Movimiento");
                 dtConciliaciones.Columns.Add("Fecha");
                 dtConciliaciones.Columns.Add("Conciliado");
                 dtConciliaciones.Columns.Add("Estado");
             }
             bsConciliaciones.DataSource = dtConciliaciones;
-            dgvBitacora.DataSource = bsConciliaciones;
+            dgvConciliaciones.DataSource = bsConciliaciones;
         }
 
         private void wfConciliacionesBancarias_Load(object sender, EventArgs e)
         {
-            btnRecargar_Click(this, e);
-        }
-
-        private void btnRecargar_Click(object sender, EventArgs e)
-        {
-            vLlenarDgvProductosAmbiente();
+            txtClave_TextChanged(this, e);
         }
 
         private void btnImprimir_Click(object sender, EventArgs e)
         {
             Reporteador.wfReportes Reporte = new Reporteador.wfReportes();
             Reporte.sNombreReporte = "Conciliaciones Bancarias";
-            Reporte.sSubReporte = "ConciliacionesBancarias";
-            //Reporte.sQuery = sQuery;
+            Reporte.sSubReporte = "Conciliaciones";
+            Reporte.sQuery = sQuery;
             Reporte.ShowDialog();
+        }
+
+        private void txtClave_TextChanged(object sender, EventArgs e)
+        {
+            vLlenarDgvConciliacionesBancarias();
         }
     }
 }

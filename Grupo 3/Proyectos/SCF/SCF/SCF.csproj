@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SCF</RootNamespace>
     <AssemblyName>SCF</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,9 +46,6 @@
     <Reference Include="ConciliacionBancaria">
       <HintPath>..\..\ConciliacionBancaria\ConciliacionBancaria\bin\Debug\ConciliacionBancaria.dll</HintPath>
     </Reference>
-    <Reference Include="EstadosFinancieros">
-      <HintPath>..\..\EstadosFinancieros\EstadosFinancieros\bin\Debug\EstadosFinancieros.dll</HintPath>
-    </Reference>
     <Reference Include="Movimientos">
       <HintPath>..\..\Movimientos\Movimientos\bin\Debug\Movimientos.dll</HintPath>
     </Reference>
@@ -61,6 +59,10 @@
     <Reference Include="Operaciones">
       <HintPath>..\..\Operaciones\Operaciones\bin\Debug\Operaciones.dll</HintPath>
     </Reference>
+    <Reference Include="Reporteador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reporteador\Reporteador\bin\Debug\Reporteador.dll</HintPath>
+    </Reference>
     <Reference Include="Seguridad">
       <HintPath>..\..\Seguridad\Seguridad\bin\Debug\Seguridad.dll</HintPath>
     </Reference>
@@ -68,7 +70,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />

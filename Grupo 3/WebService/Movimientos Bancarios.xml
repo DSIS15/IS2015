@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista_movimientosbancarios>
+  <movimientobancario>
+    <movimiento>Deposito</movimiento>
+    <cuenta>12345</cuenta>
+    <fecha>2015-05-26 13:05:00</fecha>
+    <correlativo>456123</correlativo>
+    <descripcion>Deposito bancario</descripcion>
+    <debito>0</debito>
+    <credito>1000</credito>
+  </movimientobancario>
+  <movimientobancario>
+    <movimiento>Deposito</movimiento>
+    <cuenta>67890</cuenta>
+    <fecha>2015-05-26 13:07:00</fecha>
+    <correlativo>498956</correlativo>
+    <descripcion>Deposito bancario</descripcion>
+    <debito>0</debito>
+    <credito>1000</credito>
+  </movimientobancario>
+  </lista_movimientosbancarios>
