@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67FFA2FB-40D5-4398-BE49-F78B090E1F13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Produccion_EnterpriseSolution</RootNamespace>
+    <AssemblyName>Produccion_EnterpriseSolution</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo%281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.0.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cod_Bar\Cod_Bar\bin\Debug\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Cod_Bar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Cod_Bar\Cod_Bar\bin\Debug\Cod_Bar.dll</HintPath>
+    </Reference>
+    <Reference Include="conexcioBD, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\conexcioBD\conexcioBD\bin\Debug\conexcioBD.dll</HintPath>
+    </Reference>
+    <Reference Include="Materia_Prima, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Materia_Prima\Materia_Prima\bin\Debug\Materia_Prima.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Navegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cod_Bar\Cod_Bar\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconectorB">
+      <HintPath>..\..\..\Produccion\Produccion\bin\Debug\ODBCconectorB.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Cod_Bar\Cod_Bar\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="pdFormula, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\pdFormula\pdFormula\bin\Debug\pdFormula.dll</HintPath>
+    </Reference>
+    <Reference Include="Pedidos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Pedidos\Pedidos\bin\Debug\Pedidos.dll</HintPath>
+    </Reference>
+    <Reference Include="Produccion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Produccion\Produccion\bin\Debug\Produccion.dll</HintPath>
+    </Reference>
+    <Reference Include="Reporteador_IS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Reporteador_IS\Reporteador_IS\bin\Debug\Reporteador_IS.dll</HintPath>
+    </Reference>
+    <Reference Include="Seguridad_Producción, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Seguridad_Producción\Seguridad_Producción\bin\Debug\Seguridad_Producción.dll</HintPath>
+    </Reference>
+    <Reference Include="SIP_Administrativo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SIP-Administrativo\SIP_Administrativo\SIP_Administrativo\bin\Debug\SIP_Administrativo.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csDatos.cs" />
+    <Compile Include="csFunciones.cs" />
+    <Compile Include="csNegocios.cs" />
+    <Compile Include="csPresentacion.cs" />
+    <Compile Include="Presentación\wfMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\wfMenuPrincipal.Designer.cs">
+      <DependentUpon>wfMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Presentación\wfInicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentación\wfInicioSesion.Designer.cs">
+      <DependentUpon>wfInicioSesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfBitacora.Designer.cs">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfPermiso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfPermiso.Designer.cs">
+      <DependentUpon>wfPermiso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wfUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wfUsuario.Designer.cs">
+      <DependentUpon>wfUsuario.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Presentación\wfInicioSesion.resx">
+      <DependentUpon>wfInicioSesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentación\wfMenuPrincipal.resx">
+      <DependentUpon>wfMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="wfBitacora.resx">
+      <DependentUpon>wfBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfPermiso.resx">
+      <DependentUpon>wfPermiso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wfUsuario.resx">
+      <DependentUpon>wfUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Presentación\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\archivo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Produccion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\provee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\MP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\pedidos %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\prod.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\Privilegios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empsa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\Cod_Barra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\Sub-img\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aceptar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo%281%29.ico" />
+    <Content Include="logo.ico" />
+    <None Include="Resources\client.ico" />
+    <None Include="Resources\Salir.png" />
+    <None Include="Resources\buscar.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\favicon.PNG" />
+    <None Include="Resources\2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

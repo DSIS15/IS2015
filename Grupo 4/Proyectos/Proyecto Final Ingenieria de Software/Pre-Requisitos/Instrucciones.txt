@@ -1,0 +1,30 @@
+*************************INSTRUCCIONES PARA INSTALAR PRE-REQUISITOS****************
+
+Paso No. 1.
+	Instalar Framework
+
+Paso No. 2
+	Instalar SQLSysClrTypes x64 o SQLSysClrTypes x86 (Ir a propiedades de equipo para verificar el sistema operativo de cuantos bits es)
+
+Paso No. 3
+	Instalar ReportViewer (Ir a propiedades de equipo para verificar el sistema operativo de cuantos bits es)
+
+Paso No. 4
+	Instalar mysql-connector-net-6.8.5
+
+Paso No. 5 
+	Instalar el archivo de de fuente 	EAN13 (Nos servira para crear el COdigo de Barras)
+
+Paso No. 6 
+	Instalar Produccion IS
+
+Paso NO.7 
+	ingreso: al sistema Produccion 2015
+		usuario: 	rodrigo
+		contraseña:	1234
+		Empresa:	Industri Guatemalteca
+		
+		usuario: 	cesar
+		contraseña:	123
+		Empresa:	Industri Guatemalteca
+		

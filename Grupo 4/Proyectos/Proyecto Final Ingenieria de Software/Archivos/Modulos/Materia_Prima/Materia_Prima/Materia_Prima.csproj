@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74F0209E-0B20-4C01-BC9A-87864B92FA45}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Materia_Prima</RootNamespace>
+    <AssemblyName>Materia_Prima</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.8.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="Navegador">
+      <HintPath>..\..\..\Sistema Produccion\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="ODBCconnector">
+      <HintPath>..\..\..\Sistema Produccion\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\ODBCconnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cs_Entidades.cs" />
+    <Compile Include="cs_Datos.cs" />
+    <Compile Include="cs_Negocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wf_BusquedaMp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_BusquedaMp.Designer.cs">
+      <DependentUpon>wf_BusquedaMp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_BusquedaPed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_BusquedaPed.Designer.cs">
+      <DependentUpon>wf_BusquedaPed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_MateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_MateriaPrima.Designer.cs">
+      <DependentUpon>wf_MateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wf_Pedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wf_Pedido.Designer.cs">
+      <DependentUpon>wf_Pedido.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="wf_BusquedaMp.resx">
+      <DependentUpon>wf_BusquedaMp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_BusquedaPed.resx">
+      <DependentUpon>wf_BusquedaPed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_MateriaPrima.resx">
+      <DependentUpon>wf_MateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wf_Pedido.resx">
+      <DependentUpon>wf_Pedido.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

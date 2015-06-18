@@ -1,0 +1,9 @@
+C:\Users\jose\Desktop\prueba\conexcioBD\conexcioBD\bin\Debug\conexcioBD.dll
+C:\Users\jose\Desktop\prueba\conexcioBD\conexcioBD\bin\Debug\conexcioBD.pdb
+C:\Users\jose\Desktop\prueba\conexcioBD\conexcioBD\obj\Debug\conexcioBD.dll
+C:\Users\jose\Desktop\prueba\conexcioBD\conexcioBD\obj\Debug\conexcioBD.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\conexcioBD\conexcioBD\bin\Debug\conexcioBD.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\conexcioBD\conexcioBD\bin\Debug\conexcioBD.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\conexcioBD\conexcioBD\obj\Debug\conexcioBD.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\conexcioBD\conexcioBD\obj\Debug\conexcioBD.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\conexcioBD\conexcioBD\obj\Debug\conexcioBD.pdb

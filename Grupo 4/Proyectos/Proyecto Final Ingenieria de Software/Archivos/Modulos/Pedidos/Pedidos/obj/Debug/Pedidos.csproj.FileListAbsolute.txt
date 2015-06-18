@@ -1,0 +1,91 @@
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.csprojResolveAssemblyReference.cache
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.pedido_prov.resources
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+c:\users\miranda juárez\documents\visual studio 2013\Projects\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.csprojResolveAssemblyReference.cache
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.pedido_prov.resources
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\bin\Debug\ODBCconnector.dll
+C:\Users\Miranda R\Desktop\Pedidos\Pedidos\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Rodrigo\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.csprojResolveAssemblyReference.cache
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.dll
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.pdb
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\VAIO 11 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\ODBCconnector.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\SIP_Administrativo.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\Navegador.dll
+C:\Users\Rodrigo\Desktop\VAIO 17 ABRIL\Pedidos\Pedidos\bin\Debug\SIP_Administrativo.pdb
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Navegador.dll
+C:\Users\Miranda R\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Navegador.pdb
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Navegador.dll
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\Navegador.pdb
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\ConexionBD.dll
+C:\Users\Rodrigo\Desktop\Modificando Mayo\proyecto ultimo\Pedidos\Pedidos\bin\Debug\ConexionBD.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\conexcioBD.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\conexcioBD.pdb
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\bin\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\bin\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.csprojResolveAssemblyReference.cache
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.wfpedido_prov.resources
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.Properties.Resources.resources
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.csproj.GenerateResource.Cache
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.dll
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\obj\Debug\Pedidos.pdb
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\bin\Debug\ConexionBD.dll
+C:\Users\Rodrigo\Desktop\INGENIERIA DE SOFTWARE AUTORUN\Proyectos\Pedidos\Pedidos\bin\Debug\ConexionBD.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\Navegador.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Pedidos\Pedidos\bin\Debug\ODBCconnector.dll

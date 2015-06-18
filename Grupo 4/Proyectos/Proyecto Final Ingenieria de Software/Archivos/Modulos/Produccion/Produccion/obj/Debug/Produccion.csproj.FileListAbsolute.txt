@@ -1,0 +1,38 @@
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\bin\Debug\Produccion.dll
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\bin\Debug\Produccion.pdb
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\obj\Debug\Produccion.wfProduccion.resources
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\obj\Debug\Produccion.dll
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\obj\Debug\Produccion.pdb
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\bin\Debug\ODBCconnector.dll
+c:\users\robertogv\documents\visual studio 2013\Projects\Produccion\Produccion\bin\Debug\ODBCconnector.pdb
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\Navegador.dll
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\ODBCconectorB.dll
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\Navegador.pdb
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\ODBCconectorB.pdb
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\conexcioBD.dll
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\bin\Debug\conexcioBD.pdb
+C:\Users\RobertoGV\Documents\Visual Studio 2013\Projects\Produccion\Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\bin\Debug\Produccion.dll
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\bin\Debug\Produccion.pdb
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\bin\Debug\conexcioBD.dll
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\bin\Debug\conexcioBD.pdb
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.Properties.Resources.resources
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.wfProduccion.resources
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.wfProducciones.resources
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.dll
+C:\Users\RobertoGV\Desktop\Nueva carpeta\Produccion\Produccion\obj\Debug\Produccion.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\Produccion.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\Produccion.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\conexcioBD.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\Navegador.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\ODBCconnector.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\bin\Debug\conexcioBD.pdb
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.Properties.Resources.resources
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.wfProduccion.resources
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.wfProducciones.resources
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.csproj.GenerateResource.Cache
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.dll
+C:\Users\Cesar Flores\Desktop\Medio Final IS\FINAL\Proyecto\Produccion\Produccion\obj\Debug\Produccion.pdb

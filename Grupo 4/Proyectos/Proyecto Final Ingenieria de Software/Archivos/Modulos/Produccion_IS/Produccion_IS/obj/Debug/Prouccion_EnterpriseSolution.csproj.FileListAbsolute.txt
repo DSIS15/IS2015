@@ -1,0 +1,13 @@
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.exe.config
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.exe
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.pdb
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Seguridad.dll
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Prouccion_EnterpriseSolution.csprojResolveAssemblyReference.cache
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.wfMenuPrincipal.resources
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion_EnterpriseSolution.Properties.Resources.resources
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Prouccion_EnterpriseSolution.csproj.GenerateResource.Cache
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.exe
+C:\Users\Cesar Flores\Desktop\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.pdb
+C:\Users\Rodrigo\Desktop\ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\bin\Debug\Produccion.exe.config
+C:\Users\Rodrigo\Desktop\ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.exe
+C:\Users\Rodrigo\Desktop\ultimo\Prototipo C#\Prototipo_No_Funcional_Produccion\Prototipo_No_Funcional_Produccion\obj\Debug\Produccion.pdb

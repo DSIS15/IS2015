@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DT_Pedido" targetNamespace="http://tempuri.org/DT_Pedido.xsd" xmlns:mstns="http://tempuri.org/DT_Pedido.xsd" xmlns="http://tempuri.org/DT_Pedido.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="produccion2015ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="produccion2015ConnectionString (Settings)" PropertyReference="ApplicationSettings.Reporteador_IS.Properties.Settings.GlobalReference.Default.produccion2015ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTableAdapter" GeneratorDataComponentClassName="DataTableTableAdapter" Name="DataTable" UserDataComponentName="DataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tabm_pedido`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_ped" DataSetColumn="cod_ped" />
+              <Mapping SourceColumn="fecha_ped" DataSetColumn="fecha_ped" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tabt_detallepedido.cod_ped, tabt_detallepedido.cod_mp, tabt_detallepedido.cantidad_dped, tabt_detallepedido.unidad_dped, tabt_detallepedido.cod_prov, 
+                         tabm_materiaprima.nom_mp, tabm_proveedor.nom_prov, tabm_pedido.fecha_ped
+FROM            tabt_detallepedido, tabm_materiaprima, tabm_pedido, tabm_proveedor
+WHERE        tabt_detallepedido.cod_mp = tabm_materiaprima.cod_mp AND tabt_detallepedido.cod_ped = tabm_pedido.cod_ped AND 
+                         tabt_detallepedido.cod_prov = tabm_proveedor.cod_prov</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_ped" DataSetColumn="cod_ped" />
+              <Mapping SourceColumn="cod_mp" DataSetColumn="cod_mp" />
+              <Mapping SourceColumn="cod_prov" DataSetColumn="cod_prov" />
+              <Mapping SourceColumn="cantidad_dped" DataSetColumn="cantidad_dped" />
+              <Mapping SourceColumn="unidad_dped" DataSetColumn="unidad_dped" />
+              <Mapping SourceColumn="nom_mp" DataSetColumn="nom_mp" />
+              <Mapping SourceColumn="nom_prov" DataSetColumn="nom_prov" />
+              <Mapping SourceColumn="fecha_ped" DataSetColumn="fecha_ped" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable2TableAdapter" GeneratorDataComponentClassName="DataTable2TableAdapter" Name="DataTable2" UserDataComponentName="DataTable2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tabm_proveedor`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_prov" DataSetColumn="cod_prov" />
+              <Mapping SourceColumn="nit_prov" DataSetColumn="nit_prov" />
+              <Mapping SourceColumn="nom_prov" DataSetColumn="nom_prov" />
+              <Mapping SourceColumn="dire_prov" DataSetColumn="dire_prov" />
+              <Mapping SourceColumn="tel_prov" DataSetColumn="tel_prov" />
+              <Mapping SourceColumn="estado_prov" DataSetColumn="estado_prov" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable3TableAdapter" GeneratorDataComponentClassName="DataTable3TableAdapter" Name="DataTable3" UserDataComponentName="DataTable3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tabm_materiaprima`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_mp" DataSetColumn="cod_mp" />
+              <Mapping SourceColumn="nom_mp" DataSetColumn="nom_mp" />
+              <Mapping SourceColumn="unimedida_mp" DataSetColumn="unimedida_mp" />
+              <Mapping SourceColumn="canitdad_mp" DataSetColumn="canitdad_mp" />
+              <Mapping SourceColumn="precio_mp" DataSetColumn="precio_mp" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DT_Pedido" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DT_Pedido" msprop:Generator_UserDSName="DT_Pedido">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_RowEvArgName="DataTableRowChangeEvent" msprop:Generator_RowClassName="DataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_ped" msprop:Generator_ColumnVarNameInTable="columncod_ped" msprop:Generator_ColumnPropNameInRow="cod_ped" msprop:Generator_ColumnPropNameInTable="cod_pedColumn" msprop:Generator_UserColumnName="cod_ped" type="xs:int" />
+              <xs:element name="fecha_ped" msprop:Generator_ColumnVarNameInTable="columnfecha_ped" msprop:Generator_ColumnPropNameInRow="fecha_ped" msprop:Generator_ColumnPropNameInTable="fecha_pedColumn" msprop:Generator_UserColumnName="fecha_ped" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_ped" msprop:Generator_ColumnVarNameInTable="columncod_ped" msprop:Generator_ColumnPropNameInRow="cod_ped" msprop:Generator_ColumnPropNameInTable="cod_pedColumn" msprop:Generator_UserColumnName="cod_ped" type="xs:int" />
+              <xs:element name="cod_mp" msprop:Generator_ColumnVarNameInTable="columncod_mp" msprop:Generator_ColumnPropNameInRow="cod_mp" msprop:Generator_ColumnPropNameInTable="cod_mpColumn" msprop:Generator_UserColumnName="cod_mp" type="xs:int" />
+              <xs:element name="cod_prov" msprop:Generator_ColumnVarNameInTable="columncod_prov" msprop:Generator_ColumnPropNameInRow="cod_prov" msprop:Generator_ColumnPropNameInTable="cod_provColumn" msprop:Generator_UserColumnName="cod_prov" type="xs:int" />
+              <xs:element name="cantidad_dped" msprop:Generator_ColumnVarNameInTable="columncantidad_dped" msprop:Generator_ColumnPropNameInRow="cantidad_dped" msprop:Generator_ColumnPropNameInTable="cantidad_dpedColumn" msprop:Generator_UserColumnName="cantidad_dped" type="xs:float" />
+              <xs:element name="unidad_dped" msprop:Generator_ColumnVarNameInTable="columnunidad_dped" msprop:Generator_ColumnPropNameInRow="unidad_dped" msprop:Generator_ColumnPropNameInTable="unidad_dpedColumn" msprop:Generator_UserColumnName="unidad_dped">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nom_mp" msprop:Generator_ColumnVarNameInTable="columnnom_mp" msprop:Generator_ColumnPropNameInRow="nom_mp" msprop:Generator_ColumnPropNameInTable="nom_mpColumn" msprop:Generator_UserColumnName="nom_mp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nom_prov" msprop:Generator_ColumnVarNameInTable="columnnom_prov" msprop:Generator_ColumnPropNameInRow="nom_prov" msprop:Generator_ColumnPropNameInTable="nom_provColumn" msprop:Generator_UserColumnName="nom_prov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="fecha_ped" msprop:Generator_ColumnVarNameInTable="columnfecha_ped" msprop:Generator_ColumnPropNameInRow="fecha_ped" msprop:Generator_ColumnPropNameInTable="fecha_pedColumn" msprop:Generator_UserColumnName="fecha_ped" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable2" msprop:Generator_TableClassName="DataTable2DataTable" msprop:Generator_TableVarName="tableDataTable2" msprop:Generator_TablePropName="DataTable2" msprop:Generator_RowDeletingName="DataTable2RowDeleting" msprop:Generator_RowChangingName="DataTable2RowChanging" msprop:Generator_RowEvHandlerName="DataTable2RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable2RowDeleted" msprop:Generator_UserTableName="DataTable2" msprop:Generator_RowChangedName="DataTable2RowChanged" msprop:Generator_RowEvArgName="DataTable2RowChangeEvent" msprop:Generator_RowClassName="DataTable2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_prov" msprop:Generator_ColumnVarNameInTable="columncod_prov" msprop:Generator_ColumnPropNameInRow="cod_prov" msprop:Generator_ColumnPropNameInTable="cod_provColumn" msprop:Generator_UserColumnName="cod_prov" type="xs:int" />
+              <xs:element name="nit_prov" msprop:Generator_ColumnVarNameInTable="columnnit_prov" msprop:Generator_ColumnPropNameInRow="nit_prov" msprop:Generator_ColumnPropNameInTable="nit_provColumn" msprop:Generator_UserColumnName="nit_prov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nom_prov" msprop:Generator_ColumnVarNameInTable="columnnom_prov" msprop:Generator_ColumnPropNameInRow="nom_prov" msprop:Generator_ColumnPropNameInTable="nom_provColumn" msprop:Generator_UserColumnName="nom_prov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dire_prov" msprop:Generator_ColumnVarNameInTable="columndire_prov" msprop:Generator_ColumnPropNameInRow="dire_prov" msprop:Generator_ColumnPropNameInTable="dire_provColumn" msprop:Generator_UserColumnName="dire_prov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="tel_prov" msprop:Generator_ColumnVarNameInTable="columntel_prov" msprop:Generator_ColumnPropNameInRow="tel_prov" msprop:Generator_ColumnPropNameInTable="tel_provColumn" msprop:Generator_UserColumnName="tel_prov">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_prov" msprop:Generator_ColumnVarNameInTable="columnestado_prov" msprop:Generator_ColumnPropNameInRow="estado_prov" msprop:Generator_ColumnPropNameInTable="estado_provColumn" msprop:Generator_UserColumnName="estado_prov" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable3" msprop:Generator_TableClassName="DataTable3DataTable" msprop:Generator_TableVarName="tableDataTable3" msprop:Generator_TablePropName="DataTable3" msprop:Generator_RowDeletingName="DataTable3RowDeleting" msprop:Generator_RowChangingName="DataTable3RowChanging" msprop:Generator_RowEvHandlerName="DataTable3RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable3RowDeleted" msprop:Generator_UserTableName="DataTable3" msprop:Generator_RowChangedName="DataTable3RowChanged" msprop:Generator_RowEvArgName="DataTable3RowChangeEvent" msprop:Generator_RowClassName="DataTable3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_mp" msprop:Generator_ColumnVarNameInTable="columncod_mp" msprop:Generator_ColumnPropNameInRow="cod_mp" msprop:Generator_ColumnPropNameInTable="cod_mpColumn" msprop:Generator_UserColumnName="cod_mp" type="xs:int" />
+              <xs:element name="nom_mp" msprop:Generator_ColumnVarNameInTable="columnnom_mp" msprop:Generator_ColumnPropNameInRow="nom_mp" msprop:Generator_ColumnPropNameInTable="nom_mpColumn" msprop:Generator_UserColumnName="nom_mp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unimedida_mp" msprop:Generator_ColumnVarNameInTable="columnunimedida_mp" msprop:Generator_ColumnPropNameInRow="unimedida_mp" msprop:Generator_ColumnPropNameInTable="unimedida_mpColumn" msprop:Generator_UserColumnName="unimedida_mp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="canitdad_mp" msprop:Generator_ColumnVarNameInTable="columncanitdad_mp" msprop:Generator_ColumnPropNameInRow="canitdad_mp" msprop:Generator_ColumnPropNameInTable="canitdad_mpColumn" msprop:Generator_UserColumnName="canitdad_mp" type="xs:int" />
+              <xs:element name="precio_mp" msprop:Generator_ColumnVarNameInTable="columnprecio_mp" msprop:Generator_ColumnPropNameInRow="precio_mp" msprop:Generator_ColumnPropNameInTable="precio_mpColumn" msprop:Generator_UserColumnName="precio_mp" type="xs:float" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable" />
+      <xs:field xpath="mstns:cod_ped" />
+    </xs:unique>
+    <xs:unique name="DataTable1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:cod_ped" />
+      <xs:field xpath="mstns:cod_mp" />
+      <xs:field xpath="mstns:cod_prov" />
+    </xs:unique>
+    <xs:unique name="DataTable2_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable2" />
+      <xs:field xpath="mstns:cod_prov" />
+    </xs:unique>
+    <xs:unique name="DataTable3_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable3" />
+      <xs:field xpath="mstns:cod_mp" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

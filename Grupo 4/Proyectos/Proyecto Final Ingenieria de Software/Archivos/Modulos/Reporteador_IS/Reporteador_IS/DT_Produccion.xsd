@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DT_Produccion" targetNamespace="http://tempuri.org/DT_Produccion.xsd" xmlns:mstns="http://tempuri.org/DT_Produccion.xsd" xmlns="http://tempuri.org/DT_Produccion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="produccion2015ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="produccion2015ConnectionString (Settings)" PropertyReference="ApplicationSettings.Reporteador_IS.Properties.Settings.GlobalReference.Default.produccion2015ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTableAdapter" GeneratorDataComponentClassName="DataTableTableAdapter" Name="DataTable" UserDataComponentName="DataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tabm_produccion.cod_pro, tabm_produccion.cod_formu, tabm_produccion.cantidad_prod, tabm_produccion.estado_prod, tabm_produccion.costo_dir, 
+                         tabm_produccion.costo_ind, tabm_produccion.costo_prod, tabm_produccion.costo_total, tabm_produccion.precio_vta, tabm_formula.descrip_formu
+FROM            tabm_produccion, tabm_formula
+WHERE        tabm_produccion.cod_formu = tabm_formula.cod_formu</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_pro" DataSetColumn="cod_pro" />
+              <Mapping SourceColumn="cod_formu" DataSetColumn="cod_formu" />
+              <Mapping SourceColumn="cantidad_prod" DataSetColumn="cantidad_prod" />
+              <Mapping SourceColumn="estado_prod" DataSetColumn="estado_prod" />
+              <Mapping SourceColumn="costo_dir" DataSetColumn="costo_dir" />
+              <Mapping SourceColumn="costo_ind" DataSetColumn="costo_ind" />
+              <Mapping SourceColumn="costo_prod" DataSetColumn="costo_prod" />
+              <Mapping SourceColumn="costo_total" DataSetColumn="costo_total" />
+              <Mapping SourceColumn="precio_vta" DataSetColumn="precio_vta" />
+              <Mapping SourceColumn="descrip_formu" DataSetColumn="descrip_formu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        p.cod_pro, f.descrip_formu, p.cantidad_prod, p.precio_vta, c.cod_termi
+FROM            tabm_produccion p, tabm_formula f, tabm_codbarras c
+WHERE        p.cod_formu = f.cod_formu AND p.cod_pro = c.cod_pro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="descrip_formu" DataSetColumn="descrip_formu" />
+              <Mapping SourceColumn="cod_pro" DataSetColumn="cod_pro" />
+              <Mapping SourceColumn="cantidad_prod" DataSetColumn="cantidad_prod" />
+              <Mapping SourceColumn="precio_vta" DataSetColumn="precio_vta" />
+              <Mapping SourceColumn="cod_termi" DataSetColumn="cod_termi" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DT_Produccion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DT_Produccion" msprop:Generator_UserDSName="DT_Produccion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_RowClassName="DataTableRow" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowEvArgName="DataTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_pro" msprop:Generator_ColumnVarNameInTable="columncod_pro" msprop:Generator_ColumnPropNameInRow="cod_pro" msprop:Generator_ColumnPropNameInTable="cod_proColumn" msprop:Generator_UserColumnName="cod_pro" type="xs:int" />
+              <xs:element name="cod_formu" msprop:Generator_ColumnVarNameInTable="columncod_formu" msprop:Generator_ColumnPropNameInRow="cod_formu" msprop:Generator_ColumnPropNameInTable="cod_formuColumn" msprop:Generator_UserColumnName="cod_formu" type="xs:int" />
+              <xs:element name="cantidad_prod" msprop:Generator_ColumnVarNameInTable="columncantidad_prod" msprop:Generator_ColumnPropNameInRow="cantidad_prod" msprop:Generator_ColumnPropNameInTable="cantidad_prodColumn" msprop:Generator_UserColumnName="cantidad_prod" type="xs:int" />
+              <xs:element name="estado_prod" msprop:Generator_ColumnVarNameInTable="columnestado_prod" msprop:Generator_ColumnPropNameInRow="estado_prod" msprop:Generator_ColumnPropNameInTable="estado_prodColumn" msprop:Generator_UserColumnName="estado_prod" type="xs:short" />
+              <xs:element name="costo_dir" msprop:Generator_ColumnVarNameInTable="columncosto_dir" msprop:Generator_ColumnPropNameInRow="costo_dir" msprop:Generator_ColumnPropNameInTable="costo_dirColumn" msprop:Generator_UserColumnName="costo_dir" type="xs:float" />
+              <xs:element name="costo_ind" msprop:Generator_ColumnVarNameInTable="columncosto_ind" msprop:Generator_ColumnPropNameInRow="costo_ind" msprop:Generator_ColumnPropNameInTable="costo_indColumn" msprop:Generator_UserColumnName="costo_ind" type="xs:float" />
+              <xs:element name="costo_prod" msprop:Generator_ColumnVarNameInTable="columncosto_prod" msprop:Generator_ColumnPropNameInRow="costo_prod" msprop:Generator_ColumnPropNameInTable="costo_prodColumn" msprop:Generator_UserColumnName="costo_prod" type="xs:float" />
+              <xs:element name="costo_total" msprop:Generator_ColumnVarNameInTable="columncosto_total" msprop:Generator_ColumnPropNameInRow="costo_total" msprop:Generator_ColumnPropNameInTable="costo_totalColumn" msprop:Generator_UserColumnName="costo_total" type="xs:float" />
+              <xs:element name="precio_vta" msprop:Generator_ColumnVarNameInTable="columnprecio_vta" msprop:Generator_ColumnPropNameInRow="precio_vta" msprop:Generator_ColumnPropNameInTable="precio_vtaColumn" msprop:Generator_UserColumnName="precio_vta" type="xs:float" />
+              <xs:element name="descrip_formu" msprop:Generator_ColumnVarNameInTable="columndescrip_formu" msprop:Generator_ColumnPropNameInRow="descrip_formu" msprop:Generator_ColumnPropNameInTable="descrip_formuColumn" msprop:Generator_UserColumnName="descrip_formu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="descrip_formu" msprop:Generator_ColumnVarNameInTable="columndescrip_formu" msprop:Generator_ColumnPropNameInRow="descrip_formu" msprop:Generator_ColumnPropNameInTable="descrip_formuColumn" msprop:Generator_UserColumnName="descrip_formu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cod_pro" msprop:Generator_ColumnVarNameInTable="columncod_pro" msprop:Generator_ColumnPropNameInRow="cod_pro" msprop:Generator_ColumnPropNameInTable="cod_proColumn" msprop:Generator_UserColumnName="cod_pro" type="xs:int" />
+              <xs:element name="cantidad_prod" msprop:Generator_ColumnVarNameInTable="columncantidad_prod" msprop:Generator_ColumnPropNameInRow="cantidad_prod" msprop:Generator_ColumnPropNameInTable="cantidad_prodColumn" msprop:Generator_UserColumnName="cantidad_prod" type="xs:int" />
+              <xs:element name="precio_vta" msprop:Generator_ColumnVarNameInTable="columnprecio_vta" msprop:Generator_ColumnPropNameInRow="precio_vta" msprop:Generator_ColumnPropNameInTable="precio_vtaColumn" msprop:Generator_UserColumnName="precio_vta" type="xs:float" />
+              <xs:element name="cod_termi" msprop:Generator_ColumnVarNameInTable="columncod_termi" msprop:Generator_ColumnPropNameInRow="cod_termi" msprop:Generator_ColumnPropNameInTable="cod_termiColumn" msprop:Generator_UserColumnName="cod_termi" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable" />
+      <xs:field xpath="mstns:cod_pro" />
+    </xs:unique>
+    <xs:unique name="DataTable1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:cod_pro" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

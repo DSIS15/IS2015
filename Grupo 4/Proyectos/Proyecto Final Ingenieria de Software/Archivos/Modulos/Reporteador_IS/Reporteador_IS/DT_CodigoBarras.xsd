@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DT_CodigoBarras" targetNamespace="http://tempuri.org/DT_CodigoBarras.xsd" xmlns:mstns="http://tempuri.org/DT_CodigoBarras.xsd" xmlns="http://tempuri.org/DT_CodigoBarras.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="produccion2015ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="produccion2015ConnectionString (Settings)" PropertyReference="ApplicationSettings.Reporteador_IS.Properties.Settings.GlobalReference.Default.produccion2015ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTableAdapter" GeneratorDataComponentClassName="DataTableTableAdapter" Name="DataTable" UserDataComponentName="DataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        cod_cobar, cod_pro, cod_termi, cod_lote
+FROM            tabm_codbarras</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_cobar" DataSetColumn="cod_cobar" />
+              <Mapping SourceColumn="cod_pro" DataSetColumn="cod_pro" />
+              <Mapping SourceColumn="cod_termi" DataSetColumn="cod_termi" />
+              <Mapping SourceColumn="cod_lote" DataSetColumn="cod_lote" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tabm_produccionTableAdapter" GeneratorDataComponentClassName="Tabm_produccionTableAdapter" Name="Tabm_produccion" UserDataComponentName="Tabm_produccionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tabm_produccion.cod_pro AS Expr1, tabm_produccion.cantidad_prod, tabm_formula.descrip_formu, tabm_codbarras.cod_cobar, tabm_codbarras.cod_pro, 
+                         tabm_codbarras.cod_termi, tabm_codbarras.cod_lote
+FROM            tabm_produccion, tabm_formula, tabm_codbarras
+WHERE        tabm_produccion.cod_formu = tabm_formula.cod_formu AND tabm_produccion.cod_pro = tabm_codbarras.cod_pro</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_pro" DataSetColumn="cod_pro" />
+              <Mapping SourceColumn="cantidad_prod" DataSetColumn="cantidad_prod" />
+              <Mapping SourceColumn="Expr1" DataSetColumn="Expr1" />
+              <Mapping SourceColumn="descrip_formu" DataSetColumn="descrip_formu" />
+              <Mapping SourceColumn="cod_cobar" DataSetColumn="cod_cobar" />
+              <Mapping SourceColumn="cod_termi" DataSetColumn="cod_termi" />
+              <Mapping SourceColumn="cod_lote" DataSetColumn="cod_lote" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tabm_formula`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_formu" DataSetColumn="cod_formu" />
+              <Mapping SourceColumn="descrip_formu" DataSetColumn="descrip_formu" />
+              <Mapping SourceColumn="unidad_formu" DataSetColumn="unidad_formu" />
+              <Mapping SourceColumn="costouni_formu" DataSetColumn="costouni_formu" />
+              <Mapping SourceColumn="estado_formu" DataSetColumn="estado_formu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DT_CodigoBarras" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DT_CodigoBarras" msprop:Generator_UserDSName="DT_CodigoBarras">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_RowClassName="DataTableRow" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowEvArgName="DataTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_cobar" msprop:Generator_ColumnVarNameInTable="columncod_cobar" msprop:Generator_ColumnPropNameInRow="cod_cobar" msprop:Generator_ColumnPropNameInTable="cod_cobarColumn" msprop:Generator_UserColumnName="cod_cobar" type="xs:int" />
+              <xs:element name="cod_pro" msprop:Generator_ColumnVarNameInTable="columncod_pro" msprop:Generator_ColumnPropNameInRow="cod_pro" msprop:Generator_ColumnPropNameInTable="cod_proColumn" msprop:Generator_UserColumnName="cod_pro" type="xs:int" />
+              <xs:element name="cod_termi" msprop:Generator_ColumnVarNameInTable="columncod_termi" msprop:Generator_ColumnPropNameInRow="cod_termi" msprop:Generator_ColumnPropNameInTable="cod_termiColumn" msprop:Generator_UserColumnName="cod_termi" type="xs:int" />
+              <xs:element name="cod_lote" msprop:Generator_ColumnVarNameInTable="columncod_lote" msprop:Generator_ColumnPropNameInRow="cod_lote" msprop:Generator_ColumnPropNameInTable="cod_loteColumn" msprop:Generator_UserColumnName="cod_lote" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tabm_produccion" msprop:Generator_TableClassName="Tabm_produccionDataTable" msprop:Generator_TableVarName="tableTabm_produccion" msprop:Generator_RowChangedName="Tabm_produccionRowChanged" msprop:Generator_TablePropName="Tabm_produccion" msprop:Generator_RowDeletingName="Tabm_produccionRowDeleting" msprop:Generator_RowChangingName="Tabm_produccionRowChanging" msprop:Generator_RowEvHandlerName="Tabm_produccionRowChangeEventHandler" msprop:Generator_RowDeletedName="Tabm_produccionRowDeleted" msprop:Generator_RowClassName="Tabm_produccionRow" msprop:Generator_UserTableName="Tabm_produccion" msprop:Generator_RowEvArgName="Tabm_produccionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_pro" msprop:Generator_ColumnVarNameInTable="columncod_pro" msprop:Generator_ColumnPropNameInRow="cod_pro" msprop:Generator_ColumnPropNameInTable="cod_proColumn" msprop:Generator_UserColumnName="cod_pro" type="xs:int" />
+              <xs:element name="cantidad_prod" msprop:Generator_ColumnVarNameInTable="columncantidad_prod" msprop:Generator_ColumnPropNameInRow="cantidad_prod" msprop:Generator_ColumnPropNameInTable="cantidad_prodColumn" msprop:Generator_UserColumnName="cantidad_prod" type="xs:int" />
+              <xs:element name="Expr1" msprop:Generator_ColumnVarNameInTable="columnExpr1" msprop:Generator_ColumnPropNameInRow="Expr1" msprop:Generator_ColumnPropNameInTable="Expr1Column" msprop:Generator_UserColumnName="Expr1" type="xs:int" />
+              <xs:element name="descrip_formu" msprop:Generator_ColumnVarNameInTable="columndescrip_formu" msprop:Generator_ColumnPropNameInRow="descrip_formu" msprop:Generator_ColumnPropNameInTable="descrip_formuColumn" msprop:Generator_UserColumnName="descrip_formu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cod_cobar" msprop:Generator_ColumnVarNameInTable="columncod_cobar" msprop:Generator_ColumnPropNameInRow="cod_cobar" msprop:Generator_ColumnPropNameInTable="cod_cobarColumn" msprop:Generator_UserColumnName="cod_cobar" type="xs:int" />
+              <xs:element name="cod_termi" msprop:Generator_ColumnVarNameInTable="columncod_termi" msprop:Generator_ColumnPropNameInRow="cod_termi" msprop:Generator_ColumnPropNameInTable="cod_termiColumn" msprop:Generator_UserColumnName="cod_termi" type="xs:int" />
+              <xs:element name="cod_lote" msprop:Generator_ColumnVarNameInTable="columncod_lote" msprop:Generator_ColumnPropNameInRow="cod_lote" msprop:Generator_ColumnPropNameInTable="cod_loteColumn" msprop:Generator_UserColumnName="cod_lote" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_formu" msprop:Generator_ColumnVarNameInTable="columncod_formu" msprop:Generator_ColumnPropNameInRow="cod_formu" msprop:Generator_ColumnPropNameInTable="cod_formuColumn" msprop:Generator_UserColumnName="cod_formu" type="xs:int" />
+              <xs:element name="descrip_formu" msprop:Generator_ColumnVarNameInTable="columndescrip_formu" msprop:Generator_ColumnPropNameInRow="descrip_formu" msprop:Generator_ColumnPropNameInTable="descrip_formuColumn" msprop:Generator_UserColumnName="descrip_formu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="unidad_formu" msprop:Generator_ColumnVarNameInTable="columnunidad_formu" msprop:Generator_ColumnPropNameInRow="unidad_formu" msprop:Generator_ColumnPropNameInTable="unidad_formuColumn" msprop:Generator_UserColumnName="unidad_formu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="costouni_formu" msprop:Generator_ColumnVarNameInTable="columncostouni_formu" msprop:Generator_ColumnPropNameInRow="costouni_formu" msprop:Generator_ColumnPropNameInTable="costouni_formuColumn" msprop:Generator_UserColumnName="costouni_formu" type="xs:float" />
+              <xs:element name="estado_formu" msprop:Generator_ColumnVarNameInTable="columnestado_formu" msprop:Generator_ColumnPropNameInRow="estado_formu" msprop:Generator_ColumnPropNameInTable="estado_formuColumn" msprop:Generator_UserColumnName="estado_formu" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable" />
+      <xs:field xpath="mstns:cod_cobar" />
+    </xs:unique>
+    <xs:unique name="Tabm_produccion_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Tabm_produccion" />
+      <xs:field xpath="mstns:cod_pro" />
+    </xs:unique>
+    <xs:unique name="DataTable1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:cod_formu" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

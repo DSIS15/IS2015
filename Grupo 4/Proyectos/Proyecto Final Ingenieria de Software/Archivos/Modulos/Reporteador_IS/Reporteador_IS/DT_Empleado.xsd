@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DT_Empleado" targetNamespace="http://tempuri.org/DT_Empleado.xsd" xmlns:mstns="http://tempuri.org/DT_Empleado.xsd" xmlns="http://tempuri.org/DT_Empleado.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="produccion2015ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="produccion2015ConnectionString (Settings)" PropertyReference="ApplicationSettings.Reporteador_IS.Properties.Settings.GlobalReference.Default.produccion2015ConnectionString" Provider="System.Data.Odbc" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTableTableAdapter" GeneratorDataComponentClassName="DataTableTableAdapter" Name="DataTable" UserDataComponentName="DataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        tabm_empleado.cod_emp, tabm_empresa.cod_empsa, tabm_empresa.nomcomercial_empsa, tabm_empleado.dpi_emp, tabm_empleado.nom1_emp, 
+                         tabm_empleado.nom2_emp, tabm_empleado.apell1_emp, tabm_empleado.apell2_emp, tabm_empleado.dire_emp, tabm_empleado.estado_emp, 
+                         tabm_empresa.nit_empsa
+FROM            tabm_empleado, tabm_empresa
+WHERE        tabm_empleado.cod_empsa = tabm_empresa.cod_empsa</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_emp" DataSetColumn="cod_emp" />
+              <Mapping SourceColumn="cod_empsa" DataSetColumn="cod_empsa" />
+              <Mapping SourceColumn="dpi_emp" DataSetColumn="dpi_emp" />
+              <Mapping SourceColumn="nom1_emp" DataSetColumn="nom1_emp" />
+              <Mapping SourceColumn="nom2_emp" DataSetColumn="nom2_emp" />
+              <Mapping SourceColumn="apell1_emp" DataSetColumn="apell1_emp" />
+              <Mapping SourceColumn="apell2_emp" DataSetColumn="apell2_emp" />
+              <Mapping SourceColumn="dire_emp" DataSetColumn="dire_emp" />
+              <Mapping SourceColumn="estado_emp" DataSetColumn="estado_emp" />
+              <Mapping SourceColumn="nomcomercial_empsa" DataSetColumn="nomcomercial_empsa" />
+              <Mapping SourceColumn="nit_empsa" DataSetColumn="nit_empsa" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="produccion2015ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT * FROM `tabm_empresa`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod_empsa" DataSetColumn="cod_empsa" />
+              <Mapping SourceColumn="nomcomercial_empsa" DataSetColumn="nomcomercial_empsa" />
+              <Mapping SourceColumn="dire_empsa" DataSetColumn="dire_empsa" />
+              <Mapping SourceColumn="nit_empsa" DataSetColumn="nit_empsa" />
+              <Mapping SourceColumn="cod_mda" DataSetColumn="cod_mda" />
+              <Mapping SourceColumn="estado_empsa" DataSetColumn="estado_empsa" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DT_Empleado" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DT_Empleado" msprop:Generator_UserDSName="DT_Empleado">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable" msprop:Generator_TableClassName="DataTableDataTable" msprop:Generator_TableVarName="tableDataTable" msprop:Generator_RowChangedName="DataTableRowChanged" msprop:Generator_TablePropName="DataTable" msprop:Generator_RowDeletingName="DataTableRowDeleting" msprop:Generator_RowChangingName="DataTableRowChanging" msprop:Generator_RowEvHandlerName="DataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="DataTableRowDeleted" msprop:Generator_RowClassName="DataTableRow" msprop:Generator_UserTableName="DataTable" msprop:Generator_RowEvArgName="DataTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_emp" msprop:Generator_ColumnVarNameInTable="columncod_emp" msprop:Generator_ColumnPropNameInRow="cod_emp" msprop:Generator_ColumnPropNameInTable="cod_empColumn" msprop:Generator_UserColumnName="cod_emp" type="xs:int" />
+              <xs:element name="cod_empsa" msprop:Generator_ColumnVarNameInTable="columncod_empsa" msprop:Generator_ColumnPropNameInRow="cod_empsa" msprop:Generator_ColumnPropNameInTable="cod_empsaColumn" msprop:Generator_UserColumnName="cod_empsa" type="xs:int" />
+              <xs:element name="dpi_emp" msprop:Generator_ColumnVarNameInTable="columndpi_emp" msprop:Generator_ColumnPropNameInRow="dpi_emp" msprop:Generator_ColumnPropNameInTable="dpi_empColumn" msprop:Generator_UserColumnName="dpi_emp" type="xs:int" />
+              <xs:element name="nom1_emp" msprop:Generator_ColumnVarNameInTable="columnnom1_emp" msprop:Generator_ColumnPropNameInRow="nom1_emp" msprop:Generator_ColumnPropNameInTable="nom1_empColumn" msprop:Generator_UserColumnName="nom1_emp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nom2_emp" msprop:Generator_ColumnVarNameInTable="columnnom2_emp" msprop:Generator_ColumnPropNameInRow="nom2_emp" msprop:Generator_ColumnPropNameInTable="nom2_empColumn" msprop:Generator_UserColumnName="nom2_emp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apell1_emp" msprop:Generator_ColumnVarNameInTable="columnapell1_emp" msprop:Generator_ColumnPropNameInRow="apell1_emp" msprop:Generator_ColumnPropNameInTable="apell1_empColumn" msprop:Generator_UserColumnName="apell1_emp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="apell2_emp" msprop:Generator_ColumnVarNameInTable="columnapell2_emp" msprop:Generator_ColumnPropNameInRow="apell2_emp" msprop:Generator_ColumnPropNameInTable="apell2_empColumn" msprop:Generator_UserColumnName="apell2_emp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dire_emp" msprop:Generator_ColumnVarNameInTable="columndire_emp" msprop:Generator_ColumnPropNameInRow="dire_emp" msprop:Generator_ColumnPropNameInTable="dire_empColumn" msprop:Generator_UserColumnName="dire_emp">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="estado_emp" msprop:Generator_ColumnVarNameInTable="columnestado_emp" msprop:Generator_ColumnPropNameInRow="estado_emp" msprop:Generator_ColumnPropNameInTable="estado_empColumn" msprop:Generator_UserColumnName="estado_emp" type="xs:short" />
+              <xs:element name="nomcomercial_empsa" msprop:Generator_ColumnVarNameInTable="columnnomcomercial_empsa" msprop:Generator_ColumnPropNameInRow="nomcomercial_empsa" msprop:Generator_ColumnPropNameInTable="nomcomercial_empsaColumn" msprop:Generator_UserColumnName="nomcomercial_empsa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nit_empsa" msprop:Generator_ColumnVarNameInTable="columnnit_empsa" msprop:Generator_ColumnPropNameInRow="nit_empsa" msprop:Generator_ColumnPropNameInTable="nit_empsaColumn" msprop:Generator_UserColumnName="nit_empsa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod_empsa" msprop:Generator_ColumnVarNameInTable="columncod_empsa" msprop:Generator_ColumnPropNameInRow="cod_empsa" msprop:Generator_ColumnPropNameInTable="cod_empsaColumn" msprop:Generator_UserColumnName="cod_empsa" type="xs:int" />
+              <xs:element name="nomcomercial_empsa" msprop:Generator_ColumnVarNameInTable="columnnomcomercial_empsa" msprop:Generator_ColumnPropNameInRow="nomcomercial_empsa" msprop:Generator_ColumnPropNameInTable="nomcomercial_empsaColumn" msprop:Generator_UserColumnName="nomcomercial_empsa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="dire_empsa" msprop:Generator_ColumnVarNameInTable="columndire_empsa" msprop:Generator_ColumnPropNameInRow="dire_empsa" msprop:Generator_ColumnPropNameInTable="dire_empsaColumn" msprop:Generator_UserColumnName="dire_empsa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nit_empsa" msprop:Generator_ColumnVarNameInTable="columnnit_empsa" msprop:Generator_ColumnPropNameInRow="nit_empsa" msprop:Generator_ColumnPropNameInTable="nit_empsaColumn" msprop:Generator_UserColumnName="nit_empsa">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cod_mda" msprop:Generator_ColumnVarNameInTable="columncod_mda" msprop:Generator_ColumnPropNameInRow="cod_mda" msprop:Generator_ColumnPropNameInTable="cod_mdaColumn" msprop:Generator_UserColumnName="cod_mda" type="xs:int" />
+              <xs:element name="estado_empsa" msprop:Generator_ColumnVarNameInTable="columnestado_empsa" msprop:Generator_ColumnPropNameInRow="estado_empsa" msprop:Generator_ColumnPropNameInTable="estado_empsaColumn" msprop:Generator_UserColumnName="estado_empsa" type="xs:short" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable" />
+      <xs:field xpath="mstns:cod_emp" />
+    </xs:unique>
+    <xs:unique name="DataTable1_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:cod_empsa" />
+    </xs:unique>
+    <xs:keyref name="FK_DataTable_DataTable1" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:cod_empsa" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>
